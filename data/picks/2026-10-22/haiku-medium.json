@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-22",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Liberty Flames @ Kennesaw State Owls",
+      "game_id": "1635891ddb79191dba2be031ad6dc762",
+      "commence_time": "2026-10-22T23:00:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Liberty Flames -9.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.62,
+      "reason": "Liberty (5-1, five straight wins) vs. a 1-5 Kennesaw State team that has lost five in a row. Liberty -9.5 at 1.89 implies about 53%, and a DocSports opener of Liberty -10.5 suggests the market is not overpricing the home side. Estimated cover probability about 62%.",
+      "placed_at": "2026-10-22T13:52:30Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

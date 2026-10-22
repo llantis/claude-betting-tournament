@@ -1,0 +1,668 @@
+{
+  "date": "2026-10-22",
+  "snapshot_at": "2026-10-22T13:50:59Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "110e33c79c5ec8c0377702aff685f83b",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "Philadelphia 76ers",
+      "away": "Cleveland Cavaliers",
+      "matchup": "Cleveland Cavaliers @ Philadelphia 76ers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Cleveland Cavaliers ML",
+          "price_decimal": 2.24,
+          "price_american": "+124"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Philadelphia 76ers ML",
+          "price_decimal": 1.68,
+          "price_american": "-147"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.5,
+          "label": "Cleveland Cavaliers +3.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.5,
+          "label": "Philadelphia 76ers -3.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 235.5,
+          "label": "Over 235.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 235.5,
+          "label": "Under 235.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "d476cb73381765342220f698035bc889",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-22T23:00:00Z",
+      "home": "Appalachian State Mountaineers",
+      "away": "James Madison Dukes",
+      "matchup": "James Madison Dukes @ Appalachian State Mountaineers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Appalachian State Mountaineers ML",
+          "price_decimal": 4.5,
+          "price_american": "+350"
+        },
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "James Madison Dukes ML",
+          "price_decimal": 1.22,
+          "price_american": "-455"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 11.5,
+          "label": "Appalachian State Mountaineers +11.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -11.5,
+          "label": "James Madison Dukes -11.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 56.5,
+          "label": "Over 56.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 56.5,
+          "label": "Under 56.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "1635891ddb79191dba2be031ad6dc762",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-22T23:00:00Z",
+      "home": "Kennesaw State Owls",
+      "away": "Liberty Flames",
+      "matchup": "Liberty Flames @ Kennesaw State Owls",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Kennesaw State Owls ML",
+          "price_decimal": 4.1,
+          "price_american": "+310"
+        },
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Liberty Flames ML",
+          "price_decimal": 1.25,
+          "price_american": "-400"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 9.5,
+          "label": "Kennesaw State Owls +9.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -9.5,
+          "label": "Liberty Flames -9.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 50.5,
+          "label": "Over 50.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 50.5,
+          "label": "Under 50.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "5be63fd8c778b46afe084d3352e38a40",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-22T23:30:00Z",
+      "home": "Memphis Tigers",
+      "away": "East Carolina Pirates",
+      "matchup": "East Carolina Pirates @ Memphis Tigers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "East Carolina Pirates ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Memphis Tigers ML",
+          "price_decimal": 1.24,
+          "price_american": "-417"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 10.5,
+          "label": "East Carolina Pirates +10.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -10.5,
+          "label": "Memphis Tigers -10.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 53.5,
+          "label": "Over 53.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 53.5,
+          "label": "Under 53.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "921ae4814ca448a3040aa6de5b0fb9e9",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "New Jersey Devils",
+      "away": "Anaheim Ducks",
+      "matchup": "Anaheim Ducks @ New Jersey Devils",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Anaheim Ducks ML",
+          "price_decimal": 2.64,
+          "price_american": "+164"
+        },
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "New Jersey Devils ML",
+          "price_decimal": 1.51,
+          "price_american": "-196"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Anaheim Ducks +1.5",
+          "price_decimal": 1.68,
+          "price_american": "-147"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "New Jersey Devils -1.5",
+          "price_decimal": 2.24,
+          "price_american": "+124"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "62fca8dce49c8fa3988f75322311b896",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "Boston Bruins",
+      "away": "Nashville Predators",
+      "matchup": "Nashville Predators @ Boston Bruins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Boston Bruins ML",
+          "price_decimal": 1.65,
+          "price_american": "-154"
+        },
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Nashville Predators ML",
+          "price_decimal": 2.3,
+          "price_american": "+130"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Boston Bruins -1.5",
+          "price_decimal": 2.6,
+          "price_american": "+160"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Nashville Predators +1.5",
+          "price_decimal": 1.52,
+          "price_american": "-192"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.77,
+          "price_american": "-130"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "d57c3873ab3f113b8b77614edff4cf8f",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "Pittsburgh Penguins",
+      "away": "Florida Panthers",
+      "matchup": "Florida Panthers @ Pittsburgh Penguins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Florida Panthers ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G07-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Pittsburgh Penguins ML",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G07-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Florida Panthers +1.5",
+          "price_decimal": 1.4,
+          "price_american": "-250"
+        },
+        {
+          "id": "G07-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Pittsburgh Penguins -1.5",
+          "price_decimal": 3.05,
+          "price_american": "+205"
+        },
+        {
+          "id": "G07-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G07-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "5ae32c2722f3ff4fa178c253f864b384",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "Toronto Maple Leafs",
+      "away": "New York Rangers",
+      "matchup": "New York Rangers @ Toronto Maple Leafs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New York Rangers ML",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Toronto Maple Leafs ML",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G08-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "New York Rangers -1.5",
+          "price_decimal": 3.2,
+          "price_american": "+220"
+        },
+        {
+          "id": "G08-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Toronto Maple Leafs +1.5",
+          "price_decimal": 1.37,
+          "price_american": "-270"
+        },
+        {
+          "id": "G08-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G08-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "c8d6c1c9324cfd008466f555073828d2",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "home": "Ottawa Senators",
+      "away": "San Jose Sharks",
+      "matchup": "San Jose Sharks @ Ottawa Senators",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Ottawa Senators ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "San Jose Sharks ML",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G09-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Ottawa Senators -1.5",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G09-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "San Jose Sharks +1.5",
+          "price_decimal": 1.46,
+          "price_american": "-217"
+        },
+        {
+          "id": "G09-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G09-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "bfe0cd1ca4d32c4946e6ee28e21f0619",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-22T23:40:00Z",
+      "home": "New York Islanders",
+      "away": "Los Angeles Kings",
+      "matchup": "Los Angeles Kings @ New York Islanders",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Los Angeles Kings ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "New York Islanders ML",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G10-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Los Angeles Kings +1.5",
+          "price_decimal": 1.35,
+          "price_american": "-286"
+        },
+        {
+          "id": "G10-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "New York Islanders -1.5",
+          "price_decimal": 3.3,
+          "price_american": "+230"
+        },
+        {
+          "id": "G10-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G10-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    }
+  ]
+}

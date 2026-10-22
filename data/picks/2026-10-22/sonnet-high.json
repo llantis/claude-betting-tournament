@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-22",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "San Jose Sharks @ Ottawa Senators",
+      "game_id": "c8d6c1c9324cfd008466f555073828d2",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "option_id": "G09-SPREAD-AWAY",
+      "pick": "San Jose Sharks +1.5",
+      "price_decimal": 1.46,
+      "price_american": "-217",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Sharks +1.5 at 1.46 (68.5% implied). Ottawa is a modest -135 favourite, so a win by 2+ goals is only about 30%, which makes the Sharks cover about 70%. Slight edge from puck-line favourite overpricing.",
+      "placed_at": "2026-10-22T13:52:26Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-22",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Anaheim Ducks @ New Jersey Devils",
+      "game_id": "921ae4814ca448a3040aa6de5b0fb9e9",
+      "commence_time": "2026-10-22T23:10:00Z",
+      "option_id": "G05-SPREAD-AWAY",
+      "pick": "Anaheim Ducks +1.5",
+      "price_decimal": 1.68,
+      "price_american": "-147",
+      "stake": 1.0,
+      "confidence": 0.62,
+      "reason": "Ducks +1.5 at 1.68 (59.5% implied). Devils are about a 63% win-probability favourite, but wins by 2+ goals only about 37-38% of the time, so the Ducks cover about 62%. Small edge.",
+      "placed_at": "2026-10-22T13:52:26Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
