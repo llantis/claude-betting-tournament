@@ -2,7 +2,7 @@
   "mode": "paper",
   "stake": 1.0,
   "max_picks_per_player_per_day": 8,
-  "slate_window_hours": 30,
+  "slate_timezone": "America/Chicago",
   "regions": "us",
   "markets": [
     "h2h",

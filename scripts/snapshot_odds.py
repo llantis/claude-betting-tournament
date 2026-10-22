@@ -7,7 +7,8 @@ Writes data/slates/YYYY-MM-DD.json. Refuses to overwrite an existing slate unles
 """
 import argparse
 import json
-from datetime import timedelta
+from datetime import datetime, time, timedelta
+from zoneinfo import ZoneInfo
 
 from common import SLATES, american, load_config, now_utc, odds_api_get, parse_time, today
 
@@ -78,7 +79,9 @@ def main():
         raise SystemExit(f"{out} already exists; slate is locked for the day.")
 
     now = now_utc()
-    horizon = now + timedelta(hours=cfg["slate_window_hours"])
+    # Only games starting today (local calendar day), so every bet settles before the next run.
+    local = now.astimezone(ZoneInfo(cfg["slate_timezone"]))
+    horizon = datetime.combine(local.date() + timedelta(days=1), time(), local.tzinfo)
     if args.from_file:
         raw = json.loads(open(args.from_file).read())
     else:

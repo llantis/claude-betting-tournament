@@ -6,8 +6,8 @@ Currently **paper mode**: no real money moves.
 
 ## How a day works
 1. `scripts/grade.py` settles yesterday's bets from final scores.
-2. `scripts/snapshot_odds.py` takes **one** odds snapshot (The Odds API) for games in the next 30h and
-   locks it as `data/slates/<date>.json`. Every player sees identical lines.
+2. `scripts/snapshot_odds.py` takes **one** odds snapshot (The Odds API) for games starting today (before
+   midnight US Central, `slate_timezone`) and locks it as `data/slates/<date>.json`. Every player sees identical lines.
 3. The runner starts one subagent per player in `config.json`, in parallel, with that player's
    model and effort. Players see only the slate and `prompts/player.md`, never each other's picks.
 4. `scripts/record_picks.py` is the only way into the ledger and enforces the rules in code: option
@@ -22,7 +22,8 @@ A second competition runs on the same daily slate with its own players (`bankrol
 Opus high, Opus low, Fable high and Fable low.
 - Each starts with **$10**. Winnings stay in the bankroll and can be bet later; losses come out of it.
 - Players choose each stake (at least $1). Today's stakes can't exceed the available bankroll
-  (settled bankroll minus stakes on bets not yet graded). Up to 8 picks a day, one per game.
+  (settled bankroll; all of a day's games settle before the next run, so normally nothing is
+  still riding). Up to 8 picks a day, one per game.
 - Each player must stake at least **$1 a day** (or everything left, if less). Staking less forfeits
   the shortfall as a loss.
 - A player below $1 with nothing riding is out.
