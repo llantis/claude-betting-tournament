@@ -1,4 +1,4 @@
-"""Settle ungraded ledger rows from final scores. No player grades its own bets.
+"""Settle ungraded rows in both ledgers (flat and bankroll) from final scores. No player grades its own bets.
 
 Usage:
   python3 scripts/grade.py                         # fetch scores from The Odds API (last 3 days)
@@ -7,7 +7,7 @@ Usage:
 import argparse
 import json
 
-from common import load_config, odds_api_get, read_ledger, write_ledger
+from common import BANKROLL_LEDGER, LEDGER, load_config, odds_api_get, read_ledger, write_ledger
 
 
 def outcome(row, ev):
@@ -33,8 +33,8 @@ def main():
     ap.add_argument("--scores-file")
     args = ap.parse_args()
 
-    rows = read_ledger()
-    open_rows = [r for r in rows if not r["result"]]
+    ledgers = {path: read_ledger(path) for path in (LEDGER, BANKROLL_LEDGER)}
+    open_rows = [r for rows in ledgers.values() for r in rows if not r["result"]]
     if not open_rows:
         print("nothing to grade")
         return
@@ -58,7 +58,9 @@ def main():
         r["result"] = res
         r["pnl"] = f"{stake * (price - 1) if res == 'win' else -stake if res == 'loss' else 0.0:.2f}"
         graded += 1
-    write_ledger(rows)
+    for path, rows in ledgers.items():
+        if rows:
+            write_ledger(rows, path)
     print(f"graded {graded}, still open {len(open_rows) - graded}")
 
 

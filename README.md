@@ -17,6 +17,20 @@ Currently **paper mode**: no real money moves.
 
 The daily runner prompt is `prompts/daily.md`. Schedule: 9am US Central (8:49, to avoid the top-of-hour rush), via a scheduled task that wakes a dedicated cloud runner session pinned to this branch.
 
+## Bankroll competition
+A second competition runs on the same daily slate with its own players (`bankroll` in `config.json`):
+Opus high, Opus low, Fable high and Fable low.
+- Each starts with **$10**. Winnings stay in the bankroll and can be bet later; losses come out of it.
+- Players choose each stake (at least $1). Today's stakes can't exceed the available bankroll
+  (settled bankroll minus stakes on bets not yet graded). Up to 8 picks a day, one per game.
+- Each player must stake at least **$1 a day** (or everything left, if less). Staking less forfeits
+  the shortfall as a loss.
+- A player below $1 with nothing riding is out.
+- Ranked by bankroll in `data/bankroll/leaderboard.md`; `data/bankroll/standings.json` holds each
+  player's bankroll, riding and available amounts. Kalshi mirrors the flat competition only.
+- Record with `python3 scripts/record_picks.py <player> <picks.json> --competition bankroll`.
+  Player prompt: `prompts/bankroll_player.md`.
+
 ## Files
 | Path | What |
 |---|---|
@@ -25,6 +39,7 @@ The daily runner prompt is `prompts/daily.md`. Schedule: 9am US Central (8:49, t
 | `data/picks/<date>/<player>.json` | each player's accepted and rejected picks |
 | `data/ledger.csv` | every bet and its result (source of truth) |
 | `data/leaderboard.md` | standings |
+| `data/bankroll/` | bankroll competition: `picks/`, `ledger.csv`, `leaderboard.md`, `standings.json` |
 
 ## Setup
 - Environment secret `ODDS_API_KEY` (free key from the-odds-api.com; ~7 sports × 1 call/day + scores fits the free tier).

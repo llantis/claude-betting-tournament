@@ -13,6 +13,10 @@ DATA = ROOT / "data"
 SLATES = DATA / "slates"
 PICKS = DATA / "picks"
 LEDGER = DATA / "ledger.csv"
+# Bankroll competition: same slates, its own players, picks and ledger.
+BANKROLL = DATA / "bankroll"
+BANKROLL_PICKS = BANKROLL / "picks"
+BANKROLL_LEDGER = BANKROLL / "ledger.csv"
 ODDS_API = "https://api.the-odds-api.com/v4"
 
 LEDGER_FIELDS = [
@@ -58,16 +62,35 @@ def odds_api_get(path, **params):
         return json.loads(resp.read())
 
 
-def read_ledger():
-    if not LEDGER.exists():
+def read_ledger(path=LEDGER):
+    if not path.exists():
         return []
-    with LEDGER.open(newline="") as f:
+    with path.open(newline="") as f:
         return list(csv.DictReader(f))
 
 
-def write_ledger(rows):
-    LEDGER.parent.mkdir(parents=True, exist_ok=True)
-    with LEDGER.open("w", newline="") as f:
+def write_ledger(rows, path=LEDGER):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=LEDGER_FIELDS)
         w.writeheader()
         w.writerows(rows)
+
+
+def bankroll_status(cfg, rows=None):
+    """Per bankroll player: settled bankroll, stakes still riding on open bets, and what's free to bet."""
+    bcfg = cfg["bankroll"]
+    rows = read_ledger(BANKROLL_LEDGER) if rows is None else rows
+    status = {}
+    for p in bcfg["players"]:
+        mine = [r for r in rows if r["player"] == p["name"]]
+        settled = bcfg["start"] + sum(float(r["pnl"]) for r in mine if r["result"])
+        riding = sum(float(r["stake"]) for r in mine if not r["result"])
+        available = round(settled - riding, 2)
+        status[p["name"]] = {
+            "bankroll": round(settled, 2),
+            "riding": round(riding, 2),
+            "available": available,
+            "busted": available < bcfg["min_bet"] and riding == 0,
+        }
+    return status

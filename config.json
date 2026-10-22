@@ -53,5 +53,33 @@
     "max_slippage": 0.05,
     "daily_cap": 40,
     "total_cap": 300
+  },
+  "bankroll": {
+    "start": 10.0,
+    "min_bet": 1.0,
+    "min_daily_stake": 1.0,
+    "max_picks_per_player_per_day": 8,
+    "players": [
+      {
+        "name": "opus-high",
+        "model": "opus",
+        "effort": "high"
+      },
+      {
+        "name": "opus-low",
+        "model": "opus",
+        "effort": "low"
+      },
+      {
+        "name": "fable-high",
+        "model": "fable",
+        "effort": "high"
+      },
+      {
+        "name": "fable-low",
+        "model": "fable",
+        "effort": "low"
+      }
+    ]
   }
 }
