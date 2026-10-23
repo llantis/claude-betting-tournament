@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-23",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Dallas Mavericks @ Indiana Pacers",
+      "game_id": "d36eac2ef6bf2d6c0af0073612f6193d",
+      "commence_time": "2026-10-23T23:10:00Z",
+      "option_id": "G04-SPREAD-AWAY",
+      "pick": "Dallas Mavericks +7.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "A +7.5 line is large for an NBA game this early in the season. Garbage-time and backdoor covers favor the underdog, so I put the cover chance slightly above the 52.4% break-even at -110.",
+      "placed_at": "2026-10-23T13:53:14Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-23",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Toronto Raptors @ Washington Wizards",
+      "game_id": "8540b2b24fe0b2042a07c8c20452aead",
+      "commence_time": "2026-10-23T23:10:00Z",
+      "option_id": "G06-SPREAD-HOME",
+      "pick": "Washington Wizards +8.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "An 8.5-point NBA favorite on the road is priced a bit rich, and margins that big often shrink late. I put the Wizards' cover chance slightly above the 51.8% break-even at -108.",
+      "placed_at": "2026-10-23T13:53:14Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-23",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "soccer_epl",
+      "matchup": "Nottingham Forest @ Ipswich Town",
+      "game_id": "d0202960708a442401d7fc7bd74a0183",
+      "commence_time": "2026-10-23T19:00:00Z",
+      "option_id": "G10-ML-HOME",
+      "pick": "Ipswich Town ML",
+      "price_decimal": 3.1,
+      "price_american": "+210",
+      "stake": 2.5,
+      "confidence": 0.35,
+      "reason": "Ipswich (10th, 9 pts) host 19th-placed Forest (5 pts), who are without Igor Jesus and Savona, with Milenkovic and Gibbs-White doubtful; the 3.10 price (32%) leans on Forest's squad quality over current form and injuries.",
+      "placed_at": "2026-10-23T13:54:20Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-23",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "baseball_mlb",
+      "matchup": "Tampa Bay Rays @ Milwaukee Brewers",
+      "game_id": "e4c03eec29795f56b6b06c313d3af271",
+      "commence_time": "2026-10-24T00:00:00Z",
+      "option_id": "G09-ML-AWAY",
+      "pick": "Tampa Bay Rays ML",
+      "price_decimal": 2.63,
+      "price_american": "+163",
+      "stake": 1.5,
+      "confidence": 0.4,
+      "reason": "The line went from about +134 to +163 after the Rays named Martinez instead of Rasmussen; Misiorowski hasn't got out of the fifth in his postseason starts, so I think the market overreacted to the pitcher change.",
+      "placed_at": "2026-10-23T13:54:20Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

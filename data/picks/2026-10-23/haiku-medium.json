@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-23",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Duke Blue Devils @ Virginia Cavaliers",
+      "game_id": "a493efd6ef737f676a45aacc0eaf7be8",
+      "commence_time": "2026-10-23T23:00:00Z",
+      "option_id": "G07-SPREAD-AWAY",
+      "pick": "Duke Blue Devils +2.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "DraftKings lists Duke +2.5 at -110, a half point more generous than the FanDuel Duke +1.5 line in a 2026 preview, and Duke's DK moneyline is also better than FanDuel's. Both teams lost ACC games in Week 7, so this is close to a coin flip, and the small edge rests on the line difference rather than o",
+      "placed_at": "2026-10-23T13:53:27Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
