@@ -1,0 +1,440 @@
+<style>
+  .tb { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+  .tb-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--cds-gap-md); }
+  .tb-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
+  .tb-take { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); }
+  .tb-take b { color: var(--color-fg); font-weight: 500; font-variant-numeric: tabular-nums; }
+  .tb-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+  .tb-seg button { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-md); border: 0; background: transparent; color: var(--color-fg-muted); cursor: pointer; }
+  .tb-seg button + button { border-left: 1px solid var(--color-border-line); }
+  .tb-seg button[aria-pressed="true"] { background: var(--color-panel); color: var(--color-fg); font-weight: 500; }
+  .tb-seg button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .tb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+  .tb-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .tb-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .tb-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .tb-scroll { overflow: auto; max-height: 28rem; }
+  .tb-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+  .tb-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: 500; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .tb-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .tb-table .num { text-align: right; }
+  .tb-table td.why { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-width: 16rem; max-width: 28rem; }
+  .tb-pill { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); }
+  .tb-pill.win { color: var(--color-ok); } .tb-pill.loss, .tb-pill.forfeit { color: var(--color-bad); } .tb-pill.open { color: var(--color-warn); }
+  .tb-up { color: var(--color-ok); } .tb-down { color: var(--color-bad); }
+  .tb-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-md) 0; }
+  .tb-chart { position: relative; min-height: 260px; }
+  .tb-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tb-tip .d { color: var(--cds-text-secondary); }
+  .tb-tip i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+  .tb-search { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); max-width: 18rem; }
+  .tb-err { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: 4rem; }
+  .tb-err::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+  @media (max-width: 560px) { .tb-table .wide { display: none; } }
+</style>
+
+<div class="tb">
+  <header class="tb-head" id="top">
+    <div>
+      <h1 id="title">Betting tournament</h1>
+      <p class="tb-take" id="takeaway">
+        <span class="tb-comp-name">Flat $1</span>:
+        <b class="tb-open dash-skeleton" data-source="summary" data-field="open" data-where="competition=flat">—</b> bets open,
+        <b class="tb-riding dash-skeleton" data-source="summary" data-field="riding" data-where="competition=flat">—</b> riding.
+        <span class="tb-lead-none">No bets have settled yet.</span>
+        <span class="tb-lead" hidden><b class="tb-leader" data-source="summary" data-field="leader" data-where="competition=flat">—</b> leads at
+        <b class="tb-leader-value" data-source="summary" data-field="leader_value" data-where="competition=flat">—</b>.</span>
+      </p>
+    </div>
+    <div class="tb-seg" role="group" aria-label="Competition">
+      <button type="button" id="comp-flat" data-comp="flat" aria-pressed="true">Flat $1</button>
+      <button type="button" id="comp-bankroll" data-comp="bankroll" aria-pressed="false">Bankroll $10</button>
+    </div>
+  </header>
+
+  <div class="tb-grid">
+    <section class="tb-card" id="standings">
+      <h2>Standings</h2>
+      <p class="tb-note tb-standings-note">Ranked by profit on settled bets. Every pick is a $1 stake.</p>
+      <div class="tb-scroll">
+        <table class="tb-table" data-source="standings" data-row-key="key">
+          <thead><tr>
+            <th data-field="player">Player</th>
+            <th data-field="model" class="wide">Model</th>
+            <th data-field="effort" class="wide">Effort</th>
+            <th data-field="value" class="num tb-value-h">P/L</th>
+            <th data-field="riding" class="num">Riding</th>
+            <th data-field="record" class="num">W-L-P</th>
+            <th data-field="roi" class="num">ROI</th>
+            <th data-field="brier" class="num wide">Brier</th>
+          </tr></thead>
+          <tbody class="tb-standings-body"></tbody>
+        </table>
+      </div>
+      <p class="tb-note">Brier is the mean squared error of each pick's stated confidence (lower is better, 0.25 is a coin flip).</p>
+    </section>
+
+    <section class="tb-card" id="value">
+      <h2 class="tb-value-title">Profit over time</h2>
+      <p class="tb-note">Settled results only, by the day the bet was placed.</p>
+      <div class="tb-chart" data-source="history"></div>
+    </section>
+  </div>
+
+  <section class="tb-card" id="open">
+    <h2>Live bets</h2>
+    <p class="tb-note">Placed and waiting on a result. They settle at the next daily run.</p>
+    <div class="tb-scroll">
+      <table class="tb-table" data-source="bets" data-row-key="bet_id">
+        <thead><tr>
+          <th data-field="player">Player</th>
+          <th data-field="league">League</th>
+          <th data-field="matchup" class="wide">Game</th>
+          <th data-field="pick">Pick</th>
+          <th data-field="price_american" class="num">Odds</th>
+          <th data-field="stake" class="num">Stake</th>
+          <th data-field="confidence" class="num wide">Conf.</th>
+          <th data-field="commence_time" class="wide">Starts</th>
+          <th data-field="reason" class="wide">Why</th>
+        </tr></thead>
+        <tbody class="tb-open-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="tb-card" id="history">
+    <h2>Bet history</h2>
+    <input class="tb-search" id="history-search" type="search" placeholder="Search player, team or pick" aria-label="Search bet history">
+    <div class="tb-scroll">
+      <table class="tb-table" data-source="bets" data-row-key="bet_id">
+        <thead><tr>
+          <th data-field="date">Date</th>
+          <th data-field="player">Player</th>
+          <th data-field="league" class="wide">League</th>
+          <th data-field="pick">Pick</th>
+          <th data-field="price_american" class="num wide">Odds</th>
+          <th data-field="stake" class="num">Stake</th>
+          <th data-field="result">Result</th>
+          <th data-field="pnl" class="num">P/L</th>
+          <th data-field="reason" class="wide">Why</th>
+        </tr></thead>
+        <tbody class="tb-hist-body"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+  dash.calc('standings', {
+    title: 'Standings per player',
+    description: 'Each player’s value (P/L for flat, bankroll for bankroll), money riding, record, ROI and Brier score from the bets.',
+    inputs: ['bets', 'players'],
+    fn: (bets, players) => players.map((p) => {
+      const mine = bets.filter((b) => b.competition === p.competition && b.player === p.player);
+      const open = mine.filter((b) => b.result === 'open');
+      const played = mine.filter((b) => b.result !== 'open' && b.result !== 'forfeit');
+      const forfeited = mine.filter((b) => b.result === 'forfeit').reduce((s, b) => s + b.pnl, 0);
+      const pnl = played.reduce((s, b) => s + b.pnl, 0);
+      const staked = played.reduce((s, b) => s + b.stake, 0);
+      const scored = played.filter((b) => b.result !== 'push');
+      const count = (r) => played.filter((b) => b.result === r).length;
+      return {
+        key: p.key, competition: p.competition, player: p.player, model: p.model, effort: p.effort,
+        value: Math.round((p.start + pnl + forfeited) * 100) / 100,
+        riding: Math.round(open.reduce((s, b) => s + b.stake, 0) * 100) / 100,
+        open: open.length,
+        record: `${count('win')}-${count('loss')}-${count('push')}`,
+        roi: staked ? pnl / staked : null,
+        brier: scored.length ? scored.reduce((s, b) => s + (b.confidence - (b.result === 'win' ? 1 : 0)) ** 2, 0) / scored.length : null,
+      };
+    }),
+  });
+
+  dash.calc('summary', {
+    title: 'Competition summary',
+    description: 'Per competition: bets open, money riding, and the leader once any bet has settled.',
+    inputs: ['standings'],
+    fn: (standings) => ['flat', 'bankroll'].map((competition) => {
+      const rows = standings.filter((r) => r.competition === competition);
+      const top = rows.slice().sort((a, b) => b.value - a.value)[0];
+      const settled = rows.some((r) => r.record !== '0-0-0');
+      return {
+        competition,
+        open: rows.reduce((s, r) => s + r.open, 0),
+        riding: Math.round(rows.reduce((s, r) => s + r.riding, 0) * 100) / 100,
+        leader: settled && top ? top.player : null,
+        leader_value: settled && top ? top.value : null,
+      };
+    }),
+  });
+
+  dash.calc('history', {
+    title: 'Value over time',
+    description: 'Each player’s value after each day’s settled bets, starting the day before the first bet.',
+    inputs: ['bets', 'players'],
+    fn: (bets, players) => {
+      const out = [];
+      for (const comp of ['flat', 'bankroll']) {
+        const mine = bets.filter((b) => b.competition === comp);
+        const days = [...new Set(mine.filter((b) => b.result !== 'open').map((b) => b.date))].sort();
+        const first = [...new Set(mine.map((b) => b.date))].sort()[0];
+        if (!first) continue;
+        const d0 = new Date(first + 'T00:00:00Z');
+        d0.setUTCDate(d0.getUTCDate() - 1);
+        for (const p of players.filter((x) => x.competition === comp)) {
+          for (const date of [d0.toISOString().slice(0, 10), ...days]) {
+            const pnl = mine.filter((b) => b.player === p.player && b.result !== 'open' && b.date <= date).reduce((s, b) => s + b.pnl, 0);
+            out.push({ key: p.key, competition: comp, player: p.player, date, value: Math.round((p.start + pnl) * 100) / 100 });
+          }
+        }
+      }
+      return out;
+    },
+  });
+</script>
+
+<script>
+  const money = (v) => (v == null ? '—' : '$' + v.toFixed(2));
+  const signed = (v) => (v == null ? '—' : (v < 0 ? '−$' : '+$') + Math.abs(v).toFixed(2));
+  const pct = (v) => (v == null ? '—' : (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%');
+  const startFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', weekday: 'short', hour: 'numeric', minute: '2-digit' });
+  const dayFmt = d3.utcFormat('%b %-d');
+  const comp = () => dash.params().comp || 'flat';
+  const fmtValue = (v) => (comp() === 'flat' ? signed(v) : money(v));
+
+  document.querySelectorAll('.tb-seg button').forEach((btn) => {
+    btn.addEventListener('click', () => { dash.setParams({ comp: btn.dataset.comp }); dash.setLink(btn.id); });
+  });
+  const named = document.getElementById(location.hash.slice(1));
+  if (named && named.dataset.comp) dash.setParams({ comp: named.dataset.comp });
+
+  const search = document.getElementById('history-search');
+  search.addEventListener('input', () => drawHistory());
+
+  function cell(tr, text, cls) {
+    const td = document.createElement('td');
+    td.textContent = text;
+    if (cls) td.className = cls;
+    tr.append(td);
+    return td;
+  }
+  function failRow(tbody, cols, status) {
+    tbody.replaceChildren();
+    if (status === 'loading') return;
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    td.colSpan = cols;
+    td.className = status === 'error' ? 'tb-err' : 'tb-empty';
+    td.textContent = status === 'error' ? 'Failed to load' : '';
+    tr.append(td);
+    tbody.append(tr);
+  }
+
+  function drawHeader(sum) {
+    const c = comp();
+    document.querySelectorAll('.tb-seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.comp === c)));
+    document.querySelector('.tb-comp-name').textContent = c === 'flat' ? 'Flat $1' : 'Bankroll $10';
+    document.querySelector('.tb-value-h').textContent = c === 'flat' ? 'P/L' : 'Bankroll';
+    document.querySelector('.tb-value-title').textContent = c === 'flat' ? 'Profit over time' : 'Bankroll over time';
+    document.querySelector('.tb-standings-note').textContent = c === 'flat'
+      ? 'Ranked by profit on settled bets. Every pick is a $1 stake.'
+      : 'Ranked by settled bankroll. Each player started with $10 and picks its own stakes.';
+    document.querySelectorAll('#takeaway [data-where]').forEach((el) => el.setAttribute('data-where', 'competition=' + c));
+    const els = ['.tb-open', '.tb-riding'].map((s) => document.querySelector(s));
+    if (sum.status !== 'ok') { els.forEach((e) => { e.textContent = '—'; e.classList.toggle('dash-skeleton', sum.status === 'loading'); }); return; }
+    els.forEach((e) => e.classList.remove('dash-skeleton'));
+    const row = sum.data.find((r) => r.competition === c) || {};
+    els[0].textContent = d3.format(',')(row.open ?? 0);
+    els[1].textContent = money(row.riding ?? 0);
+    const hasLeader = row.leader != null;
+    document.querySelector('.tb-lead').hidden = !hasLeader;
+    document.querySelector('.tb-lead-none').hidden = hasLeader;
+    document.querySelector('.tb-leader').textContent = hasLeader ? row.leader : '—';
+    document.querySelector('.tb-leader-value').textContent = hasLeader ? fmtValue(row.leader_value) : '—';
+  }
+
+  function drawStandings(st) {
+    const body = document.querySelector('.tb-standings-body');
+    if (st.status !== 'ok') return failRow(body, 8, st.status);
+    const rows = st.data.filter((r) => r.competition === comp()).sort((a, b) => b.value - a.value || a.player.localeCompare(b.player));
+    body.replaceChildren(...rows.map((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.key;
+      cell(tr, r.player);
+      cell(tr, r.model, 'wide');
+      cell(tr, r.effort, 'wide');
+      const v = cell(tr, fmtValue(r.value), 'num');
+      const base = comp() === 'flat' ? 0 : 10;
+      if (r.value > base) v.classList.add('tb-up'); else if (r.value < base) v.classList.add('tb-down');
+      cell(tr, money(r.riding), 'num');
+      cell(tr, r.record, 'num');
+      cell(tr, pct(r.roi), 'num');
+      cell(tr, r.brier == null ? '—' : r.brier.toFixed(3), 'num wide');
+      return tr;
+    }));
+  }
+
+  function drawOpen(bets) {
+    const body = document.querySelector('.tb-open-body');
+    if (bets.status !== 'ok') return failRow(body, 9, bets.status);
+    const rows = bets.data.filter((b) => b.competition === comp() && b.result === 'open')
+      .sort((a, b) => a.commence_time.localeCompare(b.commence_time) || a.player.localeCompare(b.player));
+    if (!rows.length) {
+      body.replaceChildren();
+      const tr = document.createElement('tr');
+      const td = cell(tr, 'No live bets right now. New picks are placed each morning around 9am CT.', 'tb-empty');
+      td.colSpan = 9;
+      body.append(tr);
+      return;
+    }
+    body.replaceChildren(...rows.map((b) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = b.bet_id;
+      cell(tr, b.player);
+      cell(tr, b.league);
+      cell(tr, b.matchup, 'wide');
+      cell(tr, b.pick);
+      cell(tr, b.price_american, 'num');
+      cell(tr, money(b.stake), 'num');
+      cell(tr, d3.format('.0%')(b.confidence), 'num wide');
+      cell(tr, startFmt.format(new Date(b.commence_time)) + ' CT', 'wide');
+      cell(tr, b.reason, 'why wide');
+      return tr;
+    }));
+  }
+
+  function drawHistory() {
+    const bets = dash.data('bets');
+    const body = document.querySelector('.tb-hist-body');
+    if (bets.status !== 'ok') return failRow(body, 9, bets.status);
+    const q = search.value.trim().toLowerCase();
+    const rows = bets.data.filter((b) => b.competition === comp() && b.result !== 'open')
+      .filter((b) => !q || [b.player, b.matchup, b.pick, b.league].join(' ').toLowerCase().includes(q))
+      .sort((a, b) => b.date.localeCompare(a.date) || a.player.localeCompare(b.player));
+    if (!rows.length) {
+      body.replaceChildren();
+      const tr = document.createElement('tr');
+      const td = cell(tr, q ? 'No settled bets match that search.' : 'No bets have settled yet. Results arrive with the next daily run.', 'tb-empty');
+      td.colSpan = 9;
+      body.append(tr);
+      return;
+    }
+    body.replaceChildren(...rows.map((b) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = b.bet_id;
+      cell(tr, dayFmt(new Date(b.date + 'T12:00:00Z')));
+      cell(tr, b.player);
+      cell(tr, b.league, 'wide');
+      cell(tr, b.pick);
+      cell(tr, b.price_american, 'num wide');
+      cell(tr, money(b.stake), 'num');
+      const td = document.createElement('td');
+      const pill = document.createElement('span');
+      pill.className = 'tb-pill ' + b.result;
+      pill.textContent = b.result;
+      td.append(pill);
+      tr.append(td);
+      const p = cell(tr, signed(b.pnl), 'num');
+      if (b.pnl > 0) p.classList.add('tb-up'); else if (b.pnl < 0) p.classList.add('tb-down');
+      cell(tr, b.reason, 'why wide');
+      return tr;
+    }));
+  }
+
+  function drawChart(hist) {
+    const box = document.querySelector('.tb-chart');
+    box.replaceChildren();
+    if (hist.status === 'error') { const e = document.createElement('div'); e.className = 'tb-err'; e.textContent = 'Failed to load'; box.append(e); return; }
+    if (hist.status !== 'ok') return;
+    const rows = hist.data.filter((r) => r.competition === comp());
+    const W = box.clientWidth;
+    if (!W) return;
+    if (!rows.length) { const e = document.createElement('div'); e.className = 'tb-empty'; e.textContent = 'No bets placed yet.'; box.append(e); return; }
+    const keys = [...new Set(rows.map((r) => r.key))];
+    const series = keys.map((k, i) => {
+      const pts = rows.filter((r) => r.key === k).map((r) => ({ d: new Date(r.date + 'T12:00:00Z'), v: r.value, date: r.date }));
+      return { key: k, name: pts.length ? rows.find((r) => r.key === k).player : k, color: dash.colors[i % dash.colors.length], pts };
+    });
+    const H = 260, top = 12, bottom = 28;
+    const dates = [...new Set(rows.map((r) => r.date))].sort().map((d) => new Date(d + 'T12:00:00Z'));
+    let [lo, hi] = d3.extent(rows, (r) => r.value);
+    const base = comp() === 'flat' ? 0 : 10;
+    lo = Math.min(lo, base); hi = Math.max(hi, base);
+    if (hi - lo < 2) { lo -= 1; hi += 1; }
+    const y = d3.scaleLinear([lo, hi], [H - bottom, top]).nice(5);
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    const measure = (txt) => { const t = svg.append('text').attr('font-size', 12).text(txt); const w = t.node().getComputedTextLength(); t.remove(); return w; };
+    const yTicks = y.ticks(5);
+    const left = Math.ceil(d3.max(yTicks, (t) => measure(fmtValue(t)))) + 10;
+    const lastVal = (s) => s.pts[s.pts.length - 1];
+    const labels = series.map((s) => ({ s, text: `${s.name} ${fmtValue(lastVal(s).v)}` }));
+    const right = Math.ceil(d3.max(labels, (l) => measure(l.text))) + 16;
+    let x;
+    if (dates.length === 1) x = d3.scaleUtc([d3.utcDay.offset(dates[0], -1), d3.utcDay.offset(dates[0], 1)], [left, W - right]);
+    else x = d3.scaleUtc(d3.extent(dates), [left + 8, W - right]);
+    const g = svg.append('g');
+    g.selectAll('line.grid').data(yTicks).join('line').attr('x1', left).attr('x2', W - right).attr('y1', y).attr('y2', y)
+      .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    g.append('line').attr('x1', left).attr('x2', W - right).attr('y1', y(base)).attr('y2', y(base))
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+    g.selectAll('text.yt').data(yTicks).join('text').attr('x', left - 8).attr('y', y).attr('dy', '0.32em').attr('text-anchor', 'end')
+      .attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text(fmtValue);
+    const xTicks = dates.length <= 7 ? dates : x.ticks(5);
+    g.selectAll('text.xt').data(xTicks).join('text').attr('x', x).attr('y', H - 8).attr('text-anchor', 'middle')
+      .attr('font-size', 12).attr('fill', 'var(--color-fg-muted)').text(dayFmt);
+    const line = d3.line().x((p) => x(p.d)).y((p) => y(p.v));
+    for (const s of series) {
+      g.append('path').attr('d', line(s.pts)).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2)
+        .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round');
+      g.append('circle').attr('cx', x(lastVal(s).d)).attr('cy', y(lastVal(s).v)).attr('r', 3.5).attr('fill', s.color);
+    }
+    // End labels, pushed apart so equal values don't sit on top of each other.
+    labels.forEach((l) => { l.y = y(lastVal(l.s).v); });
+    labels.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 15);
+    const overflow = labels.length ? labels[labels.length - 1].y - (H - bottom) : 0;
+    if (overflow > 0) labels.forEach((l) => { l.y -= overflow; });
+    for (let i = labels.length - 2; i >= 0; i--) labels[i].y = Math.min(labels[i].y, labels[i + 1].y - 15);
+    g.selectAll('text.end').data(labels).join('text').attr('x', W - right + 8).attr('y', (l) => l.y).attr('dy', '0.32em')
+      .attr('font-size', 12).attr('fill', (l) => l.s.color).text((l) => l.text);
+
+    const tip = document.createElement('div');
+    tip.className = 'tb-tip';
+    tip.hidden = true;
+    box.append(tip);
+    const rule = g.append('line').attr('y1', top).attr('y2', H - bottom).attr('stroke', 'var(--cds-chart-axis)').attr('visibility', 'hidden');
+    svg.append('rect').attr('x', left).attr('y', 0).attr('width', Math.max(0, W - right - left)).attr('height', H).attr('fill', 'transparent')
+      .on('mousemove', (event) => {
+        const [mx] = d3.pointer(event);
+        const d = d3.least(dates, (dd) => Math.abs(x(dd) - mx));
+        rule.attr('x1', x(d)).attr('x2', x(d)).attr('visibility', 'visible');
+        const day = document.createElement('div');
+        day.className = 'd';
+        day.textContent = dayFmt(d);
+        const lines = series.map((s) => {
+          const p = s.pts.find((pp) => +pp.d === +d);
+          const row = document.createElement('div');
+          const sw = document.createElement('i');
+          sw.style.background = s.color;
+          row.append(sw, document.createTextNode(`${s.name}  ${p ? fmtValue(p.v) : '—'}`));
+          return row;
+        });
+        tip.replaceChildren(day, ...lines);
+        tip.hidden = false;
+        const tw = tip.offsetWidth;
+        tip.style.left = Math.max(0, Math.min(W - tw, x(d) + 12)) + 'px';
+        tip.style.top = top + 'px';
+      })
+      .on('mouseleave', () => { tip.hidden = true; rule.attr('visibility', 'hidden'); });
+  }
+
+  dash.onData(() => {
+    drawHeader(dash.data('summary'));
+    drawStandings(dash.data('standings'));
+    drawOpen(dash.data('bets'));
+    drawHistory();
+    drawChart(dash.data('history'));
+  });
+</script>

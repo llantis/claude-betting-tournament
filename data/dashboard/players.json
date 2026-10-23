@@ -1,0 +1,66 @@
+[
+ {
+  "key": "flat:opus-max",
+  "competition": "flat",
+  "player": "opus-max",
+  "model": "opus",
+  "effort": "max",
+  "start": 0.0
+ },
+ {
+  "key": "flat:opus-low",
+  "competition": "flat",
+  "player": "opus-low",
+  "model": "opus",
+  "effort": "low",
+  "start": 0.0
+ },
+ {
+  "key": "flat:sonnet-high",
+  "competition": "flat",
+  "player": "sonnet-high",
+  "model": "sonnet",
+  "effort": "high",
+  "start": 0.0
+ },
+ {
+  "key": "flat:haiku-medium",
+  "competition": "flat",
+  "player": "haiku-medium",
+  "model": "haiku",
+  "effort": "medium",
+  "start": 0.0
+ },
+ {
+  "key": "bankroll:opus-high",
+  "competition": "bankroll",
+  "player": "opus-high",
+  "model": "opus",
+  "effort": "high",
+  "start": 10.0
+ },
+ {
+  "key": "bankroll:opus-low",
+  "competition": "bankroll",
+  "player": "opus-low",
+  "model": "opus",
+  "effort": "low",
+  "start": 10.0
+ },
+ {
+  "key": "bankroll:fable-high",
+  "competition": "bankroll",
+  "player": "fable-high",
+  "model": "fable",
+  "effort": "high",
+  "start": 10.0
+ },
+ {
+  "key": "bankroll:fable-low",
+  "competition": "bankroll",
+  "player": "fable-low",
+  "model": "fable",
+  "effort": "low",
+  "start": 10.0
+ }
+]

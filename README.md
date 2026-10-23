@@ -14,6 +14,9 @@ Currently **paper mode**: no real money moves.
    must be in the slate, game not started, one pick per game, daily pick cap, fixed stake, picks
    locked once recorded.
 5. `scripts/leaderboard.py` writes `data/leaderboard.md` (P/L, ROI, record, Brier calibration).
+6. `scripts/dashboard_data.py` writes `data/dashboard/*.json`, which the runner uploads to the
+   [dashboard](https://claude.ai/artifact/4VHrzZa1pbBpQTGEw42c9C) (live bets, history, value over time).
+   The page itself is `dashboard/index.html`, stored in the dashboard, not served from here.
 
 The daily runner prompt is `prompts/daily.md`. Schedule: 9am US Central (8:49, to avoid the top-of-hour rush), via a scheduled task that wakes a dedicated cloud runner session pinned to this branch.
 
