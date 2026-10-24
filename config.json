@@ -49,7 +49,7 @@
   "kalshi": {
     "enabled": true,
     "env": "demo",
-    "dry_run": true,
+    "dry_run": false,
     "max_slippage": 0.05,
     "daily_cap": 40,
     "total_cap": 300
