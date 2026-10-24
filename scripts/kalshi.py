@@ -45,6 +45,13 @@ def load_key(value):
     value = value.strip()
     if "BEGIN" in value:
         return serialization.load_pem_private_key(value.encode(), password=None)
+    # A secret pasted together with the command that made it ("base64 -w0 <key> ... .pem"):
+    # keep only the key body and say so, so the secret still gets fixed.
+    if value.startswith("base64 "):
+        value = re.sub(r"^base64(\s+-\S+)*\s+", "", value)
+        value = re.sub(r"\.pem$", "", value)
+        print("warning: KALSHI_PRIVATE_KEY_B64 includes the base64 command text; using the key inside it")
+    value = re.sub(r"\s", "", value)
     raw = base64.b64decode(value + "=" * (-len(value) % 4))
     if b"BEGIN" in raw:
         return serialization.load_pem_private_key(raw, password=None)
@@ -81,11 +88,39 @@ class Kalshi:
                             "KALSHI-ACCESS-SIGNATURE": base64.b64encode(sig).decode()})
         data = json.dumps(body).encode() if body is not None else None
         r = urllib.request.Request(url, data=data, headers=headers, method=method)
-        try:
-            with urllib.request.urlopen(r, timeout=30) as resp:
-                return json.loads(resp.read() or b"{}")
-        except urllib.error.HTTPError as e:
-            raise RuntimeError(f"{method} {path} -> {e.code}: {e.read()[:300].decode(errors='replace')}")
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(r, timeout=30) as resp:
+                    return json.loads(resp.read() or b"{}")
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 3:  # rate limited: back off and retry the same request
+                    time.sleep(2 ** attempt)
+                    continue
+                raise RuntimeError(f"{method} {path} -> {e.code}: {e.read()[:300].decode(errors='replace')}")
+
+    def shard_balances(self):
+        return {b["exchange_index"]: float(b["balance"])
+                for b in self.req("GET", "/portfolio/balance").get("balance_breakdown", [])}
+
+    def fund(self, shard, need):
+        """Make sure exchange shard `shard` holds at least `need` dollars, topping up from shard 0.
+
+        Kalshi keeps a separate balance per matching engine (e.g. crypto, some sports); API orders
+        are only collateralized from the balance on the market's own shard.
+        """
+        have = self.shard_balances().get(shard, 0.0)
+        if shard == 0 or have >= need:
+            return
+        cents = int(-(-(need - have) * 100 // 1))  # round up to whole cents
+        self.req("POST", "/portfolio/intra_exchange_instance_transfer", {
+            "client_transfer_id": str(uuid.uuid4()), "source": "event_contract",
+            "destination": "event_contract", "source_exchange_shard": 0,
+            "destination_exchange_shard": shard, "amount": cents * 100})  # amount is centicents
+        for _ in range(10):  # transfers are asynchronous
+            time.sleep(1)
+            if self.shard_balances().get(shard, 0.0) >= need:
+                return
+        raise RuntimeError(f"transfer to shard {shard} not credited")
 
     def markets(self, series):
         out, cursor = [], None
@@ -244,13 +279,21 @@ def place(cfg, client, date):
                 if kc["dry_run"]:
                     rec.update(order_id=f"dry-{uuid.uuid4().hex[:8]}", status="dry_run")
                 else:
-                    price_key = f"{side}_price"
-                    body = {"ticker": ticker, "action": "buy", "side": side, "count": count, "type": "limit",
-                            price_key: round(ask * 100), "client_order_id": str(uuid.uuid4()),
-                            "expiration_ts": int(parse_time(r["commence_time"]).timestamp())}
+                    # V2 orders trade the YES book: buying YES is a bid at the YES price,
+                    # buying NO is an ask (sell YES) at 1 - NO price.
+                    book_side, price = ("bid", ask) if side == "yes" else ("ask", 1 - ask)
+                    body = {"ticker": ticker, "client_order_id": str(uuid.uuid4()), "side": book_side,
+                            "count": f"{count}.00", "price": f"{price:.4f}",
+                            "time_in_force": "good_till_canceled",
+                            "expiration_time": int(parse_time(r["commence_time"]).timestamp()),
+                            "self_trade_prevention_type": "taker_at_cross"}
                     try:
-                        o = client.req("POST", "/portfolio/orders", body)["order"]
-                        rec.update(order_id=o["order_id"], status=o.get("status", ""))
+                        fee = 0.07 * count * ask * (1 - ask) + 0.01
+                        client.fund(m.get("exchange_index", 0), cost + fee)
+                        o = client.req("POST", "/portfolio/events/orders", body)
+                        rest = float(o.get("remaining_count", 0))
+                        rec.update(order_id=o["order_id"], status="executed" if rest == 0 else "resting",
+                                   filled=int(float(o.get("fill_count", 0))))
                         spent_today += cost
                         spent_total += cost
                     except Exception as e:
@@ -270,17 +313,16 @@ def settle(cfg, client):
         if o["result"] or not o["ticker"] or not o["count"]:
             continue
         if not o["order_id"].startswith("dry") and o["status"] not in ("executed", "canceled"):
-            od = client.req("GET", f"/portfolio/orders/{o['order_id']}")["order"]
+            # market_ticker routes the lookup to the market's exchange shard.
+            od = client.req("GET", f"/portfolio/orders/{o['order_id']}", market_ticker=o["ticker"])["order"]
             o["status"] = od.get("status", o["status"])
-            filled = od.get("fill_count", od.get("filled_count"))
-            if filled is None and od.get("remaining_count") is not None:
-                filled = int(o["count"]) - int(od["remaining_count"])
-            o["filled"] = filled if filled is not None else o["filled"]
+            filled = od.get("fill_count_fp", od.get("fill_count"))
+            o["filled"] = int(float(filled)) if filled is not None else o["filled"]
         elif o["order_id"].startswith("dry"):
             o["filled"] = o["count"]
         m = client.req("GET", f"/markets/{o['ticker']}", auth=False)["market"]
         if m.get("result") in ("yes", "no"):
-            n, p = int(o["filled"] or 0), float(o["price"])
+            n, p = int(float(o["filled"] or 0)), float(o["price"])
             won = m["result"] == o["side"]
             o["result"] = "win" if won else "loss"
             o["pnl"] = f"{n * (1 - p) if won else -n * p:.2f}"
@@ -300,7 +342,8 @@ def main():
     client = Kalshi(kc["env"])
     if args.cmd == "check":
         bal = client.req("GET", "/portfolio/balance")
-        print(f"env={kc['env']} dry_run={kc['dry_run']} balance=${bal.get('balance', 0) / 100:.2f}")
+        shards = " ".join(f"{b['exchange_index']}:${float(b['balance']):.2f}" for b in bal.get("balance_breakdown", []))
+        print(f"env={kc['env']} dry_run={kc['dry_run']} balance=${bal.get('balance', 0) / 100:.2f} shards {shards}")
     elif args.cmd == "place":
         place(cfg, client, args.date)
     else:
