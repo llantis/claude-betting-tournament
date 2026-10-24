@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-24",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Kansas State Wildcats @ Arizona State Sun Devils",
+      "game_id": "f417c5ab864e0751355921f5d22f4b25",
+      "commence_time": "2026-10-24T19:45:00Z",
+      "option_id": "G23-ML-HOME",
+      "pick": "Arizona State Sun Devils ML",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 2.0,
+      "confidence": 0.56,
+      "reason": "K-State QB Avery Johnson is out (neck/shoulder) and backup Jacob Knuth, with one pass attempt this season, starts on the road; the line only moved from -3.5 to -1.5, which underprices a starting-QB loss, so ASU at home near even money is value.",
+      "placed_at": "2026-10-24T16:11:10Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-24",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Virginia Tech Hokies @ Clemson Tigers",
+      "game_id": "04db3b581ae63446a409f2ad30868e20",
+      "commence_time": "2026-10-24T23:00:00Z",
+      "option_id": "G32-SPREAD-AWAY",
+      "pick": "Virginia Tech Hokies +3",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Consensus is Clemson -2.5 and this slate gives the full +3 at -110 for push protection; Clemson remains on struggling true freshman QB Tait Reynolds with Vizzina unavailable and DT Burley questionable.",
+      "placed_at": "2026-10-24T16:11:10Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
