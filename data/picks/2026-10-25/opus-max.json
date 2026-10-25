@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-25",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_nfl",
+      "matchup": "New York Giants @ Houston Texans",
+      "game_id": "2bba7fde6f97d0e54403d53676e4ab63",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G11-ML-AWAY",
+      "pick": "New York Giants ML",
+      "price_decimal": 5.0,
+      "price_american": "+400",
+      "stake": 1.0,
+      "confidence": 0.21,
+      "reason": "DraftKings' +400 is the best Giants price in the market (US books +375 to +385); Pinnacle has moved to +352, about a 21% fair chance, with large-money action on NYG, versus 20% needed to break even at +400. 10.5-point dogs win about 20% of the time and Houston is 0-3 at home.",
+      "placed_at": "2026-10-25T15:52:09Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-25",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_nfl",
+      "matchup": "Green Bay Packers @ Detroit Lions",
+      "game_id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+      "commence_time": "2026-10-25T20:25:00Z",
+      "option_id": "G15-SPREAD-HOME",
+      "pick": "Detroit Lions -3.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Pinnacle has Detroit -3.5 at -115 and -4 at -107 (fair line about -4), so -3.5 at -108 is slightly positive (52.2% vs 51.8% needed). Detroit is healthy at home and Green Bay's receivers are banged up.",
+      "placed_at": "2026-10-25T15:52:09Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

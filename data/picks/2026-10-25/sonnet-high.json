@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-25",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Los Angeles Clippers @ Oklahoma City Thunder",
+      "game_id": "e6834225d7e218a59333dbbc01fe67ab",
+      "commence_time": "2026-10-25T23:10:00Z",
+      "option_id": "G04-SPREAD-AWAY",
+      "pick": "Los Angeles Clippers +15.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.525,
+      "reason": "A 15.5-point NBA spread is large and blowout margins are volatile; the Clippers also benefit from the favorite resting starters late. Slight edge over the 51.3% break-even.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-25",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Cleveland Browns @ Tennessee Titans",
+      "game_id": "5dce18baccec5d3ad5fb3a3ce52f7619",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G10-TOTAL-UNDER",
+      "pick": "Under 36.5",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.515,
+      "reason": "A very low NFL total tends to be shaded toward the over by public money, so the under at near-even price (break-even 50.5%) has a small edge.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

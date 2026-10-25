@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Indianapolis Colts @ Minnesota Vikings",
+      "game_id": "f3992ad4496724baf7dcd1ef58245d6b",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G12-SPREAD-AWAY",
+      "pick": "Indianapolis Colts +6.5",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Plus-money price on a 6.5-point dog; Colts were competitive in 2025 and the hook protects against 6-point losses.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "San Francisco 49ers @ Atlanta Falcons",
+      "game_id": "b1be064fb52a198a62109c279e7ab24c",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "Atlanta Falcons +2.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Home dog getting +2.5 at -105 against a 49ers team traveling cross-country; slight value over the 51.3% break-even.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

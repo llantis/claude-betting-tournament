@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Detroit Pistons @ Philadelphia 76ers",
+      "game_id": "252f3af49fb5271bb040e95e0119f207",
+      "commence_time": "2026-10-25T23:40:00Z",
+      "option_id": "G06-SPREAD-AWAY",
+      "pick": "Detroit Pistons -1.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.5,
+      "confidence": 0.53,
+      "reason": "Pistons are the stronger roster in a near pick'em game; 1.95 needs only 51.3% to break even.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Green Bay Packers @ Detroit Lions",
+      "game_id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+      "commence_time": "2026-10-25T20:25:00Z",
+      "option_id": "G15-ML-HOME",
+      "pick": "Detroit Lions ML",
+      "price_decimal": 1.56,
+      "price_american": "-179",
+      "stake": 1.5,
+      "confidence": 0.66,
+      "reason": "Lions have been strong at home and the price implies 64%; a small edge.",
+      "placed_at": "2026-10-25T15:27:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

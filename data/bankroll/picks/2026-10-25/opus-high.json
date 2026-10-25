@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-25",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Indianapolis Colts @ Minnesota Vikings",
+      "game_id": "f3992ad4496724baf7dcd1ef58245d6b",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G12-SPREAD-AWAY",
+      "pick": "Indianapolis Colts +6.5",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.25,
+      "confidence": 0.51,
+      "reason": "Colts +6.5 at even money while the Vikings side is 1.83, so the market expects 7 and the half-point below it at 2.00 is fair or slightly in my favour; road underdogs getting nearly a touchdown have historically covered slightly more than half the time.",
+      "placed_at": "2026-10-25T15:27:25Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-25",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Cleveland Browns @ Tennessee Titans",
+      "game_id": "5dce18baccec5d3ad5fb3a3ce52f7619",
+      "commence_time": "2026-10-25T17:00:00Z",
+      "option_id": "G10-TOTAL-UNDER",
+      "pick": "Under 36.5",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.51,
+      "reason": "Under 36.5 is the cheap side at 1.98 in a game between two weak offences; low NFL totals have tended to come in under, which gives a small edge over the 50.5% break-even.",
+      "placed_at": "2026-10-25T15:27:25Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
