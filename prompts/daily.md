@@ -37,11 +37,11 @@ match these exact command forms; don't `cd` into `scripts/`).
    (its link must stay the same; never publish a page or `file_path` to it, and never create a new one):
    1. `Artifact` `action: "read"` with that `url` (a write to it is refused until this session has read it).
    2. Upload each file: `Artifact` with that `url`, `file_path` the file, `asset: true`. Keep each reply's `/_blob/<id>` url.
-   3. `ArtifactData` `get` collection `datasets`, doc_ids `bets` and `players`, for their `version`s and old urls.
+   3. `ArtifactData` `get` collection `datasets`, doc_ids `bets` and `players`, for their `version`s.
    4. One `ArtifactData` `batch` of two `update`s (each with its `if_version`): dataset `bets` gets
       `source: {kind: "file", url: <new bets url>, name: "bets.json"}` and `updated: {at: <now, ISO UTC>, by: "Daily run"}`;
       dataset `players` the same with its own url and `players.json`.
-   5. Delete the two old uploads: `Artifact` `action: "delete"`, that `url`, `path` the old 32-character id.
+   Do not delete the previous days' uploads: each delete needs a manual approval, and the old files are tiny.
    If any of this fails, note it in your summary and carry on; the ledger in git is the record.
 9. Reply with a short summary: games on the slate, picks per player, Kalshi orders placed/skipped,
    the flat leaderboard, and the bankroll leaderboard (each player's bankroll and today's total stake).
