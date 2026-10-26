@@ -33,15 +33,15 @@ match these exact command forms; don't `cd` into `scripts/`).
    If a Kalshi step errors, note it in your summary and continue.
 7. **Commit and push.** `git add data && git commit -m "Daily run <date>"` then
    `git push -u origin main`, retrying on network errors.
-8. **Dashboard.** Upload today's `data/dashboard/` files to the dashboard at `https://claude.ai/artifact/4VHrzZa1pbBpQTGEw42c9C`
-   (its link must stay the same; never publish a page or `file_path` to it, and never create a new one):
-   1. `Artifact` `action: "read"` with that `url` (a write to it is refused until this session has read it).
-   2. Upload each file: `Artifact` with that `url`, `file_path` the file, `asset: true`. Keep each reply's `/_blob/<id>` url.
-   3. `ArtifactData` `get` collection `datasets`, doc_ids `bets` and `players`, for their `version`s.
-   4. One `ArtifactData` `batch` of two `update`s (each with its `if_version`): dataset `bets` gets
-      `source: {kind: "file", url: <new bets url>, name: "bets.json"}` and `updated: {at: <now, ISO UTC>, by: "Daily run"}`;
-      dataset `players` the same with its own url and `players.json`.
-   Do not delete the previous days' uploads: each delete needs a manual approval, and the old files are tiny.
+8. **Dashboard.** Publish today's dashboard as a **new** artifact (a new page each day; this needs no
+   approval, unlike uploading into or editing an existing artifact, so never touch the old dashboard
+   `https://claude.ai/artifact/4VHrzZa1pbBpQTGEw42c9C` or earlier days' pages):
+   1. `python3 scripts/build_dashboard.py` writes `data/dashboard/pages/<date>.html` with the full bet history built in.
+   2. `Artifact` publish with `file_path` that page's absolute path, `icon: "chart"`, and
+      `description: "Betting tournament standings and full bet history as of the <date> daily run."`.
+      Do not pass `url`.
+   3. Append `<date>,<artifact url>` to `data/dashboard/links.csv`, then
+      `git add data && git commit -m "Dashboard <date>"` and `git push -u origin main`.
    If any of this fails, note it in your summary and carry on; the ledger in git is the record.
-9. Reply with a short summary: games on the slate, picks per player, Kalshi orders placed/skipped,
+9. Reply with a short summary (include today's dashboard link): games on the slate, picks per player, Kalshi orders placed/skipped,
    the flat leaderboard, and the bankroll leaderboard (each player's bankroll and today's total stake).

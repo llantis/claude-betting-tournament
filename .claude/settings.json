@@ -9,7 +9,8 @@
       "Bash(python3 scripts/grade.py)",
       "Bash(python3 scripts/record_picks.py:*)",
       "Bash(python3 scripts/leaderboard.py)",
-      "Bash(python3 scripts/dashboard_data.py)"
+      "Bash(python3 scripts/dashboard_data.py)",
+      "Bash(python3 scripts/build_dashboard.py)"
     ]
   }
 }
