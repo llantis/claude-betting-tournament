@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-26",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Chicago Bulls @ Boston Celtics",
+      "game_id": "32ac8b94cc41f272efa96f0cf993e07a",
+      "commence_time": "2026-10-26T23:40:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Chicago Bulls +14.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.5,
+      "confidence": 0.52,
+      "reason": "Big NBA spreads (14+) historically cover slightly less than 50% for the favorite due to late-game garbage-time variance; Bulls' questionable players (P. Williams, Essengue) are role players, so +14.5 at -110 looks marginally favorable.",
+      "placed_at": "2026-10-26T13:56:22Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-26",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Los Angeles Kings @ New York Rangers",
+      "game_id": "daa5166685c4ca1a4f033d8bff91a6ba",
+      "commence_time": "2026-10-26T23:10:00Z",
+      "option_id": "G05-ML-AWAY",
+      "pick": "Los Angeles Kings ML",
+      "price_decimal": 2.14,
+      "price_american": "+114",
+      "stake": 1.0,
+      "confidence": 0.48,
+      "reason": "Kings won 4 straight vs NY including last season's meeting, and the rebuilding Rangers are only modest home favorites; small edge over the ~46.7% implied price.",
+      "placed_at": "2026-10-26T13:56:22Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

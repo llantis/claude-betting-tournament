@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-26",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Chicago Bulls @ Boston Celtics",
+      "game_id": "32ac8b94cc41f272efa96f0cf993e07a",
+      "commence_time": "2026-10-26T23:40:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Chicago Bulls +14.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Large NBA road underdogs have historically covered double-digit spreads slightly more than 50% because favorites rest starters late. A 14.5-point line is a lot to cover early in the season.",
+      "placed_at": "2026-10-26T13:56:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

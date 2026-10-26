@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-26",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+      "game_id": "d639f79210d0b4b17c8f293c53c8c5aa",
+      "commence_time": "2026-10-26T23:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "Cleveland Cavaliers ML",
+      "price_decimal": 1.56,
+      "price_american": "-179",
+      "stake": 1.0,
+      "confidence": 0.65,
+      "reason": "Edwards favoured his right knee, skipped media for treatment and was called 'either way' for the second leg of a road back-to-back; Minnesota rested him for that knee last season and hadn't filed its report by 11:30 AM ET. I put his chance of sitting at 35-45% against about 15% priced in (Pinnacle h",
+      "placed_at": "2026-10-26T15:31:18Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
