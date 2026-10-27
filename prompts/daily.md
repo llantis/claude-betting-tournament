@@ -30,6 +30,9 @@ match these exact command forms; don't `cd` into `scripts/`).
    Kalshi (it enforces its own caps and price checks; never place orders any other way and never edit
    the `kalshi` section of config.json). Then `python3 scripts/leaderboard.py` and
    `python3 scripts/dashboard_data.py` (writes `data/dashboard/bets.json` and `players.json`).
+   Run `python3 scripts/kalshi.py place` as its own Bash call, exactly that text with nothing chained
+   before or after it (no `cd`, `&&`, `;` or loop): Lucas's allow rule for it in `.claude/settings.json`
+   only matches the bare command, and a chained version gets blocked.
    If a Kalshi step errors, note it in your summary and continue.
 7. **Commit and push.** `git add data && git commit -m "Daily run <date>"` then
    `git push -u origin main`, retrying on network errors.
