@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-27",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "e03ea0f98bdd5fa277a34fbfe1a47efa",
+      "commence_time": "2026-10-28T00:00:00Z",
+      "option_id": "G05-SPREAD-HOME",
+      "pick": "Tampa Bay Rays +1.5",
+      "price_decimal": 1.58,
+      "price_american": "-172",
+      "stake": 1.0,
+      "confidence": 0.645,
+      "reason": "Rays are at home in a near pick'em World Series game (Rays +104 to win outright), so +1.5 runs should cover about 64-65% of the time. That is a slight edge over the 63.3% break-even.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

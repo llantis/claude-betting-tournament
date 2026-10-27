@@ -23,4 +23,4 @@ date,player,option_id,pick,ticker,side,price,count,cost,order_id,status,filled,r
 2026-10-25,opus-max,G11-ML-AWAY,New York Giants ML,KXNFLGAME-26OCT25NYGHOU-NYG,yes,0.2,4,0.8,01a173c3-4ef0-73f4-a55d-59451070003f,executed,4,win,3.20,,2026-10-25T15:52:10Z
 2026-10-25,opus-max,G15-SPREAD-HOME,Detroit Lions -3.5,KXNFLSPREAD-26OCT25GBDET-DET4,yes,0.5,2,1.0,01a173c3-56c0-765a-8e75-358badca54d0,executed,2,loss,-1.00,,2026-10-25T15:52:10Z
 2026-10-26,opus-low,G03-SPREAD-AWAY,Chicago Bulls +14.5,KXNBASPREAD-26OCT26CHIBOS-BOS15,no,1.0,,,,,,,,no usable ask (1.0),2026-10-26T15:31:18Z
-2026-10-26,opus-max,G02-ML-HOME,Cleveland Cavaliers ML,KXNBAGAME-26OCT26MINCLE-CLE,yes,0.59,1,0.59,01a178d6-6940-7977-bd37-782ac9b3e0b4,executed,1,,,,2026-10-26T15:31:18Z
+2026-10-26,opus-max,G02-ML-HOME,Cleveland Cavaliers ML,KXNBAGAME-26OCT26MINCLE-CLE,yes,0.59,1,0.59,01a178d6-6940-7977-bd37-782ac9b3e0b4,executed,1,win,0.41,,2026-10-26T15:31:18Z

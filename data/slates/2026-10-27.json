@@ -1,0 +1,338 @@
+{
+  "date": "2026-10-27",
+  "snapshot_at": "2026-10-27T14:28:42Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-27T23:40:00Z",
+      "home": "Boston Celtics",
+      "away": "Brooklyn Nets",
+      "matchup": "Brooklyn Nets @ Boston Celtics",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Boston Celtics ML",
+          "price_decimal": 1.17,
+          "price_american": "-588"
+        },
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Brooklyn Nets ML",
+          "price_decimal": 5.25,
+          "price_american": "+425"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -11.5,
+          "label": "Boston Celtics -11.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 11.5,
+          "label": "Brooklyn Nets +11.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 223.5,
+          "label": "Over 223.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 223.5,
+          "label": "Under 223.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "0ae4d3447c72a5c39b523d9b3fbaf216",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-27T23:00:00Z",
+      "home": "Western Kentucky Hilltoppers",
+      "away": "Delaware Blue Hens",
+      "matchup": "Delaware Blue Hens @ Western Kentucky Hilltoppers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Delaware Blue Hens ML",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Western Kentucky Hilltoppers ML",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Delaware Blue Hens +1.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Western Kentucky Hilltoppers -1.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 57.5,
+          "label": "Over 57.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 57.5,
+          "label": "Under 57.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "eed30e1ba5aa37d77ee6401d67832446",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-28T00:00:00Z",
+      "home": "Missouri State Bears",
+      "away": "Sam Houston State Bearkats",
+      "matchup": "Sam Houston State Bearkats @ Missouri State Bears",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Missouri State Bears ML",
+          "price_decimal": 1.46,
+          "price_american": "-217"
+        },
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Sam Houston State Bearkats ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -5.5,
+          "label": "Missouri State Bears -5.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 5.5,
+          "label": "Sam Houston State Bearkats +5.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 51.5,
+          "label": "Over 51.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 51.5,
+          "label": "Under 51.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "f1b86cba8c192fb71581b00443f4af8a",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-27T23:10:00Z",
+      "home": "Philadelphia Flyers",
+      "away": "Columbus Blue Jackets",
+      "matchup": "Columbus Blue Jackets @ Philadelphia Flyers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Columbus Blue Jackets ML",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Philadelphia Flyers ML",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Columbus Blue Jackets -1.5",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Philadelphia Flyers +1.5",
+          "price_decimal": 1.41,
+          "price_american": "-244"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "e03ea0f98bdd5fa277a34fbfe1a47efa",
+      "sport": "baseball_mlb",
+      "commence_time": "2026-10-28T00:00:00Z",
+      "home": "Tampa Bay Rays",
+      "away": "Milwaukee Brewers",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Milwaukee Brewers ML",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Tampa Bay Rays ML",
+          "price_decimal": 2.04,
+          "price_american": "+104"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Milwaukee Brewers -1.5",
+          "price_decimal": 2.41,
+          "price_american": "+141"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Tampa Bay Rays +1.5",
+          "price_decimal": 1.58,
+          "price_american": "-172"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 7.0,
+          "label": "Over 7.0",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 7.0,
+          "label": "Under 7.0",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    }
+  ]
+}

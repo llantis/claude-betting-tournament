@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-27",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "e03ea0f98bdd5fa277a34fbfe1a47efa",
+      "commence_time": "2026-10-28T00:00:00Z",
+      "option_id": "G05-ML-AWAY",
+      "pick": "Milwaukee Brewers ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.0,
+      "confidence": 0.65,
+      "reason": "Brewers lead the World Series 3-0 after a 10-1 Game 3 win; at 1.80 the implied probability is about 55.6%, so the price undervalues a team this dominant in the series.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-27",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Brooklyn Nets @ Boston Celtics",
+      "game_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
+      "commence_time": "2026-10-27T23:40:00Z",
+      "option_id": "G01-TOTAL-OVER",
+      "pick": "Over 223.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "SportsLine projects about 225 combined points against a 223.5 line, leaning Over at 54%. The edge is small (breakeven at 1.93 is about 51.8%) and I found no injury information for either team, so confidence is modest.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

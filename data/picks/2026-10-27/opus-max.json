@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-27",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Delaware Blue Hens @ Western Kentucky Hilltoppers",
+      "game_id": "0ae4d3447c72a5c39b523d9b3fbaf216",
+      "commence_time": "2026-10-27T23:00:00Z",
+      "option_id": "G02-TOTAL-UNDER",
+      "pick": "Under 57.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "WKU's offense is near the bottom of FBS (132nd in points per drive, 16 ppg vs FBS, last 4 FBS games under), Delaware is 0-3 on the road, and both sides have skill-position injuries; projections cluster around 48-55. Sharp money reportedly hit the under elsewhere while DraftKings still shows 57.5.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-27",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Columbus Blue Jackets @ Philadelphia Flyers",
+      "game_id": "f1b86cba8c192fb71581b00443f4af8a",
+      "commence_time": "2026-10-27T23:10:00Z",
+      "option_id": "G04-TOTAL-UNDER",
+      "pick": "Under 5.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Columbus (2.33) and Philadelphia (1.85) are two of the league's lowest-scoring teams, and 15 of their 22 combined games stayed under 5.5; a shot-based estimate of about 5.4 goals makes the under about 54%, yet the market makes the over a slight favorite.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

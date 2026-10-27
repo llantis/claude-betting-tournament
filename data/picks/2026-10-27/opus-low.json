@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Columbus Blue Jackets @ Philadelphia Flyers",
+      "game_id": "f1b86cba8c192fb71581b00443f4af8a",
+      "commence_time": "2026-10-27T23:10:00Z",
+      "option_id": "G04-TOTAL-UNDER",
+      "pick": "Under 5.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "The under is the cheaper side at -105. Philadelphia's offense was weak at the start of the season and the Flyers play a tight style, so I make the under a small favorite against a 51.3% break-even.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "e03ea0f98bdd5fa277a34fbfe1a47efa",
+      "commence_time": "2026-10-28T00:00:00Z",
+      "option_id": "G05-TOTAL-UNDER",
+      "pick": "Under 7.0",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Late-season or postseason baseball usually brings top starters and bullpens, which tends to keep scoring down. The under at -105 is a small value spot on a total of 7.",
+      "placed_at": "2026-10-27T14:51:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
