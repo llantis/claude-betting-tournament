@@ -116,6 +116,7 @@
           <th data-field="pick">Pick</th>
           <th data-field="price_american" class="num wide">Odds</th>
           <th data-field="stake" class="num">Stake</th>
+          <th data-field="confidence" class="num">Conf.</th>
           <th data-field="result">Result</th>
           <th data-field="pnl" class="num">P/L</th>
           <th data-field="reason" class="wide">Why</th>
@@ -308,7 +309,7 @@
   function drawHistory() {
     const bets = dash.data('bets');
     const body = document.querySelector('.tb-hist-body');
-    if (bets.status !== 'ok') return failRow(body, 9, bets.status);
+    if (bets.status !== 'ok') return failRow(body, 10, bets.status);
     const q = search.value.trim().toLowerCase();
     const rows = bets.data.filter((b) => b.competition === comp() && b.result !== 'open')
       .filter((b) => !q || [b.player, b.matchup, b.pick, b.league].join(' ').toLowerCase().includes(q))
@@ -317,7 +318,7 @@
       body.replaceChildren();
       const tr = document.createElement('tr');
       const td = cell(tr, q ? 'No settled bets match that search.' : 'No bets have settled yet. Results arrive with the next daily run.', 'tb-empty');
-      td.colSpan = 9;
+      td.colSpan = 10;
       body.append(tr);
       return;
     }
@@ -330,6 +331,7 @@
       cell(tr, b.pick);
       cell(tr, b.price_american, 'num wide');
       cell(tr, money(b.stake), 'num');
+      cell(tr, d3.format('.0%')(b.confidence), 'num');
       const td = document.createElement('td');
       const pill = document.createElement('span');
       pill.className = 'tb-pill ' + b.result;
