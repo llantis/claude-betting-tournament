@@ -35,6 +35,23 @@ Opus high, Opus low, Fable high and Fable low.
 - Record with `python3 scripts/record_picks.py <player> <picks.json> --competition bankroll`.
   Player prompt: `prompts/bankroll_player.md`.
 
+## Double elimination
+A third competition on the same slate (`double_elim` in `config.json`): high and low effort of Opus,
+Sonnet, Haiku and Fable, 8 players.
+- Each starts with **$2** and makes **exactly one bet a day**, at decimal odds of at least **1.80**
+  (about −125 or longer), so a win returns at least 1.8× the stake.
+- The stake is set by the rules: **half the bankroll** at the start or after a win, **all of it** after
+  a loss (rounded to the cent). So two losses in a row leave $0 and the player is **out**.
+  A push changes nothing.
+- Betting is required: no valid pick on a day with games forfeits that day's stake, counted as a loss.
+  A player whose last bet hasn't settled sits the day out with no forfeit.
+- Eliminated players stop betting but keep their history; their chart line ends at $0 on the day
+  they went out. Survivors rank by bankroll, then the eliminated by how long they lasted.
+- State (bankroll, last result, next stake, out) is replayed from `data/double_elim/ledger.csv` each
+  run into `data/double_elim/standings.json`; nothing is edited by hand. Paper only, no Kalshi.
+- Record with `python3 scripts/record_picks.py <player> <picks.json> --competition double_elim`.
+  Player prompt: `prompts/double_elim_player.md`.
+
 ## Files
 | Path | What |
 |---|---|
@@ -44,6 +61,7 @@ Opus high, Opus low, Fable high and Fable low.
 | `data/ledger.csv` | every bet and its result (source of truth) |
 | `data/leaderboard.md` | standings |
 | `data/bankroll/` | bankroll competition: `picks/`, `ledger.csv`, `leaderboard.md`, `standings.json` |
+| `data/double_elim/` | double elimination: same layout as `data/bankroll/` |
 
 ## Setup
 - Environment secret `ODDS_API_KEY` (free key from the-odds-api.com; ~7 sports × 1 call/day + scores fits the free tier).

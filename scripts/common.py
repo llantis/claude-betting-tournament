@@ -1,6 +1,7 @@
 """Shared paths, config loading, odds helpers and ledger I/O."""
 import csv
 import json
+import math
 import os
 import urllib.parse
 import urllib.request
@@ -17,6 +18,10 @@ LEDGER = DATA / "ledger.csv"
 BANKROLL = DATA / "bankroll"
 BANKROLL_PICKS = BANKROLL / "picks"
 BANKROLL_LEDGER = BANKROLL / "ledger.csv"
+# Double elimination: same slates, one forced-size bet per player per day, out at $0.
+DOUBLE_ELIM = DATA / "double_elim"
+DOUBLE_ELIM_PICKS = DOUBLE_ELIM / "picks"
+DOUBLE_ELIM_LEDGER = DOUBLE_ELIM / "ledger.csv"
 ODDS_API = "https://api.the-odds-api.com/v4"
 
 LEDGER_FIELDS = [
@@ -92,5 +97,48 @@ def bankroll_status(cfg, rows=None):
             "riding": round(riding, 2),
             "available": available,
             "busted": available < bcfg["min_bet"] and riding == 0,
+        }
+    return status
+
+
+def half_up(x):
+    """Round to the cent, halves up (so a $1.25 bankroll's half-stake is $0.63)."""
+    return math.floor(x * 100 + 0.5 + 1e-9) / 100
+
+
+def double_elim_status(cfg, rows=None):
+    """Per double-elimination player, replayed from the ledger: bankroll, what's riding, the stake
+    its next bet must be (half the bankroll at the start or after a win, all of it after a loss),
+    and whether it's out (nothing left and nothing riding)."""
+    dcfg = cfg["double_elim"]
+    rows = read_ledger(DOUBLE_ELIM_LEDGER) if rows is None else rows
+    status = {}
+    for p in dcfg["players"]:
+        bank, riding, last, peak, out_date, bets = dcfg["start"], 0.0, "start", dcfg["start"], None, 0
+        for r in rows:
+            if r["player"] != p["name"]:
+                continue
+            if not r["result"]:
+                riding += float(r["stake"])
+                continue
+            bank = round(bank + float(r["pnl"]), 2)
+            peak = max(peak, bank)
+            if r["result"] != "forfeit":
+                bets += 1
+            if r["result"] in ("loss", "forfeit"):
+                last = "loss"
+            elif r["result"] == "win":
+                last = "win"
+            if bank < 0.01 and out_date is None:
+                out_date = r["date"]
+        status[p["name"]] = {
+            "bankroll": bank,
+            "riding": round(riding, 2),
+            "last": last,
+            "next_stake": bank if last == "loss" else half_up(bank / 2),
+            "peak": round(peak, 2),
+            "settled_bets": bets,
+            "out": bank < 0.01 and riding == 0,
+            "out_date": out_date,
         }
     return status

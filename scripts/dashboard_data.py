@@ -1,12 +1,12 @@
 """Write data/dashboard/bets.json and players.json, the two files the tournament dashboard reads.
 
-bets.json holds every bet from both competitions (result "open" until graded); players.json holds
+bets.json holds every bet from all three competitions (result "open" until graded); players.json holds
 each player's competition, model, effort and starting value. The dashboard works out standings and
 value over time from these, so this script only reshapes the ledgers.
 """
 import json
 
-from common import BANKROLL_LEDGER, DATA, LEDGER, load_config, read_ledger
+from common import BANKROLL_LEDGER, DATA, DOUBLE_ELIM_LEDGER, LEDGER, load_config, read_ledger
 
 OUT = DATA / "dashboard"
 LEAGUES = {
@@ -41,13 +41,18 @@ def bet_rows(competition, rows):
 
 def main():
     cfg = load_config()
-    bets = list(bet_rows("flat", read_ledger(LEDGER))) + list(bet_rows("bankroll", read_ledger(BANKROLL_LEDGER)))
+    bets = (list(bet_rows("flat", read_ledger(LEDGER))) + list(bet_rows("bankroll", read_ledger(BANKROLL_LEDGER)))
+            + list(bet_rows("double_elim", read_ledger(DOUBLE_ELIM_LEDGER))))
     players = [{"key": f"flat:{p['name']}", "competition": "flat", "player": p["name"], "model": p["model"],
                 "effort": p["effort"], "start": 0.0} for p in cfg["players"]]
     if "bankroll" in cfg:
         players += [{"key": f"bankroll:{p['name']}", "competition": "bankroll", "player": p["name"],
                      "model": p["model"], "effort": p["effort"], "start": float(cfg["bankroll"]["start"])}
                     for p in cfg["bankroll"]["players"]]
+    if "double_elim" in cfg:
+        players += [{"key": f"double_elim:{p['name']}", "competition": "double_elim", "player": p["name"],
+                     "model": p["model"], "effort": p["effort"], "start": float(cfg["double_elim"]["start"])}
+                    for p in cfg["double_elim"]["players"]]
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "bets.json").write_text(json.dumps(bets, indent=1) + "\n")
     (OUT / "players.json").write_text(json.dumps(players, indent=1) + "\n")
