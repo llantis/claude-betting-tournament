@@ -1,0 +1,82 @@
+{
+  "opus-high": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "opus-low": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "sonnet-high": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "sonnet-low": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "haiku-high": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "haiku-low": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "fable-high": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  },
+  "fable-low": {
+    "bankroll": 2.0,
+    "riding": 1.0,
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "game_id": "cf6c89492427cb54521b70e7c5dc5993",
+      "commence_time": "2026-10-29T00:00:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "New Mexico State Aggies +3",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Home dog +3 at -102; the opposite side is juiced to -118, so the fair price implies about 52-53% to cover, above the 50.5% break-even.",
+      "placed_at": "2026-10-28T15:28:58Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G06-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G02-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

@@ -62,5 +62,69 @@
   "model": "fable",
   "effort": "low",
   "start": 10.0
+ },
+ {
+  "key": "double_elim:opus-high",
+  "competition": "double_elim",
+  "player": "opus-high",
+  "model": "opus",
+  "effort": "high",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:opus-low",
+  "competition": "double_elim",
+  "player": "opus-low",
+  "model": "opus",
+  "effort": "low",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:sonnet-high",
+  "competition": "double_elim",
+  "player": "sonnet-high",
+  "model": "sonnet",
+  "effort": "high",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:sonnet-low",
+  "competition": "double_elim",
+  "player": "sonnet-low",
+  "model": "sonnet",
+  "effort": "low",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:haiku-high",
+  "competition": "double_elim",
+  "player": "haiku-high",
+  "model": "haiku",
+  "effort": "high",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:haiku-low",
+  "competition": "double_elim",
+  "player": "haiku-low",
+  "model": "haiku",
+  "effort": "low",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:fable-high",
+  "competition": "double_elim",
+  "player": "fable-high",
+  "model": "fable",
+  "effort": "high",
+  "start": 2.0
+ },
+ {
+  "key": "double_elim:fable-low",
+  "competition": "double_elim",
+  "player": "fable-low",
+  "model": "fable",
+  "effort": "low",
+  "start": 2.0
  }
 ]

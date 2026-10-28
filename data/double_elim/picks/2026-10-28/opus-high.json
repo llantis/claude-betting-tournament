@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "99d7f299f7f7feb7980daeeee5f238a9",
+      "commence_time": "2026-10-29T00:00:00Z",
+      "option_id": "G09-TOTAL-OVER",
+      "pick": "Over 6.5",
+      "price_decimal": 1.83,
+      "price_american": "-120",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Both bullpens are taxed after Tampa's 12-inning Game 4 win and they face an elimination game, yet the Over 6.5 at Tropicana is priced at about 54.6% implied, below the roughly 57% the market gave the same total in Game 3; I see a slight lean to runs.",
+      "placed_at": "2026-10-28T15:28:58Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G08-TOTAL-UNDER",
+      "one bet per day"
+    ],
+    [
+      "G01-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

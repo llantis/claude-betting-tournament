@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Cleveland Cavaliers",
+      "game_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Washington Wizards +10.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Cleveland is 0-3 ATS with a poor 2025-26 home ATS record and blew a 24-point lead in its opener, while Washington has Trae Young and a close-game path against a -10.5 spread. Dybantsa's possible return adds upside, so the 1.93 price looks slightly long.",
+      "placed_at": "2026-10-28T15:28:58Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G04-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Philadelphia Flyers @ Washington Capitals",
+      "game_id": "46dec80debcc79de4c248a0edd4f8d74",
+      "commence_time": "2026-10-28T23:40:00Z",
+      "option_id": "G08-TOTAL-UNDER",
+      "pick": "Under 6.5",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.0,
+      "confidence": 0.58,
+      "reason": "Flyers are last in the NHL in scoring (1.93 g/gp, ~23 shots) on a back-to-back with backup Woll in net and 10 of 14 games at five goals or fewer; a projected total near 5.8 makes under 6.5 closer to 60% than the 55.6% the 1.80 price implies.",
+      "placed_at": "2026-10-28T15:28:59Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G03-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G05-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}
