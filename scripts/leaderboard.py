@@ -27,7 +27,7 @@ def main():
 
     kalshi = defaultdict(lambda: {"orders": 0, "pnl": 0.0})
     for o in read_orders():
-        if o["count"]:
+        if o["count"] and o["competition"] == "flat":
             kalshi[o["player"]]["orders"] += 1
             kalshi[o["player"]]["pnl"] += float(o["pnl"] or 0)
 
@@ -111,7 +111,11 @@ def double_elim_board(cfg):
     dcfg = cfg["double_elim"]
     rows = read_ledger(DOUBLE_ELIM_LEDGER)
     status = double_elim_status(cfg, rows)
-    stats = defaultdict(lambda: {"w": 0, "l": 0, "p": 0, "f": 0, "brier": []})
+    stats = defaultdict(lambda: {"w": 0, "l": 0, "p": 0, "f": 0, "brier": [], "k": 0, "kpnl": 0.0})
+    for o in read_orders():
+        if o["count"] and o["competition"] == "double_elim":
+            stats[o["player"]]["k"] += 1
+            stats[o["player"]]["kpnl"] += float(o["pnl"] or 0)
     for r in rows:
         s = stats[r["player"]]
         if r["result"] == "forfeit":
@@ -131,8 +135,8 @@ def double_elim_board(cfg):
         f"# Double elimination (start ${dcfg['start']:.2f}, odds {dcfg['min_price_decimal']:.2f}+, "
         "half the bankroll after a win, all of it after a loss)",
         "",
-        "| # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "| # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for i, name in enumerate(order, 1):
         s, m, b = stats[name], meta[name], status[name]
@@ -141,7 +145,8 @@ def double_elim_board(cfg):
         brier = f"{sum(s['brier']) / len(s['brier']):.3f}" if s["brier"] else "-"
         lines.append(
             f"| {i} | {name} | {m['model']} | {m['effort']} | {state} | ${b['bankroll']:.2f} | {nxt} | "
-            f"${b['riding']:.2f} | {s['w']}-{s['l']}-{s['p']} | {s['f']} | ${b['peak']:.2f} | {brier} |"
+            f"${b['riding']:.2f} | {s['w']}-{s['l']}-{s['p']} | {s['f']} | ${b['peak']:.2f} | {brier} | "
+            f"{s['k']} | ${s['kpnl']:+.2f} |"
         )
     lines += ["", f"{len(alive)} of {len(status)} still in. Two losses in a row and a player is out."]
     DOUBLE_ELIM.mkdir(parents=True, exist_ok=True)

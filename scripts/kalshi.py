@@ -5,8 +5,9 @@ Usage:
   python3 scripts/kalshi.py place [--date D] # place today's unplaced picks (dry run unless kalshi.dry_run is false)
   python3 scripts/kalshi.py settle           # update fills and settle finished markets
 
-Only ledger rows (already validated by record_picks.py) are ever placed. Caps are enforced here:
-stake per bet, daily and all-time spend, price sanity vs the slate price, one order per ledger row.
+Only ledger rows (already validated by record_picks.py) are ever placed, from the flat and
+double-elimination ledgers (each row at its own ledger stake). Caps are enforced here, shared by
+both: stake per bet, daily and all-time spend, price sanity vs the slate price, one order per ledger row.
 Secrets: KALSHI_API_KEY_ID, KALSHI_PRIVATE_KEY_B64 (base64 of the PEM file).
 """
 import argparse
@@ -22,19 +23,21 @@ import urllib.request
 import uuid
 from zoneinfo import ZoneInfo
 
-from common import DATA, load_config, now_utc, parse_time, read_ledger, today
+from common import DATA, DOUBLE_ELIM_LEDGER, LEDGER, load_config, now_utc, parse_time, read_ledger, today
 
 HOSTS = {"demo": "https://demo-api.kalshi.co", "prod": "https://api.elections.kalshi.com"}
 API = "/trade-api/v2"
 ORDERS = DATA / "kalshi_orders.csv"
 ORDER_FIELDS = [
-    "date", "player", "option_id", "pick", "ticker", "side", "price", "count", "cost",
+    "date", "competition", "player", "option_id", "pick", "ticker", "side", "price", "count", "cost",
     "order_id", "status", "filled", "result", "pnl", "note", "placed_at",
 ]
 SPORT_CODES = {
     "basketball_nba": "NBA", "americanfootball_nfl": "NFL", "americanfootball_ncaaf": "NCAAF",
     "icehockey_nhl": "NHL", "baseball_mlb": "MLB", "soccer_epl": "EPL", "soccer_uefa_champs_league": "UCL",
 }
+# Competitions mirrored onto Kalshi. Orders from before "competition" was recorded are flat.
+MIRRORED = {"flat": LEDGER, "double_elim": DOUBLE_ELIM_LEDGER}
 MONTHS = {m: i for i, m in enumerate(
     ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"], 1)}
 
@@ -226,12 +229,15 @@ def read_orders():
     if not ORDERS.exists():
         return []
     with ORDERS.open(newline="") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for o in rows:
+        o["competition"] = o.get("competition") or "flat"
+    return rows
 
 
 def write_orders(rows):
     with ORDERS.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=ORDER_FIELDS)
+        w = csv.DictWriter(f, fieldnames=ORDER_FIELDS, restval="")
         w.writeheader()
         w.writerows(rows)
 
@@ -241,17 +247,20 @@ def place(cfg, client, date):
     slate = json.loads((DATA / "slates" / f"{date}.json").read_text())
     games = {g["event_id"]: g for g in slate["games"]}
     orders = read_orders()
-    done = {(o["date"], o["player"], o["option_id"]) for o in orders}
+    done = {(o["date"], o["competition"], o["player"], o["option_id"]) for o in orders}
     real = [o for o in orders if o["order_id"] and not o["order_id"].startswith("dry")]
     spent_total = sum(float(o["cost"] or 0) for o in real)
     spent_today = sum(float(o["cost"] or 0) for o in real if o["date"] == date)
     matcher, now = Matcher(client), now_utc()
 
-    for r in read_ledger():
-        if r["date"] != date or (r["date"], r["player"], r["option_id"]) in done:
+    todo = [(comp, r) for comp, path in MIRRORED.items() if comp in cfg or comp == "flat"
+            for r in read_ledger(path)]
+    for comp, r in todo:
+        if (r["date"] != date or r["option_id"] == "FORFEIT"
+                or (r["date"], comp, r["player"], r["option_id"]) in done):
             continue
         rec = {k: "" for k in ORDER_FIELDS}
-        rec.update(date=date, player=r["player"], option_id=r["option_id"], pick=r["pick"],
+        rec.update(date=date, competition=comp, player=r["player"], option_id=r["option_id"], pick=r["pick"],
                    placed_at=now.strftime("%Y-%m-%dT%H:%M:%SZ"))
         game = games.get(r["game_id"])
         found, why = matcher.match(r, game) if game else (None, "game not in slate")
@@ -262,7 +271,7 @@ def place(cfg, client, date):
             m = client.req("GET", f"/markets/{ticker}", auth=False)["market"]
             ask = dollars(m, f"{side}_ask")
             implied = 1 / float(r["price_decimal"])
-            stake = float(cfg["stake"])
+            stake = float(r["stake"])
             count = int(stake // ask) if ask else 0
             cost = round(count * ask, 2) if count else 0
             rec.update(ticker=ticker, side=side, price=ask)
@@ -302,7 +311,7 @@ def place(cfg, client, date):
         if why:
             rec["note"] = why
         orders.append(rec)
-        print(f"{r['player']:>14} {r['pick']:<32} -> {rec['ticker'] or '-'} {rec['side']} "
+        print(f"{comp[:4]:>4} {r['player']:>14} {r['pick']:<32} -> {rec['ticker'] or '-'} {rec['side']} "
               f"{rec['status'] or 'skipped'} {rec['note']}")
     write_orders(orders)
 

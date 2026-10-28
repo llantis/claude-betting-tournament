@@ -31,7 +31,7 @@ Opus high, Opus low, Fable high and Fable low.
   the shortfall as a loss.
 - A player below $1 with nothing riding is out.
 - Ranked by bankroll in `data/bankroll/leaderboard.md`; `data/bankroll/standings.json` holds each
-  player's bankroll, riding and available amounts. Kalshi mirrors the flat competition only.
+  player's bankroll, riding and available amounts. Not mirrored to Kalshi.
 - Record with `python3 scripts/record_picks.py <player> <picks.json> --competition bankroll`.
   Player prompt: `prompts/bankroll_player.md`.
 
@@ -48,7 +48,9 @@ Sonnet, Haiku and Fable, 8 players.
 - Eliminated players stop betting but keep their history; their chart line ends at $0 on the day
   they went out. Survivors rank by bankroll, then the eliminated by how long they lasted.
 - State (bankroll, last result, next stake, out) is replayed from `data/double_elim/ledger.csv` each
-  run into `data/double_elim/standings.json`; nothing is edited by hand. Paper only, no Kalshi.
+  run into `data/double_elim/standings.json`; nothing is edited by hand.
+- Mirrored onto Kalshi demo like the flat competition, each bet at its own stake (whole contracts,
+  so slightly under), sharing the same daily and total caps. The paper ledger stays the score.
 - Record with `python3 scripts/record_picks.py <player> <picks.json> --competition double_elim`.
   Player prompt: `prompts/double_elim_player.md`.
 
@@ -78,7 +80,8 @@ python3 leaderboard.py
 ```
 
 ## Kalshi (demo)
-`scripts/kalshi.py` mirrors validated ledger picks onto Kalshi. It is the only code that holds the key.
+`scripts/kalshi.py` mirrors validated flat and double-elimination ledger picks onto Kalshi
+(`data/kalshi_orders.csv` has a `competition` column; older rows without one are flat). It is the only code that holds the key.
 - `check` (auth + balance), `place` (today's picks), `settle` (fills + results) → `data/kalshi_orders.csv`.
 - Mapping: ML → YES on "Team wins"; draw → YES on "Tie"; favorite −X → YES on "Team wins by over X";
   underdog +X → NO on the favorite's "wins by over X"; Over/Under X → YES/NO on "Over X".

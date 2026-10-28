@@ -37,8 +37,8 @@ match these exact command forms; don't `cd` into `scripts/`).
    `python3 scripts/record_picks.py <player> /tmp/elim-<player>.json --competition double_elim`.
    Also record busted bankroll players and skipped double-elimination players this way with
    `{"picks": []}` (the script knows who is out and charges no forfeit to them). Never edit a player's picks.
-6. **Kalshi + leaderboard.** `python3 scripts/kalshi.py place` mirrors today's flat-ledger picks onto
-   Kalshi (it enforces its own caps and price checks; never place orders any other way and never edit
+6. **Kalshi + leaderboard.** `python3 scripts/kalshi.py place` mirrors today's flat and
+   double-elimination picks onto Kalshi (it enforces its own caps and price checks; never place orders any other way and never edit
    the `kalshi` section of config.json). Then `python3 scripts/leaderboard.py` and
    `python3 scripts/dashboard_data.py` (writes `data/dashboard/bets.json` and `players.json`).
    Run `python3 scripts/kalshi.py place` as its own Bash call, exactly that text with nothing chained
