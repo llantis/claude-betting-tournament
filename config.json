@@ -81,5 +81,51 @@
         "effort": "low"
       }
     ]
+  },
+  "double_elim": {
+    "start": 2.0,
+    "min_price_decimal": 1.8,
+    "players": [
+      {
+        "name": "opus-high",
+        "model": "opus",
+        "effort": "high"
+      },
+      {
+        "name": "opus-low",
+        "model": "opus",
+        "effort": "low"
+      },
+      {
+        "name": "sonnet-high",
+        "model": "sonnet",
+        "effort": "high"
+      },
+      {
+        "name": "sonnet-low",
+        "model": "sonnet",
+        "effort": "low"
+      },
+      {
+        "name": "haiku-high",
+        "model": "haiku",
+        "effort": "high"
+      },
+      {
+        "name": "haiku-low",
+        "model": "haiku",
+        "effort": "low"
+      },
+      {
+        "name": "fable-high",
+        "model": "fable",
+        "effort": "high"
+      },
+      {
+        "name": "fable-low",
+        "model": "fable",
+        "effort": "low"
+      }
+    ]
   }
 }

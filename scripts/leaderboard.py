@@ -1,9 +1,12 @@
 """Write data/leaderboard.md (flat competition: P/L, ROI, record, Brier per player) and
-data/bankroll/leaderboard.md + standings.json (bankroll competition, ranked by bankroll)."""
+data/bankroll/leaderboard.md + standings.json (bankroll competition, ranked by bankroll), and
+data/double_elim/leaderboard.md + standings.json (double elimination: survivors by bankroll, then the
+eliminated by how long they lasted)."""
 import json
 from collections import defaultdict
 
-from common import BANKROLL, BANKROLL_LEDGER, DATA, bankroll_status, load_config, read_ledger
+from common import (BANKROLL, BANKROLL_LEDGER, DATA, DOUBLE_ELIM, DOUBLE_ELIM_LEDGER, bankroll_status,
+                    double_elim_status, load_config, read_ledger)
 from kalshi import read_orders
 
 
@@ -24,7 +27,7 @@ def main():
 
     kalshi = defaultdict(lambda: {"orders": 0, "pnl": 0.0})
     for o in read_orders():
-        if o["count"]:
+        if o["count"] and o["competition"] == "flat":
             kalshi[o["player"]]["orders"] += 1
             kalshi[o["player"]]["pnl"] += float(o["pnl"] or 0)
 
@@ -56,6 +59,8 @@ def main():
     print("\n".join(lines))
     if "bankroll" in cfg:
         bankroll_board(cfg)
+    if "double_elim" in cfg:
+        double_elim_board(cfg)
 
 
 def bankroll_board(cfg):
@@ -99,6 +104,54 @@ def bankroll_board(cfg):
     BANKROLL.mkdir(parents=True, exist_ok=True)
     (BANKROLL / "leaderboard.md").write_text("\n".join(lines) + "\n")
     (BANKROLL / "standings.json").write_text(json.dumps(status, indent=2) + "\n")
+    print("\n".join(lines))
+
+
+def double_elim_board(cfg):
+    dcfg = cfg["double_elim"]
+    rows = read_ledger(DOUBLE_ELIM_LEDGER)
+    status = double_elim_status(cfg, rows)
+    stats = defaultdict(lambda: {"w": 0, "l": 0, "p": 0, "f": 0, "brier": [], "k": 0, "kpnl": 0.0})
+    for o in read_orders():
+        if o["count"] and o["competition"] == "double_elim":
+            stats[o["player"]]["k"] += 1
+            stats[o["player"]]["kpnl"] += float(o["pnl"] or 0)
+    for r in rows:
+        s = stats[r["player"]]
+        if r["result"] == "forfeit":
+            s["f"] += 1
+        elif r["result"]:
+            s[r["result"][0]] += 1
+            if r["result"] != "push":
+                s["brier"].append((float(r["confidence"]) - (r["result"] == "win")) ** 2)
+
+    meta = {p["name"]: p for p in dcfg["players"]}
+    # Alive players first by bankroll; the eliminated by how late they went out, then peak bankroll.
+    alive = sorted((n for n in meta if not status[n]["out"]), key=lambda n: -status[n]["bankroll"])
+    gone = sorted((n for n in meta if status[n]["out"]),
+                  key=lambda n: (status[n]["out_date"], status[n]["peak"]), reverse=True)
+    order = alive + gone
+    lines = [
+        f"# Double elimination (start ${dcfg['start']:.2f}, odds {dcfg['min_price_decimal']:.2f}+, "
+        "half the bankroll after a win, all of it after a loss)",
+        "",
+        "| # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for i, name in enumerate(order, 1):
+        s, m, b = stats[name], meta[name], status[name]
+        state = f"out {b['out_date']}" if b["out"] else ("one life left" if b["last"] == "loss" else "alive")
+        nxt = "-" if b["out"] else f"${b['next_stake']:.2f}"
+        brier = f"{sum(s['brier']) / len(s['brier']):.3f}" if s["brier"] else "-"
+        lines.append(
+            f"| {i} | {name} | {m['model']} | {m['effort']} | {state} | ${b['bankroll']:.2f} | {nxt} | "
+            f"${b['riding']:.2f} | {s['w']}-{s['l']}-{s['p']} | {s['f']} | ${b['peak']:.2f} | {brier} | "
+            f"{s['k']} | ${s['kpnl']:+.2f} |"
+        )
+    lines += ["", f"{len(alive)} of {len(status)} still in. Two losses in a row and a player is out."]
+    DOUBLE_ELIM.mkdir(parents=True, exist_ok=True)
+    (DOUBLE_ELIM / "leaderboard.md").write_text("\n".join(lines) + "\n")
+    (DOUBLE_ELIM / "standings.json").write_text(json.dumps(status, indent=2) + "\n")
     print("\n".join(lines))
 
 

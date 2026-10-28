@@ -51,6 +51,7 @@
     <div class="tb-seg" role="group" aria-label="Competition">
       <button type="button" id="comp-flat" data-comp="flat" aria-pressed="true">Flat $1</button>
       <button type="button" id="comp-bankroll" data-comp="bankroll" aria-pressed="false">Bankroll $10</button>
+      <button type="button" id="comp-double_elim" data-comp="double_elim" aria-pressed="false">Double elim $2</button>
     </div>
   </header>
 
@@ -140,9 +141,14 @@
       const staked = played.reduce((s, b) => s + b.stake, 0);
       const scored = played.filter((b) => b.result !== 'push');
       const count = (r) => played.filter((b) => b.result === r).length;
+      const value = Math.round((p.start + pnl + forfeited) * 100) / 100;
+      // Double elimination: out once the bankroll is gone and nothing is riding.
+      const out = p.competition === 'double_elim' && value <= 0 && !open.length;
       return {
         key: p.key, competition: p.competition, player: p.player, model: p.model, effort: p.effort,
-        value: Math.round((p.start + pnl + forfeited) * 100) / 100,
+        value,
+        out,
+        out_date: out ? mine.map((b) => b.date).sort().pop() : null,
         riding: Math.round(open.reduce((s, b) => s + b.stake, 0) * 100) / 100,
         open: open.length,
         record: `${count('win')}-${count('loss')}-${count('push')}`,
@@ -156,7 +162,7 @@
     title: 'Competition summary',
     description: 'Per competition: bets open, money riding, and the leader once any bet has settled.',
     inputs: ['standings'],
-    fn: (standings) => ['flat', 'bankroll'].map((competition) => {
+    fn: (standings) => ['flat', 'bankroll', 'double_elim'].map((competition) => {
       const rows = standings.filter((r) => r.competition === competition);
       const top = rows.slice().sort((a, b) => b.value - a.value)[0];
       const settled = rows.some((r) => r.record !== '0-0-0');
@@ -172,11 +178,11 @@
 
   dash.calc('history', {
     title: 'Value over time',
-    description: 'Each player’s value after each day’s settled bets, starting the day before the first bet.',
+    description: 'Each player’s value after each day’s settled bets, starting the day before the first bet. A double-elimination line ends the day the player is out.',
     inputs: ['bets', 'players'],
     fn: (bets, players) => {
       const out = [];
-      for (const comp of ['flat', 'bankroll']) {
+      for (const comp of ['flat', 'bankroll', 'double_elim']) {
         const mine = bets.filter((b) => b.competition === comp);
         const days = [...new Set(mine.filter((b) => b.result !== 'open').map((b) => b.date))].sort();
         const first = [...new Set(mine.map((b) => b.date))].sort()[0];
@@ -186,7 +192,9 @@
         for (const p of players.filter((x) => x.competition === comp)) {
           for (const date of [d0.toISOString().slice(0, 10), ...days]) {
             const pnl = mine.filter((b) => b.player === p.player && b.result !== 'open' && b.date <= date).reduce((s, b) => s + b.pnl, 0);
-            out.push({ key: p.key, competition: comp, player: p.player, date, value: Math.round((p.start + pnl) * 100) / 100 });
+            const value = Math.round((p.start + pnl) * 100) / 100;
+            out.push({ key: p.key, competition: comp, player: p.player, date, value });
+            if (comp === 'double_elim' && value <= 0) break;
           }
         }
       }
@@ -202,6 +210,15 @@
   const startFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', weekday: 'short', hour: 'numeric', minute: '2-digit' });
   const dayFmt = d3.utcFormat('%b %-d');
   const comp = () => dash.params().comp || 'flat';
+  const COMPS = {
+    flat: { name: 'Flat $1', valueH: 'P/L', title: 'Profit over time', base: 0,
+      note: 'Ranked by profit on settled bets. Every pick is a $1 stake.' },
+    bankroll: { name: 'Bankroll $10', valueH: 'Bankroll', title: 'Bankroll over time', base: 10,
+      note: 'Ranked by settled bankroll. Each player started with $10 and picks its own stakes.' },
+    double_elim: { name: 'Double elim $2', valueH: 'Bankroll', title: 'Bankroll over time', base: 2,
+      note: 'Each player started with $2 and makes one bet a day at odds of −125 or longer: half its bankroll after a win, all of it after a loss. Two losses in a row and it is out; survivors rank first.' },
+  };
+  const C = () => COMPS[comp()] || COMPS.flat;
   const fmtValue = (v) => (comp() === 'flat' ? signed(v) : money(v));
 
   document.querySelectorAll('.tb-seg button').forEach((btn) => {
@@ -235,12 +252,10 @@
   function drawHeader(sum) {
     const c = comp();
     document.querySelectorAll('.tb-seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.comp === c)));
-    document.querySelector('.tb-comp-name').textContent = c === 'flat' ? 'Flat $1' : 'Bankroll $10';
-    document.querySelector('.tb-value-h').textContent = c === 'flat' ? 'P/L' : 'Bankroll';
-    document.querySelector('.tb-value-title').textContent = c === 'flat' ? 'Profit over time' : 'Bankroll over time';
-    document.querySelector('.tb-standings-note').textContent = c === 'flat'
-      ? 'Ranked by profit on settled bets. Every pick is a $1 stake.'
-      : 'Ranked by settled bankroll. Each player started with $10 and picks its own stakes.';
+    document.querySelector('.tb-comp-name').textContent = C().name;
+    document.querySelector('.tb-value-h').textContent = C().valueH;
+    document.querySelector('.tb-value-title').textContent = C().title;
+    document.querySelector('.tb-standings-note').textContent = C().note;
     document.querySelectorAll('#takeaway [data-where]').forEach((el) => el.setAttribute('data-where', 'competition=' + c));
     const els = ['.tb-open', '.tb-riding'].map((s) => document.querySelector(s));
     if (sum.status !== 'ok') { els.forEach((e) => { e.textContent = '—'; e.classList.toggle('dash-skeleton', sum.status === 'loading'); }); return; }
@@ -258,15 +273,16 @@
   function drawStandings(st) {
     const body = document.querySelector('.tb-standings-body');
     if (st.status !== 'ok') return failRow(body, 8, st.status);
-    const rows = st.data.filter((r) => r.competition === comp()).sort((a, b) => b.value - a.value || a.player.localeCompare(b.player));
+    const rows = st.data.filter((r) => r.competition === comp())
+      .sort((a, b) => a.out - b.out || (b.out_date || '').localeCompare(a.out_date || '') || b.value - a.value || a.player.localeCompare(b.player));
     body.replaceChildren(...rows.map((r) => {
       const tr = document.createElement('tr');
       tr.dataset.key = r.key;
-      cell(tr, r.player);
+      cell(tr, r.out ? `${r.player} (out ${dayFmt(new Date(r.out_date + 'T12:00:00Z'))})` : r.player);
       cell(tr, r.model, 'wide');
       cell(tr, r.effort, 'wide');
       const v = cell(tr, fmtValue(r.value), 'num');
-      const base = comp() === 'flat' ? 0 : 10;
+      const base = C().base;
       if (r.value > base) v.classList.add('tb-up'); else if (r.value < base) v.classList.add('tb-down');
       cell(tr, money(r.riding), 'num');
       cell(tr, r.record, 'num');
@@ -355,12 +371,13 @@
     const keys = [...new Set(rows.map((r) => r.key))];
     const series = keys.map((k, i) => {
       const pts = rows.filter((r) => r.key === k).map((r) => ({ d: new Date(r.date + 'T12:00:00Z'), v: r.value, date: r.date }));
-      return { key: k, name: pts.length ? rows.find((r) => r.key === k).player : k, color: dash.colors[i % dash.colors.length], pts };
+      const out = comp() === 'double_elim' && pts.length && pts[pts.length - 1].v <= 0;
+      return { key: k, name: pts.length ? rows.find((r) => r.key === k).player : k, color: dash.colors[i % dash.colors.length], pts, out };
     });
     const H = 260, top = 12, bottom = 28;
     const dates = [...new Set(rows.map((r) => r.date))].sort().map((d) => new Date(d + 'T12:00:00Z'));
     let [lo, hi] = d3.extent(rows, (r) => r.value);
-    const base = comp() === 'flat' ? 0 : 10;
+    const base = C().base;
     lo = Math.min(lo, base); hi = Math.max(hi, base);
     if (hi - lo < 2) { lo -= 1; hi += 1; }
     const y = d3.scaleLinear([lo, hi], [H - bottom, top]).nice(5);
@@ -369,7 +386,7 @@
     const yTicks = y.ticks(5);
     const left = Math.ceil(d3.max(yTicks, (t) => measure(fmtValue(t)))) + 10;
     const lastVal = (s) => s.pts[s.pts.length - 1];
-    const labels = series.map((s) => ({ s, text: `${s.name} ${fmtValue(lastVal(s).v)}` }));
+    const labels = series.map((s) => ({ s, text: `${s.name} ${s.out ? 'out' : fmtValue(lastVal(s).v)}` }));
     const right = Math.ceil(d3.max(labels, (l) => measure(l.text))) + 16;
     let x;
     if (dates.length === 1) x = d3.scaleUtc([d3.utcDay.offset(dates[0], -1), d3.utcDay.offset(dates[0], 1)], [left, W - right]);
@@ -387,6 +404,7 @@
     const line = d3.line().x((p) => x(p.d)).y((p) => y(p.v));
     for (const s of series) {
       g.append('path').attr('d', line(s.pts)).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2)
+        .attr('stroke-opacity', s.out ? 0.45 : 1)
         .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round');
       g.append('circle').attr('cx', x(lastVal(s).d)).attr('cy', y(lastVal(s).v)).attr('r', 3.5).attr('fill', s.color);
     }
@@ -418,7 +436,7 @@
           const row = document.createElement('div');
           const sw = document.createElement('i');
           sw.style.background = s.color;
-          row.append(sw, document.createTextNode(`${s.name}  ${p ? fmtValue(p.v) : '—'}`));
+          row.append(sw, document.createTextNode(`${s.name}  ${p ? fmtValue(p.v) : s.out && +d > +lastVal(s).d ? 'out' : '—'}`));
           return row;
         });
         tip.replaceChildren(day, ...lines);

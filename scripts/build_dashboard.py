@@ -2,7 +2,7 @@
 
 The daily run publishes this page as a new artifact each day. Publishing a new page needs no
 approval, unlike uploading files into the old dashboard or editing its datasets. Every page holds
-the full bet history from both ledgers, and each day's page is kept in git.
+the full bet history from every ledger, and each day's page is kept in git.
 
 It wraps dashboard/index.html (the body of the old Dashboard-type page) with the theme tokens, d3,
 and a small stand-in for the `dash` API that page expects, so the page itself stays unchanged.
