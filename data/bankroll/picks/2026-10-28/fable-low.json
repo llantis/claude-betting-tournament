@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Philadelphia Flyers @ Washington Capitals",
+      "game_id": "46dec80debcc79de4c248a0edd4f8d74",
+      "commence_time": "2026-10-28T23:40:00Z",
+      "option_id": "G08-SPREAD-AWAY",
+      "pick": "Philadelphia Flyers +1.5",
+      "price_decimal": 1.77,
+      "price_american": "-130",
+      "stake": 1.5,
+      "confidence": 0.66,
+      "reason": "A +190 NHL underdog on the +1.5 puck line is usually priced -160 or worse; -130 here implies only 56.5% while sizeable dogs cover +1.5 at roughly 65-70% historically, so the price looks too generous.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-28",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "99d7f299f7f7feb7980daeeee5f238a9",
+      "commence_time": "2026-10-29T00:00:00Z",
+      "option_id": "G09-SPREAD-HOME",
+      "pick": "Tampa Bay Rays +1.5",
+      "price_decimal": 1.7,
+      "price_american": "-143",
+      "stake": 1.05,
+      "confidence": 0.62,
+      "reason": "Low-scoring World Series games at home for the Rays make a one-run margin common; +1.5 at 1.70 implies 59% and home dogs in tight postseason games cover the run line above that rate.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

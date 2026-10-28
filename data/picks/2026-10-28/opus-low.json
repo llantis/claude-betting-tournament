@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Toronto Raptors",
+      "game_id": "67550840fbe9bb9c550d3d4958e259ea",
+      "commence_time": "2026-10-28T23:40:00Z",
+      "option_id": "G05-SPREAD-AWAY",
+      "pick": "Orlando Magic +4.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.525,
+      "reason": "Orlando +4.5 at 1.95 (break-even 51.3%); Orlando's defense should keep it close, and this side of the line has the better price.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Cleveland Cavaliers",
+      "game_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Washington Wizards +10.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.525,
+      "reason": "Big early-season NBA spreads tend to slightly overrate favorites; +10.5 at 1.93 needs only 51.8%.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

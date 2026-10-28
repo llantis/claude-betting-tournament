@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Charlotte Hornets @ Detroit Pistons",
+      "game_id": "7f5287957f506fbf705e198215fa952b",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "option_id": "G02-SPREAD-HOME",
+      "pick": "Detroit Pistons -7.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.5,
+      "confidence": 0.53,
+      "reason": "Detroit's deeper, improving core should cover at home against a Hornets team still finding consistency.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "baseball_mlb",
+      "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+      "game_id": "99d7f299f7f7feb7980daeeee5f238a9",
+      "commence_time": "2026-10-29T00:00:00Z",
+      "option_id": "G09-ML-AWAY",
+      "pick": "Milwaukee Brewers ML",
+      "price_decimal": 1.64,
+      "price_american": "-156",
+      "stake": 1.5,
+      "confidence": 0.62,
+      "reason": "Brewers' pitching depth gives a slight edge over the implied 61%.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

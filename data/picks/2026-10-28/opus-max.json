@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Cleveland Cavaliers",
+      "game_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Washington Wizards +10.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "DraftKings has Cleveland -10.5 while other books and the Novig exchange sit at -9.5, and ESPN BPI, Dimers and iHeart all project Cleveland by about 8. Washington has Trae Young and Anthony Davis healthy, Dybantsa may debut, and Cleveland's weak fourth quarters help a late cover.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-28",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Philadelphia Flyers @ Washington Capitals",
+      "game_id": "46dec80debcc79de4c248a0edd4f8d74",
+      "commence_time": "2026-10-28T23:40:00Z",
+      "option_id": "G08-TOTAL-UNDER",
+      "pick": "Under 6.5",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.0,
+      "confidence": 0.57,
+      "reason": "The Flyers are last in the NHL at 1.93 goals a game on about 23 shots, missing Konecny and Tippett, on the second night of a back-to-back with backup Woll, and Washington's Thompson is probable to return. My model projects about 5.8 goals, roughly 60% for the under, against the market's 55%.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

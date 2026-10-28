@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-28",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Cleveland Cavaliers",
+      "game_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Washington Wizards +10.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Double-digit early-season spreads tend to be inflated, and 1.93 needs only 51.8% to break even. The edge is small.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-28",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Jacksonville State Gamecocks @ New Mexico State Aggies",
+      "game_id": "cf6c89492427cb54521b70e7c5dc5993",
+      "commence_time": "2026-10-29T00:00:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "New Mexico State Aggies +3",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "The Jacksonville State moneyline implies a favorite of about 3.5 points, so +3 at near even money (1.98) is slightly underpriced at home.",
+      "placed_at": "2026-10-28T14:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

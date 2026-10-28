@@ -2,9 +2,9 @@
 
 | # | Player | Model | Effort | Bankroll | Riding | Record (W-L-P) | Open | Bet P/L | ROI | Forfeits | Brier |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | opus-low | opus | low | $14.49 | $3.00 | 9-3-0 | 2 | $+4.49 | +26.4% | $0.00 | 0.209 |
-| 2 | fable-low | fable | low | $9.55 | $6.00 | 8-8-0 | 3 | $-0.45 | -1.8% | $0.00 | 0.235 |
-| 3 | opus-high | opus | high | $8.16 | $3.25 | 5-5-0 | 2 | $-1.84 | -12.7% | $0.00 | 0.218 |
-| 4 | fable-high | fable | high | $5.06 | $3.25 | 9-11-0 | 3 | $-4.94 | -17.9% | $0.00 | 0.241 |
+| 1 | opus-low | opus | low | $14.83 | $3.00 | 10-4-0 | 2 | $+4.83 | +24.1% | $0.00 | 0.212 |
+| 2 | opus-high | opus | high | $11.15 | $3.00 | 7-5-0 | 1 | $+1.15 | +6.5% | $0.00 | 0.217 |
+| 3 | fable-high | fable | high | $3.66 | $2.66 | 10-13-0 | 2 | $-6.34 | -20.6% | $0.00 | 0.246 |
+| 4 | fable-low | fable | low | $3.55 | $2.55 | 8-11-0 | 2 | $-6.45 | -20.5% | $0.00 | 0.248 |
 
 Ranked by bankroll (settled). Riding = stakes on bets not yet graded.
