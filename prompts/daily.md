@@ -8,7 +8,8 @@ match these exact command forms; don't `cd` into `scripts/`).
 2. **Grade.** `python3 scripts/grade.py`, then `python3 scripts/kalshi.py settle`, then
    `python3 scripts/leaderboard.py` so `data/bankroll/standings.json` and
    `data/double_elim/standings.json` have today's bankrolls.
-3. **Snapshot.** `python3 scripts/snapshot_odds.py` writes `data/slates/<date>.json`.
+3. **Snapshot.** `python3 scripts/snapshot_odds.py` writes `data/slates/<date>.json`, plus
+   `data/slates/double_elim/<date>.json` (only the options double-elimination players may bet).
    If it reports 0 games, skip to step 6.
 4. **Players.** Read `config.json`. There are three competitions on the same slate:
    - **Flat** (`players`): prompt is `prompts/player.md` with `{DATE}` and `{MAX_PICKS}` filled in.

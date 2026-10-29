@@ -12,7 +12,8 @@ fit in the player's available bankroll, and a player who can afford the daily mi
 less than it forfeits the shortfall.
 Double elimination: one bet a day at decimal odds of at least min_price_decimal; the stake is set by
 the rules (half the bankroll at the start or after a win, all of it after a loss), not by the player.
-A player who has games available but gives no valid pick forfeits that stake.
+A player who has games available but gives no valid pick forfeits that stake, except when a pick was
+rejected only for its price: players see a slate with only eligible prices, so that one is on us.
 """
 import argparse
 import json
@@ -69,6 +70,7 @@ def main():
 
     now = now_utc()
     accepted, rejected, seen_games = [], [], set()
+    under_price = False
     spent = 0.0
     for p in submitted:
         oid = p.get("option_id")
@@ -84,6 +86,7 @@ def main():
             continue
         if elim and float(opt["price_decimal"]) < rules["min_price_decimal"] - 1e-9:
             rejected.append((oid, f"price {opt['price_decimal']} below {rules['min_price_decimal']} minimum"))
+            under_price = True
             continue
         if len(accepted) >= max_picks:
             rejected.append((oid, "one bet per day" if elim else "over daily pick limit"))
@@ -145,8 +148,11 @@ def main():
             })
             print(f"{args.player}: forfeits ${shortfall:.2f} for staking under the daily minimum")
 
-    # Double elimination: betting is required. No valid pick on a day with games loses the stake.
-    if elim and slate["games"] and not accepted and not estatus["out"] and not estatus["riding"]:
+    # Double elimination: betting is required. No valid pick on a day with games loses the stake,
+    # unless a pick fell under the minimum price: that sits the day out with no forfeit.
+    if elim and slate["games"] and not accepted and under_price:
+        print(f"{args.player}: no bet today and no forfeit (pick under the minimum price)")
+    elif elim and slate["games"] and not accepted and not estatus["out"] and not estatus["riding"]:
         stake = estatus["next_stake"]
         accepted.append({
             "date": args.date, "player": player["name"], "model": player["model"],

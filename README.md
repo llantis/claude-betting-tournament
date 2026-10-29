@@ -43,8 +43,11 @@ Sonnet, Haiku and Fable, 8 players.
 - The stake is set by the rules: **half the bankroll** at the start or after a win, **all of it** after
   a loss (rounded to the cent). So two losses in a row leave $0 and the player is **out**.
   A push changes nothing.
+- Players read `data/slates/double_elim/<date>.json`, a copy of the slate with only options at the
+  minimum price or longer, so they can't pick a price that's too short.
 - Betting is required: no valid pick on a day with games forfeits that day's stake, counted as a loss.
-  A player whose last bet hasn't settled sits the day out with no forfeit.
+  A player whose last bet hasn't settled, or whose pick was under the minimum price, sits the day out
+  with no forfeit.
 - Eliminated players stop betting but keep their history; their chart line ends at $0 on the day
   they went out. Survivors rank by bankroll, then the eliminated by how long they lasted.
 - State (bankroll, last result, next stake, out) is replayed from `data/double_elim/ledger.csv` each
