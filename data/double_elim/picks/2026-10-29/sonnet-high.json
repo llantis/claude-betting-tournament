@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Troy Trojans @ James Madison Dukes",
+      "game_id": "0540f5758ac50f3bb60beb36755f7a1e",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Troy Trojans +19.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.47,
+      "confidence": 0.53,
+      "reason": "Troy +19.5 at 1.91 needs 52.4% to break even. A 19.5-point college football spread is slightly inflated, and backdoor covers are common, so I put the cover chance just above break-even.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G01-TOTAL-UNDER",
+      "one bet per day"
+    ]
+  ]
+}

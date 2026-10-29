@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Florida Atlantic Owls @ North Texas Mean Green",
+      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "option_id": "G01-SPREAD-AWAY",
+      "pick": "Florida Atlantic Owls +14",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "A 14-point spread in a game expected to score 77.5 points gives a lot of backdoor-cover variance, and big road underdogs cover slightly more often than the market prices. I did no outside research, so this is a marginal edge.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G02-TOTAL-UNDER",
+      "one bet per day"
+    ],
+    [
+      "G04-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

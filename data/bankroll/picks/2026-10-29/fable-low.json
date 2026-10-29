@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Columbus Blue Jackets @ Carolina Hurricanes",
+      "game_id": "05a8ed51399342594c33ae0faa0f9027",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G03-ML-HOME",
+      "pick": "Carolina Hurricanes ML",
+      "price_decimal": 1.4,
+      "price_american": "-250",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Carolina is a top possession team at home against a Columbus side that is weaker on goaltending and shot suppression; at 1.40 the price roughly matches my ~70% estimate, and with a $1 bankroll the priority is the single highest-probability outcome to stay alive.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

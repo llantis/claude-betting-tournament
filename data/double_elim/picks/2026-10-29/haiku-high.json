@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Columbus Blue Jackets @ Carolina Hurricanes",
+      "game_id": "05a8ed51399342594c33ae0faa0f9027",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G03-ML-AWAY",
+      "pick": "Columbus Blue Jackets ML",
+      "price_decimal": 3.05,
+      "price_american": "+205",
+      "stake": 1.47,
+      "confidence": 0.36,
+      "reason": "Carolina is the stronger team (98 pts vs CBJ 88 pts last season) and has home ice, so -250 overprices them. Columbus at +205 needs about 33% and I estimate roughly 36-38%, a small edge. No current injury news was found, so this rests on season strength and price.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G05-ML-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G06-TOTAL-OVER",
+      "price 1.74 below 1.8 minimum"
+    ]
+  ]
+}

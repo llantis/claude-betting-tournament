@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Florida Atlantic Owls @ North Texas Mean Green",
+      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "option_id": "G01-SPREAD-AWAY",
+      "pick": "Florida Atlantic Owls +14",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 2.0,
+      "confidence": 0.53,
+      "reason": "Model projections have North Texas winning by 13-15 and other books are at 13.5, so +14 at -108 picks up a key half point; FAU's return-TD upside and backdoor potential in a high-scoring game help the underdog.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

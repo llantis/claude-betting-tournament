@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Winnipeg Jets @ Tampa Bay Lightning",
+      "game_id": "f27b209b3ed34a6dfb27f1670ffa514f",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G05-ML-HOME",
+      "pick": "Tampa Bay Lightning ML",
+      "price_decimal": 1.42,
+      "price_american": "-238",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Rested, home-unbeaten Lightning (5-0-0) host a Winnipeg team that is 0-4-2 in its last six, has scored two or fewer in five straight, traded Hellebuyck, is missing Morrissey and is on the front end of a back-to-back; DK's -238 is shorter than the -250 elsewhere.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-29",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Chicago Blackhawks @ Detroit Red Wings",
+      "game_id": "35f166bc5dbb833315fe376ae27e63a3",
+      "commence_time": "2026-10-29T23:40:00Z",
+      "option_id": "G06-ML-HOME",
+      "pick": "Detroit Red Wings ML",
+      "price_decimal": 1.56,
+      "price_american": "-179",
+      "stake": 1.0,
+      "confidence": 0.66,
+      "reason": "Chicago is 3-8-0 and 0-4-0 on the road with the league's worst shot generation (21.4/game), power play and faceoffs while allowing 4.0 goals per game; Detroit's 7th-ranked shot volume on a 30th-ranked 8.5% shooting percentage should regress upward against that defense, so 64% implied undersells the ",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

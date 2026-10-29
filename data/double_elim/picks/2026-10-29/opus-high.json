@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Florida Atlantic Owls @ North Texas Mean Green",
+      "game_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "option_id": "G01-SPREAD-AWAY",
+      "pick": "Florida Atlantic Owls +14",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Two very fast-paced offenses mean lots of possessions and late scoring that can close a 14-point gap, and big conference dogs historically cover slightly more than 50%; the +14 at 1.93 (needs 51.8%) is the best near-even price on the board.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G02-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G01-TOTAL-OVER",
+      "second pick on same game"
+    ]
+  ]
+}

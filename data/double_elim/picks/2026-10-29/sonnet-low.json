@@ -1,0 +1,38 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "sonnet-low",
+      "model": "sonnet",
+      "effort": "low",
+      "sport": "",
+      "matchup": "",
+      "game_id": "",
+      "commence_time": "",
+      "option_id": "FORFEIT",
+      "pick": "no valid bet",
+      "price_decimal": "",
+      "price_american": "",
+      "stake": 1.47,
+      "confidence": "",
+      "reason": "no valid pick submitted; the required stake is lost",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "forfeit",
+      "pnl": "-1.47"
+    }
+  ],
+  "rejected": [
+    [
+      "G03-SPREAD-AWAY",
+      "price 1.77 below 1.8 minimum"
+    ],
+    [
+      "G05-SPREAD-AWAY",
+      "price 1.77 below 1.8 minimum"
+    ],
+    [
+      "G06-TOTAL-OVER",
+      "price 1.74 below 1.8 minimum"
+    ]
+  ]
+}

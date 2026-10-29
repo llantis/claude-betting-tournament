@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Columbus Blue Jackets @ Carolina Hurricanes",
+      "game_id": "05a8ed51399342594c33ae0faa0f9027",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G03-ML-HOME",
+      "pick": "Carolina Hurricanes ML",
+      "price_decimal": 1.4,
+      "price_american": "-250",
+      "stake": 2.0,
+      "confidence": 0.73,
+      "reason": "Carolina is a strong home team against a weaker Columbus side; 1.40 implies about 71% and I rate them slightly higher.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-29",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Chicago Blackhawks @ Detroit Red Wings",
+      "game_id": "35f166bc5dbb833315fe376ae27e63a3",
+      "commence_time": "2026-10-29T23:40:00Z",
+      "option_id": "G06-ML-HOME",
+      "pick": "Detroit Red Wings ML",
+      "price_decimal": 1.56,
+      "price_american": "-179",
+      "stake": 2.0,
+      "confidence": 0.66,
+      "reason": "Detroit at home against a rebuilding Chicago; 1.56 implies about 64%, so there is a small edge.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Utah Mammoth @ Pittsburgh Penguins",
+      "game_id": "b8f3c483149e46a5f7c24ea941be8649",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G04-ML-AWAY",
+      "pick": "Utah Mammoth ML",
+      "price_decimal": 1.77,
+      "price_american": "-130",
+      "stake": 1.0,
+      "confidence": 0.58,
+      "reason": "Utah is the deeper, stronger team; at 1.77 (56.5% implied) the Penguins' home edge looks slightly overpriced.",
+      "placed_at": "2026-10-29T15:31:02Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-29",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Chicago Blackhawks @ Detroit Red Wings",
+      "game_id": "35f166bc5dbb833315fe376ae27e63a3",
+      "commence_time": "2026-10-29T23:40:00Z",
+      "option_id": "G06-SPREAD-AWAY",
+      "pick": "Chicago Blackhawks +1.5",
+      "price_decimal": 1.59,
+      "price_american": "-169",
+      "stake": 1.0,
+      "confidence": 0.65,
+      "reason": "Assumes this is the usual +1.5 goal line (not checked); it covers often in close Chicago-Detroit games, and the 63% implied looks a bit short.",
+      "placed_at": "2026-10-29T15:31:02Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

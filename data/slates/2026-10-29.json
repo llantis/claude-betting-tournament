@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-29",
+  "snapshot_at": "2026-10-29T13:52:14Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "c35bb6023b4b5005a38e7cec3ebe4d0b",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "home": "North Texas Mean Green",
+      "away": "Florida Atlantic Owls",
+      "matchup": "Florida Atlantic Owls @ North Texas Mean Green",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Florida Atlantic Owls ML",
+          "price_decimal": 5.1,
+          "price_american": "+410"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "North Texas Mean Green ML",
+          "price_decimal": 1.18,
+          "price_american": "-556"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 14.0,
+          "label": "Florida Atlantic Owls +14",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -14.0,
+          "label": "North Texas Mean Green -14",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 77.5,
+          "label": "Over 77.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 77.5,
+          "label": "Under 77.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "0540f5758ac50f3bb60beb36755f7a1e",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "home": "James Madison Dukes",
+      "away": "Troy Trojans",
+      "matchup": "Troy Trojans @ James Madison Dukes",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "James Madison Dukes ML",
+          "price_decimal": 1.07,
+          "price_american": "-1429"
+        },
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Troy Trojans ML",
+          "price_decimal": 9.0,
+          "price_american": "+800"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -19.5,
+          "label": "James Madison Dukes -19.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 19.5,
+          "label": "Troy Trojans +19.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "05a8ed51399342594c33ae0faa0f9027",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "home": "Carolina Hurricanes",
+      "away": "Columbus Blue Jackets",
+      "matchup": "Columbus Blue Jackets @ Carolina Hurricanes",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Carolina Hurricanes ML",
+          "price_decimal": 1.4,
+          "price_american": "-250"
+        },
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Columbus Blue Jackets ML",
+          "price_decimal": 3.05,
+          "price_american": "+205"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Carolina Hurricanes -1.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Columbus Blue Jackets +1.5",
+          "price_decimal": 1.77,
+          "price_american": "-130"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "b8f3c483149e46a5f7c24ea941be8649",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "home": "Pittsburgh Penguins",
+      "away": "Utah Mammoth",
+      "matchup": "Utah Mammoth @ Pittsburgh Penguins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Pittsburgh Penguins ML",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Utah Mammoth ML",
+          "price_decimal": 1.77,
+          "price_american": "-130"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Pittsburgh Penguins +1.5",
+          "price_decimal": 1.49,
+          "price_american": "-204"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Utah Mammoth -1.5",
+          "price_decimal": 2.7,
+          "price_american": "+170"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "f27b209b3ed34a6dfb27f1670ffa514f",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "home": "Tampa Bay Lightning",
+      "away": "Winnipeg Jets",
+      "matchup": "Winnipeg Jets @ Tampa Bay Lightning",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Tampa Bay Lightning ML",
+          "price_decimal": 1.42,
+          "price_american": "-238"
+        },
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Winnipeg Jets ML",
+          "price_decimal": 2.95,
+          "price_american": "+195"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Tampa Bay Lightning -1.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Winnipeg Jets +1.5",
+          "price_decimal": 1.77,
+          "price_american": "-130"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.7,
+          "price_american": "-143"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "35f166bc5dbb833315fe376ae27e63a3",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-29T23:40:00Z",
+      "home": "Detroit Red Wings",
+      "away": "Chicago Blackhawks",
+      "matchup": "Chicago Blackhawks @ Detroit Red Wings",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Chicago Blackhawks ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Detroit Red Wings ML",
+          "price_decimal": 1.56,
+          "price_american": "-179"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Chicago Blackhawks +1.5",
+          "price_decimal": 1.59,
+          "price_american": "-169"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Detroit Red Wings -1.5",
+          "price_decimal": 2.42,
+          "price_american": "+142"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    }
+  ]
+}

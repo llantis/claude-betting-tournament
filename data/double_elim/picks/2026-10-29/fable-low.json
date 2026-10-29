@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-29",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Utah Mammoth @ Pittsburgh Penguins",
+      "game_id": "b8f3c483149e46a5f7c24ea941be8649",
+      "commence_time": "2026-10-29T23:10:00Z",
+      "option_id": "G04-ML-HOME",
+      "pick": "Pittsburgh Penguins ML",
+      "price_decimal": 2.1,
+      "price_american": "+110",
+      "stake": 1.5,
+      "confidence": 0.5,
+      "reason": "Pittsburgh at home at +110 with Silovs (.890) facing Vejmelka (.876, 3.13 GAA); home-ice plus the goalie edge makes a near coin-flip game worth the plus price.",
+      "placed_at": "2026-10-29T15:31:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}
