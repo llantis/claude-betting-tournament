@@ -55,3 +55,4 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-10-29,double_elim,haiku-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,2,0.92,01a18849-b7d8-754d-9f2f-93c11092f696,executed,2,,,,2026-10-29T15:31:13Z
 2026-10-29,double_elim,fable-high,G02-SPREAD-HOME,James Madison Dukes -19.5,,,,,,,,,,,no Kalshi spread at 19.5,2026-10-29T15:31:13Z
 2026-10-29,double_elim,fable-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,3,1.38,01a18849-bbc0-7d62-b181-7b473b7f16b3,executed,3,,,,2026-10-29T15:31:13Z
+2026-10-29,double_elim,sonnet-low,G02-SPREAD-AWAY,Troy Trojans +19.5,,,,,,,,,,,no Kalshi spread at 19.5,2026-10-29T16:35:01Z

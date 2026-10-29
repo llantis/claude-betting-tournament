@@ -5,34 +5,30 @@
       "player": "sonnet-low",
       "model": "sonnet",
       "effort": "low",
-      "sport": "",
-      "matchup": "",
-      "game_id": "",
-      "commence_time": "",
-      "option_id": "FORFEIT",
-      "pick": "no valid bet",
-      "price_decimal": "",
-      "price_american": "",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Troy Trojans @ James Madison Dukes",
+      "game_id": "0540f5758ac50f3bb60beb36755f7a1e",
+      "commence_time": "2026-10-29T23:30:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Troy Trojans +19.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
       "stake": 1.47,
-      "confidence": "",
-      "reason": "no valid pick submitted; the required stake is lost",
-      "placed_at": "2026-10-29T15:31:03Z",
-      "result": "forfeit",
-      "pnl": "-1.47"
+      "confidence": 0.52,
+      "reason": "Large road underdog +19.5 in a college football game; big spreads tend to be inflated, so Troy covering is about a coin flip at -110.",
+      "placed_at": "2026-10-29T16:34:51Z",
+      "result": "",
+      "pnl": ""
     }
   ],
   "rejected": [
     [
-      "G03-SPREAD-AWAY",
-      "price 1.77 below 1.8 minimum"
+      "G01-SPREAD-AWAY",
+      "one bet per day"
     ],
     [
-      "G05-SPREAD-AWAY",
-      "price 1.77 below 1.8 minimum"
-    ],
-    [
-      "G06-TOTAL-OVER",
-      "price 1.74 below 1.8 minimum"
+      "G01-TOTAL-UNDER",
+      "one bet per day"
     ]
   ]
 }

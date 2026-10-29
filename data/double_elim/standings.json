@@ -30,10 +30,10 @@
     "out_date": null
   },
   "sonnet-low": {
-    "bankroll": 1.46,
-    "riding": 0.0,
-    "last": "loss",
-    "next_stake": 1.46,
+    "bankroll": 2.93,
+    "riding": 1.47,
+    "last": "win",
+    "next_stake": 1.47,
     "peak": 2.93,
     "settled_bets": 1,
     "out": false,

@@ -3140,26 +3140,6 @@
   "reason": "Troy +19.5 at 1.91 needs 52.4% to break even. A 19.5-point college football spread is slightly inflated, and backdoor covers are common, so I put the cover chance just above break-even."
  },
  {
-  "bet_id": "double_elim:2026-10-29:sonnet-low:FORFEIT",
-  "competition": "double_elim",
-  "date": "2026-10-29",
-  "player": "sonnet-low",
-  "model": "sonnet",
-  "effort": "low",
-  "sport": "",
-  "league": "",
-  "matchup": "",
-  "commence_time": "",
-  "pick": "no valid bet",
-  "price_american": "",
-  "price_decimal": 0.0,
-  "stake": 1.47,
-  "confidence": 0.0,
-  "result": "forfeit",
-  "pnl": -1.47,
-  "reason": "no valid pick submitted; the required stake is lost"
- },
- {
   "bet_id": "double_elim:2026-10-29:haiku-high:G03-ML-AWAY",
   "competition": "double_elim",
   "date": "2026-10-29",
@@ -3238,5 +3218,25 @@
   "result": "open",
   "pnl": null,
   "reason": "Pittsburgh at home at +110 with Silovs (.890) facing Vejmelka (.876, 3.13 GAA); home-ice plus the goalie edge makes a near coin-flip game worth the plus price."
+ },
+ {
+  "bet_id": "double_elim:2026-10-29:sonnet-low:G02-SPREAD-AWAY",
+  "competition": "double_elim",
+  "date": "2026-10-29",
+  "player": "sonnet-low",
+  "model": "sonnet",
+  "effort": "low",
+  "sport": "americanfootball_ncaaf",
+  "league": "NCAAF",
+  "matchup": "Troy Trojans @ James Madison Dukes",
+  "commence_time": "2026-10-29T23:30:00Z",
+  "pick": "Troy Trojans +19.5",
+  "price_american": "-110",
+  "price_decimal": 1.91,
+  "stake": 1.47,
+  "confidence": 0.52,
+  "result": "open",
+  "pnl": null,
+  "reason": "Large road underdog +19.5 in a college football game; big spreads tend to be inflated, so Troy covering is about a coin flip at -110."
  }
 ]
