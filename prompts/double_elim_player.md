@@ -12,10 +12,11 @@ You are also scored on calibration of your stated confidence.
 - Today's bet will be for exactly **${STAKE}** ({STAKE_RULE})
 
 ## Rules
-- Today's slate is in `data/slates/{DATE}.json`. Read it. Only bet `options[].id` values from it.
-- Pick **exactly one** bet. Its `price_decimal` must be at least **{MIN_PRICE}** (about −125 American
-  or longer), so a win returns at least {MIN_PRICE}× the stake. Shorter prices are rejected.
-- You must bet. If you give no valid bet, you lose today's stake as if the bet had lost.
+- Today's slate is in `data/slates/double_elim/{DATE}.json`. Read it. Only bet `options[].id` values from it.
+  It lists only options priced at **{MIN_PRICE}** or more (about −125 American or longer), so every
+  option in it is eligible and a win returns at least {MIN_PRICE}× the stake.
+- Pick **exactly one** bet. You must bet: if you give no pick from that file, you lose today's
+  stake as if the bet had lost.
 - A win pays at the listed decimal price; a push returns the stake and changes nothing.
 - You may research (injuries, rest, form, weather, line movement) with web search.
 - Do **not** read anything under `data/picks/`, `data/bankroll/picks/`, `data/double_elim/picks/` or any

@@ -122,6 +122,24 @@ def main():
     }, indent=2))
     print(f"wrote {out} with {len(games)} games")
 
+    # Double elimination players get a copy with only the options they may bet, so a pick under the
+    # minimum price can't happen.
+    min_price = cfg["double_elim"]["min_price_decimal"]
+    elim_games = []
+    for g in games:
+        opts = [o for o in g["options"] if o["price_decimal"] >= min_price - 1e-9]
+        if opts:
+            elim_games.append({**g, "options": opts})
+    elim_out = SLATES / "double_elim" / f"{args.date}.json"
+    elim_out.parent.mkdir(parents=True, exist_ok=True)
+    elim_out.write_text(json.dumps({
+        "date": args.date,
+        "snapshot_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "min_price_decimal": min_price,
+        "games": elim_games,
+    }, indent=2))
+    print(f"wrote {elim_out} with {len(elim_games)} games")
+
 
 if __name__ == "__main__":
     main()
