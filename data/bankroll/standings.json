@@ -1,25 +1,25 @@
 {
   "opus-high": {
-    "bankroll": 13.07,
-    "riding": 2.0,
-    "available": 11.07,
+    "bankroll": 14.93,
+    "riding": 4.0,
+    "available": 10.93,
     "busted": false
   },
   "opus-low": {
-    "bankroll": 17.15,
+    "bankroll": 19.07,
     "riding": 4.0,
-    "available": 13.15,
+    "available": 15.07,
     "busted": false
   },
   "fable-high": {
-    "bankroll": 3.07,
-    "riding": 2.0,
-    "available": 1.07,
+    "bankroll": 4.05,
+    "riding": 3.0,
+    "available": 1.05,
     "busted": false
   },
   "fable-low": {
-    "bankroll": 1.0,
-    "riding": 1.0,
+    "bankroll": 1.4,
+    "riding": 1.4,
     "available": 0.0,
     "busted": false
   }

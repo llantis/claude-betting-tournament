@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Winnipeg Jets @ Florida Panthers",
+      "game_id": "a536736a6da269d2e10edbdb27a789bd",
+      "commence_time": "2026-10-30T23:10:00Z",
+      "option_id": "G09-SPREAD-AWAY",
+      "pick": "Winnipeg Jets +1.5",
+      "price_decimal": 1.74,
+      "price_american": "-135",
+      "stake": 1.0,
+      "confidence": 0.61,
+      "reason": "Florida is about a 65% favorite, but only about 55% of an NHL favorite's wins are by 2+ goals (empty-net goals included), so Jets +1.5 should cover roughly 63%. The 1.74 price implies only about 55-57.5%.",
+      "placed_at": "2026-10-30T14:36:13Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

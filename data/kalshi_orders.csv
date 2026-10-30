@@ -39,20 +39,20 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-10-28,double_elim,fable-high,G08-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26OCT28PHIWSH-7,no,0.55,1,0.55,01a18321-6008-7531-985c-072f9bf9d540,executed,1,loss,-0.55,,2026-10-28T15:29:09Z
 2026-10-28,double_elim,fable-low,G09-TOTAL-UNDER,Under 6.5,KXMLBTOTAL-26OCT282000MILTB-7,no,0.48,2,0.96,01a18321-6bc0-701b-8d46-43577c073564,executed,2,win,1.04,,2026-10-28T15:29:09Z
 2026-10-29,flat,opus-max,G02-TOTAL-UNDER,Under 49.5,,,,,,,,,,,no Kalshi total at 49.5,2026-10-29T15:31:13Z
-2026-10-29,flat,opus-low,G04-ML-AWAY,Utah Mammoth ML,KXNHLGAME-26OCT29UTAPIT-UTA,yes,0.55,1,0.55,01a18849-6da0-7ab1-b1ad-22c045a44a8c,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,opus-low,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-7570-7690-9a63-e626f0b6928e,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,sonnet-high,G03-SPREAD-AWAY,Columbus Blue Jackets +1.5,KXNHLSPREAD-26OCT29CBJCAR-CAR2,no,0.52,1,0.52,01a18849-7d40-7d9f-b151-ebda26ba8c16,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,sonnet-high,G05-SPREAD-AWAY,Winnipeg Jets +1.5,KXNHLSPREAD-26OCT29WPGTB-TB2,no,0.55,1,0.55,01a18849-8510-7ff4-8405-34038c844add,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,sonnet-high,G04-SPREAD-HOME,Pittsburgh Penguins +1.5,KXNHLSPREAD-26OCT29UTAPIT-UTA2,no,0.67,1,0.67,01a18849-88f8-7eb3-8e78-7e0ed9faf4ac,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,sonnet-high,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-90c8-75c4-a5ae-53914a85d021,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,haiku-medium,G03-SPREAD-AWAY,Columbus Blue Jackets +1.5,KXNHLSPREAD-26OCT29CBJCAR-CAR2,no,0.52,1,0.52,01a18849-9898-7c22-96fc-c71478e3c93b,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,haiku-medium,G05-SPREAD-AWAY,Winnipeg Jets +1.5,KXNHLSPREAD-26OCT29WPGTB-TB2,no,0.55,1,0.55,01a18849-a068-7250-9987-8d828f555ee1,executed,1,,,,2026-10-29T15:31:13Z
-2026-10-29,flat,haiku-medium,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-a838-7483-9e38-e76aee375ce2,executed,1,,,,2026-10-29T15:31:13Z
+2026-10-29,flat,opus-low,G04-ML-AWAY,Utah Mammoth ML,KXNHLGAME-26OCT29UTAPIT-UTA,yes,0.55,1,0.55,01a18849-6da0-7ab1-b1ad-22c045a44a8c,executed,1,win,0.45,,2026-10-29T15:31:13Z
+2026-10-29,flat,opus-low,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-7570-7690-9a63-e626f0b6928e,executed,1,loss,-0.64,,2026-10-29T15:31:13Z
+2026-10-29,flat,sonnet-high,G03-SPREAD-AWAY,Columbus Blue Jackets +1.5,KXNHLSPREAD-26OCT29CBJCAR-CAR2,no,0.52,1,0.52,01a18849-7d40-7d9f-b151-ebda26ba8c16,executed,1,win,0.48,,2026-10-29T15:31:13Z
+2026-10-29,flat,sonnet-high,G05-SPREAD-AWAY,Winnipeg Jets +1.5,KXNHLSPREAD-26OCT29WPGTB-TB2,no,0.55,1,0.55,01a18849-8510-7ff4-8405-34038c844add,executed,1,loss,-0.55,,2026-10-29T15:31:13Z
+2026-10-29,flat,sonnet-high,G04-SPREAD-HOME,Pittsburgh Penguins +1.5,KXNHLSPREAD-26OCT29UTAPIT-UTA2,no,0.67,1,0.67,01a18849-88f8-7eb3-8e78-7e0ed9faf4ac,executed,1,win,0.33,,2026-10-29T15:31:13Z
+2026-10-29,flat,sonnet-high,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-90c8-75c4-a5ae-53914a85d021,executed,1,loss,-0.64,,2026-10-29T15:31:13Z
+2026-10-29,flat,haiku-medium,G03-SPREAD-AWAY,Columbus Blue Jackets +1.5,KXNHLSPREAD-26OCT29CBJCAR-CAR2,no,0.52,1,0.52,01a18849-9898-7c22-96fc-c71478e3c93b,executed,1,win,0.48,,2026-10-29T15:31:13Z
+2026-10-29,flat,haiku-medium,G05-SPREAD-AWAY,Winnipeg Jets +1.5,KXNHLSPREAD-26OCT29WPGTB-TB2,no,0.55,1,0.55,01a18849-a068-7250-9987-8d828f555ee1,executed,1,loss,-0.55,,2026-10-29T15:31:13Z
+2026-10-29,flat,haiku-medium,G06-SPREAD-AWAY,Chicago Blackhawks +1.5,KXNHLSPREAD-26OCT29CHIDET-DET2,no,0.64,1,0.64,01a18849-a838-7483-9e38-e76aee375ce2,executed,1,loss,-0.64,,2026-10-29T15:31:13Z
 2026-10-29,double_elim,opus-high,G01-SPREAD-AWAY,Florida Atlantic Owls +14,,,,,,,,,,,no Kalshi spread at 14.0,2026-10-29T15:31:13Z
 2026-10-29,double_elim,opus-low,G01-SPREAD-AWAY,Florida Atlantic Owls +14,,,,,,,,,,,no Kalshi spread at 14.0,2026-10-29T15:31:13Z
 2026-10-29,double_elim,sonnet-high,G02-SPREAD-AWAY,Troy Trojans +19.5,,,,,,,,,,,no Kalshi spread at 19.5,2026-10-29T15:31:13Z
-2026-10-29,double_elim,haiku-high,G03-ML-AWAY,Columbus Blue Jackets ML,KXNHLGAME-26OCT29CBJCAR-CBJ,yes,0.31,4,1.24,01a18849-b008-76b2-a22e-b51e865f84e7,executed,4,,,,2026-10-29T15:31:13Z
-2026-10-29,double_elim,haiku-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,2,0.92,01a18849-b7d8-754d-9f2f-93c11092f696,executed,2,,,,2026-10-29T15:31:13Z
+2026-10-29,double_elim,haiku-high,G03-ML-AWAY,Columbus Blue Jackets ML,KXNHLGAME-26OCT29CBJCAR-CBJ,yes,0.31,4,1.24,01a18849-b008-76b2-a22e-b51e865f84e7,executed,4,loss,-1.24,,2026-10-29T15:31:13Z
+2026-10-29,double_elim,haiku-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,2,0.92,01a18849-b7d8-754d-9f2f-93c11092f696,executed,2,loss,-0.92,,2026-10-29T15:31:13Z
 2026-10-29,double_elim,fable-high,G02-SPREAD-HOME,James Madison Dukes -19.5,,,,,,,,,,,no Kalshi spread at 19.5,2026-10-29T15:31:13Z
-2026-10-29,double_elim,fable-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,3,1.38,01a18849-bbc0-7d62-b181-7b473b7f16b3,executed,3,,,,2026-10-29T15:31:13Z
+2026-10-29,double_elim,fable-low,G04-ML-HOME,Pittsburgh Penguins ML,KXNHLGAME-26OCT29UTAPIT-PIT,yes,0.46,3,1.38,01a18849-bbc0-7d62-b181-7b473b7f16b3,executed,3,loss,-1.38,,2026-10-29T15:31:13Z
 2026-10-29,double_elim,sonnet-low,G02-SPREAD-AWAY,Troy Trojans +19.5,,,,,,,,,,,no Kalshi spread at 19.5,2026-10-29T16:35:01Z

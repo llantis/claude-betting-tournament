@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Tulane Green Wave @ Charlotte 49ers",
+      "game_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "commence_time": "2026-10-30T23:00:00Z",
+      "option_id": "G06-SPREAD-AWAY",
+      "pick": "Tulane Green Wave -8.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Tulane -8.5 on the slate is about a point shorter than the -9.5 I saw at FanDuel, and numberFire has Tulane at 74% to win. Breakeven at 1.91 is about 52.4%, but the edge is thin because both teams are 3-4 ATS and Tulane is 0-2 ATS as a big favorite.",
+      "placed_at": "2026-10-30T14:36:13Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

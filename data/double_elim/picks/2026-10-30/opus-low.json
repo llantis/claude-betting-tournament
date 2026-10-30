@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Detroit Pistons @ Brooklyn Nets",
+      "game_id": "64df299b882ea19ad5f8cb0ed5516a6f",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Detroit Pistons -8.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 0.97,
+      "confidence": 0.54,
+      "reason": "Detroit is the stronger, deeper team and Brooklyn is in full rebuild with a weak offense, so a win by more than 8.5 is slightly more likely than the 51.3% that the 1.95 price implies.",
+      "placed_at": "2026-10-30T14:36:14Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

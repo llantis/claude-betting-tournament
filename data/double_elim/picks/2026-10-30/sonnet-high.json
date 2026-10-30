@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Chicago Bulls @ Boston Celtics",
+      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Chicago Bulls +14.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 2.14,
+      "confidence": 0.52,
+      "reason": "Large NBA spreads (14.5) tend to be slightly favorable to the underdog, and the -105 price needs only 51.3% to break even. This is a thin edge with no specific injury news found.",
+      "placed_at": "2026-10-30T14:36:14Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G03-SPREAD-HOME",
+      "one bet per day"
+    ],
+    [
+      "G05-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

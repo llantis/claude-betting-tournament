@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Winnipeg Jets @ Florida Panthers",
+      "game_id": "a536736a6da269d2e10edbdb27a789bd",
+      "commence_time": "2026-10-30T23:10:00Z",
+      "option_id": "G09-ML-AWAY",
+      "pick": "Winnipeg Jets ML",
+      "price_decimal": 2.85,
+      "price_american": "+185",
+      "stake": 2.5,
+      "confidence": 0.38,
+      "reason": "Florida is without Barkov, Marchand and starting goalie Markstrom and is only 6-4-2, so -227 against a similar-strength Winnipeg looks priced on reputation; I make the Jets about 38%, above the 35% implied.",
+      "placed_at": "2026-10-30T14:36:14Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-30",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Chicago Bulls @ Boston Celtics",
+      "game_id": "036a93ca33d6261c21d4bfa6e0d02568",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Chicago Bulls +14.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.5,
+      "confidence": 0.53,
+      "reason": "Boston -14.5 looks inflated by Monday's 35-point win, which was within 10 points late in the third quarter and driven by unusual shooting from both benches; Boston also beat 0-4 Brooklyn by just 1 point on Tuesday.",
+      "placed_at": "2026-10-30T14:36:14Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

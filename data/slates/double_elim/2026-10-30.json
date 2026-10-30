@@ -1,0 +1,520 @@
+{
+  "date": "2026-10-30",
+  "snapshot_at": "2026-10-30T14:01:41Z",
+  "min_price_decimal": 1.8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "45ebc54751ef3e435192eaeb0470acfb",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-30T23:10:00Z",
+      "home": "Washington Wizards",
+      "away": "Charlotte Hornets",
+      "matchup": "Charlotte Hornets @ Washington Wizards",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Charlotte Hornets ML",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Washington Wizards ML",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Charlotte Hornets +1.5",
+          "price_decimal": 1.82,
+          "price_american": "-122"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Washington Wizards -1.5",
+          "price_decimal": 2.02,
+          "price_american": "+102"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 219.5,
+          "label": "Over 219.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 219.5,
+          "label": "Under 219.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "036a93ca33d6261c21d4bfa6e0d02568",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "home": "Boston Celtics",
+      "away": "Chicago Bulls",
+      "matchup": "Chicago Bulls @ Boston Celtics",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Chicago Bulls ML",
+          "price_decimal": 7.25,
+          "price_american": "+625"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -14.5,
+          "label": "Boston Celtics -14.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 14.5,
+          "label": "Chicago Bulls +14.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 234.5,
+          "label": "Over 234.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 234.5,
+          "label": "Under 234.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "64df299b882ea19ad5f8cb0ed5516a6f",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "home": "Brooklyn Nets",
+      "away": "Detroit Pistons",
+      "matchup": "Detroit Pistons @ Brooklyn Nets",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Brooklyn Nets ML",
+          "price_decimal": 3.6,
+          "price_american": "+260"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 8.5,
+          "label": "Brooklyn Nets +8.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -8.5,
+          "label": "Detroit Pistons -8.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 222.5,
+          "label": "Over 222.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 222.5,
+          "label": "Under 222.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "96a166bbd49782dbd9a61c2fb9069787",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "home": "Philadelphia 76ers",
+      "away": "New York Knicks",
+      "matchup": "New York Knicks @ Philadelphia 76ers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New York Knicks ML",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Philadelphia 76ers ML",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "New York Knicks -1.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Philadelphia 76ers +1.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 227.5,
+          "label": "Over 227.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 227.5,
+          "label": "Under 227.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "a0f5d89a4fc51e52edd0e70d1e4cbaf2",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-30T23:40:00Z",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "matchup": "Orlando Magic @ Toronto Raptors",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Orlando Magic ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 5.5,
+          "label": "Orlando Magic +5.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -5.5,
+          "label": "Toronto Raptors -5.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 226.5,
+          "label": "Over 226.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 226.5,
+          "label": "Under 226.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "78b3d38cdfa28649fdd2ca92829569ce",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-30T23:00:00Z",
+      "home": "Charlotte 49ers",
+      "away": "Tulane Green Wave",
+      "matchup": "Tulane Green Wave @ Charlotte 49ers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Charlotte 49ers ML",
+          "price_decimal": 3.75,
+          "price_american": "+275"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 8.5,
+          "label": "Charlotte 49ers +8.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -8.5,
+          "label": "Tulane Green Wave -8.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 47.5,
+          "label": "Over 47.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 47.5,
+          "label": "Under 47.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "44ee19d31b9288ad402868d6df737595",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-30T23:30:00Z",
+      "home": "UCF Knights",
+      "away": "Baylor Bears",
+      "matchup": "Baylor Bears @ UCF Knights",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Baylor Bears ML",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G07-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "UCF Knights ML",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G07-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Baylor Bears -1.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G07-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "UCF Knights +1.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G07-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 48.5,
+          "label": "Over 48.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G07-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 48.5,
+          "label": "Under 48.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "5c712e15e1cd4b9283b4bf410fb334f4",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-30T22:10:00Z",
+      "home": "Vegas Golden Knights",
+      "away": "New Jersey Devils",
+      "matchup": "New Jersey Devils @ Vegas Golden Knights",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New Jersey Devils ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Vegas Golden Knights ML",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G08-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Vegas Golden Knights -1.5",
+          "price_decimal": 3.15,
+          "price_american": "+215"
+        },
+        {
+          "id": "G08-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "a536736a6da269d2e10edbdb27a789bd",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-30T23:10:00Z",
+      "home": "Florida Panthers",
+      "away": "Winnipeg Jets",
+      "matchup": "Winnipeg Jets @ Florida Panthers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Winnipeg Jets ML",
+          "price_decimal": 2.85,
+          "price_american": "+185"
+        },
+        {
+          "id": "G09-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Florida Panthers -1.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G09-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    }
+  ]
+}

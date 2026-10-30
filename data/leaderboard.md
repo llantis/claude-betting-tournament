@@ -2,10 +2,10 @@
 
 | # | Player | Model | Effort | Record (W-L-P) | Open | P/L | ROI | Brier | Kalshi orders | Kalshi P/L |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | opus-max | opus | max | 7-9-0 | 1 | $+0.38 | +2.4% | 0.260 | 6 | $+1.67 |
-| 2 | sonnet-high | sonnet | high | 7-5-0 | 4 | $-0.36 | -3.0% | 0.230 | 7 | $-0.19 |
-| 3 | haiku-medium | haiku | medium | 5-7-0 | 3 | $-2.43 | -20.2% | 0.271 | 6 | $-2.46 |
-| 4 | opus-low | opus | low | 6-8-1 | 2 | $-2.51 | -16.7% | 0.265 | 6 | $+1.52 |
+| 1 | opus-max | opus | max | 8-9-0 | 0 | $+1.29 | +7.6% | 0.256 | 6 | $+1.67 |
+| 2 | sonnet-high | sonnet | high | 9-7-0 | 1 | $-1.10 | -6.9% | 0.238 | 7 | $-0.57 |
+| 3 | opus-low | opus | low | 7-9-1 | 2 | $-2.74 | -16.1% | 0.269 | 6 | $+1.33 |
+| 4 | haiku-medium | haiku | medium | 6-9-0 | 1 | $-3.66 | -24.4% | 0.278 | 6 | $-3.17 |
 
 Brier = mean squared error of stated confidence vs outcome (lower is better; 0.25 = coin flip).
 Kalshi columns: orders mirrored to Kalshi demo; fees not included.

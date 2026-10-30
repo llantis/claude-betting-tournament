@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-30",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Charlotte Hornets @ Washington Wizards",
+      "game_id": "45ebc54751ef3e435192eaeb0470acfb",
+      "commence_time": "2026-10-30T23:10:00Z",
+      "option_id": "G01-TOTAL-UNDER",
+      "pick": "Under 219.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 0.97,
+      "confidence": 0.54,
+      "reason": "Charlotte is last in scoring (101 ppg) and is missing Knueppel, Coby White and Grant Williams, while its defense is eighth-best; I project about 215 points, under 219.5. The market has already moved down a lot, so the edge is small.",
+      "placed_at": "2026-10-30T14:36:14Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G03-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}
