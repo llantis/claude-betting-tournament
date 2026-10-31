@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Philadelphia 76ers @ Charlotte Hornets",
+      "game_id": "067d97a124c10ea2d206546384500c5e",
+      "commence_time": "2026-10-31T22:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "Charlotte Hornets ML",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.5,
+      "confidence": 0.51,
+      "reason": "Hornets at home are priced at even money, which is a fair price if the 76ers' injury and rest problems persist. The edge is small.",
+      "placed_at": "2026-10-31T13:51:51Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-31",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Buffalo Sabres @ Los Angeles Kings",
+      "game_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "option_id": "G52-ML-HOME",
+      "pick": "Los Angeles Kings ML",
+      "price_decimal": 2.02,
+      "price_american": "+102",
+      "stake": 1.5,
+      "confidence": 0.5,
+      "reason": "The Kings are home underdogs at 2.02 against the Sabres, with home ice making it close to a coin flip. The edge is small.",
+      "placed_at": "2026-10-31T13:51:51Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

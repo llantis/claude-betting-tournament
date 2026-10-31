@@ -1,0 +1,3911 @@
+{
+  "date": "2026-10-31",
+  "snapshot_at": "2026-10-31T13:50:29Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "d47417c3b1a2cd427cce74c9d00f1046",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-31T19:10:00Z",
+      "home": "Utah Jazz",
+      "away": "Portland Trail Blazers",
+      "matchup": "Portland Trail Blazers @ Utah Jazz",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Portland Trail Blazers ML",
+          "price_decimal": 1.34,
+          "price_american": "-294"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Utah Jazz ML",
+          "price_decimal": 3.4,
+          "price_american": "+240"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -8.5,
+          "label": "Portland Trail Blazers -8.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 8.5,
+          "label": "Utah Jazz +8.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 232.5,
+          "label": "Over 232.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 232.5,
+          "label": "Under 232.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "067d97a124c10ea2d206546384500c5e",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-31T22:10:00Z",
+      "home": "Charlotte Hornets",
+      "away": "Philadelphia 76ers",
+      "matchup": "Philadelphia 76ers @ Charlotte Hornets",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Charlotte Hornets ML",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        },
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Philadelphia 76ers ML",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Charlotte Hornets +1.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Philadelphia 76ers -1.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 215.5,
+          "label": "Over 215.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 215.5,
+          "label": "Under 215.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "77270837bc694d198c10f42937690d75",
+      "sport": "basketball_nba",
+      "commence_time": "2026-10-31T23:10:00Z",
+      "home": "New Orleans Pelicans",
+      "away": "Atlanta Hawks",
+      "matchup": "Atlanta Hawks @ New Orleans Pelicans",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Atlanta Hawks ML",
+          "price_decimal": 1.56,
+          "price_american": "-179"
+        },
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "New Orleans Pelicans ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -4.5,
+          "label": "Atlanta Hawks -4.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 4.5,
+          "label": "New Orleans Pelicans +4.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 240.5,
+          "label": "Over 240.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 240.5,
+          "label": "Under 240.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "2d5a76d917c23b2f5036eb774608d1c9",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Texas Tech Red Raiders",
+      "away": "Arizona Wildcats",
+      "matchup": "Arizona Wildcats @ Texas Tech Red Raiders",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Arizona Wildcats ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Texas Tech Red Raiders ML",
+          "price_decimal": 1.56,
+          "price_american": "-179"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.5,
+          "label": "Arizona Wildcats +3.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.5,
+          "label": "Texas Tech Red Raiders -3.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 54.5,
+          "label": "Over 54.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 54.5,
+          "label": "Under 54.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "807f73b612ed07bda8d1835550ddbd43",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Duke Blue Devils",
+      "away": "Boston College Eagles",
+      "matchup": "Boston College Eagles @ Duke Blue Devils",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Boston College Eagles ML",
+          "price_decimal": 3.15,
+          "price_american": "+215"
+        },
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Duke Blue Devils ML",
+          "price_decimal": 1.38,
+          "price_american": "-263"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.0,
+          "label": "Boston College Eagles +7",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.0,
+          "label": "Duke Blue Devils -7",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "fc416b26c2c25018a05bc5cb0d80dbb6",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Western Michigan Broncos",
+      "away": "Bowling Green Falcons",
+      "matchup": "Bowling Green Falcons @ Western Michigan Broncos",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Bowling Green Falcons ML",
+          "price_decimal": 5.55,
+          "price_american": "+455"
+        },
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Western Michigan Broncos ML",
+          "price_decimal": 1.16,
+          "price_american": "-625"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 14.0,
+          "label": "Bowling Green Falcons +14",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -14.0,
+          "label": "Western Michigan Broncos -14",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 44.5,
+          "label": "Over 44.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 44.5,
+          "label": "Under 44.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "aa15904c0f5814a899ddbe002c96406a",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "NC State Wolfpack",
+      "away": "California Golden Bears",
+      "matchup": "California Golden Bears @ NC State Wolfpack",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "California Golden Bears ML",
+          "price_decimal": 3.5,
+          "price_american": "+250"
+        },
+        {
+          "id": "G07-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "NC State Wolfpack ML",
+          "price_decimal": 1.32,
+          "price_american": "-312"
+        },
+        {
+          "id": "G07-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 9.5,
+          "label": "California Golden Bears +9.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G07-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -9.5,
+          "label": "NC State Wolfpack -9.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G07-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 56.5,
+          "label": "Over 56.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G07-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 56.5,
+          "label": "Under 56.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "07da1e37f1e37363a71d35f2298f01d9",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Maryland Terrapins",
+      "away": "Illinois Fighting Illini",
+      "matchup": "Illinois Fighting Illini @ Maryland Terrapins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Illinois Fighting Illini ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Maryland Terrapins ML",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G08-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -2.5,
+          "label": "Illinois Fighting Illini -2.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G08-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 2.5,
+          "label": "Maryland Terrapins +2.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G08-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 53.5,
+          "label": "Over 53.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G08-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 53.5,
+          "label": "Under 53.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "929937ced936976088a9562342ba0b90",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Iowa Hawkeyes",
+      "away": "Wisconsin Badgers",
+      "matchup": "Wisconsin Badgers @ Iowa Hawkeyes",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Iowa Hawkeyes ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Wisconsin Badgers ML",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G09-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -2.5,
+          "label": "Iowa Hawkeyes -2.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G09-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 2.5,
+          "label": "Wisconsin Badgers +2.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G09-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 36.5,
+          "label": "Over 36.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G09-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 36.5,
+          "label": "Under 36.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "e916f49c82de2ce0b1844ee9f6deccfa",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Navy Midshipmen",
+      "away": "Notre Dame Fighting Irish",
+      "matchup": "Notre Dame Fighting Irish @ Navy Midshipmen",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Navy Midshipmen ML",
+          "price_decimal": 21.0,
+          "price_american": "+2000"
+        },
+        {
+          "id": "G10-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Notre Dame Fighting Irish ML",
+          "price_decimal": 1.02,
+          "price_american": "-5000"
+        },
+        {
+          "id": "G10-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 30.5,
+          "label": "Navy Midshipmen +30.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G10-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -30.5,
+          "label": "Notre Dame Fighting Irish -30.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G10-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 54.5,
+          "label": "Over 54.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G10-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 54.5,
+          "label": "Under 54.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        }
+      ]
+    },
+    {
+      "game_id": "G11",
+      "event_id": "2f219378e527cf1f695b814a0a4ad63c",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "Syracuse Orange",
+      "away": "SMU Mustangs",
+      "matchup": "SMU Mustangs @ Syracuse Orange",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G11-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "SMU Mustangs ML",
+          "price_decimal": 1.28,
+          "price_american": "-357"
+        },
+        {
+          "id": "G11-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Syracuse Orange ML",
+          "price_decimal": 3.8,
+          "price_american": "+280"
+        },
+        {
+          "id": "G11-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -9.5,
+          "label": "SMU Mustangs -9.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G11-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 9.5,
+          "label": "Syracuse Orange +9.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G11-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 58.5,
+          "label": "Over 58.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G11-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 58.5,
+          "label": "Under 58.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G12",
+      "event_id": "3713b2d962a33a6e55be7bffedd604a5",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "home": "South Florida Bulls",
+      "away": "UAB Blazers",
+      "matchup": "UAB Blazers @ South Florida Bulls",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G12-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "South Florida Bulls ML",
+          "price_decimal": 1.33,
+          "price_american": "-303"
+        },
+        {
+          "id": "G12-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "UAB Blazers ML",
+          "price_decimal": 3.45,
+          "price_american": "+245"
+        },
+        {
+          "id": "G12-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.5,
+          "label": "South Florida Bulls -7.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G12-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.5,
+          "label": "UAB Blazers +7.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G12-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 42.5,
+          "label": "Over 42.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G12-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 42.5,
+          "label": "Under 42.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G13",
+      "event_id": "dea96094c29a9f24d7dc07a5d848afd7",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:30:00Z",
+      "home": "Rutgers Scarlet Knights",
+      "away": "Michigan Wolverines",
+      "matchup": "Michigan Wolverines @ Rutgers Scarlet Knights",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G13-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Michigan Wolverines ML",
+          "price_decimal": 1.13,
+          "price_american": "-769"
+        },
+        {
+          "id": "G13-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Rutgers Scarlet Knights ML",
+          "price_decimal": 6.25,
+          "price_american": "+525"
+        },
+        {
+          "id": "G13-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -16.5,
+          "label": "Michigan Wolverines -16.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G13-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 16.5,
+          "label": "Rutgers Scarlet Knights +16.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G13-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 46.5,
+          "label": "Over 46.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G13-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 46.5,
+          "label": "Under 46.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G14",
+      "event_id": "3f36c41ee29e9339f71fada56d832914",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T16:45:00Z",
+      "home": "Ole Miss Rebels",
+      "away": "Auburn Tigers",
+      "matchup": "Auburn Tigers @ Ole Miss Rebels",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G14-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Auburn Tigers ML",
+          "price_decimal": 4.5,
+          "price_american": "+350"
+        },
+        {
+          "id": "G14-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Ole Miss Rebels ML",
+          "price_decimal": 1.22,
+          "price_american": "-455"
+        },
+        {
+          "id": "G14-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 11.5,
+          "label": "Auburn Tigers +11.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G14-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -11.5,
+          "label": "Ole Miss Rebels -11.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G14-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 57.5,
+          "label": "Over 57.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G14-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 57.5,
+          "label": "Under 57.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        }
+      ]
+    },
+    {
+      "game_id": "G15",
+      "event_id": "e88d624c699646a03bac59eb193a09bf",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T17:00:00Z",
+      "home": "Old Dominion Monarchs",
+      "away": "Marshall Thundering Herd",
+      "matchup": "Marshall Thundering Herd @ Old Dominion Monarchs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G15-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Marshall Thundering Herd ML",
+          "price_decimal": 1.7,
+          "price_american": "-143"
+        },
+        {
+          "id": "G15-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Old Dominion Monarchs ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G15-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -3.0,
+          "label": "Marshall Thundering Herd -3",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G15-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 3.0,
+          "label": "Old Dominion Monarchs +3",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G15-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 46.5,
+          "label": "Over 46.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G15-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 46.5,
+          "label": "Under 46.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G16",
+      "event_id": "47548a73e429985e77f81a4617b4fdfd",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T18:00:00Z",
+      "home": "Georgia State Panthers",
+      "away": "Coastal Carolina Chanticleers",
+      "matchup": "Coastal Carolina Chanticleers @ Georgia State Panthers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G16-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Coastal Carolina Chanticleers ML",
+          "price_decimal": 2.54,
+          "price_american": "+154"
+        },
+        {
+          "id": "G16-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Georgia State Panthers ML",
+          "price_decimal": 1.54,
+          "price_american": "-185"
+        },
+        {
+          "id": "G16-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.5,
+          "label": "Coastal Carolina Chanticleers +3.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G16-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.5,
+          "label": "Georgia State Panthers -3.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G16-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 55.5,
+          "label": "Over 55.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G16-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 55.5,
+          "label": "Under 55.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G17",
+      "event_id": "d19dbab4071552441b056ccd2e23ca59",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T18:00:00Z",
+      "home": "Colorado Buffaloes",
+      "away": "Kansas State Wildcats",
+      "matchup": "Kansas State Wildcats @ Colorado Buffaloes",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G17-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Colorado Buffaloes ML",
+          "price_decimal": 1.68,
+          "price_american": "-147"
+        },
+        {
+          "id": "G17-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Kansas State Wildcats ML",
+          "price_decimal": 2.24,
+          "price_american": "+124"
+        },
+        {
+          "id": "G17-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.0,
+          "label": "Colorado Buffaloes -3",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G17-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.0,
+          "label": "Kansas State Wildcats +3",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G17-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 46.5,
+          "label": "Over 46.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G17-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 46.5,
+          "label": "Under 46.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G18",
+      "event_id": "573eed720cdbfb7644835b8beb1bc89a",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:00:00Z",
+      "home": "Air Force Falcons",
+      "away": "UConn Huskies",
+      "matchup": "UConn Huskies @ Air Force Falcons",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G18-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Air Force Falcons ML",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G18-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "UConn Huskies ML",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G18-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Air Force Falcons +1.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G18-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "UConn Huskies -1.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G18-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 52.5,
+          "label": "Over 52.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G18-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 52.5,
+          "label": "Under 52.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G19",
+      "event_id": "fa9022be308ebe9ca39ecda8ea15bda4",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:00:00Z",
+      "home": "East Carolina Pirates",
+      "away": "Temple Owls",
+      "matchup": "Temple Owls @ East Carolina Pirates",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G19-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "East Carolina Pirates ML",
+          "price_decimal": 1.51,
+          "price_american": "-196"
+        },
+        {
+          "id": "G19-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Temple Owls ML",
+          "price_decimal": 2.64,
+          "price_american": "+164"
+        },
+        {
+          "id": "G19-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -4.0,
+          "label": "East Carolina Pirates -4",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G19-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 4.0,
+          "label": "Temple Owls +4",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G19-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 50.5,
+          "label": "Over 50.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G19-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 50.5,
+          "label": "Under 50.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G20",
+      "event_id": "e5817afb8338b8f7272feff21d87d7f7",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:00:00Z",
+      "home": "South Alabama Jaguars",
+      "away": "Louisiana Tech Bulldogs",
+      "matchup": "Louisiana Tech Bulldogs @ South Alabama Jaguars",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G20-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Louisiana Tech Bulldogs ML",
+          "price_decimal": 1.41,
+          "price_american": "-244"
+        },
+        {
+          "id": "G20-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "South Alabama Jaguars ML",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G20-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -6.0,
+          "label": "Louisiana Tech Bulldogs -6",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G20-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 6.0,
+          "label": "South Alabama Jaguars +6",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G20-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 58.5,
+          "label": "Over 58.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G20-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 58.5,
+          "label": "Under 58.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G21",
+      "event_id": "183676bbb63b1716e2248ec6c6d205a9",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:15:00Z",
+      "home": "Louisville Cardinals",
+      "away": "Stanford Cardinal",
+      "matchup": "Stanford Cardinal @ Louisville Cardinals",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G21-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Louisville Cardinals ML",
+          "price_decimal": 1.05,
+          "price_american": "-2000"
+        },
+        {
+          "id": "G21-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Stanford Cardinal ML",
+          "price_decimal": 12.0,
+          "price_american": "+1100"
+        },
+        {
+          "id": "G21-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -22.5,
+          "label": "Louisville Cardinals -22.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G21-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 22.5,
+          "label": "Stanford Cardinal +22.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G21-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 60.5,
+          "label": "Over 60.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G21-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 60.5,
+          "label": "Under 60.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G22",
+      "event_id": "b0f68c9265402a825cbbf7954b726339",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "BYU Cougars",
+      "away": "Arizona State Sun Devils",
+      "matchup": "Arizona State Sun Devils @ BYU Cougars",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G22-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Arizona State Sun Devils ML",
+          "price_decimal": 6.5,
+          "price_american": "+550"
+        },
+        {
+          "id": "G22-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "BYU Cougars ML",
+          "price_decimal": 1.12,
+          "price_american": "-833"
+        },
+        {
+          "id": "G22-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 16.5,
+          "label": "Arizona State Sun Devils +16.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G22-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -16.5,
+          "label": "BYU Cougars -16.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G22-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 47.5,
+          "label": "Over 47.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G22-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 47.5,
+          "label": "Under 47.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G23",
+      "event_id": "9c33dd628312f89764392414cbc99c86",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "Utah State Aggies",
+      "away": "Colorado State Rams",
+      "matchup": "Colorado State Rams @ Utah State Aggies",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G23-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Colorado State Rams ML",
+          "price_decimal": 3.4,
+          "price_american": "+240"
+        },
+        {
+          "id": "G23-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Utah State Aggies ML",
+          "price_decimal": 1.34,
+          "price_american": "-294"
+        },
+        {
+          "id": "G23-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.5,
+          "label": "Colorado State Rams +7.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G23-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.5,
+          "label": "Utah State Aggies -7.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G23-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 60.5,
+          "label": "Over 60.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G23-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 60.5,
+          "label": "Under 60.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G24",
+      "event_id": "581c12d11a86412432fe89645cbe80b2",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "Georgia Bulldogs",
+      "away": "Florida Gators",
+      "matchup": "Florida Gators @ Georgia Bulldogs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G24-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Florida Gators ML",
+          "price_decimal": 4.4,
+          "price_american": "+340"
+        },
+        {
+          "id": "G24-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Georgia Bulldogs ML",
+          "price_decimal": 1.23,
+          "price_american": "-435"
+        },
+        {
+          "id": "G24-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 11.5,
+          "label": "Florida Gators +11.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G24-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -11.5,
+          "label": "Georgia Bulldogs -11.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G24-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 56.5,
+          "label": "Over 56.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G24-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 56.5,
+          "label": "Under 56.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G25",
+      "event_id": "e5ff4a85ab3b8341184a334a390f6ba2",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "Liberty Flames",
+      "away": "Florida International Panthers",
+      "matchup": "Florida International Panthers @ Liberty Flames",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G25-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Florida International Panthers ML",
+          "price_decimal": 5.25,
+          "price_american": "+425"
+        },
+        {
+          "id": "G25-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Liberty Flames ML",
+          "price_decimal": 1.17,
+          "price_american": "-588"
+        },
+        {
+          "id": "G25-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 14.0,
+          "label": "Florida International Panthers +14",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G25-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -14.0,
+          "label": "Liberty Flames -14",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G25-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 45.5,
+          "label": "Over 45.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G25-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 45.5,
+          "label": "Under 45.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G26",
+      "event_id": "1e591733bae48534963359a9cff13701",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "Indiana Hoosiers",
+      "away": "Minnesota Golden Gophers",
+      "matchup": "Minnesota Golden Gophers @ Indiana Hoosiers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G26-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Indiana Hoosiers ML",
+          "price_decimal": 1.07,
+          "price_american": "-1429"
+        },
+        {
+          "id": "G26-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Minnesota Golden Gophers ML",
+          "price_decimal": 9.5,
+          "price_american": "+850"
+        },
+        {
+          "id": "G26-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -20.5,
+          "label": "Indiana Hoosiers -20.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G26-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 20.5,
+          "label": "Minnesota Golden Gophers +20.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G26-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 40.5,
+          "label": "Over 40.5",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G26-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 40.5,
+          "label": "Under 40.5",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        }
+      ]
+    },
+    {
+      "game_id": "G27",
+      "event_id": "7e3a5a0dcece26ded8c9d1a64dc6cee5",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "TCU Horned Frogs",
+      "away": "Kansas Jayhawks",
+      "matchup": "Kansas Jayhawks @ TCU Horned Frogs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G27-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Kansas Jayhawks ML",
+          "price_decimal": 2.95,
+          "price_american": "+195"
+        },
+        {
+          "id": "G27-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "TCU Horned Frogs ML",
+          "price_decimal": 1.42,
+          "price_american": "-238"
+        },
+        {
+          "id": "G27-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.5,
+          "label": "Kansas Jayhawks +6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G27-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.5,
+          "label": "TCU Horned Frogs -6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G27-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 45.5,
+          "label": "Over 45.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G27-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 45.5,
+          "label": "Under 45.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G28",
+      "event_id": "c17c8f9e12ffe066cf601c96090fcb14",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "North Dakota State Bison",
+      "away": "UTEP Miners",
+      "matchup": "UTEP Miners @ North Dakota State Bison",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G28-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "North Dakota State Bison ML",
+          "price_decimal": 1.04,
+          "price_american": "-2500"
+        },
+        {
+          "id": "G28-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "UTEP Miners ML",
+          "price_decimal": 14.0,
+          "price_american": "+1300"
+        },
+        {
+          "id": "G28-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -24.5,
+          "label": "North Dakota State Bison -24.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G28-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 24.5,
+          "label": "UTEP Miners +24.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G28-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 43.5,
+          "label": "Over 43.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G28-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 43.5,
+          "label": "Under 43.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G29",
+      "event_id": "7bac3aae16527dd33a224a2f81792033",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "Oregon Ducks",
+      "away": "Northwestern Wildcats",
+      "matchup": "Northwestern Wildcats @ Oregon Ducks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G29-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Northwestern Wildcats ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G29-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Oregon Ducks ML",
+          "price_decimal": 1.56,
+          "price_american": "-179"
+        },
+        {
+          "id": "G29-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.5,
+          "label": "Northwestern Wildcats +3.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G29-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.5,
+          "label": "Oregon Ducks -3.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G29-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 47.5,
+          "label": "Over 47.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G29-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 47.5,
+          "label": "Under 47.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G30",
+      "event_id": "746742d4bb94424d9e63d00701eef4ec",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:30:00Z",
+      "home": "UL Monroe Warhawks",
+      "away": "Southern Mississippi Golden Eagles",
+      "matchup": "Southern Mississippi Golden Eagles @ UL Monroe Warhawks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G30-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Southern Mississippi Golden Eagles ML",
+          "price_decimal": 1.6,
+          "price_american": "-167"
+        },
+        {
+          "id": "G30-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "UL Monroe Warhawks ML",
+          "price_decimal": 2.4,
+          "price_american": "+140"
+        },
+        {
+          "id": "G30-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -3.5,
+          "label": "Southern Mississippi Golden Eagles -3.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G30-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 3.5,
+          "label": "UL Monroe Warhawks +3.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G30-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 55.5,
+          "label": "Over 55.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G30-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 55.5,
+          "label": "Under 55.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G31",
+      "event_id": "8480c989381049fc30c8d714be95db35",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home": "Cincinnati Bearcats",
+      "away": "Utah Utes",
+      "matchup": "Utah Utes @ Cincinnati Bearcats",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G31-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Cincinnati Bearcats ML",
+          "price_decimal": 3.25,
+          "price_american": "+225"
+        },
+        {
+          "id": "G31-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Utah Utes ML",
+          "price_decimal": 1.36,
+          "price_american": "-278"
+        },
+        {
+          "id": "G31-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 7.0,
+          "label": "Cincinnati Bearcats +7",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G31-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -7.0,
+          "label": "Utah Utes -7",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G31-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 56.5,
+          "label": "Over 56.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G31-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 56.5,
+          "label": "Under 56.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G32",
+      "event_id": "09f66e3676ec3112e24cd6b9e97feb41",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T19:45:00Z",
+      "home": "Wake Forest Demon Deacons",
+      "away": "Virginia Cavaliers",
+      "matchup": "Virginia Cavaliers @ Wake Forest Demon Deacons",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G32-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Virginia Cavaliers ML",
+          "price_decimal": 4.9,
+          "price_american": "+390"
+        },
+        {
+          "id": "G32-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Wake Forest Demon Deacons ML",
+          "price_decimal": 1.19,
+          "price_american": "-526"
+        },
+        {
+          "id": "G32-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 12.5,
+          "label": "Virginia Cavaliers +12.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G32-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -12.5,
+          "label": "Wake Forest Demon Deacons -12.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G32-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 47.5,
+          "label": "Over 47.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G32-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 47.5,
+          "label": "Under 47.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G33",
+      "event_id": "1841dedea57dac1d1de462bb44f8a732",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T20:00:00Z",
+      "home": "San Jose State Spartans",
+      "away": "New Mexico Lobos",
+      "matchup": "New Mexico Lobos @ San Jose State Spartans",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G33-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New Mexico Lobos ML",
+          "price_decimal": 1.15,
+          "price_american": "-667"
+        },
+        {
+          "id": "G33-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "San Jose State Spartans ML",
+          "price_decimal": 5.7,
+          "price_american": "+470"
+        },
+        {
+          "id": "G33-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -14.5,
+          "label": "New Mexico Lobos -14.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G33-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 14.5,
+          "label": "San Jose State Spartans +14.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G33-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 42.5,
+          "label": "Over 42.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G33-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 42.5,
+          "label": "Under 42.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G34",
+      "event_id": "630ed6c8993fda8943e528a465e55518",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home": "UCLA Bruins",
+      "away": "Nevada Wolf Pack",
+      "matchup": "Nevada Wolf Pack @ UCLA Bruins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G34-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Nevada Wolf Pack ML",
+          "price_decimal": 11.0,
+          "price_american": "+1000"
+        },
+        {
+          "id": "G34-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "UCLA Bruins ML",
+          "price_decimal": 1.06,
+          "price_american": "-1667"
+        },
+        {
+          "id": "G34-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 22.5,
+          "label": "Nevada Wolf Pack +22.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G34-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -22.5,
+          "label": "UCLA Bruins -22.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G34-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 42.5,
+          "label": "Over 42.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G34-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 42.5,
+          "label": "Under 42.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G35",
+      "event_id": "096584989b4dd0a84650c37eb980a8b3",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home": "Oklahoma Sooners",
+      "away": "South Carolina Gamecocks",
+      "matchup": "South Carolina Gamecocks @ Oklahoma Sooners",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G35-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Oklahoma Sooners ML",
+          "price_decimal": 1.59,
+          "price_american": "-169"
+        },
+        {
+          "id": "G35-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "South Carolina Gamecocks ML",
+          "price_decimal": 2.42,
+          "price_american": "+142"
+        },
+        {
+          "id": "G35-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.5,
+          "label": "Oklahoma Sooners -3.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G35-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.5,
+          "label": "South Carolina Gamecocks +3.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G35-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 44.5,
+          "label": "Over 44.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G35-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 44.5,
+          "label": "Under 44.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G36",
+      "event_id": "7fd2d018fdc5930fd62188de968a901c",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T20:15:00Z",
+      "home": "Penn State Nittany Lions",
+      "away": "Purdue Boilermakers",
+      "matchup": "Purdue Boilermakers @ Penn State Nittany Lions",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G36-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Penn State Nittany Lions ML",
+          "price_decimal": 1.27,
+          "price_american": "-370"
+        },
+        {
+          "id": "G36-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Purdue Boilermakers ML",
+          "price_decimal": 3.95,
+          "price_american": "+295"
+        },
+        {
+          "id": "G36-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -10.0,
+          "label": "Penn State Nittany Lions -10",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G36-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 10.0,
+          "label": "Purdue Boilermakers +10",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G36-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 55.5,
+          "label": "Over 55.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G36-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 55.5,
+          "label": "Under 55.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        }
+      ]
+    },
+    {
+      "game_id": "G37",
+      "event_id": "e7510e4cb4351947263e33b6dc6a0812",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T22:30:00Z",
+      "home": "Georgia Southern Eagles",
+      "away": "Appalachian State Mountaineers",
+      "matchup": "Appalachian State Mountaineers @ Georgia Southern Eagles",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G37-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Appalachian State Mountaineers ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G37-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Georgia Southern Eagles ML",
+          "price_decimal": 1.46,
+          "price_american": "-217"
+        },
+        {
+          "id": "G37-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.0,
+          "label": "Appalachian State Mountaineers +6",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G37-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.0,
+          "label": "Georgia Southern Eagles -6",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G37-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 55.5,
+          "label": "Over 55.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G37-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 55.5,
+          "label": "Under 55.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G38",
+      "event_id": "6519cc9dfbff22ca11d607a9f246da2c",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:00:00Z",
+      "home": "Florida State Seminoles",
+      "away": "Clemson Tigers",
+      "matchup": "Clemson Tigers @ Florida State Seminoles",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G38-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Clemson Tigers ML",
+          "price_decimal": 2.9,
+          "price_american": "+190"
+        },
+        {
+          "id": "G38-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Florida State Seminoles ML",
+          "price_decimal": 1.43,
+          "price_american": "-233"
+        },
+        {
+          "id": "G38-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.0,
+          "label": "Clemson Tigers +6",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G38-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.0,
+          "label": "Florida State Seminoles -6",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G38-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G38-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G39",
+      "event_id": "e4e95ca26b62e1c3ced6261cbb5c5f3a",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:00:00Z",
+      "home": "Iowa State Cyclones",
+      "away": "Oklahoma State Cowboys",
+      "matchup": "Oklahoma State Cowboys @ Iowa State Cyclones",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G39-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Iowa State Cyclones ML",
+          "price_decimal": 3.85,
+          "price_american": "+285"
+        },
+        {
+          "id": "G39-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Oklahoma State Cowboys ML",
+          "price_decimal": 1.28,
+          "price_american": "-357"
+        },
+        {
+          "id": "G39-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 9.5,
+          "label": "Iowa State Cyclones +9.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G39-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -9.5,
+          "label": "Oklahoma State Cowboys -9.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G39-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 58.5,
+          "label": "Over 58.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G39-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 58.5,
+          "label": "Under 58.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        }
+      ]
+    },
+    {
+      "game_id": "G40",
+      "event_id": "c1fd3e172f0617a0d8543b8fd67fc2ce",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:00:00Z",
+      "home": "San Diego State Aztecs",
+      "away": "Washington State Cougars",
+      "matchup": "Washington State Cougars @ San Diego State Aztecs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G40-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "San Diego State Aztecs ML",
+          "price_decimal": 1.7,
+          "price_american": "-143"
+        },
+        {
+          "id": "G40-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Washington State Cougars ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G40-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -2.5,
+          "label": "San Diego State Aztecs -2.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G40-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 2.5,
+          "label": "Washington State Cougars +2.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G40-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 47.5,
+          "label": "Over 47.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G40-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 47.5,
+          "label": "Under 47.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G41",
+      "event_id": "49aa48a7dbcd6563f389ae4232707d64",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home": "Pittsburgh Panthers",
+      "away": "Georgia Tech Yellow Jackets",
+      "matchup": "Georgia Tech Yellow Jackets @ Pittsburgh Panthers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G41-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Georgia Tech Yellow Jackets ML",
+          "price_decimal": 3.45,
+          "price_american": "+245"
+        },
+        {
+          "id": "G41-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Pittsburgh Panthers ML",
+          "price_decimal": 1.33,
+          "price_american": "-303"
+        },
+        {
+          "id": "G41-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.5,
+          "label": "Georgia Tech Yellow Jackets +7.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G41-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.5,
+          "label": "Pittsburgh Panthers -7.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G41-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 54.5,
+          "label": "Over 54.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G41-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 54.5,
+          "label": "Under 54.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G42",
+      "event_id": "85b5947ccfe102a2fa2179d54c83ae31",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home": "North Carolina Tar Heels",
+      "away": "Miami Hurricanes",
+      "matchup": "Miami Hurricanes @ North Carolina Tar Heels",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G42-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Miami Hurricanes ML",
+          "price_decimal": 1.16,
+          "price_american": "-625"
+        },
+        {
+          "id": "G42-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "North Carolina Tar Heels ML",
+          "price_decimal": 5.55,
+          "price_american": "+455"
+        },
+        {
+          "id": "G42-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -14.0,
+          "label": "Miami Hurricanes -14",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G42-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 14.0,
+          "label": "North Carolina Tar Heels +14",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G42-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 53.5,
+          "label": "Over 53.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G42-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 53.5,
+          "label": "Under 53.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G43",
+      "event_id": "e2ffa742b36678caf388ca70fdd4878c",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home": "Texas Longhorns",
+      "away": "Mississippi State Bulldogs",
+      "matchup": "Mississippi State Bulldogs @ Texas Longhorns",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G43-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Mississippi State Bulldogs ML",
+          "price_decimal": 10.0,
+          "price_american": "+900"
+        },
+        {
+          "id": "G43-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Texas Longhorns ML",
+          "price_decimal": 1.06,
+          "price_american": "-1667"
+        },
+        {
+          "id": "G43-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 20.5,
+          "label": "Mississippi State Bulldogs +20.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G43-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -20.5,
+          "label": "Texas Longhorns -20.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G43-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 50.5,
+          "label": "Over 50.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G43-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 50.5,
+          "label": "Under 50.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G44",
+      "event_id": "bd73558e7eb5bee08962bfb1f5ef6c9a",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:30:00Z",
+      "home": "USC Trojans",
+      "away": "Ohio State Buckeyes",
+      "matchup": "Ohio State Buckeyes @ USC Trojans",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G44-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Ohio State Buckeyes ML",
+          "price_decimal": 1.41,
+          "price_american": "-244"
+        },
+        {
+          "id": "G44-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "USC Trojans ML",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G44-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -6.5,
+          "label": "Ohio State Buckeyes -6.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G44-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 6.5,
+          "label": "USC Trojans +6.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G44-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 50.5,
+          "label": "Over 50.5",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G44-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 50.5,
+          "label": "Under 50.5",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        }
+      ]
+    },
+    {
+      "game_id": "G45",
+      "event_id": "c6533cfcdfb0860d723a5fd9b9381098",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-10-31T23:45:00Z",
+      "home": "Arkansas Razorbacks",
+      "away": "Missouri Tigers",
+      "matchup": "Missouri Tigers @ Arkansas Razorbacks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G45-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Arkansas Razorbacks ML",
+          "price_decimal": 4.0,
+          "price_american": "+300"
+        },
+        {
+          "id": "G45-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Missouri Tigers ML",
+          "price_decimal": 1.26,
+          "price_american": "-385"
+        },
+        {
+          "id": "G45-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 10.0,
+          "label": "Arkansas Razorbacks +10",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G45-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -10.0,
+          "label": "Missouri Tigers -10",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G45-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 48.5,
+          "label": "Over 48.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G45-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 48.5,
+          "label": "Under 48.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G46",
+      "event_id": "c2a32bff5ed94bef9a6a5847ff544783",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-01T00:00:00Z",
+      "home": "Memphis Tigers",
+      "away": "Army Black Knights",
+      "matchup": "Army Black Knights @ Memphis Tigers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G46-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Army Black Knights ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G46-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Memphis Tigers ML",
+          "price_decimal": 1.46,
+          "price_american": "-217"
+        },
+        {
+          "id": "G46-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.0,
+          "label": "Army Black Knights +6",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G46-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.0,
+          "label": "Memphis Tigers -6",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G46-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 60.5,
+          "label": "Over 60.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G46-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 60.5,
+          "label": "Under 60.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G47",
+      "event_id": "877d5834acad37b6142a835438c23001",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-01T00:00:00Z",
+      "home": "Nebraska Cornhuskers",
+      "away": "Washington Huskies",
+      "matchup": "Washington Huskies @ Nebraska Cornhuskers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G47-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Nebraska Cornhuskers ML",
+          "price_decimal": 1.34,
+          "price_american": "-294"
+        },
+        {
+          "id": "G47-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Washington Huskies ML",
+          "price_decimal": 3.4,
+          "price_american": "+240"
+        },
+        {
+          "id": "G47-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.5,
+          "label": "Nebraska Cornhuskers -7.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G47-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.5,
+          "label": "Washington Huskies +7.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G47-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G47-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G48",
+      "event_id": "f912d0a74ab85bac2021199aa03abb3f",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T17:10:00Z",
+      "home": "Boston Bruins",
+      "away": "Chicago Blackhawks",
+      "matchup": "Chicago Blackhawks @ Boston Bruins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G48-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Boston Bruins ML",
+          "price_decimal": 1.42,
+          "price_american": "-238"
+        },
+        {
+          "id": "G48-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Chicago Blackhawks ML",
+          "price_decimal": 2.95,
+          "price_american": "+195"
+        },
+        {
+          "id": "G48-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Boston Bruins -1.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G48-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Chicago Blackhawks +1.5",
+          "price_decimal": 1.77,
+          "price_american": "-130"
+        },
+        {
+          "id": "G48-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G48-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        }
+      ]
+    },
+    {
+      "game_id": "G49",
+      "event_id": "f0eeae1be040fca9b93b46bc8c55068d",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T17:10:00Z",
+      "home": "Detroit Red Wings",
+      "away": "St Louis Blues",
+      "matchup": "St Louis Blues @ Detroit Red Wings",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G49-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Detroit Red Wings ML",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G49-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "St Louis Blues ML",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G49-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Detroit Red Wings +1.5",
+          "price_decimal": 1.37,
+          "price_american": "-270"
+        },
+        {
+          "id": "G49-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "St Louis Blues -1.5",
+          "price_decimal": 3.2,
+          "price_american": "+220"
+        },
+        {
+          "id": "G49-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G49-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        }
+      ]
+    },
+    {
+      "game_id": "G50",
+      "event_id": "7da8a99a4ae4ef2ec08b3e4fa37c2485",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T18:10:00Z",
+      "home": "New York Islanders",
+      "away": "Edmonton Oilers",
+      "matchup": "Edmonton Oilers @ New York Islanders",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G50-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Edmonton Oilers ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G50-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "New York Islanders ML",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G50-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Edmonton Oilers -1.5",
+          "price_decimal": 2.85,
+          "price_american": "+185"
+        },
+        {
+          "id": "G50-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "New York Islanders +1.5",
+          "price_decimal": 1.44,
+          "price_american": "-227"
+        },
+        {
+          "id": "G50-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G50-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        }
+      ]
+    },
+    {
+      "game_id": "G51",
+      "event_id": "5914f2527dc280fc35af01099f445bb9",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T18:10:00Z",
+      "home": "Nashville Predators",
+      "away": "Tampa Bay Lightning",
+      "matchup": "Tampa Bay Lightning @ Nashville Predators",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G51-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Nashville Predators ML",
+          "price_decimal": 2.42,
+          "price_american": "+142"
+        },
+        {
+          "id": "G51-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Tampa Bay Lightning ML",
+          "price_decimal": 1.59,
+          "price_american": "-169"
+        },
+        {
+          "id": "G51-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Nashville Predators +1.5",
+          "price_decimal": 1.54,
+          "price_american": "-185"
+        },
+        {
+          "id": "G51-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Tampa Bay Lightning -1.5",
+          "price_decimal": 2.54,
+          "price_american": "+154"
+        },
+        {
+          "id": "G51-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G51-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        }
+      ]
+    },
+    {
+      "game_id": "G52",
+      "event_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home": "Los Angeles Kings",
+      "away": "Buffalo Sabres",
+      "matchup": "Buffalo Sabres @ Los Angeles Kings",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G52-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Buffalo Sabres ML",
+          "price_decimal": 1.82,
+          "price_american": "-122"
+        },
+        {
+          "id": "G52-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Los Angeles Kings ML",
+          "price_decimal": 2.02,
+          "price_american": "+102"
+        },
+        {
+          "id": "G52-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Buffalo Sabres -1.5",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G52-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Los Angeles Kings +1.5",
+          "price_decimal": 1.41,
+          "price_american": "-244"
+        },
+        {
+          "id": "G52-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G52-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    },
+    {
+      "game_id": "G53",
+      "event_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T20:10:00Z",
+      "home": "San Jose Sharks",
+      "away": "Ottawa Senators",
+      "matchup": "Ottawa Senators @ San Jose Sharks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G53-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Ottawa Senators ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G53-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "San Jose Sharks ML",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G53-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Ottawa Senators -1.5",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G53-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "San Jose Sharks +1.5",
+          "price_decimal": 1.46,
+          "price_american": "-217"
+        },
+        {
+          "id": "G53-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G53-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G54",
+      "event_id": "fa8413d05f6c8b2d8f68cc0d17551fa9",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T23:10:00Z",
+      "home": "Montr\u00e9al Canadiens",
+      "away": "Pittsburgh Penguins",
+      "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G54-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Montr\u00e9al Canadiens ML",
+          "price_decimal": 1.68,
+          "price_american": "-147"
+        },
+        {
+          "id": "G54-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Pittsburgh Penguins ML",
+          "price_decimal": 2.24,
+          "price_american": "+124"
+        },
+        {
+          "id": "G54-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Montr\u00e9al Canadiens -1.5",
+          "price_decimal": 2.7,
+          "price_american": "+170"
+        },
+        {
+          "id": "G54-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Pittsburgh Penguins +1.5",
+          "price_decimal": 1.49,
+          "price_american": "-204"
+        },
+        {
+          "id": "G54-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G54-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        }
+      ]
+    },
+    {
+      "game_id": "G55",
+      "event_id": "a9b3c158b86d367eaa9dd342fbb440b3",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-10-31T23:10:00Z",
+      "home": "Vancouver Canucks",
+      "away": "Toronto Maple Leafs",
+      "matchup": "Toronto Maple Leafs @ Vancouver Canucks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G55-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Toronto Maple Leafs ML",
+          "price_decimal": 1.56,
+          "price_american": "-179"
+        },
+        {
+          "id": "G55-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Vancouver Canucks ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G55-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Toronto Maple Leafs -1.5",
+          "price_decimal": 2.42,
+          "price_american": "+142"
+        },
+        {
+          "id": "G55-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Vancouver Canucks +1.5",
+          "price_decimal": 1.59,
+          "price_american": "-169"
+        },
+        {
+          "id": "G55-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G55-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        }
+      ]
+    },
+    {
+      "game_id": "G56",
+      "event_id": "a6c06eabdf4e6710354b6098d39449e7",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "home": "Bournemouth",
+      "away": "Leeds United",
+      "matchup": "Leeds United @ Bournemouth",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G56-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Bournemouth ML",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G56-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Leeds United ML",
+          "price_decimal": 3.7,
+          "price_american": "+270"
+        },
+        {
+          "id": "G56-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.35,
+          "price_american": "+235"
+        }
+      ]
+    },
+    {
+      "game_id": "G57",
+      "event_id": "b9254b648ca25ce7831988b53ed17c3c",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "home": "Brentford",
+      "away": "Nottingham Forest",
+      "matchup": "Nottingham Forest @ Brentford",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G57-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Brentford ML",
+          "price_decimal": 2.15,
+          "price_american": "+115"
+        },
+        {
+          "id": "G57-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Nottingham Forest ML",
+          "price_decimal": 3.35,
+          "price_american": "+235"
+        },
+        {
+          "id": "G57-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.6,
+          "price_american": "+260"
+        }
+      ]
+    },
+    {
+      "game_id": "G58",
+      "event_id": "7df53f9af95d5a4e13b504882078dab8",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "home": "Manchester City",
+      "away": "Brighton and Hove Albion",
+      "matchup": "Brighton and Hove Albion @ Manchester City",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G58-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Brighton and Hove Albion ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        },
+        {
+          "id": "G58-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Manchester City ML",
+          "price_decimal": 1.74,
+          "price_american": "-135"
+        },
+        {
+          "id": "G58-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.2,
+          "price_american": "+320"
+        }
+      ]
+    },
+    {
+      "game_id": "G59",
+      "event_id": "d20fbb0cd5ad9369b8ed6f2c4a198619",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "home": "Coventry City",
+      "away": "Sunderland",
+      "matchup": "Sunderland @ Coventry City",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G59-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Coventry City ML",
+          "price_decimal": 3.1,
+          "price_american": "+210"
+        },
+        {
+          "id": "G59-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Sunderland ML",
+          "price_decimal": 2.4,
+          "price_american": "+140"
+        },
+        {
+          "id": "G59-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.3,
+          "price_american": "+230"
+        }
+      ]
+    },
+    {
+      "game_id": "G60",
+      "event_id": "1ec76c009147b63859f68c6b5a1dd77b",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "home": "Hull City",
+      "away": "Ipswich Town",
+      "matchup": "Ipswich Town @ Hull City",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G60-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Hull City ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G60-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Ipswich Town ML",
+          "price_decimal": 2.55,
+          "price_american": "+155"
+        },
+        {
+          "id": "G60-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.35,
+          "price_american": "+235"
+        }
+      ]
+    },
+    {
+      "game_id": "G61",
+      "event_id": "01b17432a283eb27af86ae45602eb6dd",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T17:30:00Z",
+      "home": "Tottenham Hotspur",
+      "away": "Crystal Palace",
+      "matchup": "Crystal Palace @ Tottenham Hotspur",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G61-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Crystal Palace ML",
+          "price_decimal": 4.9,
+          "price_american": "+390"
+        },
+        {
+          "id": "G61-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Tottenham Hotspur ML",
+          "price_decimal": 1.67,
+          "price_american": "-149"
+        },
+        {
+          "id": "G61-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.1,
+          "price_american": "+310"
+        }
+      ]
+    },
+    {
+      "game_id": "G62",
+      "event_id": "640c52a86289f35698261b41987dd71e",
+      "sport": "soccer_epl",
+      "commence_time": "2026-10-31T20:00:00Z",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "matchup": "Fulham @ Aston Villa",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G62-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Aston Villa ML",
+          "price_decimal": 2.15,
+          "price_american": "+115"
+        },
+        {
+          "id": "G62-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Fulham ML",
+          "price_decimal": 3.35,
+          "price_american": "+235"
+        },
+        {
+          "id": "G62-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.5,
+          "price_american": "+250"
+        }
+      ]
+    }
+  ]
+}

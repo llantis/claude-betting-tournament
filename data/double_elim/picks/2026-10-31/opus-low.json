@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "UConn Huskies @ Air Force Falcons",
+      "game_id": "573eed720cdbfb7644835b8beb1bc89a",
+      "commence_time": "2026-10-31T19:00:00Z",
+      "option_id": "G18-ML-AWAY",
+      "pick": "UConn Huskies ML",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.43,
+      "confidence": 0.54,
+      "reason": "Near pick'em priced at 1.89 (52.9% break-even); UConn's stronger roster under Mora should edge a declining Air Force triple-option team, and the line gives too much weight to home field.",
+      "placed_at": "2026-10-31T13:52:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G02-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

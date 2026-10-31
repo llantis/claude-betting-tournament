@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Notre Dame Fighting Irish @ Navy Midshipmen",
+      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "option_id": "G10-SPREAD-HOME",
+      "pick": "Navy Midshipmen +30.5",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 3.15,
+      "confidence": 0.53,
+      "reason": "Navy's triple-option offense burns clock and shortens the game, and 30-plus point spreads tend to be inflated. Break-even at 1.98 is about 50.5%, and I estimate slightly above that.",
+      "placed_at": "2026-10-31T13:52:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G10-TOTAL-UNDER",
+      "second pick on same game"
+    ],
+    [
+      "G26-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

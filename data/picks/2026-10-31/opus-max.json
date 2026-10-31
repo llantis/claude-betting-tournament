@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens",
+      "game_id": "fa8413d05f6c8b2d8f68cc0d17551fa9",
+      "commence_time": "2026-10-31T23:10:00Z",
+      "option_id": "G54-ML-AWAY",
+      "pick": "Pittsburgh Penguins ML",
+      "price_decimal": 2.24,
+      "price_american": "+124",
+      "stake": 1.0,
+      "confidence": 0.46,
+      "reason": "Stale price: since the snapshot DraftKings moved to PIT +105/MTL -125, and FanDuel, BetMGM and Bet365 are at +104 to +107 (fair about 46.5-47% with the margin removed; Kalshi about 46%). +124 needs only 44.6%.",
+      "placed_at": "2026-10-31T14:27:18Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-10-31",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "soccer_epl",
+      "matchup": "Ipswich Town @ Hull City",
+      "game_id": "1ec76c009147b63859f68c6b5a1dd77b",
+      "commence_time": "2026-10-31T15:00:00Z",
+      "option_id": "G60-ML-AWAY",
+      "pick": "Ipswich Town ML",
+      "price_decimal": 2.55,
+      "price_american": "+155",
+      "stake": 1.0,
+      "confidence": 0.4,
+      "reason": "Kalshi's three-way market (403k volume) moved to Ipswich at 0.40/0.41 after team news, with Hull down to 0.31/0.32, about 40% normalised, while +155 needs 39.2%. A small edge from the snapshot price being stale.",
+      "placed_at": "2026-10-31T14:27:18Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

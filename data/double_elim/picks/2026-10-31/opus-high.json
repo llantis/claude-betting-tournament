@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Philadelphia 76ers @ Charlotte Hornets",
+      "game_id": "067d97a124c10ea2d206546384500c5e",
+      "commence_time": "2026-10-31T22:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "Charlotte Hornets ML",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.41,
+      "confidence": 0.51,
+      "reason": "Charlotte at home at even money against a 76ers side favored by only about 1.5 points; the Hornets' young core finished last season strong and Philadelphia depends on Embiid playing. A thin edge over the 50% break-even.",
+      "placed_at": "2026-10-31T13:52:18Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G49-ML-HOME",
+      "one bet per day"
+    ],
+    [
+      "G52-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

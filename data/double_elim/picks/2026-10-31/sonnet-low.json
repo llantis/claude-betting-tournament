@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-10-31",
+      "player": "sonnet-low",
+      "model": "sonnet",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Notre Dame Fighting Irish @ Navy Midshipmen",
+      "game_id": "e916f49c82de2ce0b1844ee9f6deccfa",
+      "commence_time": "2026-10-31T16:00:00Z",
+      "option_id": "G10-SPREAD-HOME",
+      "pick": "Navy Midshipmen +30.5",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 2.13,
+      "confidence": 0.54,
+      "reason": "Navy's ball-control option offense shortens the game, so a margin of 31 or more is hard to reach. Navy +30.5 at 1.98 should be slightly better than a coin flip.",
+      "placed_at": "2026-10-31T13:52:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G10-TOTAL-UNDER",
+      "second pick on same game"
+    ],
+    [
+      "G26-TOTAL-UNDER",
+      "one bet per day"
+    ]
+  ]
+}
