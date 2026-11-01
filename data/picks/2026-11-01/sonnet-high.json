@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-01",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Cleveland Browns @ Pittsburgh Steelers",
+      "game_id": "ab5ab731ab655bd6308bc7a922275518",
+      "commence_time": "2026-11-01T18:00:00Z",
+      "option_id": "G07-SPREAD-AWAY",
+      "pick": "Cleveland Browns +3.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Browns +3.5 in a 38.5-total game; the hook matters in a low-scoring divisional game and the line looks slightly short.",
+      "placed_at": "2026-11-01T15:18:01Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-01",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Baltimore Ravens @ Buffalo Bills",
+      "game_id": "c93c421e5fa46031a43162d111d981d0",
+      "commence_time": "2026-11-01T18:00:00Z",
+      "option_id": "G05-SPREAD-AWAY",
+      "pick": "Baltimore Ravens +3",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Ravens +3 at -108 is a small edge on a key number against a market-efficient Bills line; Baltimore is a strong road dog.",
+      "placed_at": "2026-11-01T15:18:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

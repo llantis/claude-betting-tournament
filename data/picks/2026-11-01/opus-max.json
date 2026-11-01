@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-01",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_nfl",
+      "matchup": "Indianapolis Colts @ Jacksonville Jaguars",
+      "game_id": "159dbf0253dd2038eda2212f84387f0c",
+      "commence_time": "2026-11-01T18:00:00Z",
+      "option_id": "G09-TOTAL-UNDER",
+      "pick": "Under 46.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "The NWS forecast has a sustained 15-16 mph east wind in Jacksonville through the whole game with some storm risk, yet the total hasn't moved off 46.5 and prediction markets have the under at only ~51%; 15+ mph wind games historically go under ~55%. The Colts' offense is weak and lost its All-Pro gua",
+      "placed_at": "2026-11-01T15:18:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

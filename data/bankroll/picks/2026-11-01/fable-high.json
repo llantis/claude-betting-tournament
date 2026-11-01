@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-01",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Kansas City Chiefs @ Denver Broncos",
+      "game_id": "f2a036d5edf483a277880014861e78ad",
+      "commence_time": "2026-11-01T21:25:00Z",
+      "option_id": "G12-TOTAL-UNDER",
+      "pick": "Under 41.5",
+      "price_decimal": 1.85,
+      "price_american": "-118",
+      "stake": 1.4,
+      "confidence": 0.57,
+      "reason": "Market total has already dropped to 40.5, so 41.5 is a stale point of value; two top-5 defenses, both offenses among the slowest paces in the NFL, and the under has hit in seven straight Chiefs-Broncos meetings.",
+      "placed_at": "2026-11-01T15:18:02Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-01",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Cleveland Browns @ Pittsburgh Steelers",
+      "game_id": "ab5ab731ab655bd6308bc7a922275518",
+      "commence_time": "2026-11-01T18:00:00Z",
+      "option_id": "G07-SPREAD-AWAY",
+      "pick": "Cleveland Browns +3.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.15,
+      "confidence": 0.54,
+      "reason": "Line has been bet toward +2.5/+3 so +3.5 is on the key number in a 38.5-total game; Steelers are in a post-Paris travel spot (0-5 ATS league-wide this year) and missing WRs Pittman and Wilson with Metcalf questionable, while Cleveland already beat them 27-24 this season.",
+      "placed_at": "2026-11-01T15:18:02Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

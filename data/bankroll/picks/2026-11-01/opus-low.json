@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-01",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "soccer_epl",
+      "matchup": "Arsenal @ Liverpool",
+      "game_id": "6a3819cdbe2ba2fe5a3d8f9b4b459965",
+      "commence_time": "2026-11-01T16:30:00Z",
+      "option_id": "G18-ML-DRAW",
+      "pick": "Draw ML",
+      "price_decimal": 3.4,
+      "price_american": "+240",
+      "stake": 1.5,
+      "confidence": 0.31,
+      "reason": "Tight matchup between two elite sides; draw priced at 29.4% implied, slight edge for a cagey big match.",
+      "placed_at": "2026-11-01T15:18:02Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-01",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Boston Celtics @ Orlando Magic",
+      "game_id": "e8559eaac12af915cfe6597644620c13",
+      "commence_time": "2026-11-01T20:40:00Z",
+      "option_id": "G01-TOTAL-UNDER",
+      "pick": "Under 220.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.5,
+      "confidence": 0.53,
+      "reason": "Orlando's elite defense tends to slow games; under at 1.93 is slightly better than fair.",
+      "placed_at": "2026-11-01T15:18:02Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

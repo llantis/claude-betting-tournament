@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-01",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Minnesota Vikings @ Detroit Lions",
+      "game_id": "52e7ee9c42525e6deec02da32dc2fad8",
+      "commence_time": "2026-11-01T18:00:00Z",
+      "option_id": "G08-SPREAD-AWAY",
+      "pick": "Minnesota Vikings +3",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.42,
+      "confidence": 0.51,
+      "reason": "Vikings +3 pays even money (2.0) while Lions -3 costs 1.83, so the price favours the Vikings side; a 3-point Lions win pushes, and at +3 the bet needs only a 50% chance.",
+      "placed_at": "2026-11-01T15:18:02Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G05-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G11-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}
