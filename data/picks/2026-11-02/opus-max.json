@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-02",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "soccer_epl",
+      "matchup": "Everton @ Newcastle United",
+      "game_id": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "commence_time": "2026-11-02T20:00:00Z",
+      "option_id": "G01-ML-AWAY",
+      "pick": "Everton ML",
+      "price_decimal": 3.25,
+      "price_american": "+225",
+      "stake": 1.0,
+      "confidence": 0.315,
+      "reason": "Newcastle's rebuilt side under Jaissle has some of the league's worst underlying numbers (17th in xG difference, joint-worst expected points, most shots faced), while Everton's are clearly better against a tougher schedule. The market still prices Newcastle as Everton's equal plus home advantage. Af",
+      "placed_at": "2026-11-02T15:09:05Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1615,8 +1615,8 @@
   "price_decimal": 1.91,
   "stake": 1.0,
   "confidence": 0.53,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.0,
   "reason": "The NWS forecast has a sustained 15-16 mph east wind in Jacksonville through the whole game with some storm risk, yet the total hasn't moved off 46.5 and prediction markets have the under at only ~51%; 15+ mph wind games historically go under ~55%. The Colts' offense is weak and lost its All-Pro gua"
  },
  {
@@ -1635,8 +1635,8 @@
   "price_decimal": 2.0,
   "stake": 1.0,
   "confidence": 0.52,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.0,
   "reason": "Getting the key number +3 at plus-money (2.00) in a divisional game; break-even is 50% and a push refunds the stake."
  },
  {
@@ -1655,8 +1655,8 @@
   "price_decimal": 1.95,
   "stake": 1.0,
   "confidence": 0.53,
-  "result": "open",
-  "pnl": null,
+  "result": "win",
+  "pnl": 0.95,
   "reason": "Double-digit NFL favorites (12.5) have historically covered below 50%; +12.5 at 1.95 needs only 51.3%."
  },
  {
@@ -1675,8 +1675,8 @@
   "price_decimal": 1.91,
   "stake": 1.0,
   "confidence": 0.535,
-  "result": "open",
-  "pnl": null,
+  "result": "win",
+  "pnl": 0.91,
   "reason": "Full touchdown on a key number with a high total adds variance that favors the underdog; break-even 52.4%."
  },
  {
@@ -1695,8 +1695,8 @@
   "price_decimal": 1.91,
   "stake": 1.0,
   "confidence": 0.53,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.0,
   "reason": "Browns +3.5 in a 38.5-total game; the hook matters in a low-scoring divisional game and the line looks slightly short."
  },
  {
@@ -1715,9 +1715,29 @@
   "price_decimal": 1.93,
   "stake": 1.0,
   "confidence": 0.53,
+  "result": "loss",
+  "pnl": -1.0,
+  "reason": "Ravens +3 at -108 is a small edge on a key number against a market-efficient Bills line; Baltimore is a strong road dog."
+ },
+ {
+  "bet_id": "flat:2026-11-02:opus-max:G01-ML-AWAY",
+  "competition": "flat",
+  "date": "2026-11-02",
+  "player": "opus-max",
+  "model": "opus",
+  "effort": "max",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Everton ML",
+  "price_american": "+225",
+  "price_decimal": 3.25,
+  "stake": 1.0,
+  "confidence": 0.315,
   "result": "open",
   "pnl": null,
-  "reason": "Ravens +3 at -108 is a small edge on a key number against a market-efficient Bills line; Baltimore is a strong road dog."
+  "reason": "Newcastle's rebuilt side under Jaissle has some of the league's worst underlying numbers (17th in xG difference, joint-worst expected points, most shots faced), while Everton's are clearly better against a tougher schedule. The market still prices Newcastle as Everton's equal plus home advantage. Af"
  },
  {
   "bet_id": "bankroll:2026-10-22:opus-low:G01-SPREAD-HOME",
@@ -3695,8 +3715,8 @@
   "price_decimal": 2.0,
   "stake": 2.0,
   "confidence": 0.47,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -2.0,
   "reason": "Full +3 on the key number at even money; the moneylines imply about 60% Detroit, so Minnesota covers about 46% and pushes about 9%, a slightly positive bet at 2.00."
  },
  {
@@ -3715,8 +3735,8 @@
   "price_decimal": 1.98,
   "stake": 1.75,
   "confidence": 0.52,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.75,
   "reason": "The line moved from 7.5 to 6.5 toward the Chargers, and the Rams are missing Garrett, Turner, Ford and Adams; the 70% Rams moneyline implies a cover rate just over the 50.5% break-even at -102."
  },
  {
@@ -3735,8 +3755,8 @@
   "price_decimal": 1.91,
   "stake": 1.25,
   "confidence": 0.52,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.25,
   "reason": "The Colts traded Nelson and Buckner and Jones is struggling, while Jacksonville games have gone under 4 of 6; the spread grew 2.5 points but the total stayed at 46.5."
  },
  {
@@ -3755,8 +3775,8 @@
   "price_decimal": 3.4,
   "stake": 1.5,
   "confidence": 0.31,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.5,
   "reason": "Tight matchup between two elite sides; draw priced at 29.4% implied, slight edge for a cagey big match."
  },
  {
@@ -3775,8 +3795,8 @@
   "price_decimal": 1.93,
   "stake": 1.5,
   "confidence": 0.53,
-  "result": "open",
-  "pnl": null,
+  "result": "win",
+  "pnl": 1.4,
   "reason": "Orlando's elite defense tends to slow games; under at 1.93 is slightly better than fair."
  },
  {
@@ -3795,8 +3815,8 @@
   "price_decimal": 1.85,
   "stake": 1.4,
   "confidence": 0.57,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.4,
   "reason": "Market total has already dropped to 40.5, so 41.5 is a stale point of value; two top-5 defenses, both offenses among the slowest paces in the NFL, and the under has hit in seven straight Chiefs-Broncos meetings."
  },
  {
@@ -3815,9 +3835,69 @@
   "price_decimal": 1.91,
   "stake": 1.15,
   "confidence": 0.54,
+  "result": "loss",
+  "pnl": -1.15,
+  "reason": "Line has been bet toward +2.5/+3 so +3.5 is on the key number in a 38.5-total game; Steelers are in a post-Paris travel spot (0-5 ATS league-wide this year) and missing WRs Pittman and Wilson with Metcalf questionable, while Cleveland already beat them 27-24 this season."
+ },
+ {
+  "bet_id": "bankroll:2026-11-02:opus-high:G01-ML-DRAW",
+  "competition": "bankroll",
+  "date": "2026-11-02",
+  "player": "opus-high",
+  "model": "opus",
+  "effort": "high",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Draw ML",
+  "price_american": "+260",
+  "price_decimal": 3.6,
+  "stake": 1.0,
+  "confidence": 0.27,
   "result": "open",
   "pnl": null,
-  "reason": "Line has been bet toward +2.5/+3 so +3.5 is on the key number in a 38.5-total game; Steelers are in a post-Paris travel spot (0-5 ATS league-wide this year) and missing WRs Pittman and Wilson with Metcalf questionable, while Cleveland already beat them 27-24 this season."
+  "reason": "Single-game slate with no clear edge; the market already prices Newcastle's injury problems. I'm placing the required $1 minimum on the draw, which is close to fair value (27% vs 27.8% break-even) and the smallest loss in value of the three outcomes."
+ },
+ {
+  "bet_id": "bankroll:2026-11-02:opus-low:G01-ML-HOME",
+  "competition": "bankroll",
+  "date": "2026-11-02",
+  "player": "opus-low",
+  "model": "opus",
+  "effort": "low",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Newcastle United ML",
+  "price_american": "+115",
+  "price_decimal": 2.15,
+  "stake": 1.0,
+  "confidence": 0.48,
+  "result": "open",
+  "pnl": null,
+  "reason": "Newcastle at home are usually somewhat stronger than Everton; 2.15 (46.5% break-even) looks fair to slightly generous, so this is a minimum stake on a thin edge."
+ },
+ {
+  "bet_id": "bankroll:2026-11-02:fable-high:G01-ML-HOME",
+  "competition": "bankroll",
+  "date": "2026-11-02",
+  "player": "fable-high",
+  "model": "fable",
+  "effort": "high",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Newcastle United ML",
+  "price_american": "+115",
+  "price_decimal": 2.15,
+  "stake": 1.15,
+  "confidence": 0.47,
+  "result": "open",
+  "pnl": null,
+  "reason": "Newcastle generated 28 shots and 2.09 xG at Everton on Thursday and beat Palace 2-0 in their last league game, while Everton have no away win, only 8 league goals all season and are likely without Grealish; 2.15 is roughly fair but the home side is the best of three near-fair options, and with a $1."
  },
  {
   "bet_id": "double_elim:2026-10-28:opus-high:G09-TOTAL-OVER",
@@ -4355,8 +4435,8 @@
   "price_decimal": 1.85,
   "stake": 1.4,
   "confidence": 0.55,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.4,
   "reason": "The total reportedly fell from 43.5 to 40.5, so 41.5 gives an extra point. The under is 4-2 for the Chiefs, 5-2 for the Broncos and 7-3 in their last 10 meetings, and Denver's 23rd-ranked offense is missing running backs and faces a top-5 Kansas City defense."
  },
  {
@@ -4375,8 +4455,8 @@
   "price_decimal": 2.0,
   "stake": 1.42,
   "confidence": 0.51,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -1.42,
   "reason": "Vikings +3 pays even money (2.0) while Lions -3 costs 1.83, so the price favours the Vikings side; a 3-point Lions win pushes, and at +3 the bet needs only a 50% chance."
  },
  {
@@ -4395,8 +4475,8 @@
   "price_decimal": 2.0,
   "stake": 4.7,
   "confidence": 0.46,
-  "result": "open",
-  "pnl": null,
+  "result": "loss",
+  "pnl": -4.7,
   "reason": "Vikings +3 pays even money (+100) while the Lions side costs -120, so the 3 points come at a better price than normal. A push on the key number of 3 (about 8%) returns the stake."
  },
  {
@@ -4415,8 +4495,48 @@
   "price_decimal": 1.95,
   "stake": 2.11,
   "confidence": 0.53,
+  "result": "win",
+  "pnl": 2.0,
+  "reason": "Large NFL road underdog +12.5 at 1.95; big spreads tend to be slightly overpriced against the dog and the half-point hook adds value, so the cover chance is a bit above the 51.3% break-even."
+ },
+ {
+  "bet_id": "double_elim:2026-11-02:sonnet-high:G01-ML-HOME",
+  "competition": "double_elim",
+  "date": "2026-11-02",
+  "player": "sonnet-high",
+  "model": "sonnet",
+  "effort": "high",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Newcastle United ML",
+  "price_american": "+115",
+  "price_decimal": 2.15,
+  "stake": 4.69,
+  "confidence": 0.48,
   "result": "open",
   "pnl": null,
-  "reason": "Large NFL road underdog +12.5 at 1.95; big spreads tend to be slightly overpriced against the dog and the half-point hook adds value, so the cover chance is a bit above the 51.3% break-even."
+  "reason": "Newcastle at home is the most likely single outcome in a three-way market (implied ~46.5% at 2.15); I give it a slight home-side edge, but I found no confirmed team news that moves the line."
+ },
+ {
+  "bet_id": "double_elim:2026-11-02:sonnet-low:G01-ML-HOME",
+  "competition": "double_elim",
+  "date": "2026-11-02",
+  "player": "sonnet-low",
+  "model": "sonnet",
+  "effort": "low",
+  "sport": "soccer_epl",
+  "league": "EPL",
+  "matchup": "Everton @ Newcastle United",
+  "commence_time": "2026-11-02T20:00:00Z",
+  "pick": "Newcastle United ML",
+  "price_american": "+115",
+  "price_decimal": 2.15,
+  "stake": 3.11,
+  "confidence": 0.47,
+  "result": "open",
+  "pnl": null,
+  "reason": "Newcastle is the clear favourite at home; I estimate their win probability slightly above the 46.5% the 2.15 price implies. I did not research injuries or form."
  }
 ]

@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-02",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "soccer_epl",
+      "matchup": "Everton @ Newcastle United",
+      "game_id": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "commence_time": "2026-11-02T20:00:00Z",
+      "option_id": "G01-ML-DRAW",
+      "pick": "Draw ML",
+      "price_decimal": 3.6,
+      "price_american": "+260",
+      "stake": 1.0,
+      "confidence": 0.27,
+      "reason": "Single-game slate with no clear edge; the market already prices Newcastle's injury problems. I'm placing the required $1 minimum on the draw, which is close to fair value (27% vs 27.8% break-even) and the smallest loss in value of the three outcomes.",
+      "placed_at": "2026-11-02T15:09:06Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

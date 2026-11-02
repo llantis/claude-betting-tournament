@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-02",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "soccer_epl",
+      "matchup": "Everton @ Newcastle United",
+      "game_id": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "commence_time": "2026-11-02T20:00:00Z",
+      "option_id": "G01-ML-HOME",
+      "pick": "Newcastle United ML",
+      "price_decimal": 2.15,
+      "price_american": "+115",
+      "stake": 1.15,
+      "confidence": 0.47,
+      "reason": "Newcastle generated 28 shots and 2.09 xG at Everton on Thursday and beat Palace 2-0 in their last league game, while Everton have no away win, only 8 league goals all season and are likely without Grealish; 2.15 is roughly fair but the home side is the best of three near-fair options, and with a $1.",
+      "placed_at": "2026-11-02T15:09:06Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

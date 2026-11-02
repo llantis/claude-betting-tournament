@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "snapshot_at": "2026-11-02T14:51:11Z",
+  "min_price_decimal": 1.8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "0f552d9c6990c69474f50ff2fb54e9a3",
+      "sport": "soccer_epl",
+      "commence_time": "2026-11-02T20:00:00Z",
+      "home": "Newcastle United",
+      "away": "Everton",
+      "matchup": "Everton @ Newcastle United",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Everton ML",
+          "price_decimal": 3.25,
+          "price_american": "+225"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Newcastle United ML",
+          "price_decimal": 2.15,
+          "price_american": "+115"
+        },
+        {
+          "id": "G01-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.6,
+          "price_american": "+260"
+        }
+      ]
+    }
+  ]
+}
