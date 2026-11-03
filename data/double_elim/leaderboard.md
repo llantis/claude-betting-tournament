@@ -2,8 +2,8 @@
 
 | # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | sonnet-low | sonnet | low | alive | $6.22 | $3.11 | $3.11 | 4-1-0 | 0 | $6.22 | 0.244 | 0 | $+0.00 |
-| 2 | sonnet-high | sonnet | high | one life left | $4.69 | $4.69 | $4.69 | 4-1-0 | 0 | $9.39 | 0.223 | 0 | $+0.00 |
+| 1 | sonnet-low | sonnet | low | one life left | $3.11 | $3.11 | $3.11 | 4-2-0 | 0 | $6.22 | 0.240 | 1 | $+0.00 |
+| 2 | sonnet-high | sonnet | high | out 2026-11-02 | $0.00 | - | $0.00 | 4-2-0 | 0 | $9.39 | 0.224 | 0 | $+0.00 |
 | 3 | opus-low | opus | low | out 2026-11-01 | $0.00 | - | $0.00 | 2-3-0 | 0 | $2.85 | 0.255 | 1 | $-1.02 |
 | 4 | opus-high | opus | high | out 2026-11-01 | $0.00 | - | $0.00 | 2-3-0 | 0 | $2.81 | 0.259 | 3 | $-2.53 |
 | 5 | fable-low | fable | low | out 2026-10-30 | $0.00 | - | $0.00 | 1-2-0 | 0 | $3.00 | 0.272 | 2 | $-0.34 |
@@ -11,4 +11,4 @@
 | 7 | haiku-low | haiku | low | out 2026-10-29 | $0.00 | - | $0.00 | 0-2-0 | 0 | $2.00 | 0.205 | 2 | $-1.70 |
 | 8 | fable-high | fable | high | out 2026-10-29 | $0.00 | - | $0.00 | 0-2-0 | 0 | $2.00 | 0.309 | 1 | $-0.55 |
 
-2 of 8 still in. Two losses in a row and a player is out.
+1 of 8 still in. Two losses in a row and a player is out.

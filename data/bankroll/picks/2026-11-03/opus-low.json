@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-03",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Lille @ Bod\u00f8/Glimt",
+      "game_id": "1a5a84045050d0d7baf1301909d3b465",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "option_id": "G07-ML-HOME",
+      "pick": "Bod\u00f8/Glimt ML",
+      "price_decimal": 1.67,
+      "price_american": "-149",
+      "stake": 2.0,
+      "confidence": 0.62,
+      "reason": "Bod\u00f8/Glimt's artificial pitch and Arctic conditions in November give them a strong home edge; 1.67 implies only about 60%.",
+      "placed_at": "2026-11-03T15:07:30Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-03",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Ohio Bobcats @ Akron Zips",
+      "game_id": "c0ddb68355a79fb70194e95b75c037ca",
+      "commence_time": "2026-11-04T00:00:00Z",
+      "option_id": "G01-SPREAD-AWAY",
+      "pick": "Ohio Bobcats -14.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.5,
+      "confidence": 0.54,
+      "reason": "Ohio is a solid MAC team playing a weak Akron side; a road favorite with a talent edge is slightly underpriced at 1.91.",
+      "placed_at": "2026-11-03T15:07:30Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

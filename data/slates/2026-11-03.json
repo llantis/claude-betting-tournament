@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-03",
+  "snapshot_at": "2026-11-03T14:50:13Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "c0ddb68355a79fb70194e95b75c037ca",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-04T00:00:00Z",
+      "home": "Akron Zips",
+      "away": "Ohio Bobcats",
+      "matchup": "Ohio Bobcats @ Akron Zips",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Akron Zips ML",
+          "price_decimal": 5.55,
+          "price_american": "+455"
+        },
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Ohio Bobcats ML",
+          "price_decimal": 1.16,
+          "price_american": "-625"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 14.5,
+          "label": "Akron Zips +14.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -14.5,
+          "label": "Ohio Bobcats -14.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 51.5,
+          "label": "Over 51.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 51.5,
+          "label": "Under 51.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "9b8076d3ffa027df6f6cb3189de46706",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T17:45:00Z",
+      "home": "Galatasaray",
+      "away": "VfB Stuttgart",
+      "matchup": "VfB Stuttgart @ Galatasaray",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Galatasaray ML",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        },
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "VfB Stuttgart ML",
+          "price_decimal": 3.2,
+          "price_american": "+220"
+        },
+        {
+          "id": "G02-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.2,
+          "price_american": "+320"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "55e0f74a61f7d72defa7ea0c83532ea5",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T17:45:00Z",
+      "home": "Shakhtar Donetsk",
+      "away": "Sporting Lisbon",
+      "matchup": "Sporting Lisbon @ Shakhtar Donetsk",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Shakhtar Donetsk ML",
+          "price_decimal": 3.5,
+          "price_american": "+250"
+        },
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Sporting Lisbon ML",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        },
+        {
+          "id": "G03-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.75,
+          "price_american": "+275"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "bc0b6614c9714816038d5a0ff8963144",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Manchester United",
+      "away": "AS Roma",
+      "matchup": "AS Roma @ Manchester United",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "AS Roma ML",
+          "price_decimal": 3.05,
+          "price_american": "+205"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Manchester United ML",
+          "price_decimal": 2.15,
+          "price_american": "+115"
+        },
+        {
+          "id": "G04-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.95,
+          "price_american": "+295"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "bd680c6ad693dae859030f86e1be2769",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Barcelona",
+      "away": "Aston Villa",
+      "matchup": "Aston Villa @ Barcelona",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Aston Villa ML",
+          "price_decimal": 8.5,
+          "price_american": "+750"
+        },
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Barcelona ML",
+          "price_decimal": 1.28,
+          "price_american": "-357"
+        },
+        {
+          "id": "G05-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 7.0,
+          "price_american": "+600"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "61b42fd619617a7a2a3770c2444e8a40",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Atl\u00e9tico Madrid",
+      "away": "Bayern Munich",
+      "matchup": "Bayern Munich @ Atl\u00e9tico Madrid",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Atl\u00e9tico Madrid ML",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Bayern Munich ML",
+          "price_decimal": 2.35,
+          "price_american": "+135"
+        },
+        {
+          "id": "G06-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.75,
+          "price_american": "+275"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "1a5a84045050d0d7baf1301909d3b465",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Bod\u00f8/Glimt",
+      "away": "Lille",
+      "matchup": "Lille @ Bod\u00f8/Glimt",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Bod\u00f8/Glimt ML",
+          "price_decimal": 1.67,
+          "price_american": "-149"
+        },
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Lille ML",
+          "price_decimal": 4.7,
+          "price_american": "+370"
+        },
+        {
+          "id": "G07-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "f6f3cf01c2b20b7f746b5a06097a0569",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Feyenoord",
+      "away": "Inter Milan",
+      "matchup": "Inter Milan @ Feyenoord",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Feyenoord ML",
+          "price_decimal": 3.6,
+          "price_american": "+260"
+        },
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Inter Milan ML",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G08-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.0,
+          "price_american": "+300"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "adf608a0e9be02eb1d8b0a6f464a12b1",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "LASK",
+      "away": "\u0160K Slovan Bratislava",
+      "matchup": "\u0160K Slovan Bratislava @ LASK",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "LASK ML",
+          "price_decimal": 1.37,
+          "price_american": "-270"
+        },
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "\u0160K Slovan Bratislava ML",
+          "price_decimal": 7.0,
+          "price_american": "+600"
+        },
+        {
+          "id": "G09-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 5.75,
+          "price_american": "+475"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "a341241606cb5b1b59e425d00be64883",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "home": "Villarreal",
+      "away": "Paris Saint Germain",
+      "matchup": "Paris Saint Germain @ Villarreal",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Paris Saint Germain ML",
+          "price_decimal": 1.71,
+          "price_american": "-141"
+        },
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Villarreal ML",
+          "price_decimal": 4.2,
+          "price_american": "+320"
+        },
+        {
+          "id": "G10-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.4,
+          "price_american": "+340"
+        }
+      ]
+    }
+  ]
+}

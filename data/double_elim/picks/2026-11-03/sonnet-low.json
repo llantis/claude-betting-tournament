@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-03",
+      "player": "sonnet-low",
+      "model": "sonnet",
+      "effort": "low",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Inter Milan @ Feyenoord",
+      "game_id": "f6f3cf01c2b20b7f746b5a06097a0569",
+      "commence_time": "2026-11-03T20:00:00Z",
+      "option_id": "G08-ML-AWAY",
+      "pick": "Inter Milan ML",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 3.11,
+      "confidence": 0.53,
+      "reason": "Inter is the clear quality favorite away at Feyenoord; the 1.91 price is close to fair, with a slight edge from squad depth.",
+      "placed_at": "2026-11-03T15:07:30Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G03-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}
