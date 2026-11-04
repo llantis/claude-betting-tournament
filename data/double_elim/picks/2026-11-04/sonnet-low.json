@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-04",
+      "player": "sonnet-low",
+      "model": "sonnet",
+      "effort": "low",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Club Brugge @ PSV Eindhoven",
+      "game_id": "449d718632202f0e5997d2e4b7273483",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "option_id": "G08-ML-HOME",
+      "pick": "PSV Eindhoven ML",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 2.97,
+      "confidence": 0.54,
+      "reason": "PSV are strong at home against a weaker Club Brugge side. The 1.95 price implies about 51%, so I see a slight edge.",
+      "placed_at": "2026-11-04T14:52:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G11-ML-HOME",
+      "one bet per day"
+    ],
+    [
+      "G09-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-04",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Philadelphia 76ers @ Detroit Pistons",
+      "game_id": "91df86557819598ca270ba35410cfcfa",
+      "commence_time": "2026-11-05T00:00:00Z",
+      "option_id": "G01-ML-HOME",
+      "pick": "Detroit Pistons ML",
+      "price_decimal": 1.7,
+      "price_american": "-143",
+      "stake": 1.0,
+      "confidence": 0.61,
+      "reason": "Detroit has the stronger efficiency profile (net rating +11.6 vs +5.6) and home court, and Embiid is limited, but Duren is out so the edge is modest against a 58.8% break-even.",
+      "placed_at": "2026-11-04T14:52:54Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-04",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Toledo Rockets @ Sacramento State Hornets",
+      "game_id": "7db0ce3fddd5c735e599b1085c9b5cef",
+      "commence_time": "2026-11-05T00:00:00Z",
+      "option_id": "G03-TOTAL-UNDER",
+      "pick": "Under 52.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Toledo is much the better team and a blowout would shorten the game with starters resting; projected total is near 49 against a 52.5 line, versus a 51.3% break-even.",
+      "placed_at": "2026-11-04T14:52:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

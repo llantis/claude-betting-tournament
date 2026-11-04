@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-04",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Manchester City @ RB Leipzig",
+      "game_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "option_id": "G10-ML-AWAY",
+      "pick": "Manchester City ML",
+      "price_decimal": 1.53,
+      "price_american": "-189",
+      "stake": 1.5,
+      "confidence": 0.68,
+      "reason": "Manchester City are the stronger side by a wide margin and should beat Leipzig more often than the 65% the 1.53 price implies.",
+      "placed_at": "2026-11-04T14:52:54Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-04",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Club Brugge @ PSV Eindhoven",
+      "game_id": "449d718632202f0e5997d2e4b7273483",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "option_id": "G08-ML-HOME",
+      "pick": "PSV Eindhoven ML",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "PSV are strong at home in Eindhoven, and the 1.95 price (51%) slightly underrates them against Club Brugge.",
+      "placed_at": "2026-11-04T14:52:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -81,12 +81,12 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-01,double_elim,opus-low,G08-SPREAD-AWAY,Minnesota Vikings +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-01T15:18:11Z
 2026-11-01,double_elim,sonnet-high,G08-SPREAD-AWAY,Minnesota Vikings +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-01T15:18:11Z
 2026-11-01,double_elim,sonnet-low,G06-SPREAD-AWAY,Tennessee Titans +12.5,,,,,,,,,,,no Kalshi spread at 12.5,2026-11-01T15:18:11Z
-2026-11-03,flat,opus-low,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,1,0.53,01a1a1f3-a248-750b-87b1-5c3ff83535f9,executed,1,,,,2026-11-03T15:07:40Z
+2026-11-03,flat,opus-low,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,1,0.53,01a1a1f3-a248-750b-87b1-5c3ff83535f9,executed,1,win,0.47,,2026-11-03T15:07:40Z
 2026-11-03,flat,opus-low,G06-ML-DRAW,Draw ML,,,,,,,,,,,no unique Kalshi event,2026-11-03T15:07:40Z
 2026-11-03,flat,opus-low,G07-ML-HOME,Bodø/Glimt ML,,,,,,,,,,,no unique Kalshi event,2026-11-03T15:07:40Z
-2026-11-03,flat,sonnet-high,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,1,0.53,01a1a1f3-aa18-7137-b02f-e95e7028bd91,executed,1,,,,2026-11-03T15:07:40Z
-2026-11-03,flat,sonnet-high,G09-ML-HOME,LASK ML,KXUCLGAME-26NOV03ASKSLO-ASK,yes,0.75,1,0.75,01a1a1f3-ae00-756f-b11d-321bf2345fbc,executed,1,,,,2026-11-03T15:07:40Z
+2026-11-03,flat,sonnet-high,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,1,0.53,01a1a1f3-aa18-7137-b02f-e95e7028bd91,executed,1,win,0.47,,2026-11-03T15:07:40Z
+2026-11-03,flat,sonnet-high,G09-ML-HOME,LASK ML,KXUCLGAME-26NOV03ASKSLO-ASK,yes,0.75,1,0.75,01a1a1f3-ae00-756f-b11d-321bf2345fbc,executed,1,win,0.25,,2026-11-03T15:07:40Z
 2026-11-03,flat,sonnet-high,G10-ML-AWAY,Paris Saint Germain ML,,,,,,,,,,,no unique Kalshi event,2026-11-03T15:07:40Z
-2026-11-03,flat,haiku-medium,G09-ML-HOME,LASK ML,KXUCLGAME-26NOV03ASKSLO-ASK,yes,0.75,1,0.75,01a1a1f3-b5d0-7ae3-a29e-57dcad740119,executed,1,,,,2026-11-03T15:07:40Z
+2026-11-03,flat,haiku-medium,G09-ML-HOME,LASK ML,KXUCLGAME-26NOV03ASKSLO-ASK,yes,0.75,1,0.75,01a1a1f3-b5d0-7ae3-a29e-57dcad740119,executed,1,win,0.25,,2026-11-03T15:07:40Z
 2026-11-03,flat,haiku-medium,G10-ML-AWAY,Paris Saint Germain ML,,,,,,,,,,,no unique Kalshi event,2026-11-03T15:07:40Z
-2026-11-03,double_elim,sonnet-low,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,5,2.65,01a1a1f3-b9b8-7a51-95b7-653afed88ae8,executed,5,,,,2026-11-03T15:07:40Z
+2026-11-03,double_elim,sonnet-low,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,5,2.65,01a1a1f3-b9b8-7a51-95b7-653afed88ae8,executed,5,win,2.35,,2026-11-03T15:07:40Z

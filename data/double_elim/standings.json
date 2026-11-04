@@ -30,12 +30,12 @@
     "out_date": "2026-11-02"
   },
   "sonnet-low": {
-    "bankroll": 3.11,
-    "riding": 3.11,
-    "last": "loss",
-    "next_stake": 3.11,
+    "bankroll": 5.94,
+    "riding": 2.97,
+    "last": "win",
+    "next_stake": 2.97,
     "peak": 6.22,
-    "settled_bets": 6,
+    "settled_bets": 7,
     "out": false,
     "out_date": null
   },

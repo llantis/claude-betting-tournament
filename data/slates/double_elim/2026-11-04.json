@@ -1,0 +1,475 @@
+{
+  "date": "2026-11-04",
+  "snapshot_at": "2026-11-04T14:49:56Z",
+  "min_price_decimal": 1.8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "91df86557819598ca270ba35410cfcfa",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-05T00:00:00Z",
+      "home": "Detroit Pistons",
+      "away": "Philadelphia 76ers",
+      "matchup": "Philadelphia 76ers @ Detroit Pistons",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Philadelphia 76ers ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -2.5,
+          "label": "Detroit Pistons -2.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 2.5,
+          "label": "Philadelphia 76ers +2.5",
+          "price_decimal": 1.94,
+          "price_american": "-106"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 219.5,
+          "label": "Over 219.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 219.5,
+          "label": "Under 219.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "6ee8ad6eb7454d13bebc0806a10cc861",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-05T00:00:00Z",
+      "home": "UMass Minutemen",
+      "away": "Ball State Cardinals",
+      "matchup": "Ball State Cardinals @ UMass Minutemen",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Ball State Cardinals ML",
+          "price_decimal": 2.3,
+          "price_american": "+130"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.0,
+          "label": "Ball State Cardinals +3",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.0,
+          "label": "UMass Minutemen -3",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "7db0ce3fddd5c735e599b1085c9b5cef",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-05T00:00:00Z",
+      "home": "Sacramento State Hornets",
+      "away": "Toledo Rockets",
+      "matchup": "Toledo Rockets @ Sacramento State Hornets",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Sacramento State Hornets ML",
+          "price_decimal": 15.0,
+          "price_american": "+1400"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 25.5,
+          "label": "Sacramento State Hornets +25.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -25.5,
+          "label": "Toledo Rockets -25.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 52.5,
+          "label": "Over 52.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 52.5,
+          "label": "Under 52.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "f43ef699c987e112e115f7035114854e",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T17:45:00Z",
+      "home": "AEK Athens",
+      "away": "Real Madrid",
+      "matchup": "Real Madrid @ AEK Athens",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "AEK Athens ML",
+          "price_decimal": 13.0,
+          "price_american": "+1200"
+        },
+        {
+          "id": "G04-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 7.5,
+          "price_american": "+650"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "e901dbcdd6e2255fb24d84032b9d437a",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T17:45:00Z",
+      "home": "Fenerbahce",
+      "away": "Liverpool",
+      "matchup": "Liverpool @ Fenerbahce",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Fenerbahce ML",
+          "price_decimal": 6.0,
+          "price_american": "+500"
+        },
+        {
+          "id": "G05-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 5.0,
+          "price_american": "+400"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "a5910ae3b314876faea7f5c03b8aeaad",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "Slavia Praha",
+      "away": "Arsenal",
+      "matchup": "Arsenal @ Slavia Praha",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Slavia Praha ML",
+          "price_decimal": 12.0,
+          "price_american": "+1100"
+        },
+        {
+          "id": "G06-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 6.0,
+          "price_american": "+500"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "6d386ed81fabf67aa19fbd442c0d8c60",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "Borussia Dortmund",
+      "away": "Real Betis",
+      "matchup": "Real Betis @ Borussia Dortmund",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Real Betis ML",
+          "price_decimal": 4.7,
+          "price_american": "+370"
+        },
+        {
+          "id": "G07-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "449d718632202f0e5997d2e4b7273483",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "PSV Eindhoven",
+      "away": "Club Brugge",
+      "matchup": "Club Brugge @ PSV Eindhoven",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Club Brugge ML",
+          "price_decimal": 3.25,
+          "price_american": "+225"
+        },
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "PSV Eindhoven ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G08-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "013cecbf40f5b4530342632a80f35b00",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "RC Lens",
+      "away": "Como",
+      "matchup": "Como @ RC Lens",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Como ML",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "RC Lens ML",
+          "price_decimal": 3.75,
+          "price_american": "+275"
+        },
+        {
+          "id": "G09-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.85,
+          "price_american": "+285"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "matchup": "Manchester City @ RB Leipzig",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "RB Leipzig ML",
+          "price_decimal": 5.25,
+          "price_american": "+425"
+        },
+        {
+          "id": "G10-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.9,
+          "price_american": "+390"
+        }
+      ]
+    },
+    {
+      "game_id": "G11",
+      "event_id": "ba82ee37f64a66a30d85f8b90082ec2f",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "Porto",
+      "away": "Napoli",
+      "matchup": "Napoli @ Porto",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G11-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Napoli ML",
+          "price_decimal": 4.3,
+          "price_american": "+330"
+        },
+        {
+          "id": "G11-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Porto ML",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G11-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.8,
+          "price_american": "+280"
+        }
+      ]
+    },
+    {
+      "game_id": "G12",
+      "event_id": "6277e639c064e641265fcb98a0e200b9",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-04T20:00:00Z",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "matchup": "Sabah FK @ Viking FK",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G12-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Sabah FK ML",
+          "price_decimal": 8.0,
+          "price_american": "+700"
+        },
+        {
+          "id": "G12-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 5.75,
+          "price_american": "+475"
+        }
+      ]
+    }
+  ]
+}
