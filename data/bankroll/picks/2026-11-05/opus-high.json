@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-05",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Jacksonville Jaguars @ Baltimore Ravens",
+      "game_id": "c75744790b7acf6260c78ba5e739c0e5",
+      "commence_time": "2026-11-06T01:15:00Z",
+      "option_id": "G03-SPREAD-HOME",
+      "pick": "Baltimore Ravens +10",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "The line went from 7.5 to 10 and the total from 43.5 to 39.5 after Lamar was ruled out. In a game projected that low, 10 points is a big margin for a home team, so the move looks a bit overdone.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-05",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Phoenix Suns",
+      "game_id": "2a76b31e02d1416de069a995589515fc",
+      "commence_time": "2026-11-06T02:10:00Z",
+      "option_id": "G01-ML-AWAY",
+      "pick": "Orlando Magic ML",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "This is close to a pick'em even with Phoenix at home, and Orlando's deeper roster makes the Magic the slightly better side at a bit under even money.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

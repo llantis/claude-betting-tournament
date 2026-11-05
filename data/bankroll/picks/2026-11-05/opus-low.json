@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-05",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Vegas Golden Knights @ Detroit Red Wings",
+      "game_id": "6828fb175fa928f75d7978128372c817",
+      "commence_time": "2026-11-06T00:10:00Z",
+      "option_id": "G10-TOTAL-UNDER",
+      "pick": "Under 5.5",
+      "price_decimal": 2.1,
+      "price_american": "+110",
+      "stake": 1.25,
+      "confidence": 0.5,
+      "reason": "Plus-money under at 2.10 against a heavily juiced over; NHL totals near 6.5 land close to a coin flip, so this is a small edge over the 47.6% implied.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-05",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Anaheim Ducks @ Edmonton Oilers",
+      "game_id": "c672f144ecbb937d3b15b483847129d2",
+      "commence_time": "2026-11-06T01:10:00Z",
+      "option_id": "G15-TOTAL-UNDER",
+      "pick": "Under 6.5",
+      "price_decimal": 2.2,
+      "price_american": "+120",
+      "stake": 1.25,
+      "confidence": 0.47,
+      "reason": "Under at 2.20 implies 45.5%; the market looks to overreact to Edmonton's scoring, so this is a slight value play.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

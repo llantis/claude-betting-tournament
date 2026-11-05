@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-05",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Carolina Hurricanes @ New York Islanders",
+      "game_id": "18dd8ea86db020028f8d1c130b99d616",
+      "commence_time": "2026-11-06T00:10:00Z",
+      "option_id": "G07-ML-AWAY",
+      "pick": "Carolina Hurricanes ML",
+      "price_decimal": 1.57,
+      "price_american": "-175",
+      "stake": 1.0,
+      "confidence": 0.66,
+      "reason": "Carolina's shot-share dominance against a low-scoring Islanders team is worth a bit more than the 63.7% this price implies.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-05",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Nashville Predators @ Colorado Avalanche",
+      "game_id": "446de9651d2d2948326d970e9f858a33",
+      "commence_time": "2026-11-06T02:40:00Z",
+      "option_id": "G16-ML-HOME",
+      "pick": "Colorado Avalanche ML",
+      "price_decimal": 1.46,
+      "price_american": "-217",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Colorado at home has a large talent edge over Nashville, slightly above the 68.5% this price implies.",
+      "placed_at": "2026-11-05T15:29:48Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

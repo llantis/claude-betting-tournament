@@ -90,3 +90,10 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-03,flat,haiku-medium,G09-ML-HOME,LASK ML,KXUCLGAME-26NOV03ASKSLO-ASK,yes,0.75,1,0.75,01a1a1f3-b5d0-7ae3-a29e-57dcad740119,executed,1,win,0.25,,2026-11-03T15:07:40Z
 2026-11-03,flat,haiku-medium,G10-ML-AWAY,Paris Saint Germain ML,,,,,,,,,,,no unique Kalshi event,2026-11-03T15:07:40Z
 2026-11-03,double_elim,sonnet-low,G08-ML-AWAY,Inter Milan ML,KXUCLGAME-26NOV03FEYINT-INT,yes,0.53,5,2.65,01a1a1f3-b9b8-7a51-95b7-653afed88ae8,executed,5,win,2.35,,2026-11-03T15:07:40Z
+2026-11-05,flat,opus-low,G07-ML-AWAY,Carolina Hurricanes ML,KXNHLGAME-26NOV05CARNYI-CAR,yes,0.75,,,,,,,,ask 0.75 worse than slate 0.64+0.05,2026-11-05T15:30:01Z
+2026-11-05,flat,opus-low,G16-ML-HOME,Colorado Avalanche ML,KXNHLGAME-26NOV05NSHCOL-COL,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-05T15:30:01Z
+2026-11-05,flat,sonnet-high,G06-SPREAD-HOME,Pittsburgh Penguins +1.5,KXNHLSPREAD-26NOV05BOSPIT-BOS2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-05T15:30:01Z
+2026-11-05,flat,sonnet-high,G13-SPREAD-AWAY,Philadelphia Flyers +1.5,KXNHLSPREAD-26NOV05PHINYR-NYR2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-05T15:30:01Z
+2026-11-05,flat,sonnet-high,G15-SPREAD-AWAY,Anaheim Ducks +1.5,KXNHLSPREAD-26NOV05ANAEDM-EDM2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-05T15:30:01Z
+2026-11-05,flat,sonnet-high,G10-SPREAD-HOME,Detroit Red Wings +1.5,KXNHLSPREAD-26NOV05VGKDET-VGK2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-05T15:30:01Z
+2026-11-05,double_elim,sonnet-low,G11-ML-AWAY,Utah Mammoth ML,,,,,,,,,,,no unique Kalshi event,2026-11-05T15:30:01Z
