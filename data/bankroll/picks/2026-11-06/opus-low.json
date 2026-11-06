@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-06",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "soccer_epl",
+      "matchup": "Coventry City @ Everton",
+      "game_id": "586bec023ee8ac2f0645d963bd2c9d25",
+      "commence_time": "2026-11-06T20:00:00Z",
+      "option_id": "G18-ML-DRAW",
+      "pick": "Draw ML",
+      "price_decimal": 4.0,
+      "price_american": "+300",
+      "stake": 1.0,
+      "confidence": 0.27,
+      "reason": "Coventry-Everton looks close and draws happen about 27% of the time in matches like this, a little above the 25% the 4.0 price implies.",
+      "placed_at": "2026-11-06T14:52:22Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-06",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
+      "game_id": "83d77fe350d56a036fd7a3404e78249a",
+      "commence_time": "2026-11-07T03:10:00Z",
+      "option_id": "G08-SPREAD-AWAY",
+      "pick": "Portland Trail Blazers +2.5",
+      "price_decimal": 1.99,
+      "price_american": "-101",
+      "stake": 1.0,
+      "confidence": 0.51,
+      "reason": "The Portland spread is priced at 1.99, above the usual 1.91, so a near coin-flip cover has a small positive edge.",
+      "placed_at": "2026-11-06T14:52:22Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

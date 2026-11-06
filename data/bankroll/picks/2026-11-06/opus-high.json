@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-06",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
+      "game_id": "83d77fe350d56a036fd7a3404e78249a",
+      "commence_time": "2026-11-07T03:10:00Z",
+      "option_id": "G08-SPREAD-AWAY",
+      "pick": "Portland Trail Blazers +2.5",
+      "price_decimal": 1.99,
+      "price_american": "-101",
+      "stake": 1.0,
+      "confidence": 0.51,
+      "reason": "Best-priced side on the slate: Portland +2.5 at 1.99 while the Lakers -2.5 side is 1.84, so the extra margin is on the favourite. A short spread for the underdog plus likely overrating of the Lakers brand puts this right around break-even; minimum stake to protect a small bankroll.",
+      "placed_at": "2026-11-06T14:52:31Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

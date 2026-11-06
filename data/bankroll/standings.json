@@ -1,14 +1,14 @@
 {
   "opus-high": {
-    "bankroll": 5.79,
-    "riding": 2.0,
-    "available": 3.79,
+    "bankroll": 3.79,
+    "riding": 1.0,
+    "available": 2.79,
     "busted": false
   },
   "opus-low": {
-    "bankroll": 9.43,
-    "riding": 2.5,
-    "available": 6.93,
+    "bankroll": 9.56,
+    "riding": 2.0,
+    "available": 7.56,
     "busted": false
   },
   "fable-high": {

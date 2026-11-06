@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-06",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "San Jose Sharks @ Minnesota Wild",
+      "game_id": "94142b31815d8bfcef178b16cadfe92f",
+      "commence_time": "2026-11-07T01:10:00Z",
+      "option_id": "G17-SPREAD-AWAY",
+      "pick": "San Jose Sharks +1.5",
+      "price_decimal": 1.83,
+      "price_american": "-120",
+      "stake": 1.0,
+      "confidence": 0.57,
+      "reason": "Sharks +1.5 at -120 implies 54.6%. Even with the Wild at about 70% to win, a one-goal loss still covers, and I estimate the Wild win by two or more only about 40-43% of the time. That puts the cover near 57-58%, a small edge.",
+      "placed_at": "2026-11-06T14:52:15Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
