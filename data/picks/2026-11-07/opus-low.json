@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-07",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Clemson Tigers @ Syracuse Orange",
+      "game_id": "c3e23ea05d6570fdb90c3ddb225fd3e4",
+      "commence_time": "2026-11-07T17:00:00Z",
+      "option_id": "G11-SPREAD-HOME",
+      "pick": "Syracuse Orange +1.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.545,
+      "reason": "A 1.5-point line in a near pick'em favors the home side getting the hook; I estimate slightly above the 53.5% break-even.",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-07",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Texas Longhorns @ Missouri Tigers",
+      "game_id": "43a67a478177d0dc6ef141aacf2bfd2a",
+      "commence_time": "2026-11-07T17:00:00Z",
+      "option_id": "G13-SPREAD-HOME",
+      "pick": "Missouri Tigers +2.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Home dog at +2.5 priced near even (1.95); break-even is 51.3% and home dogs in the 2-3 point range cover slightly more often than that.",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-07",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Texas State Bobcats @ Oregon State Beavers",
+      "game_id": "d4334cec8f2060f3b8491ca9c7325892",
+      "commence_time": "2026-11-08T03:30:00Z",
+      "option_id": "G57-TOTAL-UNDER",
+      "pick": "Under 71.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "NWS Corvallis forecast has S winds 14-21 mph gusting 24-38 mph with rain likely during the game, hurting Oregon State's nation-leading pass offense most; the total climbed from a 67.5 open to 71.5 with no weather discount, so I make the under ~55% vs 53.5% breakeven.",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

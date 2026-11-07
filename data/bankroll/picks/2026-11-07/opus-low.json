@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-07",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Texas Longhorns @ Missouri Tigers",
+      "game_id": "43a67a478177d0dc6ef141aacf2bfd2a",
+      "commence_time": "2026-11-07T17:00:00Z",
+      "option_id": "G13-ML-AWAY",
+      "pick": "Texas Longhorns ML",
+      "price_decimal": 1.74,
+      "price_american": "-135",
+      "stake": 1.2,
+      "confidence": 0.59,
+      "reason": "Texas has the stronger roster; 1.74 implies about 57.5%, and I make it slightly higher.",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-07",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "San Antonio Spurs @ Portland Trail Blazers",
+      "game_id": "08d47dd5e50e83839e395e49870d6a0d",
+      "commence_time": "2026-11-08T03:00:00Z",
+      "option_id": "G07-ML-AWAY",
+      "pick": "San Antonio Spurs ML",
+      "price_decimal": 1.46,
+      "price_american": "-217",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "The Spurs' young core should handle a rebuilding Portland; 1.46 implies about 68.5%.",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

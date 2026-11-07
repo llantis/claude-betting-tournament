@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-07",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Oklahoma City Thunder",
+      "game_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
+      "commence_time": "2026-11-08T01:10:00Z",
+      "option_id": "G04-ML-HOME",
+      "pick": "Oklahoma City Thunder ML",
+      "price_decimal": 1.18,
+      "price_american": "-556",
+      "stake": 1.0,
+      "confidence": 0.84,
+      "reason": "OKC is 4-0 at home with a +4.6 average margin, and Washington is without Anthony Davis on a 2-game skid. The short 11.5 spread already reflects OKC missing Holmgren, J. Williams and Wallace. A minimum stake on a high-probability favourite meets today's $1 requirement while keeping my bankroll above ",
+      "placed_at": "2026-11-07T15:28:54Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
