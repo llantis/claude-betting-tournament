@@ -85,6 +85,8 @@
   "double_elim": {
     "start": 2.0,
     "min_price_decimal": 1.8,
+    "round": 2,
+    "round_start": "2026-11-09",
     "players": [
       {
         "name": "opus-high",

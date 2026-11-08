@@ -52,6 +52,10 @@ Sonnet, Haiku and Fable, 8 players.
   they went out. Survivors rank by bankroll, then the eliminated by how long they lasted.
 - State (bankroll, last result, next stake, out) is replayed from `data/double_elim/ledger.csv` each
   run into `data/double_elim/standings.json`; nothing is edited by hand.
+- **Rounds.** To restart after everyone is out, bump `double_elim.round` and set `double_elim.round_start`
+  to the first slate date of the new round. Only ledger rows from that date on count, so every player is
+  back at the start bankroll; earlier rows stay in the ledger as history. The dashboard shows the
+  current round. Round 1 ran 2026-10-29 to 2026-11-05 (all 8 out); round 2 starts 2026-11-09.
 - Mirrored onto Kalshi demo like the flat competition, each bet at its own stake (whole contracts,
   so slightly under), sharing the same daily and total caps. The paper ledger stays the score.
 - Record with `python3 scripts/record_picks.py <player> <picks.json> --competition double_elim`.
