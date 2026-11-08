@@ -106,12 +106,21 @@ def half_up(x):
     return math.floor(x * 100 + 0.5 + 1e-9) / 100
 
 
+def double_elim_round_rows(cfg, rows=None):
+    """Double-elimination ledger rows for the current round only. A reset starts a new round on
+    double_elim.round_start: everyone is back to the starting bankroll, and earlier rows stay in the
+    ledger as history but no longer count."""
+    rows = read_ledger(DOUBLE_ELIM_LEDGER) if rows is None else rows
+    start = cfg["double_elim"].get("round_start")
+    return [r for r in rows if not start or r["date"] >= start]
+
+
 def double_elim_status(cfg, rows=None):
     """Per double-elimination player, replayed from the ledger: bankroll, what's riding, the stake
     its next bet must be (half the bankroll at the start or after a win, all of it after a loss),
     and whether it's out (nothing left and nothing riding)."""
     dcfg = cfg["double_elim"]
-    rows = read_ledger(DOUBLE_ELIM_LEDGER) if rows is None else rows
+    rows = double_elim_round_rows(cfg, rows)
     status = {}
     for p in dcfg["players"]:
         bank, riding, last, peak, out_date, bets = dcfg["start"], 0.0, "start", dcfg["start"], None, 0

@@ -6,7 +6,7 @@ import json
 from collections import defaultdict
 
 from common import (BANKROLL, BANKROLL_LEDGER, DATA, DOUBLE_ELIM, DOUBLE_ELIM_LEDGER, bankroll_status,
-                    double_elim_status, load_config, read_ledger)
+                    double_elim_round_rows, double_elim_status, load_config, read_ledger)
 from kalshi import read_orders
 
 
@@ -109,11 +109,12 @@ def bankroll_board(cfg):
 
 def double_elim_board(cfg):
     dcfg = cfg["double_elim"]
-    rows = read_ledger(DOUBLE_ELIM_LEDGER)
+    rows = double_elim_round_rows(cfg, read_ledger(DOUBLE_ELIM_LEDGER))
+    round_ids = {(r["date"], r["player"], r["option_id"]) for r in rows}
     status = double_elim_status(cfg, rows)
     stats = defaultdict(lambda: {"w": 0, "l": 0, "p": 0, "f": 0, "brier": [], "k": 0, "kpnl": 0.0})
     for o in read_orders():
-        if o["count"] and o["competition"] == "double_elim":
+        if o["count"] and o["competition"] == "double_elim" and (o["date"], o["player"], o["option_id"]) in round_ids:
             stats[o["player"]]["k"] += 1
             stats[o["player"]]["kpnl"] += float(o["pnl"] or 0)
     for r in rows:
@@ -132,7 +133,8 @@ def double_elim_board(cfg):
                   key=lambda n: (status[n]["out_date"], status[n]["peak"]), reverse=True)
     order = alive + gone
     lines = [
-        f"# Double elimination (start ${dcfg['start']:.2f}, odds {dcfg['min_price_decimal']:.2f}+, "
+        f"# Double elimination{', round ' + str(dcfg['round']) if dcfg.get('round') else ''}"
+        f"{' from ' + dcfg['round_start'] if dcfg.get('round_start') else ''} (start ${dcfg['start']:.2f}, odds {dcfg['min_price_decimal']:.2f}+, "
         "half the bankroll after a win, all of it after a loss)",
         "",
         "| # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |",
@@ -149,6 +151,8 @@ def double_elim_board(cfg):
             f"{s['k']} | ${s['kpnl']:+.2f} |"
         )
     lines += ["", f"{len(alive)} of {len(status)} still in. Two losses in a row and a player is out."]
+    if dcfg.get("round_start"):
+        lines.append(f"Bets before {dcfg['round_start']} belong to earlier rounds; they stay in the ledger but don't count here.")
     DOUBLE_ELIM.mkdir(parents=True, exist_ok=True)
     (DOUBLE_ELIM / "leaderboard.md").write_text("\n".join(lines) + "\n")
     (DOUBLE_ELIM / "standings.json").write_text(json.dumps(status, indent=2) + "\n")
