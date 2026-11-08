@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-08",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "New Orleans Pelicans @ Los Angeles Clippers",
+      "game_id": "c205d8d8102fbb0e72929fff3c1fd089",
+      "commence_time": "2026-11-09T02:10:00Z",
+      "option_id": "G06-ML-HOME",
+      "pick": "Los Angeles Clippers ML",
+      "price_decimal": 2.03,
+      "price_american": "+103",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Clippers at home are priced as a slight underdog (2.03, about 49% implied) against a Pelicans team I see as no stronger; I rate this close to even or slightly better for the home side.",
+      "placed_at": "2026-11-08T15:31:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

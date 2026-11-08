@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-08",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Los Angeles Rams @ Washington Commanders",
+      "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+      "commence_time": "2026-11-08T18:00:00Z",
+      "option_id": "G13-SPREAD-HOME",
+      "pick": "Washington Commanders +4.5",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.25,
+      "confidence": 0.51,
+      "reason": "Line moved from Washington +5.5 to +4.5, which points to money on the Commanders. The home team just beat the Eagles 27-10 with Daniels playing well, and the Rams are a .500 team; at +100 the 2.00 price needs only 50%, and I put the cover slightly above that.",
+      "placed_at": "2026-11-08T15:31:01Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
