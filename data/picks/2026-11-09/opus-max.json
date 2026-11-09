@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Denver Nuggets @ Houston Rockets",
+      "game_id": "dc61de43b5db9de357f48f44c8022494",
+      "commence_time": "2026-11-10T01:40:00Z",
+      "option_id": "G06-TOTAL-UNDER",
+      "pick": "Under 219.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "DraftKings' 219.5 is 2 points above the 217.5 most other books post, after Denver's 16-hour Mexico City plane delay left all five starters questionable and cancelled shootaround. Whether Denver rests its starters or plays them tired against Houston's strong defense, a lower-scoring game is more like",
+      "placed_at": "2026-11-09T15:15:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

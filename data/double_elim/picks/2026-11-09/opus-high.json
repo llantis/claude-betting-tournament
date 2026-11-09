@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Buffalo Bills @ Minnesota Vikings",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "commence_time": "2026-11-10T01:15:00Z",
+      "option_id": "G09-SPREAD-HOME",
+      "pick": "Minnesota Vikings +3",
+      "price_decimal": 2.02,
+      "price_american": "+102",
+      "stake": 1.0,
+      "confidence": 0.46,
+      "reason": "Home dog getting the key number 3 at plus money (+102); the market already priced in Wentz replacing Murray, and with roughly a 9% push chance this cuts the loss risk, which matters in elimination, while staying marginally positive EV.",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G02-TOTAL-UNDER",
+      "one bet per day"
+    ]
+  ]
+}

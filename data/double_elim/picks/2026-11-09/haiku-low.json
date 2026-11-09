@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Cleveland Cavaliers @ Charlotte Hornets",
+      "game_id": "1df5ff8fe9c6d2dbff1d0ae176063b37",
+      "commence_time": "2026-11-10T00:10:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Cleveland Cavaliers -8.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Cleveland is the stronger side against Charlotte, so I put the cover slightly above the 51.3% implied by -105. Thin edge with no injury or form research; I am keeping confidence low given my record of overconfidence.",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

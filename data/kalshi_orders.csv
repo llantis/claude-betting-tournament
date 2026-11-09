@@ -103,3 +103,18 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-07,flat,sonnet-high,G12-TOTAL-UNDER,Under 38.5,KXNCAAFTOTAL-26NOV07UCLAMINN-39,no,0.51,1,0.51,01a1b6a0-c158-7b76-aeb7-d63c2cf84c49,executed,1,loss,-0.51,,2026-11-07T15:29:04Z
 2026-11-07,flat,sonnet-high,G51-TOTAL-UNDER,Under 39.5,,,,,,,,,,,no unique Kalshi event,2026-11-07T15:29:04Z
 2026-11-07,flat,sonnet-high,G49-TOTAL-UNDER,Under 42.5,KXNCAAFTOTAL-26NOV07IOWANW-43,no,0.52,1,0.52,01a1b6a0-c928-70f1-8fc2-a9ad135a183b,executed,1,win,0.48,,2026-11-07T15:29:04Z
+2026-11-09,flat,opus-max,G06-TOTAL-UNDER,Under 219.5,,,,,,,,,,,no Kalshi total at 219.5,2026-11-09T15:15:13Z
+2026-11-09,flat,opus-low,G09-SPREAD-HOME,Minnesota Vikings +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-09T15:15:13Z
+2026-11-09,flat,opus-low,G04-SPREAD-AWAY,Memphis Grizzlies +3.5,KXNBASPREAD-26NOV09MEMTOR-TOR4,no,1.0,,,,,,,,no usable ask (1.0),2026-11-09T15:15:13Z
+2026-11-09,flat,opus-low,G10-SPREAD-AWAY,New York Rangers +1.5,KXNHLSPREAD-26NOV09NYREDM-EDM2,no,0.65,1,0.65,01a1c0e0-bba0-7990-9fea-38f11fff0fb7,executed,1,,,,2026-11-09T15:15:13Z
+2026-11-09,flat,sonnet-high,G10-SPREAD-AWAY,New York Rangers +1.5,KXNHLSPREAD-26NOV09NYREDM-EDM2,no,0.65,1,0.65,01a1c0e0-c370-718e-a1d0-c89b07af7da9,executed,1,,,,2026-11-09T15:15:13Z
+2026-11-09,flat,sonnet-high,G11-SPREAD-HOME,Vancouver Canucks +1.5,KXNHLSPREAD-26NOV09PHIVAN-PHI2,no,0.68,1,0.68,01a1c0e0-cb40-7bba-a3e6-79b8c7c946bd,executed,1,,,,2026-11-09T15:15:13Z
+2026-11-09,flat,sonnet-high,G12-SPREAD-HOME,San Jose Sharks +1.5,KXNHLSPREAD-26NOV09NYISJ-NYI2,no,0.68,1,0.68,01a1c0e0-d310-7a6c-b640-cdf75cd7374f,executed,1,,,,2026-11-09T15:15:13Z
+2026-11-09,double_elim,opus-high,G09-SPREAD-HOME,Minnesota Vikings +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-09T15:15:13Z
+2026-11-09,double_elim,opus-low,G01-ML-AWAY,Los Angeles Lakers ML,KXNBAGAME-26NOV09LALATL-LAL,yes,0.57,,,,,,,,ask 0.57 worse than slate 0.50+0.05,2026-11-09T15:15:13Z
+2026-11-09,double_elim,sonnet-high,G03-SPREAD-AWAY,Washington Wizards +10.5,KXNBASPREAD-26NOV09WASDET-DET11,no,1.0,,,,,,,,no usable ask (1.0),2026-11-09T15:15:13Z
+2026-11-09,double_elim,sonnet-low,G03-SPREAD-AWAY,Washington Wizards +10.5,KXNBASPREAD-26NOV09WASDET-DET11,no,1.0,,,,,,,,no usable ask (1.0),2026-11-09T15:15:13Z
+2026-11-09,double_elim,haiku-high,G10-ML-AWAY,New York Rangers ML,KXNHLGAME-26NOV09NYREDM-NYR,yes,0.43,2,0.86,01a1c0e0-d6f8-70d6-bfd6-d5c6e933c094,executed,2,,,,2026-11-09T15:15:13Z
+2026-11-09,double_elim,haiku-low,G02-SPREAD-AWAY,Cleveland Cavaliers -8.5,KXNBASPREAD-26NOV09CLECHA-CLE9,yes,0.53,1,0.53,01a1c0e0-dec8-7971-b6fc-e378bcd118bd,executed,1,,,,2026-11-09T15:15:13Z
+2026-11-09,double_elim,fable-high,G04-SPREAD-AWAY,Memphis Grizzlies +3.5,KXNBASPREAD-26NOV09MEMTOR-TOR4,no,1.0,,,,,,,,no usable ask (1.0),2026-11-09T15:15:13Z
+2026-11-09,double_elim,fable-low,G09-SPREAD-AWAY,Buffalo Bills -3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-09T15:15:13Z

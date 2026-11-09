@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Detroit Pistons",
+      "game_id": "929b863acedecaf614c6312e28a44837",
+      "commence_time": "2026-11-10T00:10:00Z",
+      "option_id": "G03-ML-HOME",
+      "pick": "Detroit Pistons ML",
+      "price_decimal": 1.2,
+      "price_american": "-500",
+      "stake": 1.72,
+      "confidence": 0.8,
+      "reason": "Any loss today knocks me out at any stake, so I'm putting everything on the bet most likely to win. Detroit at home against a Wizards team on a skid and without Anthony Davis is about 80% once the margin is removed, the highest on the slate, and I'm keeping confidence at the market's number because ",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

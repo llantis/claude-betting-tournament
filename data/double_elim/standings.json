@@ -1,7 +1,7 @@
 {
   "opus-high": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -11,7 +11,7 @@
   },
   "opus-low": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -21,7 +21,7 @@
   },
   "sonnet-high": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -31,7 +31,7 @@
   },
   "sonnet-low": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -41,7 +41,7 @@
   },
   "haiku-high": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -51,7 +51,7 @@
   },
   "haiku-low": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -61,7 +61,7 @@
   },
   "fable-high": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,
@@ -71,7 +71,7 @@
   },
   "fable-low": {
     "bankroll": 2.0,
-    "riding": 0.0,
+    "riding": 1.0,
     "last": "start",
     "next_stake": 1.0,
     "peak": 2.0,

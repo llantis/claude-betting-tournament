@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Los Angeles Lakers @ Atlanta Hawks",
+      "game_id": "07361a8381206817e27bd2697fad7479",
+      "commence_time": "2026-11-10T00:10:00Z",
+      "option_id": "G01-ML-AWAY",
+      "pick": "Los Angeles Lakers ML",
+      "price_decimal": 1.99,
+      "price_american": "-101",
+      "stake": 1.0,
+      "confidence": 0.5,
+      "reason": "Lakers moneyline at 1.99 in a game priced close to even, with less bookmaker margin than most of the slate. No outside research, so this is near-fair value at best and confidence is set conservatively given my past overconfidence.",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-SPREAD-AWAY",
+      "second pick on same game"
+    ],
+    [
+      "G01-TOTAL-OVER",
+      "second pick on same game"
+    ]
+  ]
+}

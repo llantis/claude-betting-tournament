@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "New York Rangers @ Edmonton Oilers",
+      "game_id": "c0de79c9c801e5fc0d1bb3873b10a164",
+      "commence_time": "2026-11-10T01:10:00Z",
+      "option_id": "G10-ML-AWAY",
+      "pick": "New York Rangers ML",
+      "price_decimal": 2.3,
+      "price_american": "+130",
+      "stake": 1.0,
+      "confidence": 0.44,
+      "reason": "Rangers +130 (2.30) implies about 43.5% and the no-vig price is about 41-42%. Edmonton's -156 looks slightly rich against a typical NHL home-ice edge, so a small positive edge at 0.44. No verified injury or form edge; low conviction.",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G05-ML-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G04-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

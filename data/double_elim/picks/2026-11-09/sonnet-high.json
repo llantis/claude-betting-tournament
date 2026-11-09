@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-09",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Detroit Pistons",
+      "game_id": "929b863acedecaf614c6312e28a44837",
+      "commence_time": "2026-11-10T00:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Washington Wizards +10.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Wizards +10.5 at 1.93 needs about 51.8% to break even. Double-digit NBA spreads tend to be slightly inflated on the favorite, and backdoor covers in garbage time help the underdog. Edge is thin and based on price only, with no research.",
+      "placed_at": "2026-11-09T15:15:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G07-SPREAD-HOME",
+      "one bet per day"
+    ],
+    [
+      "G06-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}
