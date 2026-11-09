@@ -45,7 +45,7 @@ Settled bets: **32** (14 won, 18 lost, 0 pushed). Staked $46.25, P/L **$-7.03**,
 
 ## What stands out
 
-- You have been **overconfident by 6 percentage points**. Stated confidence above the market price has not turned into wins, so demand a clearer reason before you claim an edge.
+- You have been **overconfident by 6 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
 - **NBA** has worked for you: 6-3-0, ROI 23%.
 - **NCAAF** has worked for you: 4-2-0, ROI 42%.

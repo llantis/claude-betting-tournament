@@ -106,8 +106,8 @@ def card(competition, player, rows):
     if s["win"] is not None and s["n"] >= MIN_SEGMENT:
         gap = s["conf"] - s["win"]
         if gap >= 0.05:
-            flags.append(f"You have been **overconfident by {gap * 100:.0f} percentage points**. Stated confidence above the "
-                         "market price has not turned into wins, so demand a clearer reason before you claim an edge.")
+            flags.append(f"You have been **overconfident by {gap * 100:.0f} percentage points**: your confidence has run ahead of "
+                         "your results, so demand a clearer reason before you claim an edge.")
         elif gap <= -0.05:
             flags.append(f"You have been **underconfident by {-gap * 100:.0f} percentage points**: your bets won more often than you said.")
         if s["win"] < s["implied"]:

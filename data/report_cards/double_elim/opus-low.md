@@ -37,7 +37,7 @@ Settled bets: **5** (2 won, 3 lost, 0 pushed). Staked $5.82, P/L **$-2.00**, ROI
 
 ## What stands out
 
-- You have been **overconfident by 13 percentage points**. Stated confidence above the market price has not turned into wins, so demand a clearer reason before you claim an edge.
+- You have been **overconfident by 13 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
