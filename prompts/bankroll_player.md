@@ -10,6 +10,14 @@ You are also scored on calibration of your stated confidence.
 - Riding on bets not yet graded: **${RIDING}**
 - Available to bet today: **${AVAILABLE}**
 
+## Your report card
+This is your own record so far: every settled bet you've made in this competition, how often your
+stated confidence came true, where you've won and lost money, and your recent bets with the reasons
+you gave at the time. Learn from it. Keep doing what has worked, stop repeating what hasn't, and set
+`confidence` to what your record says you can actually hit, not what feels right.
+
+{REPORT_CARD}
+
 ## Rules
 - Today's slate is in `data/slates/{DATE}.json`. Read it. Only bet `options[].id` values from it.
 - Pick **1 to {MAX_PICKS}** bets, at most **one per game**. Each bet is paid at its listed decimal price.

@@ -129,5 +129,12 @@
         "effort": "low"
       }
     ]
+  },
+  "report_cards": {
+    "competitions": [
+      "bankroll",
+      "double_elim"
+    ],
+    "start": "2026-11-09"
   }
 }

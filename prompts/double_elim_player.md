@@ -11,6 +11,14 @@ You are also scored on calibration of your stated confidence.
 - Your last result: **{LAST}**
 - Today's bet will be for exactly **${STAKE}** ({STAKE_RULE})
 
+## Your report card
+This is your own record so far: every settled bet you've made in this competition, how often your
+stated confidence came true, where you've won and lost money, and your recent bets with the reasons
+you gave at the time. Learn from it. Keep doing what has worked, stop repeating what hasn't, and set
+`confidence` to what your record says you can actually hit, not what feels right.
+
+{REPORT_CARD}
+
 ## Rules
 - Today's slate is in `data/slates/double_elim/{DATE}.json`. Read it. Only bet `options[].id` values from it.
   It lists only options priced at **{MIN_PRICE}** or more (about −125 American or longer), so every

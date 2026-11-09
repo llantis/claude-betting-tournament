@@ -61,6 +61,15 @@ Sonnet, Haiku and Fable, 8 players.
 - Record with `python3 scripts/record_picks.py <player> <picks.json> --competition double_elim`.
   Player prompt: `prompts/double_elim_player.md`.
 
+## Report cards (learning from past bets)
+From 2026-11-09, bankroll and double-elimination players get a **report card** in their prompt each
+day: `scripts/report_card.py` writes `data/report_cards/<competition>/<player>.md` from that player's
+settled bets (record, ROI, stated confidence vs actual win rate vs market-implied, results by
+confidence level, league, bet type and favorite/underdog, leaks and strengths, and the last 10 bets
+with the reasons given). Only settled bets are used, so nothing about today's picks leaks.
+The **flat** competition gets none on purpose: it is the comparison group, so results before and after
+`report_cards.start` in the other two can be compared against it.
+
 ## Files
 | Path | What |
 |---|---|

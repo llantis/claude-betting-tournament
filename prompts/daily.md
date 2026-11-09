@@ -7,7 +7,9 @@ match these exact command forms; don't `cd` into `scripts/`).
 1. **Sync.** `git fetch origin main && git checkout main && git pull origin main`.
 2. **Grade.** `python3 scripts/grade.py`, then `python3 scripts/kalshi.py settle`, then
    `python3 scripts/leaderboard.py` so `data/bankroll/standings.json` and
-   `data/double_elim/standings.json` have today's bankrolls.
+   `data/double_elim/standings.json` have today's bankrolls, then `python3 scripts/report_card.py`
+   (writes each bankroll and double-elimination player's report card to
+   `data/report_cards/<competition>/<player>.md` from its settled bets).
 3. **Snapshot.** `python3 scripts/snapshot_odds.py` writes `data/slates/<date>.json`, plus
    `data/slates/double_elim/<date>.json` (only the options double-elimination players may bet).
    If it reports 0 games, skip to step 6.
@@ -17,14 +19,18 @@ match these exact command forms; don't `cd` into `scripts/`).
      `{MAX_PICKS}` (= `bankroll.max_picks_per_player_per_day`), `{START}`, `{MIN_BET}`, `{MIN_DAILY}`
      from `config.json` and `{BANKROLL}`, `{RIDING}`, `{AVAILABLE}` from that player's entry in
      `data/bankroll/standings.json` (money as plain numbers with 2 decimals, e.g. `10.00`).
+     `{REPORT_CARD}` is the full text of `data/report_cards/bankroll/<player>.md`, pasted as is.
      Skip a player whose entry says `"busted": true`.
    - **Double elimination** (`double_elim.players`): prompt is `prompts/double_elim_player.md` with
      `{DATE}`, `{START}` and `{MIN_PRICE}` (= `double_elim.min_price_decimal`) from `config.json`, and
      from that player's entry in `data/double_elim/standings.json`: `{BANKROLL}` (`bankroll`),
      `{STAKE}` (`next_stake`), `{LAST}` (`last`: write "none yet" for `start`, otherwise `win` or `loss`)
      and `{STAKE_RULE}` ("all of your bankroll, because your last bet lost" when `last` is `loss`,
-     otherwise "half of your bankroll"). Skip a player whose entry says `"out": true` or whose
+     otherwise "half of your bankroll"). `{REPORT_CARD}` is the full text of
+     `data/report_cards/double_elim/<player>.md`, pasted as is. Skip a player whose entry says `"out": true` or whose
      `riding` is above 0.
+
+   Flat players get no report card: they are the comparison group for whether report cards help.
 
    Start one subagent per player across **all three** competitions, **all in one message so they run in
    parallel**, with the Agent tool using that player's `model` and `effort`. Do not add hints or your
