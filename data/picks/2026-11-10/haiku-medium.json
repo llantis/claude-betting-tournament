@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Los Angeles Clippers @ Phoenix Suns",
+      "game_id": "8178ff2ec61f604b61dfe6d7b8d71103",
+      "commence_time": "2026-11-11T02:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Los Angeles Clippers +3.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Clippers +3.5 at 1.89 needs about 53%. Their +140 moneyline implies about 40% to win, and a 3.5-point dog covers with a win or a loss by 1-3, so about 55%. No injury or form check done.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-10",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
+      "game_id": "f5477c781c94e09e85374bbf9149c0f1",
+      "commence_time": "2026-11-11T04:10:00Z",
+      "option_id": "G06-SPREAD-HOME",
+      "pick": "Portland Trail Blazers +1.5",
+      "price_decimal": 1.94,
+      "price_american": "-106",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Blazers +1.5 at 1.94 needs about 52%. Home +110 implies about 47% to win, and +1.5 covers with any win or a one-point loss, so about 54%. No injury or form check done.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

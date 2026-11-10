@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Oklahoma City Thunder @ Portland Trail Blazers",
+      "game_id": "f5477c781c94e09e85374bbf9149c0f1",
+      "commence_time": "2026-11-11T04:10:00Z",
+      "option_id": "G06-SPREAD-HOME",
+      "pick": "Portland Trail Blazers +1.5",
+      "price_decimal": 1.94,
+      "price_american": "-106",
+      "stake": 1.41,
+      "confidence": 0.51,
+      "reason": "Near pick'em with Portland at home getting +1.5 at 1.94, the better-priced side of the spread (break-even 51.5%); I found no current injury news, so this is a market-priced coin flip rather than a claimed edge.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G04-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Sacramento Kings",
+      "game_id": "78ab42ddb22b68903fd53a384d0fc616",
+      "commence_time": "2026-11-11T03:10:00Z",
+      "option_id": "G05-TOTAL-UNDER",
+      "pick": "Under 222.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.5,
+      "confidence": 0.5,
+      "reason": "Symmetric 1.91/1.91 total is the lowest-margin market on the slate; with no research edge I take near-fair value and state a conservative 50% confidence given my record of slight overconfidence.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G05-TOTAL-OVER",
+      "second pick on same game"
+    ],
+    [
+      "G02-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

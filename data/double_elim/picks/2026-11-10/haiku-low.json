@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "New Jersey Devils @ Winnipeg Jets",
+      "game_id": "11f3c6f0f406c5ffb575dbcd671cf964",
+      "commence_time": "2026-11-11T00:10:00Z",
+      "option_id": "G12-ML-HOME",
+      "pick": "Winnipeg Jets ML",
+      "price_decimal": 2.24,
+      "price_american": "+124",
+      "stake": 1.0,
+      "confidence": 0.47,
+      "reason": "Home ice at +124 implies about 44.6%; without research I estimate Winnipeg at about 47%, a thin edge. Kept low given my record of overconfidence.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

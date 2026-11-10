@@ -1,10 +1,10 @@
 # Report card: sonnet-low (double_elim)
 
-Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $21.01, P/L **$-2.00**, ROI **-10%**.
+Settled bets: **10** (5 won, 5 lost, 0 pushed). Staked $22.01, P/L **$-3.00**, ROI **-14%**.
 
 ## Calibration
 - You said your bets would win **53%** of the time on average.
-- They actually won **56%**.
+- They actually won **50%**.
 - The prices you took implied **52%** (what the market expected).
 
 ### By stated confidence
@@ -12,14 +12,14 @@ Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $21.01, P/L **$-2.00**, RO
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 0-1-0 | 0% | 47% | $-3.11 | -100% |
-| 50-54% | 6 | 5-1-0 | 83% | 53% | $+6.22 | 49% |
+| 50-54% | 7 | 5-2-0 | 71% | 53% | $+5.22 | 38% |
 | 55-59% | 2 | 0-2-0 | 0% | 56% | $-5.11 | -100% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| NBA | 2 | 1-1-0 | 50% | 54% | $-1.21 | -39% |
+| NBA | 3 | 1-2-0 | 33% | 54% | $-2.21 | -53% |
 | NCAAF | 2 | 2-0-0 | 100% | 53% | $+3.43 | 95% |
 | UCL | 2 | 1-1-0 | 50% | 54% | $-0.14 | -2% |
 | NFL | 1 | 1-0-0 | 100% | 53% | $+2.00 | 95% |
@@ -30,26 +30,28 @@ Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $21.01, P/L **$-2.00**, RO
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
+| Spread | 5 | 4-1-0 | 80% | 53% | $+5.36 | 70% |
 | Moneyline | 5 | 1-4-0 | 20% | 53% | $-8.36 | -58% |
-| Spread | 4 | 4-0-0 | 100% | 53% | $+6.36 | 95% |
 
 ### Favorites vs underdogs
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 8 | 5-3-0 | 62% | 54% | $+1.11 | 6% |
+| Favorite (under 2.00) | 9 | 5-4-0 | 56% | 54% | $+0.11 | 1% |
 | Underdog (2.00+) | 1 | 0-1-0 | 0% | 47% | $-3.11 | -100% |
 
 ## What stands out
 
-- **Spread** has worked for you: 4-0-0, ROI 95%.
+- Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
+- **Spread** has worked for you: 4-1-0, ROI 70%.
 - **Moneyline** has been a leak: 1-4-0, ROI -58%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 9 settled bets (newest first)
+## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-09 | Washington Wizards +10.5 (NBA) | 1.93 | $1.00 | 53% | loss | $-1.00 | Large NBA road underdog +10.5 at 1.93; double-digit spreads tend to be slightly inflated, and my record shows spreads working better than moneylines. Break-even is about 51.8%, so the edge is thin. |
 | 2026-11-05 | Utah Mammoth ML (NHL) | 1.82 | $2.97 | 55% | loss | $-2.97 | Utah is a modest road favorite at -122. I think its win chance is roughly equal to or slightly above the implied 55%, so I expect little or no edge. |
 | 2026-11-04 | PSV Eindhoven ML (UCL) | 1.95 | $2.97 | 54% | loss | $-2.97 | PSV are strong at home against a weaker Club Brugge side. The 1.95 price implies about 51%, so I see a slight edge. |
 | 2026-11-03 | Inter Milan ML (UCL) | 1.91 | $3.11 | 53% | win | $+2.83 | Inter is the clear quality favorite away at Feyenoord; the 1.91 price is close to fair, with a slight edge from squad depth. |

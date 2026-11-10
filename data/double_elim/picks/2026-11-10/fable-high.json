@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Miami Heat @ Utah Jazz",
+      "game_id": "9ac02cb22adf276b325b1e9c9c6c588e",
+      "commence_time": "2026-11-11T02:10:00Z",
+      "option_id": "G04-TOTAL-OVER",
+      "pick": "Over 227.5",
+      "price_decimal": 1.94,
+      "price_american": "-106",
+      "stake": 1.42,
+      "confidence": 0.52,
+      "reason": "DraftKings has Over 227.5 as the cheap side at -106 while most other books juice the over at 227.5 (-114/-115) or sit at 228-228.5, and Polymarket's main total is 228.5 at ~50/50 with Over 227.5 at 0.525; that puts fair near 52% against a 51.5% break-even. Heat games average ~237 total points and Gi",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G06-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G01-TOTAL-OVER",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Milwaukee Bucks @ New York Knicks",
+      "game_id": "3689d555c9a1c81e3d300375b4c80530",
+      "commence_time": "2026-11-11T00:40:00Z",
+      "option_id": "G01-ML-HOME",
+      "pick": "New York Knicks ML",
+      "price_decimal": 1.1,
+      "price_american": "-1000",
+      "stake": 1.0,
+      "confidence": 0.88,
+      "reason": "With a $2.06 bankroll, a $1.00 minimum stake means a loss still leaves me in the competition, so I put it on the most likely winner on the slate. The Knicks at home at -1000 are about 87.5% to win once the bookmaker's margin is removed, and NBA favorites have been my most reliable segment.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

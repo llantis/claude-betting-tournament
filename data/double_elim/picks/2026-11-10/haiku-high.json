@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-10",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Boston Celtics @ Philadelphia 76ers",
+      "game_id": "cfa503c66cd505776a910921875ef7dd",
+      "commence_time": "2026-11-11T01:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "Philadelphia 76ers ML",
+      "price_decimal": 1.99,
+      "price_american": "-101",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "76ers are at home at -101 (1.99, implied about 50.3%). Home teams priced near a pick'em usually win a bit more than that, so there is a small home-court edge. No verified 2026 injury news was found, so confidence stays modest.",
+      "placed_at": "2026-11-10T15:16:46Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G11-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}
