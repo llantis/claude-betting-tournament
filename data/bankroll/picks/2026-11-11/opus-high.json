@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-11",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "San Antonio Spurs @ Chicago Bulls",
+      "game_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
+      "commence_time": "2026-11-12T01:10:00Z",
+      "option_id": "G05-ML-AWAY",
+      "pick": "San Antonio Spurs ML",
+      "price_decimal": 1.08,
+      "price_american": "-1250",
+      "stake": 1.16,
+      "confidence": 0.88,
+      "reason": "Spurs at -1250 are about 88.7% to win once the margin is removed, tied for the most likely result on the slate, and NBA favourites are my most reliable segment. $1.16 is the most I can stake and still keep $1.00 if it loses.",
+      "placed_at": "2026-11-11T15:38:38Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

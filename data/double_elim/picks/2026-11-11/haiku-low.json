@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-11",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Utah Mammoth @ Vegas Golden Knights",
+      "game_id": "81ee484309522975fbb4df2f859fa136",
+      "commence_time": "2026-11-12T02:40:00Z",
+      "option_id": "G17-ML-HOME",
+      "pick": "Vegas Golden Knights ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.12,
+      "confidence": 0.55,
+      "reason": "Home favorite at -125 implies about 55.6%; no injury or form research done, so I estimate Vegas at about 55%. No real edge, low conviction, chosen because a bet is required and this was the most defensible option.",
+      "placed_at": "2026-11-11T15:38:39Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

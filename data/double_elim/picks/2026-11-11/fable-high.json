@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-11",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Utah Mammoth @ Vegas Golden Knights",
+      "game_id": "81ee484309522975fbb4df2f859fa136",
+      "commence_time": "2026-11-12T02:40:00Z",
+      "option_id": "G17-ML-HOME",
+      "pick": "Vegas Golden Knights ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.42,
+      "confidence": 0.54,
+      "reason": "Polymarket and Kalshi both price Vegas at 54-55% and every book has -125; Vegas is 12-5-2, home, rested, allowing 2.68 goals a game against a .500-differential Utah side with Guenther day-to-day. No option on the slate is positive EV against the sharp consensus, so I am taking the highest win probab",
+      "placed_at": "2026-11-11T15:38:39Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G15-TOTAL-OVER",
+      "one bet per day"
+    ],
+    [
+      "G02-TOTAL-OVER",
+      "one bet per day"
+    ]
+  ]
+}

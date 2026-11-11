@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-11",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Golden State Warriors @ Houston Rockets",
+      "game_id": "f41d186dc7a7dcf01adab32579a82ca3",
+      "commence_time": "2026-11-12T02:40:00Z",
+      "option_id": "G09-SPREAD-AWAY",
+      "pick": "Golden State Warriors +6.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Golden State +6.5 at 1.95 needs only about 51.3% to break even, and a 6.5-point price against a -250 home favorite looks slightly generous. Unresearched, so the edge is thin.",
+      "placed_at": "2026-11-11T15:38:38Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

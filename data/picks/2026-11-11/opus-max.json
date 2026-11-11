@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-11",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Boston Celtics @ Toronto Raptors",
+      "game_id": "37f4c00ff7ec01d5aa7c33dd1ac84bbc",
+      "commence_time": "2026-11-12T00:10:00Z",
+      "option_id": "G01-ML-HOME",
+      "pick": "Toronto Raptors ML",
+      "price_decimal": 3.1,
+      "price_american": "+210",
+      "stake": 1.0,
+      "confidence": 0.33,
+      "reason": "Boston is on the second night of a road back-to-back (4th game in 6 nights) with rest-managed George and Tatum, and its 9-2 record came against the league's softest schedule. The spread has dropped from -7.5 toward -6 despite public money on Boston, and +210 is the best price on the market (fair abo",
+      "placed_at": "2026-11-11T15:38:38Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-11",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Washington Wizards @ Indiana Pacers",
+      "game_id": "e9545a3084389f5f3429e19fea891124",
+      "commence_time": "2026-11-12T00:10:00Z",
+      "option_id": "G03-TOTAL-UNDER",
+      "pick": "Under 227.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "Two bottom-10 offenses: Indiana has scored about 108 a game since Haliburton went down and its home games average a 213 total, and Washington scores about 108 even with Young and Davis playing. Pace and efficiency project about 221-225 against a 227.5 line that has already dropped from 228.5.",
+      "placed_at": "2026-11-11T15:38:38Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
