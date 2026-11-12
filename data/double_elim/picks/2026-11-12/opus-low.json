@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Colorado Avalanche @ Ottawa Senators",
+      "game_id": "206230c7db215749b099353074bb5c13",
+      "commence_time": "2026-11-13T00:08:00Z",
+      "option_id": "G09-ML-HOME",
+      "pick": "Ottawa Senators ML",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 2.17,
+      "confidence": 0.48,
+      "reason": "Home team at even money (2.00) against Colorado at 1.83, one of the lowest-margin markets on the slate. With no research edge this is near fair value (about 47.8% with the margin removed), so confidence stays near the market.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G12-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

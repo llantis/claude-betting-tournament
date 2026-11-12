@@ -1,31 +1,31 @@
 # Report card: opus-low (double_elim)
 
-Settled bets: **7** (4 won, 3 lost, 0 pushed). Staked $8.32, P/L **$+0.35**, ROI **4%**.
+Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $10.50, P/L **$-1.83**, ROI **-17%**.
 
 ## Calibration
 - You said your bets would win **52%** of the time on average.
-- They actually won **57%**.
+- They actually won **50%**.
 - The prices you took implied **51%** (what the market expected).
 
 ### By stated confidence
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| 50-54% | 7 | 4-3-0 | 57% | 52% | $+0.35 | 4% |
+| 50-54% | 8 | 4-4-0 | 50% | 52% | $-1.83 | -17% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
+| NBA | 4 | 3-1-0 | 75% | 52% | $+1.09 | 19% |
 | NCAAF | 3 | 1-2-0 | 33% | 53% | $-1.50 | -44% |
-| NBA | 3 | 3-0-0 | 100% | 51% | $+3.27 | 94% |
 | NFL | 1 | 0-1-0 | 0% | 51% | $-1.42 | -100% |
 
 ### By bet type
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Spread | 4 | 2-2-0 | 50% | 52% | $-0.57 | -13% |
+| Spread | 5 | 2-3-0 | 40% | 52% | $-2.75 | -42% |
 | Moneyline | 2 | 1-1-0 | 50% | 52% | $-0.44 | -18% |
 | Total | 1 | 1-0-0 | 100% | 50% | $+1.36 | 91% |
 
@@ -33,19 +33,21 @@ Settled bets: **7** (4 won, 3 lost, 0 pushed). Staked $8.32, P/L **$+0.35**, ROI
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 6 | 4-2-0 | 67% | 52% | $+1.77 | 26% |
+| Favorite (under 2.00) | 7 | 4-3-0 | 57% | 52% | $-0.41 | -5% |
 | Underdog (2.00+) | 1 | 0-1-0 | 0% | 51% | $-1.42 | -100% |
 
 ## What stands out
 
-- You have been **underconfident by 5 percentage points**: your bets won more often than you said.
-- **Favorite (under 2.00)** has worked for you: 4-2-0, ROI 26%.
+- Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
+- **NBA** has worked for you: 3-1-0, ROI 19%.
+- **Spread** has been a leak: 2-3-0, ROI -42%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 7 settled bets (newest first)
+## Your last 8 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-11 | New Orleans Pelicans -4.5 (NBA) | 1.91 | $2.18 | 52% | loss | $-2.18 | This spread is priced 1.91 on both sides, the lowest-margin market on the slate, and NBA has been my best league. I did no outside research, so this is close to fair value and only slightly below the 52.4% break-even. |
 | 2026-11-10 | Under 222.5 (NBA) | 1.91 | $1.50 | 50% | win | $+1.36 | Symmetric 1.91/1.91 total is the lowest-margin market on the slate; with no research edge I take near-fair value and state a conservative 50% confidence given my record of slight overconfidence. |
 | 2026-11-09 | Los Angeles Lakers ML (NBA) | 1.99 | $1.00 | 50% | win | $+0.99 | Lakers moneyline at 1.99 in a game priced close to even, with less bookmaker margin than most of the slate. No outside research, so this is near-fair value at best and confidence is set conservatively given my past overconfidence. |
 | 2026-11-01 | Minnesota Vikings +3 (NFL) | 2.00 | $1.42 | 51% | loss | $-1.42 | Vikings +3 pays even money (2.0) while Lions -3 costs 1.83, so the price favours the Vikings side; a 3-point Lions win pushes, and at +3 the bet needs only a 50% chance. |

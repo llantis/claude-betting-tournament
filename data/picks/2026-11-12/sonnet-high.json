@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Colorado Avalanche @ Ottawa Senators",
+      "game_id": "206230c7db215749b099353074bb5c13",
+      "commence_time": "2026-11-13T00:08:00Z",
+      "option_id": "G09-ML-AWAY",
+      "pick": "Colorado Avalanche ML",
+      "price_decimal": 1.83,
+      "price_american": "-120",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Colorado is usually the stronger team and -120 on the road is a slight discount, but I couldn't check injuries or goalies. This is a marginal edge.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

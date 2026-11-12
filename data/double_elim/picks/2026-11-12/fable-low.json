@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Dallas Mavericks @ Minnesota Timberwolves",
+      "game_id": "3c93e4724d36d796aed71c0ca4055b1b",
+      "commence_time": "2026-11-13T01:10:00Z",
+      "option_id": "G03-SPREAD-AWAY",
+      "pick": "Dallas Mavericks +5.5",
+      "price_decimal": 1.94,
+      "price_american": "-106",
+      "stake": 3.14,
+      "confidence": 0.51,
+      "reason": "Dallas +5.5 at 1.94 is the better-priced side of this spread (break-even 51.5%, no-vig about 49%); no research done, so this is a market-priced coin flip at the lowest vig rather than a claimed edge.",
+      "placed_at": "2026-11-12T14:59:36Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G04-SPREAD-HOME",
+      "one bet per day"
+    ],
+    [
+      "G01-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_nfl",
+      "matchup": "Washington Commanders @ New York Giants",
+      "game_id": "74d39e19225caf211ad2c8eb4110179f",
+      "commence_time": "2026-11-13T01:15:00Z",
+      "option_id": "G05-SPREAD-AWAY",
+      "pick": "Washington Commanders +2.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Commanders +2.5 at 1.89 (implied 52.9%) is a slightly better number than the current +1.5 at -115. Daniels is healthy while the Giants' QB status (McCarthy starting, Dart's knee) is uncertain. Low conviction; the edge is small.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

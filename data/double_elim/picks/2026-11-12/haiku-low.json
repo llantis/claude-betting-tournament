@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Minnesota Wild @ Toronto Maple Leafs",
+      "game_id": "fe4c6dbd3b40768336356b2a02966544",
+      "commence_time": "2026-11-13T00:10:00Z",
+      "option_id": "G13-ML-HOME",
+      "pick": "Toronto Maple Leafs ML",
+      "price_decimal": 2.42,
+      "price_american": "+142",
+      "stake": 1.57,
+      "confidence": 0.43,
+      "reason": "Toronto at home at +142 implies about 41.3%; I estimate about 45% given home ice and the stronger roster versus Minnesota. Small edge, no injury or form research, and confidence is shaded down for my record of overconfidence.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

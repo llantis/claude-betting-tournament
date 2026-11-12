@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Detroit Pistons @ Washington Wizards",
+      "game_id": "d5c5ae8d56762b45d1ec4b85337878f3",
+      "commence_time": "2026-11-13T00:10:00Z",
+      "option_id": "G01-ML-AWAY",
+      "pick": "Detroit Pistons ML",
+      "price_decimal": 1.21,
+      "price_american": "-476",
+      "stake": 1.25,
+      "confidence": 0.79,
+      "reason": "Detroit is the most likely winner on the slate, about 79% with the margin removed, against a Washington team it just beat and that is still on a skid; big NBA favourites are my best segment. $1.25 is the most I can stake and still keep $1.00 if it loses.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

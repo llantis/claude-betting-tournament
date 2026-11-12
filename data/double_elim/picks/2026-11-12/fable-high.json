@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "New York Islanders @ Los Angeles Kings",
+      "game_id": "2df93287814e2ffcbf1186e138b4a3d8",
+      "commence_time": "2026-11-13T03:10:00Z",
+      "option_id": "G18-ML-HOME",
+      "pick": "Los Angeles Kings ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.28,
+      "confidence": 0.54,
+      "reason": "Kalshi (54.5%), Polymarket (54%) and every book (-125/+105, about 53.5% no-vig) agree the Kings win about 54%; nothing on the slate is +EV against the sharp consensus, so I am taking the highest win probability at a near-fair price. Both teams are rested and the Islanders are missing Barzal, Romanov",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G11-ML-HOME",
+      "one bet per day"
+    ],
+    [
+      "G05-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

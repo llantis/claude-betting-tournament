@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "New York Islanders @ Los Angeles Kings",
+      "game_id": "2df93287814e2ffcbf1186e138b4a3d8",
+      "commence_time": "2026-11-13T03:10:00Z",
+      "option_id": "G18-ML-HOME",
+      "pick": "Los Angeles Kings ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.26,
+      "confidence": 0.53,
+      "reason": "I can't show an edge, so I'm taking the slate's most likely winner, as in my last two winning bets. LA at home at -125 against the Islanders' +105 is about 53% once the margin is removed, tied for the highest on the board, but below the 55.6% break-even.",
+      "placed_at": "2026-11-12T14:59:35Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G11-ML-HOME",
+      "one bet per day"
+    ],
+    [
+      "G09-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-12",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Toronto Raptors @ Philadelphia 76ers",
+      "game_id": "a98ff1ab79feb59277d989c656f16144",
+      "commence_time": "2026-11-13T00:10:00Z",
+      "option_id": "G02-SPREAD-HOME",
+      "pick": "Philadelphia 76ers -8.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "The slate's PHI -8.5 looks like a stale opening number; the market has moved to PHI -10 to -10.5 (DraftKings -10.5, moneylines -410 to -460) with Toronto on a back-to-back and without Kawhi and likely Scottie Barnes. Getting 1.5-2 points of line value gives about 54% to cover.",
+      "placed_at": "2026-11-12T15:20:11Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-12",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Charlotte Hornets @ Phoenix Suns",
+      "game_id": "f3f429e773bfb2340ba2bb90f2b9dd1e",
+      "commence_time": "2026-11-13T02:10:00Z",
+      "option_id": "G04-SPREAD-HOME",
+      "pick": "Phoenix Suns -6.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Charlotte has the league's worst offense and is without Brandon Miller, Kon Knueppel and Dennis Schroder, while Phoenix is about average once its very hard schedule is accounted for. My blended rating makes Phoenix about a 9-10 point home favorite against a -6.5 line; the line moving toward Charlott",
+      "placed_at": "2026-11-12T15:20:11Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
