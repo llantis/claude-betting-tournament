@@ -1,11 +1,11 @@
 # Report card: opus-high (bankroll)
 
-Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**, ROI **-15%**.
+Settled bets: **37** (18 won, 19 lost, 0 pushed). Staked $52.63, P/L **$-7.49**, ROI **-14%**.
 
 ## Calibration
 - You said your bets would win **53%** of the time on average.
-- They actually won **47%**.
-- The prices you took implied **52%** (what the market expected).
+- They actually won **49%**.
+- The prices you took implied **53%** (what the market expected).
 
 ### By stated confidence
 
@@ -14,13 +14,13 @@ Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**,
 | under 50% | 9 | 1-8-0 | 11% | 36% | $-11.36 | -84% |
 | 50-54% | 18 | 8-10-0 | 44% | 52% | $-1.76 | -8% |
 | 55-59% | 2 | 2-0-0 | 100% | 55% | $+2.88 | 89% |
-| 60% or more | 7 | 6-1-0 | 86% | 75% | $+2.49 | 22% |
+| 60% or more | 8 | 7-1-0 | 88% | 76% | $+2.75 | 22% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| NBA | 12 | 9-3-0 | 75% | 64% | $+3.20 | 21% |
+| NBA | 13 | 10-3-0 | 77% | 65% | $+3.46 | 21% |
 | NFL | 7 | 1-6-0 | 14% | 51% | $-7.00 | -74% |
 | NCAAF | 6 | 4-2-0 | 67% | 53% | $+3.74 | 42% |
 | UCL | 4 | 0-4-0 | 0% | 38% | $-4.50 | -100% |
@@ -32,7 +32,7 @@ Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**,
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Moneyline | 17 | 8-9-0 | 47% | 54% | $-6.62 | -26% |
+| Moneyline | 18 | 9-9-0 | 50% | 55% | $-6.36 | -24% |
 | Spread | 14 | 6-8-0 | 43% | 52% | $-3.26 | -17% |
 | Total | 5 | 3-2-0 | 60% | 52% | $+2.13 | 32% |
 
@@ -40,18 +40,17 @@ Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**,
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 23 | 13-10-0 | 57% | 60% | $+0.86 | 3% |
+| Favorite (under 2.00) | 24 | 14-10-0 | 58% | 60% | $+1.12 | 3% |
 | Underdog (2.00+) | 13 | 4-9-0 | 31% | 41% | $-8.61 | -46% |
 
 ## What stands out
 
-- You have been **overconfident by 6 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
-- **NBA** has worked for you: 9-3-0, ROI 21%.
+- **NBA** has worked for you: 10-3-0, ROI 21%.
 - **NCAAF** has worked for you: 4-2-0, ROI 42%.
 - **NFL** has been a leak: 1-6-0, ROI -74%.
 - **UCL** has been a leak: 0-4-0, ROI -100%.
-- **Moneyline** has been a leak: 8-9-0, ROI -26%.
+- **Moneyline** has been a leak: 9-9-0, ROI -24%.
 - **Total** has worked for you: 3-2-0, ROI 32%.
 - **Underdog (2.00+)** has been a leak: 4-9-0, ROI -46%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
@@ -60,6 +59,7 @@ Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**,
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-12 | Detroit Pistons ML (NBA) | 1.21 | $1.25 | 79% | win | $+0.26 | Detroit is the most likely winner on the slate, about 79% with the margin removed, against a Washington team it just beat and that is still on a skid; big NBA favourites are my best segment. $1.25 is the most I can stake and still keep $1.00 if it loses. |
 | 2026-11-11 | San Antonio Spurs ML (NBA) | 1.08 | $1.16 | 88% | win | $+0.09 | Spurs at -1250 are about 88.7% to win once the margin is removed, tied for the most likely result on the slate, and NBA favourites are my most reliable segment. $1.16 is the most I can stake and still keep $1.00 if it loses. |
 | 2026-11-10 | New York Knicks ML (NBA) | 1.10 | $1.00 | 88% | win | $+0.10 | With a $2.06 bankroll, a $1.00 minimum stake means a loss still leaves me in the competition, so I put it on the most likely winner on the slate. The Knicks at home at -1000 are about 87.5% to win once the bookmaker's margin is removed, and NBA favorites have been my most reliable segment. |
 | 2026-11-09 | Detroit Pistons ML (NBA) | 1.20 | $1.72 | 80% | win | $+0.34 | Any loss today knocks me out at any stake, so I'm putting everything on the bet most likely to win. Detroit at home against a Wizards team on a skid and without Anthony Davis is about 80% once the margin is removed, the highest on the slate, and I'm keeping confidence at the market's number because  |
@@ -69,4 +69,3 @@ Settled bets: **36** (17 won, 19 lost, 0 pushed). Staked $51.38, P/L **$-7.75**,
 | 2026-11-05 | Orlando Magic ML (NBA) | 1.93 | $1.00 | 53% | loss | $-1.00 | This is close to a pick'em even with Phoenix at home, and Orlando's deeper roster makes the Magic the slightly better side at a bit under even money. |
 | 2026-11-05 | Baltimore Ravens +10 (NFL) | 1.89 | $1.00 | 53% | loss | $-1.00 | The line went from 7.5 to 10 and the total from 43.5 to 39.5 after Lamar was ruled out. In a game projected that low, 10 points is a big margin for a home team, so the move looks a bit overdone. |
 | 2026-11-04 | Philadelphia 76ers +2.5 (NBA) | 1.94 | $1.00 | 52% | win | $+0.94 | Small divisional-style spread between two closely matched East teams; taking the points on the better-priced side at -106. |
-| 2026-11-04 | Napoli ML (UCL) | 4.30 | $1.00 | 25% | loss | $-1.00 | Napoli are a top Serie A side and +330 at Porto overstates the gap; with the margin removed it's a small edge over the 23.3% break-even. |

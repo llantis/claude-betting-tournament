@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-13",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Utah Jazz @ Houston Rockets",
+      "game_id": "d04acca7f0f369fc53bf04cd3357cb0d",
+      "commence_time": "2026-11-14T01:40:00Z",
+      "option_id": "G06-ML-HOME",
+      "pick": "Houston Rockets ML",
+      "price_decimal": 1.07,
+      "price_american": "-1429",
+      "stake": 1.51,
+      "confidence": 0.89,
+      "reason": "Houston at home on a three-game win streak is the most likely winner on the slate, about 89.5% with the margin removed, and big NBA favourites are my best segment. $1.51 is the most I can stake and still keep $1.00 if it loses.",
+      "placed_at": "2026-11-13T15:22:00Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

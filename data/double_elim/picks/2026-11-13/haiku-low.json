@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-13",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "New York Rangers @ Vancouver Canucks",
+      "game_id": "069bea369487ef0cd3017c9ceea68817",
+      "commence_time": "2026-11-14T02:10:00Z",
+      "option_id": "G13-ML-HOME",
+      "pick": "Vancouver Canucks ML",
+      "price_decimal": 2.85,
+      "price_american": "+185",
+      "stake": 1.57,
+      "confidence": 0.36,
+      "reason": "Vancouver at home at +185 implies about 35%; the Rangers are the market favorite (-1.5 at +114), but home ice gives Vancouver a small edge. No injury or form research done, so confidence is kept close to the implied price given my overconfidence record.",
+      "placed_at": "2026-11-13T15:22:00Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

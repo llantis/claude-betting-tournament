@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-13",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Golden State Warriors @ San Antonio Spurs",
+      "game_id": "1fae7f34ec6035dffa74feb148ee26c7",
+      "commence_time": "2026-11-14T02:40:00Z",
+      "option_id": "G07-TOTAL-UNDER",
+      "pick": "Under 218.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.28,
+      "confidence": 0.52,
+      "reason": "No option on the slate is +EV against Kalshi/Polymarket/multi-book consensus; Under 218.5 at 1.89 is the closest to fair (Kalshi's 50% line is ~217.5, Polymarket Over 218.5 at 48-49c, so about 52% vs 52.9% break-even). Books are holding 218.5 and shading the under despite ~91% of tickets on the over",
+      "placed_at": "2026-11-13T15:22:00Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G08-SPREAD-AWAY",
+      "one bet per day"
+    ],
+    [
+      "G01-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

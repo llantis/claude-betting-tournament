@@ -1,10 +1,10 @@
 # Report card: opus-high (double_elim)
 
-Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $8.68, P/L **$-1.48**, ROI **-17%**.
+Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $9.94, P/L **$-2.74**, ROI **-28%**.
 
 ## Calibration
 - You said your bets would win **52%** of the time on average.
-- They actually won **50%**.
+- They actually won **44%**.
 - The prices you took implied **53%** (what the market expected).
 
 ### By stated confidence
@@ -12,16 +12,16 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $8.68, P/L **$-1.48**, ROI
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 0-1-0 | 0% | 46% | $-1.00 | -100% |
-| 50-54% | 6 | 4-2-0 | 67% | 53% | $+0.92 | 15% |
+| 50-54% | 7 | 4-3-0 | 57% | 53% | $-0.34 | -5% |
 | 55-59% | 1 | 0-1-0 | 0% | 55% | $-1.40 | -100% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
+| NHL | 3 | 2-1-0 | 67% | 53% | $+0.26 | 8% |
 | NBA | 2 | 1-1-0 | 50% | 52% | $-0.53 | -22% |
 | NFL | 2 | 0-2-0 | 0% | 50% | $-2.40 | -100% |
-| NHL | 2 | 2-0-0 | 100% | 53% | $+1.52 | 80% |
 | MLB | 1 | 0-1-0 | 0% | 54% | $-1.00 | -100% |
 | NCAAF | 1 | 1-0-0 | 100% | 52% | $+0.93 | 93% |
 
@@ -29,26 +29,29 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $8.68, P/L **$-1.48**, ROI
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
+| Moneyline | 4 | 2-2-0 | 50% | 52% | $-1.15 | -25% |
 | Total | 3 | 1-2-0 | 33% | 54% | $-1.52 | -45% |
-| Moneyline | 3 | 2-1-0 | 67% | 52% | $+0.11 | 3% |
 | Spread | 2 | 1-1-0 | 50% | 49% | $-0.07 | -3% |
 
 ### Favorites vs underdogs
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 6 | 4-2-0 | 67% | 54% | $+0.93 | 15% |
+| Favorite (under 2.00) | 7 | 4-3-0 | 57% | 53% | $-0.33 | -4% |
 | Underdog (2.00+) | 2 | 0-2-0 | 0% | 48% | $-2.41 | -100% |
 
 ## What stands out
 
+- You have been **overconfident by 8 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
+- **Moneyline** has been a leak: 2-2-0, ROI -25%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 8 settled bets (newest first)
+## Your last 9 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-12 | Los Angeles Kings ML (NHL) | 1.80 | $1.26 | 53% | loss | $-1.26 | I can't show an edge, so I'm taking the slate's most likely winner, as in my last two winning bets. LA at home at -125 against the Islanders' +105 is about 53% once the margin is removed, tied for the highest on the board, but below the 55.6% break-even. |
 | 2026-11-11 | Vegas Golden Knights ML (NHL) | 1.80 | $0.90 | 53% | win | $+0.72 | With no edge I can show and a record of overconfidence, I take the slate's most likely winner: Vegas at home at -125 is about 53% with the margin removed, the highest on the board, though below the 55.6% break-even. |
 | 2026-11-10 | Minnesota Wild ML (NHL) | 1.80 | $1.00 | 53% | win | $+0.80 | This is an all-in elimination bet with no edge I can show, so I take the most likely winner. Minnesota at -125 has about a 53% chance once the vig is removed, the highest on the slate, though it is slightly below the 55.6% break-even. |
 | 2026-11-09 | Minnesota Vikings +3 (NFL) | 2.02 | $1.00 | 46% | loss | $-1.00 | Home dog getting the key number 3 at plus money (+102); the market already priced in Wentz replacing Murray, and with roughly a 9% push chance this cuts the loss risk, which matters in elimination, while staying marginally positive EV. |

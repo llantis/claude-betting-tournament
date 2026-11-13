@@ -118,3 +118,17 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-09,double_elim,haiku-low,G02-SPREAD-AWAY,Cleveland Cavaliers -8.5,KXNBASPREAD-26NOV09CLECHA-CLE9,yes,0.53,1,0.53,01a1c0e0-dec8-7971-b6fc-e378bcd118bd,executed,1,loss,-0.53,,2026-11-09T15:15:13Z
 2026-11-09,double_elim,fable-high,G04-SPREAD-AWAY,Memphis Grizzlies +3.5,KXNBASPREAD-26NOV09MEMTOR-TOR4,no,1.0,,,,,,,,no usable ask (1.0),2026-11-09T15:15:13Z
 2026-11-09,double_elim,fable-low,G09-SPREAD-AWAY,Buffalo Bills -3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-09T15:15:13Z
+2026-11-13,flat,opus-max,G11-TOTAL-UNDER,Under 47.5,KXNCAAFTOTAL-26NOV13ILLUCLA-48,no,0.49,2,0.98,01a1d580-84a0-7b14-95e2-4f53b8a83190,executed,2,,,,2026-11-13T15:22:10Z
+2026-11-13,flat,opus-max,G12-SPREAD-AWAY,Houston Cougars -8.5,,,,,,,,,,,no Kalshi spread at 8.5,2026-11-13T15:22:10Z
+2026-11-13,flat,opus-max,G14-ML-AWAY,Nashville Predators ML,KXNHLGAME-26NOV13NSHVGK-NSH,yes,0.38,2,0.76,01a1d580-9058-7eb8-8920-b467b1e3e029,resting,1,,,,2026-11-13T15:22:10Z
+2026-11-13,flat,opus-low,G05-SPREAD-HOME,New Orleans Pelicans +2.5,KXNBASPREAD-26NOV13MEMNOP-MEM3,no,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,flat,opus-low,G06-SPREAD-AWAY,Utah Jazz +15.5,KXNBASPREAD-26NOV13UTAHOU-HOU16,no,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,flat,opus-low,G13-ML-HOME,Vancouver Canucks ML,KXNHLGAME-26NOV13NYRVAN-VAN,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,flat,sonnet-high,G06-SPREAD-AWAY,Utah Jazz +15.5,KXNBASPREAD-26NOV13UTAHOU-HOU16,no,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,flat,sonnet-high,G02-SPREAD-AWAY,Milwaukee Bucks +8.5,KXNBASPREAD-26NOV13MILORL-ORL9,no,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,flat,sonnet-high,G07-SPREAD-AWAY,Golden State Warriors +11.5,KXNBASPREAD-26NOV13GSWSAS-SAS12,no,0.46,2,0.92,01a1d580-9828-70b4-94f9-bec61b0955c2,executed,2,,,,2026-11-13T15:22:10Z
+2026-11-13,double_elim,opus-high,G10-SPREAD-AWAY,Florida State Seminoles +3.5,KXNCAAFSPREAD-26NOV13FSUPITT-PITT4,no,0.52,2,1.04,01a1d580-9ff8-7be9-af2c-5e930fe69d4e,executed,2,,,,2026-11-13T15:22:10Z
+2026-11-13,double_elim,opus-low,G04-TOTAL-UNDER,Under 235.5,,,,,,,,,,,no Kalshi total at 235.5,2026-11-13T15:22:10Z
+2026-11-13,double_elim,haiku-low,G13-ML-HOME,Vancouver Canucks ML,KXNHLGAME-26NOV13NYRVAN-VAN,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-13T15:22:10Z
+2026-11-13,double_elim,fable-high,G07-TOTAL-UNDER,Under 218.5,,,,,,,,,,,no Kalshi total at 218.5,2026-11-13T15:22:10Z
+2026-11-13,double_elim,fable-low,G10-SPREAD-AWAY,Florida State Seminoles +3.5,KXNCAAFSPREAD-26NOV13FSUPITT-PITT4,no,0.52,6,3.12,01a1d580-a7c8-74d5-b508-0c65086072c7,executed,6,,,,2026-11-13T15:22:10Z
