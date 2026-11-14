@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-14",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Colorado Avalanche @ Montr\u00e9al Canadiens",
+      "game_id": "624643d0e1445dfdb95d86127440548a",
+      "commence_time": "2026-11-15T00:09:00Z",
+      "option_id": "G63-ML-HOME",
+      "pick": "Montr\u00e9al Canadiens ML",
+      "price_decimal": 1.82,
+      "price_american": "-122",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Adrian Dater reported MacKinnon and Makar (both hurt Thursday) won't play, and Colorado called up Gavin Brindley; the market's ~53.5% only partly prices both stars missing, and Montreal (12-3-4, 12-game point streak, Fowler .926) should be about 56% without them.",
+      "placed_at": "2026-11-14T15:33:31Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-14",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Arizona State Sun Devils @ UCF Knights",
+      "game_id": "109bd435222562d833efa2a511f9b79e",
+      "commence_time": "2026-11-14T22:30:00Z",
+      "option_id": "G38-SPREAD-HOME",
+      "pick": "UCF Knights -3.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.525,
+      "reason": "Arizona State had to get off its plane Friday and flies cross-country the morning of the 5:30 PM ET kickoff, yet the spread hasn't moved off UCF -3.5 since Thursday; with both teams on backup QBs I count the same-day travel as about 1.5 points, so UCF -3.5 at -105 covers about 52.5%.",
+      "placed_at": "2026-11-14T15:33:31Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

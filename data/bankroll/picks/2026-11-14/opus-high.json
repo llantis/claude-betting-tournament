@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-14",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Boston College Eagles @ Notre Dame Fighting Irish",
+      "game_id": "1daaf8ba9d71d56b9657b450f3df7861",
+      "commence_time": "2026-11-14T20:30:00Z",
+      "option_id": "G24-ML-HOME",
+      "pick": "Notre Dame Fighting Irish ML",
+      "price_decimal": 1.02,
+      "price_american": "-5000",
+      "stake": 1.62,
+      "confidence": 0.95,
+      "reason": "Notre Dame at home against Boston College is the most likely winner on the slate, about 95% with the margin removed and favoured by 29.5 points; my bets at 60%+ confidence have gone 8-1. $1.62 is the most I can stake and still keep $1.00 if it loses.",
+      "placed_at": "2026-11-14T15:33:32Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

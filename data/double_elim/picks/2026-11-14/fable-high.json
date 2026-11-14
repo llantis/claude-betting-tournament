@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-14",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Denver Nuggets @ New Orleans Pelicans",
+      "game_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
+      "commence_time": "2026-11-15T00:10:00Z",
+      "option_id": "G01-TOTAL-UNDER",
+      "pick": "Under 235.5",
+      "price_decimal": 1.9,
+      "price_american": "-111",
+      "stake": 1.21,
+      "confidence": 0.535,
+      "reason": "Since the snapshot the market total has dropped to 234.5 at DraftKings, FanDuel and bet365, 234 at Caesars and 233.5 at BetRivers, and Kalshi prices Over 235.5 at 45-46c, so Under 235.5 is about 53-54.5% against a 52.6% break-even. Pelicans are on a back-to-back missing Murphy, Murray and Missi agai",
+      "placed_at": "2026-11-14T15:33:32Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G51-SPREAD-HOME",
+      "one bet per day"
+    ],
+    [
+      "G59-TOTAL-UNDER",
+      "one bet per day"
+    ]
+  ]
+}

@@ -1,10 +1,10 @@
 # Report card: opus-high (double_elim)
 
-Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $9.94, P/L **$-2.74**, ROI **-28%**.
+Settled bets: **10** (5 won, 5 lost, 0 pushed). Staked $11.20, P/L **$-1.67**, ROI **-15%**.
 
 ## Calibration
 - You said your bets would win **52%** of the time on average.
-- They actually won **44%**.
+- They actually won **50%**.
 - The prices you took implied **53%** (what the market expected).
 
 ### By stated confidence
@@ -12,7 +12,7 @@ Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $9.94, P/L **$-2.74**, ROI
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 0-1-0 | 0% | 46% | $-1.00 | -100% |
-| 50-54% | 7 | 4-3-0 | 57% | 53% | $-0.34 | -5% |
+| 50-54% | 8 | 5-3-0 | 62% | 53% | $+0.73 | 8% |
 | 55-59% | 1 | 0-1-0 | 0% | 55% | $-1.40 | -100% |
 
 ### By league
@@ -20,10 +20,10 @@ Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $9.94, P/L **$-2.74**, ROI
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | NHL | 3 | 2-1-0 | 67% | 53% | $+0.26 | 8% |
+| NCAAF | 2 | 2-0-0 | 100% | 52% | $+2.00 | 88% |
 | NBA | 2 | 1-1-0 | 50% | 52% | $-0.53 | -22% |
 | NFL | 2 | 0-2-0 | 0% | 50% | $-2.40 | -100% |
 | MLB | 1 | 0-1-0 | 0% | 54% | $-1.00 | -100% |
-| NCAAF | 1 | 1-0-0 | 100% | 52% | $+0.93 | 93% |
 
 ### By bet type
 
@@ -31,26 +31,26 @@ Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $9.94, P/L **$-2.74**, ROI
 |---|---|---|---|---|---|---|
 | Moneyline | 4 | 2-2-0 | 50% | 52% | $-1.15 | -25% |
 | Total | 3 | 1-2-0 | 33% | 54% | $-1.52 | -45% |
-| Spread | 2 | 1-1-0 | 50% | 49% | $-0.07 | -3% |
+| Spread | 3 | 2-1-0 | 67% | 50% | $+1.00 | 31% |
 
 ### Favorites vs underdogs
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 7 | 4-3-0 | 57% | 53% | $-0.33 | -4% |
+| Favorite (under 2.00) | 8 | 5-3-0 | 62% | 53% | $+0.74 | 8% |
 | Underdog (2.00+) | 2 | 0-2-0 | 0% | 48% | $-2.41 | -100% |
 
 ## What stands out
 
-- You have been **overconfident by 8 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
 - **Moneyline** has been a leak: 2-2-0, ROI -25%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 9 settled bets (newest first)
+## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-13 | Florida State Seminoles +3.5 (NCAAF) | 1.85 | $1.26 | 52% | win | $+1.07 | This is an all-in bet with no edge I can show, so I take the most likely winner: Florida State +3.5 is about 51.7% once the margin is removed, tied for the highest on the slate, and covers if Pitt wins by exactly 3. The price favoring Florida State suggests the market has already allowed for its inj |
 | 2026-11-12 | Los Angeles Kings ML (NHL) | 1.80 | $1.26 | 53% | loss | $-1.26 | I can't show an edge, so I'm taking the slate's most likely winner, as in my last two winning bets. LA at home at -125 against the Islanders' +105 is about 53% once the margin is removed, tied for the highest on the board, but below the 55.6% break-even. |
 | 2026-11-11 | Vegas Golden Knights ML (NHL) | 1.80 | $0.90 | 53% | win | $+0.72 | With no edge I can show and a record of overconfidence, I take the slate's most likely winner: Vegas at home at -125 is about 53% with the margin removed, the highest on the board, though below the 55.6% break-even. |
 | 2026-11-10 | Minnesota Wild ML (NHL) | 1.80 | $1.00 | 53% | win | $+0.80 | This is an all-in elimination bet with no edge I can show, so I take the most likely winner. Minnesota at -125 has about a 53% chance once the vig is removed, the highest on the slate, though it is slightly below the 55.6% break-even. |
