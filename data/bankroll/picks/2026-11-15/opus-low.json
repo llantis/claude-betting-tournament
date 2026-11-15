@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-15",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Buffalo Bills @ New York Jets",
+      "game_id": "1057d50949844ddf483da9c8c20354be",
+      "commence_time": "2026-11-15T18:00:00Z",
+      "option_id": "G11-ML-AWAY",
+      "pick": "Buffalo Bills ML",
+      "price_decimal": 1.22,
+      "price_american": "-455",
+      "stake": 1.5,
+      "confidence": 0.84,
+      "reason": "Buffalo is a much stronger team than the rebuilding Jets; 1.22 implies 82% and I put the Bills slightly higher.",
+      "placed_at": "2026-11-15T16:36:04Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-15",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Vancouver Canucks @ Vegas Golden Knights",
+      "game_id": "c4ac537963707b247ad9e4eab06c15de",
+      "commence_time": "2026-11-16T02:10:00Z",
+      "option_id": "G26-ML-HOME",
+      "pick": "Vegas Golden Knights ML",
+      "price_decimal": 1.24,
+      "price_american": "-417",
+      "stake": 1.5,
+      "confidence": 0.82,
+      "reason": "Vegas at home against a weakened Vancouver; 1.24 implies 80.6%, and NHL favorites have been my most profitable segment.",
+      "placed_at": "2026-11-15T16:36:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

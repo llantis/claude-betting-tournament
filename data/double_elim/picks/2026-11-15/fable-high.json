@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-15",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Los Angeles Lakers @ Phoenix Suns",
+      "game_id": "29b8bbf05645162d89780189eed390c2",
+      "commence_time": "2026-11-15T21:10:00Z",
+      "option_id": "G02-TOTAL-UNDER",
+      "pick": "Under 228.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.76,
+      "confidence": 0.525,
+      "reason": "DraftKings hangs 228.5 with the under at -108 while FanDuel, bet365 and Caesars are at 227.5, Kalshi prices Over 228.5 at 46-47c and Polymarket at 47-48c, so Under 228.5 is about 52-53.5% against a 51.8% break-even. Austin Reaves is out for the Lakers and about 83% of tickets are on the over, which ",
+      "placed_at": "2026-11-15T16:36:05Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G11-SPREAD-HOME",
+      "one bet per day"
+    ],
+    [
+      "G19-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

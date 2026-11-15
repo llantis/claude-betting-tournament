@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-15",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "San Antonio Spurs @ Utah Jazz",
+      "game_id": "b2ffb781fe21df092fae2cff6c4c8c89",
+      "commence_time": "2026-11-15T22:10:00Z",
+      "option_id": "G04-ML-AWAY",
+      "pick": "San Antonio Spurs ML",
+      "price_decimal": 1.07,
+      "price_american": "-1429",
+      "stake": 1.65,
+      "confidence": 0.89,
+      "reason": "The Spurs at Utah are the most likely winner on the slate, about 89.9% with the margin removed and favoured by 16.5 points, and big NBA favourites are my best segment (bets at 60%+ confidence have gone 9-1). $1.65 is the most I can stake and still keep $1.00 if it loses.",
+      "placed_at": "2026-11-15T16:36:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
