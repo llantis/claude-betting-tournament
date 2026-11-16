@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Boston Celtics",
+      "game_id": "7c2ac54a119f461bf8fc1a23da536f29",
+      "commence_time": "2026-11-17T00:10:00Z",
+      "option_id": "G01-SPREAD-AWAY",
+      "pick": "Orlando Magic +8.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Orlando's defense-first profile keeps games close, and +8.5 on a road underdog is slightly inflated. The price of 1.93 needs only about 51.8%, so the edge is small.",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-16",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Los Angeles Chargers @ Baltimore Ravens",
+      "game_id": "35e3bdff558b5d1506251e814986f164",
+      "commence_time": "2026-11-17T01:15:00Z",
+      "option_id": "G09-SPREAD-AWAY",
+      "pick": "Los Angeles Chargers +4.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "A 39.5 total points to a low-possession, low-scoring game, where the underdog's +4.5 covers a bit more often than the spread implies. Breakeven is about 51.8% and the edge is modest.",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

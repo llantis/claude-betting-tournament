@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Portland Trail Blazers @ Minnesota Timberwolves",
+      "game_id": "b9dd15890ac45468b3e3ec1092f67c18",
+      "commence_time": "2026-11-17T01:10:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "Minnesota Timberwolves -1.5",
+      "price_decimal": 1.84,
+      "price_american": "-119",
+      "stake": 2.29,
+      "confidence": 0.52,
+      "reason": "I can't show an edge, so I'm taking the slate's most likely winner: Minnesota -1.5 at -119 against Portland's +1.5 at -102 is about 51.8% with the margin removed, the highest on the board. Portland's +114 moneyline puts Minnesota at about 55-56% to win outright, but 52% is below the 54.3% break-even",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G05-TOTAL-UNDER",
+      "one bet per day"
+    ],
+    [
+      "G10-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

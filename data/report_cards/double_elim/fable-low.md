@@ -1,10 +1,10 @@
 # Report card: fable-low (double_elim)
 
-Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $17.66, P/L **$-1.11**, ROI **-6%**.
+Settled bets: **10** (5 won, 5 lost, 0 pushed). Staked $20.55, P/L **$-4.00**, ROI **-19%**.
 
 ## Calibration
 - You said your bets would win **52%** of the time on average.
-- They actually won **56%**.
+- They actually won **50%**.
 - The prices you took implied **52%** (what the market expected).
 
 ### By stated confidence
@@ -12,7 +12,7 @@ Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $17.66, P/L **$-1.11**, RO
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 1-0-0 | 100% | 48% | $+2.12 | 102% |
-| 50-54% | 6 | 3-3-0 | 50% | 52% | $-2.55 | -19% |
+| 50-54% | 7 | 3-4-0 | 43% | 52% | $-5.44 | -34% |
 | 55-59% | 2 | 1-1-0 | 50% | 57% | $-0.68 | -27% |
 
 ### By league
@@ -20,16 +20,16 @@ Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $17.66, P/L **$-1.11**, RO
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | NBA | 4 | 2-2-0 | 50% | 52% | $-1.19 | -15% |
+| NFL | 2 | 1-1-0 | 50% | 54% | $-2.07 | -53% |
 | NCAAF | 2 | 1-1-0 | 50% | 52% | $-0.24 | -4% |
 | MLB | 1 | 1-0-0 | 100% | 52% | $+1.00 | 100% |
 | NHL | 1 | 0-1-0 | 0% | 50% | $-1.50 | -100% |
-| NFL | 1 | 1-0-0 | 100% | 56% | $+0.82 | 82% |
 
 ### By bet type
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Spread | 5 | 3-2-0 | 60% | 53% | $-1.23 | -11% |
+| Spread | 6 | 3-3-0 | 50% | 52% | $-4.12 | -28% |
 | Moneyline | 3 | 1-2-0 | 33% | 52% | $-0.88 | -17% |
 | Total | 1 | 1-0-0 | 100% | 52% | $+1.00 | 100% |
 
@@ -37,18 +37,21 @@ Settled bets: **9** (5 won, 4 lost, 0 pushed). Staked $17.66, P/L **$-1.11**, RO
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 6 | 3-3-0 | 50% | 54% | $-2.73 | -21% |
+| Favorite (under 2.00) | 7 | 3-4-0 | 43% | 53% | $-5.62 | -35% |
 | Underdog (2.00+) | 3 | 2-1-0 | 67% | 50% | $+1.62 | 35% |
 
 ## What stands out
 
-- **Favorite (under 2.00)** has been a leak: 3-3-0, ROI -21%.
+- Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
+- **Spread** has been a leak: 3-3-0, ROI -28%.
+- **Favorite (under 2.00)** has been a leak: 3-4-0, ROI -35%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 9 settled bets (newest first)
+## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-15 | Green Bay Packers -2.5 (NFL) | 1.85 | $2.89 | 52% | loss | $-2.89 | All-in elimination bet with no research done: Packers -2.5 at home at 1.85 is the market's shaded side (other side 1.98, no-vig about 52%) and sits under the key number 3, so I take the highest win probability on the slate rather than claim an edge. |
 | 2026-11-14 | Texas A&M Aggies +1.5 (NCAAF) | 1.82 | $2.90 | 53% | loss | $-2.90 | Texas A&M at home +1.5 at 1.82 is the market's shaded side (other side 2.02), no-vig about 52.5%; no research done, so I take the highest win probability on the slate rather than claim an edge. |
 | 2026-11-13 | Florida State Seminoles +3.5 (NCAAF) | 1.85 | $3.13 | 52% | win | $+2.66 | All-in elimination bet with no research edge: FSU +3.5 at 1.85 is the market's juiced side (no-vig ~51.7%) and sits on the hook above the key number 3, so I take the highest win probability rather than the longest price. |
 | 2026-11-12 | Dallas Mavericks +5.5 (NBA) | 1.94 | $3.14 | 51% | loss | $-3.14 | Dallas +5.5 at 1.94 is the better-priced side of this spread (break-even 51.5%, no-vig about 49%); no research done, so this is a market-priced coin flip at the lowest vig rather than a claimed edge. |

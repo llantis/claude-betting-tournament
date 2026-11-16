@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Phoenix Suns @ Denver Nuggets",
+      "game_id": "c2c9d9729305c19d4a453f92c83feae8",
+      "commence_time": "2026-11-17T02:10:00Z",
+      "option_id": "G08-ML-HOME",
+      "pick": "Denver Nuggets ML",
+      "price_decimal": 1.25,
+      "price_american": "-400",
+      "stake": 1.77,
+      "confidence": 0.77,
+      "reason": "With the margin removed, Denver at home against Phoenix (-400, -9.5) is the most likely winner on the slate at about 77%, and big NBA favourites are my best segment (60%+ confidence bets are 10-1). Confidence is kept at the market's number, and $1.77 is the most I can stake and still keep $1.00 if i",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

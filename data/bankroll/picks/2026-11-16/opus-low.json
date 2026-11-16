@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Los Angeles Chargers @ Baltimore Ravens",
+      "game_id": "35e3bdff558b5d1506251e814986f164",
+      "commence_time": "2026-11-17T01:15:00Z",
+      "option_id": "G09-ML-HOME",
+      "pick": "Baltimore Ravens ML",
+      "price_decimal": 1.44,
+      "price_american": "-227",
+      "stake": 1.5,
+      "confidence": 0.71,
+      "reason": "Baltimore at home is the stronger team; 1.44 implies 69.4% and favorites at 60%+ are my only profitable segment.",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-16",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Montr\u00e9al Canadiens @ New York Rangers",
+      "game_id": "2ef747b5f529d07b71843f1b5240eb38",
+      "commence_time": "2026-11-17T00:30:00Z",
+      "option_id": "G10-SPREAD-HOME",
+      "pick": "New York Rangers +1.5",
+      "price_decimal": 1.36,
+      "price_american": "-278",
+      "stake": 1.0,
+      "confidence": 0.75,
+      "reason": "Near pick'em game at home; +1.5 covers any win and most one-goal losses, and 1.36 implies 73.5%.",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

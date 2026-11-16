@@ -1,24 +1,24 @@
 # Report card: fable-high (double_elim)
 
-Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $9.61, P/L **$-0.49**, ROI **-5%**.
+Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $11.37, P/L **$-2.25**, ROI **-20%**.
 
 ## Calibration
 - You said your bets would win **54%** of the time on average.
-- They actually won **50%**.
+- They actually won **44%**.
 - The prices you took implied **54%** (what the market expected).
 
 ### By stated confidence
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| 50-54% | 6 | 3-3-0 | 50% | 53% | $-0.33 | -4% |
+| 50-54% | 7 | 3-4-0 | 43% | 53% | $-2.09 | -22% |
 | 55-59% | 2 | 1-1-0 | 50% | 57% | $-0.16 | -8% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| NBA | 4 | 3-1-0 | 75% | 53% | $+1.65 | 34% |
+| NBA | 5 | 3-2-0 | 60% | 53% | $-0.11 | -2% |
 | NHL | 3 | 1-2-0 | 33% | 55% | $-1.14 | -31% |
 | NCAAF | 1 | 0-1-0 | 0% | 53% | $-1.00 | -100% |
 
@@ -26,7 +26,7 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $9.61, P/L **$-0.49**, ROI
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Total | 4 | 2-2-0 | 50% | 54% | $-0.19 | -4% |
+| Total | 5 | 2-3-0 | 40% | 54% | $-1.95 | -29% |
 | Spread | 2 | 1-1-0 | 50% | 55% | $-0.16 | -8% |
 | Moneyline | 2 | 1-1-0 | 50% | 54% | $-0.14 | -5% |
 
@@ -34,18 +34,20 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $9.61, P/L **$-0.49**, ROI
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 8 | 4-4-0 | 50% | 54% | $-0.49 | -5% |
+| Favorite (under 2.00) | 9 | 4-5-0 | 44% | 54% | $-2.25 | -20% |
 
 ## What stands out
 
+- You have been **overconfident by 9 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
-- **NBA** has worked for you: 3-1-0, ROI 34%.
+- **Total** has been a leak: 2-3-0, ROI -29%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 8 settled bets (newest first)
+## Your last 9 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-15 | Under 228.5 (NBA) | 1.93 | $1.76 | 52% | loss | $-1.76 | DraftKings hangs 228.5 with the under at -108 while FanDuel, bet365 and Caesars are at 227.5, Kalshi prices Over 228.5 at 46-47c and Polymarket at 47-48c, so Under 228.5 is about 52-53.5% against a 51.8% break-even. Austin Reaves is out for the Lakers and about 83% of tickets are on the over, which  |
 | 2026-11-14 | Under 235.5 (NBA) | 1.90 | $1.21 | 54% | win | $+1.09 | Since the snapshot the market total has dropped to 234.5 at DraftKings, FanDuel and bet365, 234 at Caesars and 233.5 at BetRivers, and Kalshi prices Over 235.5 at 45-46c, so Under 235.5 is about 53-54.5% against a 52.6% break-even. Pelicans are on a back-to-back missing Murphy, Murray and Missi agai |
 | 2026-11-13 | Under 218.5 (NBA) | 1.89 | $1.28 | 52% | win | $+1.14 | No option on the slate is +EV against Kalshi/Polymarket/multi-book consensus; Under 218.5 at 1.89 is the closest to fair (Kalshi's 50% line is ~217.5, Polymarket Over 218.5 at 48-49c, so about 52% vs 52.9% break-even). Books are holding 218.5 and shading the under despite ~91% of tickets on the over |
 | 2026-11-12 | Los Angeles Kings ML (NHL) | 1.80 | $1.28 | 54% | loss | $-1.28 | Kalshi (54.5%), Polymarket (54%) and every book (-125/+105, about 53.5% no-vig) agree the Kings win about 54%; nothing on the slate is +EV against the sharp consensus, so I am taking the highest win probability at a near-fair price. Both teams are rested and the Islanders are missing Barzal, Romanov |

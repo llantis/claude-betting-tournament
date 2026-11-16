@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Phoenix Suns @ Denver Nuggets",
+      "game_id": "c2c9d9729305c19d4a453f92c83feae8",
+      "commence_time": "2026-11-17T02:10:00Z",
+      "option_id": "G08-TOTAL-OVER",
+      "pick": "Over 228.5",
+      "price_decimal": 1.88,
+      "price_american": "-114",
+      "stake": 1.75,
+      "confidence": 0.53,
+      "reason": "Kalshi (53-55c) and Polymarket (53-54c) both price Over 228.5 above the 53.2% break-even, with their 50/50 line at 230.5 and BetMGM at 229.5 with the over juiced to -115. Every other option on the slate is 1-4 points below break-even against the same markets, so this is both the best price and the h",
+      "placed_at": "2026-11-16T15:35:04Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G01-SPREAD-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

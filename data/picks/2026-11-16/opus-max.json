@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-16",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Montr\u00e9al Canadiens @ New York Rangers",
+      "game_id": "2ef747b5f529d07b71843f1b5240eb38",
+      "commence_time": "2026-11-17T00:30:00Z",
+      "option_id": "G10-TOTAL-UNDER",
+      "pick": "Under 6.5",
+      "price_decimal": 1.74,
+      "price_american": "-135",
+      "stake": 1.0,
+      "confidence": 0.58,
+      "reason": "Fowler (.926, MTL's Fowler starts average 5.5 goals) faces a low-event NYR team (~26 shots for/against, 6 of last 7 under 6.5), and MTL's 13% power play meets NYR's 89% PK with Matheson and Kreider out. My shot-based estimate is ~5.8-5.9 goals vs a market pricing ~6.0-6.1, so the -135 under is sligh",
+      "placed_at": "2026-11-16T15:35:03Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
