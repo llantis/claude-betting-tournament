@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-17",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Detroit Pistons @ San Antonio Spurs",
+      "game_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
+      "commence_time": "2026-11-18T01:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "San Antonio Spurs ML",
+      "price_decimal": 1.25,
+      "price_american": "-400",
+      "stake": 1.5,
+      "confidence": 0.82,
+      "reason": "San Antonio at home against a rebuilding Detroit; 1.25 implies 80% and short NBA home favorites have been reliable for me.",
+      "placed_at": "2026-11-17T14:52:05Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-17",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Miami (OH) RedHawks @ Kent State Golden Flashes",
+      "game_id": "792875fa96ecdf75559454c19c011768",
+      "commence_time": "2026-11-18T00:00:00Z",
+      "option_id": "G08-ML-AWAY",
+      "pick": "Miami (OH) RedHawks ML",
+      "price_decimal": 1.28,
+      "price_american": "-357",
+      "stake": 1.0,
+      "confidence": 0.8,
+      "reason": "Miami (OH) is the stronger MAC program against a weak Kent State; 1.28 implies 78% and I put Miami slightly higher.",
+      "placed_at": "2026-11-17T14:52:05Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

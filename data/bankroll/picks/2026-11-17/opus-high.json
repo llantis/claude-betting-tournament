@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-17",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Eastern Michigan Eagles @ Western Michigan Broncos",
+      "game_id": "0d8cfafd3da8fead51df5ec2e33e9382",
+      "commence_time": "2026-11-17T23:00:00Z",
+      "option_id": "G06-ML-HOME",
+      "pick": "Western Michigan Broncos ML",
+      "price_decimal": 1.14,
+      "price_american": "-714",
+      "stake": 1.0,
+      "confidence": 0.84,
+      "reason": "With the margin removed, Western Michigan at home (-714, favoured by 15.5) is the most likely winner on the slate at about 84%, and college football plus 60%+ confidence bets have been my best segments. With a $1.00 bankroll any loss knocks me out, so the whole minimum stake goes on the single most ",
+      "placed_at": "2026-11-17T14:52:12Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

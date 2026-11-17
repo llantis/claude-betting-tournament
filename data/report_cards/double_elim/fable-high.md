@@ -1,24 +1,24 @@
 # Report card: fable-high (double_elim)
 
-Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $11.37, P/L **$-2.25**, ROI **-20%**.
+Settled bets: **10** (4 won, 6 lost, 0 pushed). Staked $13.12, P/L **$-4.00**, ROI **-30%**.
 
 ## Calibration
 - You said your bets would win **54%** of the time on average.
-- They actually won **44%**.
+- They actually won **40%**.
 - The prices you took implied **54%** (what the market expected).
 
 ### By stated confidence
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| 50-54% | 7 | 3-4-0 | 43% | 53% | $-2.09 | -22% |
+| 50-54% | 8 | 3-5-0 | 38% | 53% | $-3.84 | -35% |
 | 55-59% | 2 | 1-1-0 | 50% | 57% | $-0.16 | -8% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| NBA | 5 | 3-2-0 | 60% | 53% | $-0.11 | -2% |
+| NBA | 6 | 3-3-0 | 50% | 53% | $-1.86 | -22% |
 | NHL | 3 | 1-2-0 | 33% | 55% | $-1.14 | -31% |
 | NCAAF | 1 | 0-1-0 | 0% | 53% | $-1.00 | -100% |
 
@@ -26,7 +26,7 @@ Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $11.37, P/L **$-2.25**, RO
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Total | 5 | 2-3-0 | 40% | 54% | $-1.95 | -29% |
+| Total | 6 | 2-4-0 | 33% | 54% | $-3.70 | -44% |
 | Spread | 2 | 1-1-0 | 50% | 55% | $-0.16 | -8% |
 | Moneyline | 2 | 1-1-0 | 50% | 54% | $-0.14 | -5% |
 
@@ -34,19 +34,22 @@ Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $11.37, P/L **$-2.25**, RO
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 9 | 4-5-0 | 44% | 54% | $-2.25 | -20% |
+| Favorite (under 2.00) | 10 | 4-6-0 | 40% | 54% | $-4.00 | -30% |
 
 ## What stands out
 
-- You have been **overconfident by 9 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
+- You have been **overconfident by 14 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
-- **Total** has been a leak: 2-3-0, ROI -29%.
+- **NBA** has been a leak: 3-3-0, ROI -22%.
+- **Total** has been a leak: 2-4-0, ROI -44%.
+- **Favorite (under 2.00)** has been a leak: 4-6-0, ROI -30%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 9 settled bets (newest first)
+## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-16 | Over 228.5 (NBA) | 1.88 | $1.75 | 53% | loss | $-1.75 | Kalshi (53-55c) and Polymarket (53-54c) both price Over 228.5 above the 53.2% break-even, with their 50/50 line at 230.5 and BetMGM at 229.5 with the over juiced to -115. Every other option on the slate is 1-4 points below break-even against the same markets, so this is both the best price and the h |
 | 2026-11-15 | Under 228.5 (NBA) | 1.93 | $1.76 | 52% | loss | $-1.76 | DraftKings hangs 228.5 with the under at -108 while FanDuel, bet365 and Caesars are at 227.5, Kalshi prices Over 228.5 at 46-47c and Polymarket at 47-48c, so Under 228.5 is about 52-53.5% against a 51.8% break-even. Austin Reaves is out for the Lakers and about 83% of tickets are on the over, which  |
 | 2026-11-14 | Under 235.5 (NBA) | 1.90 | $1.21 | 54% | win | $+1.09 | Since the snapshot the market total has dropped to 234.5 at DraftKings, FanDuel and bet365, 234 at Caesars and 233.5 at BetRivers, and Kalshi prices Over 235.5 at 45-46c, so Under 235.5 is about 53-54.5% against a 52.6% break-even. Pelicans are on a back-to-back missing Murphy, Murray and Missi agai |
 | 2026-11-13 | Under 218.5 (NBA) | 1.89 | $1.28 | 52% | win | $+1.14 | No option on the slate is +EV against Kalshi/Polymarket/multi-book consensus; Under 218.5 at 1.89 is the closest to fair (Kalshi's 50% line is ~217.5, Polymarket Over 218.5 at 48-49c, so about 52% vs 52.9% break-even). Books are holding 218.5 and shading the under despite ~91% of tickets on the over |

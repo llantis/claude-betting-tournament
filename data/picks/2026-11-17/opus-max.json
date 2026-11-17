@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-17",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Buffalo Sabres @ Philadelphia Flyers",
+      "game_id": "c5e76339fef03145801250ff2216947b",
+      "commence_time": "2026-11-18T00:10:00Z",
+      "option_id": "G10-TOTAL-UNDER",
+      "pick": "Under 6.5",
+      "price_decimal": 1.74,
+      "price_american": "-135",
+      "stake": 1.0,
+      "confidence": 0.585,
+      "reason": "DraftKings hangs 6.5 while most books are at 6 or 5.5. Two bottom-tier offenses (PHI 2.30 goals/game; BUF 6 goals in a 4-game skid) and my expected-goals model projects about 5.8 goals, so 6 or fewer lands about 58-59% against the 57.5% break-even.",
+      "placed_at": "2026-11-17T15:24:16Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-17",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Portland Trail Blazers @ Minnesota Timberwolves",
+      "game_id": "f1c9f0cd022cd864154413efbd9d9522",
+      "commence_time": "2026-11-18T01:10:00Z",
+      "option_id": "G03-TOTAL-UNDER",
+      "pick": "Under 228.5",
+      "price_decimal": 1.92,
+      "price_american": "-109",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "DraftKings' 228.5 is a point above the 227.5 consensus (Kalshi had 226.5 near 50/50). This is the second game of a same-building back-to-back against Minnesota's league-best defense, Kuminga is a game-time decision, and my ratings projection is about 226-227.",
+      "placed_at": "2026-11-17T15:24:16Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

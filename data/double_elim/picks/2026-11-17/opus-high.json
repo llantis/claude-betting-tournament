@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-17",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Buffalo Sabres @ Philadelphia Flyers",
+      "game_id": "c5e76339fef03145801250ff2216947b",
+      "commence_time": "2026-11-18T00:10:00Z",
+      "option_id": "G10-ML-AWAY",
+      "pick": "Buffalo Sabres ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 3.25,
+      "confidence": 0.53,
+      "reason": "I can't show an edge, so I'm taking the slate's most likely winner: Buffalo at -125 against Philadelphia's +105 is about 53.2% with the margin removed, the highest on the board, though below the 55.6% break-even.",
+      "placed_at": "2026-11-17T14:52:19Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G19-TOTAL-OVER",
+      "one bet per day"
+    ],
+    [
+      "G12-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}

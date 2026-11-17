@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-17",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "basketball_nba",
+      "matchup": "Utah Jazz @ Los Angeles Clippers",
+      "game_id": "e7343c795f16a5a2a6fd93dbc58499a6",
+      "commence_time": "2026-11-18T03:40:00Z",
+      "option_id": "G04-SPREAD-HOME",
+      "pick": "Los Angeles Clippers -6.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Utah is a weak road side and the Clippers are at home, so a 6.5-point cover looks slightly underpriced at 1.93. Injury status not verified.",
+      "placed_at": "2026-11-17T14:52:36Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-17",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "icehockey_nhl",
+      "matchup": "Toronto Maple Leafs @ Chicago Blackhawks",
+      "game_id": "8261a14ac1f636f0b382af43b97ef915",
+      "commence_time": "2026-11-18T00:40:00Z",
+      "option_id": "G14-SPREAD-AWAY",
+      "pick": "Toronto Maple Leafs -1.5",
+      "price_decimal": 2.6,
+      "price_american": "+160",
+      "stake": 1.0,
+      "confidence": 0.42,
+      "reason": "Chicago is a weak home side. Toronto -1.5 at 2.60 needs only about 38.5 percent, and a two-goal win looks more likely than that. Injury status not verified.",
+      "placed_at": "2026-11-17T14:52:36Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
