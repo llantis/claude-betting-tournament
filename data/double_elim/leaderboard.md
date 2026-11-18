@@ -2,7 +2,7 @@
 
 | # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | opus-high | opus | high | alive | $6.50 | $3.25 | $3.25 | 6-2-0 | 0 | $6.50 | 0.230 | 2 | $+2.80 |
+| 1 | opus-high | opus | high | one life left | $3.25 | $3.25 | $3.25 | 6-3-0 | 0 | $6.50 | 0.235 | 2 | $+2.80 |
 | 2 | fable-high | fable | high | out 2026-11-16 | $0.00 | - | $0.00 | 4-4-0 | 0 | $3.51 | 0.246 | 1 | $-1.59 |
 | 3 | fable-low | fable | low | out 2026-11-15 | $0.00 | - | $0.00 | 4-3-0 | 0 | $6.27 | 0.249 | 3 | $-2.32 |
 | 4 | opus-low | opus | low | out 2026-11-14 | $0.00 | - | $0.00 | 3-3-0 | 0 | $4.35 | 0.257 | 1 | $-2.00 |

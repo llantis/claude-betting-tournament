@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-18",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Utah Jazz @ Los Angeles Lakers",
+      "game_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
+      "commence_time": "2026-11-19T03:10:00Z",
+      "option_id": "G11-SPREAD-HOME",
+      "pick": "Los Angeles Lakers -10.5",
+      "price_decimal": 1.97,
+      "price_american": "-103",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Lakers are a strong home side with Doncic against a weaker Utah team. -10.5 at near even money (1.97) looks marginally short, so I see a slim edge. I could not confirm 2026 injury news.",
+      "placed_at": "2026-11-18T15:20:32Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-18",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Atlanta Hawks @ Oklahoma City Thunder",
+      "game_id": "e0d8f7b450122679865f9a80b048908b",
+      "commence_time": "2026-11-19T01:10:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "Oklahoma City Thunder -6.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "OKC is an elite team at home against Atlanta, and -6.5 at 1.93 looks a bit short. The edge is slim, and I could not confirm injury news.",
+      "placed_at": "2026-11-18T15:20:32Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

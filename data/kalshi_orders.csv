@@ -167,11 +167,11 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-16,flat,sonnet-high,G09-SPREAD-AWAY,Los Angeles Chargers +4.5,KXNFLSPREAD-26NOV16LACBAL-BAL5,no,0.5,2,1.0,01a1e4ff-96f0-7422-be89-a08626208f50,executed,2,win,1.00,,2026-11-16T15:35:11Z
 2026-11-16,double_elim,opus-high,G07-SPREAD-HOME,Minnesota Timberwolves -1.5,KXNBASPREAD-26NOV16PORMIN-MIN2,yes,0.54,4,2.16,01a1e4ff-9ec0-7439-a1e9-9e41914bbf24,executed,4,win,1.84,,2026-11-16T15:35:11Z
 2026-11-16,double_elim,fable-high,G08-TOTAL-OVER,Over 228.5,KXNBATOTAL-26NOV16PHXDEN-229,yes,0.0,,,,,,,,no usable ask (0.0),2026-11-16T15:35:11Z
-2026-11-17,flat,opus-low,G01-SPREAD-HOME,Toronto Raptors +2.5,KXNBASPREAD-26NOV17NYKTOR-NYK3,no,0.54,1,0.54,01a1ea1b-fc28-72e4-95f3-230c03b3a6a8,executed,1,,,,2026-11-17T15:24:24Z
+2026-11-17,flat,opus-low,G01-SPREAD-HOME,Toronto Raptors +2.5,KXNBASPREAD-26NOV17NYKTOR-NYK3,no,0.54,1,0.54,01a1ea1b-fc28-72e4-95f3-230c03b3a6a8,executed,1,loss,-0.54,,2026-11-17T15:24:24Z
 2026-11-17,flat,opus-low,G05-SPREAD-AWAY,Charlotte Hornets +7.5,KXNBASPREAD-26NOV17CHALAL-LAL8,no,1.0,,,,,,,,no usable ask (1.0),2026-11-17T15:24:24Z
-2026-11-17,flat,opus-low,G12-ML-AWAY,Edmonton Oilers ML,KXNHLGAME-26NOV17EDMFLA-EDM,yes,0.5,2,1.0,01a1ea1c-03f8-75ed-b7a8-9bec3db3f6c1,executed,2,,,,2026-11-17T15:24:24Z
+2026-11-17,flat,opus-low,G12-ML-AWAY,Edmonton Oilers ML,KXNHLGAME-26NOV17EDMFLA-EDM,yes,0.5,2,1.0,01a1ea1c-03f8-75ed-b7a8-9bec3db3f6c1,executed,2,win,1.00,,2026-11-17T15:24:24Z
 2026-11-17,flat,haiku-medium,G04-SPREAD-HOME,Los Angeles Clippers -6.5,KXNBASPREAD-26NOV17UTALAC-LAC7,yes,0.0,,,,,,,,no usable ask (0.0),2026-11-17T15:24:24Z
-2026-11-17,flat,haiku-medium,G14-SPREAD-AWAY,Toronto Maple Leafs -1.5,KXNHLSPREAD-26NOV17TORCHI-TOR2,yes,0.39,2,0.78,01a1ea1c-0bc8-7376-ad18-d0b79fd3dc01,executed,2,,,,2026-11-17T15:24:24Z
-2026-11-17,flat,opus-max,G10-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV17BUFPHI-7,no,0.56,1,0.56,01a1ea1c-1398-7af7-b419-621228d6ef0b,executed,1,,,,2026-11-17T15:24:24Z
+2026-11-17,flat,haiku-medium,G14-SPREAD-AWAY,Toronto Maple Leafs -1.5,KXNHLSPREAD-26NOV17TORCHI-TOR2,yes,0.39,2,0.78,01a1ea1c-0bc8-7376-ad18-d0b79fd3dc01,executed,2,loss,-0.78,,2026-11-17T15:24:24Z
+2026-11-17,flat,opus-max,G10-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV17BUFPHI-7,no,0.56,1,0.56,01a1ea1c-1398-7af7-b419-621228d6ef0b,executed,1,loss,-0.56,,2026-11-17T15:24:24Z
 2026-11-17,flat,opus-max,G03-TOTAL-UNDER,Under 228.5,KXNBATOTAL-26NOV17PORMIN-229,no,1.0,,,,,,,,no usable ask (1.0),2026-11-17T15:24:24Z
 2026-11-17,double_elim,opus-high,G10-ML-AWAY,Buffalo Sabres ML,KXNHLGAME-26NOV17BUFPHI-BUF,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-17T15:24:24Z

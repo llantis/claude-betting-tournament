@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-18",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Atlanta Hawks @ Oklahoma City Thunder",
+      "game_id": "e0d8f7b450122679865f9a80b048908b",
+      "commence_time": "2026-11-19T01:10:00Z",
+      "option_id": "G07-SPREAD-HOME",
+      "pick": "Oklahoma City Thunder -6.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "OKC's current healthy rotation (SGA, Caruso and Mitchell all playing) is winning by about 13.6 a game and is 5-0 at home by about 15, while Atlanta loses CJ McCollum plus Flemings and Landale. My model (OKC by 9-10) and ESPN BPI (about 8) both clear a line that drifted to 6.5.",
+      "placed_at": "2026-11-18T15:20:31Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-18",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Akron Zips @ UMass Minutemen",
+      "game_id": "ef5f5ac74b2228e8521c289fdbc6af93",
+      "commence_time": "2026-11-19T00:00:00Z",
+      "option_id": "G13-SPREAD-HOME",
+      "pick": "UMass Minutemen -3.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Akron is 0-6 in the MAC and allows about 7.0 yards per play in conference games, while UMass gains more per play than it allows. FPI gives UMass 76% and the moneyline has moved toward UMass, so -3.5 looks short even with QB Watson questionable.",
+      "placed_at": "2026-11-18T15:20:31Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

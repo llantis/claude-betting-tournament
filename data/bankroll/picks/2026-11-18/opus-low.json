@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-18",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Utah Jazz @ Los Angeles Lakers",
+      "game_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
+      "commence_time": "2026-11-19T03:10:00Z",
+      "option_id": "G11-ML-HOME",
+      "pick": "Los Angeles Lakers ML",
+      "price_decimal": 1.23,
+      "price_american": "-435",
+      "stake": 1.62,
+      "confidence": 0.82,
+      "reason": "The Lakers at home against a rebuilding Jazz team; 1.23 implies 81% and I put LA a little higher. Short home favorites are the only segment where my record is roughly even.",
+      "placed_at": "2026-11-18T15:20:32Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

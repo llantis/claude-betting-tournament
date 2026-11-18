@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-18",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Milwaukee Bucks @ Miami Heat",
+      "game_id": "b609888ea766ac28cd0e84f315d8f3d2",
+      "commence_time": "2026-11-19T00:10:00Z",
+      "option_id": "G03-ML-HOME",
+      "pick": "Miami Heat ML",
+      "price_decimal": 1.14,
+      "price_american": "-714",
+      "stake": 1.14,
+      "confidence": 0.84,
+      "reason": "With the margin removed, Miami at home against Milwaukee (-714, favoured by 11.5) is the most likely winner on the slate at about 84%, and big NBA favourites are my best segment. Any loss knocks me out at any legal stake, so the full $1.14 goes on the safest result, with confidence kept at the marke",
+      "placed_at": "2026-11-18T15:20:32Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
