@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-19",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Golden State Warriors @ Memphis Grizzlies",
+      "game_id": "3c082b72aa002131c276ff5e24bada1b",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "option_id": "G01-TOTAL-UNDER",
+      "pick": "Under 225.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Golden State has no Curry, and Draymond Green is ruled out for this second night of a back-to-back; they scored 85, 94 and 94 in their last three, with game totals of 208-210. Memphis is also on a back-to-back and the total has already been bet down from 227.5, so 225.5 needs too much from the Warri",
+      "placed_at": "2026-11-19T15:20:00Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-19",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "icehockey_nhl",
+      "matchup": "Anaheim Ducks @ Colorado Avalanche",
+      "game_id": "8689e63a36a8d62c4eba2fc402bb4f0c",
+      "commence_time": "2026-11-20T02:10:00Z",
+      "option_id": "G16-ML-AWAY",
+      "pick": "Anaheim Ducks ML",
+      "price_decimal": 2.1,
+      "price_american": "+110",
+      "stake": 1.0,
+      "confidence": 0.49,
+      "reason": "Colorado is without MacKinnon, Makar and Manson, lost Brindley in last night's physical 4-1 loss at Utah, and is on a back-to-back with backup Wedgewood (.863) likely in net. Anaheim is rested and the line has moved from -155 to -130; I make it close to a coin flip, not 45/55.",
+      "placed_at": "2026-11-19T15:20:00Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

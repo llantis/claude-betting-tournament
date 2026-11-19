@@ -1,0 +1,952 @@
+{
+  "date": "2026-11-19",
+  "snapshot_at": "2026-11-19T14:49:39Z",
+  "min_price_decimal": 1.8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "3c082b72aa002131c276ff5e24bada1b",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "Memphis Grizzlies",
+      "away": "Golden State Warriors",
+      "matchup": "Golden State Warriors @ Memphis Grizzlies",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Golden State Warriors ML",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.5,
+          "label": "Golden State Warriors +6.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.5,
+          "label": "Memphis Grizzlies -6.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 225.5,
+          "label": "Over 225.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 225.5,
+          "label": "Under 225.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "20fa5e2d73cec494c113790161a89aec",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Clippers",
+      "matchup": "Los Angeles Clippers @ San Antonio Spurs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Los Angeles Clippers ML",
+          "price_decimal": 7.7,
+          "price_american": "+670"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 15.5,
+          "label": "Los Angeles Clippers +15.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -15.5,
+          "label": "San Antonio Spurs -15.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 224.5,
+          "label": "Over 224.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 224.5,
+          "label": "Under 224.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "006df00e5e48650d849d1bb4cd81565d",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "Milwaukee Bucks",
+      "away": "Portland Trail Blazers",
+      "matchup": "Portland Trail Blazers @ Milwaukee Bucks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Milwaukee Bucks ML",
+          "price_decimal": 4.43,
+          "price_american": "+343"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 10.5,
+          "label": "Milwaukee Bucks +10.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -10.5,
+          "label": "Portland Trail Blazers -10.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 229.5,
+          "label": "Over 229.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 229.5,
+          "label": "Under 229.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "Minnesota Timberwolves",
+      "away": "New York Knicks",
+      "matchup": "New York Knicks @ Minnesota Timberwolves",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Minnesota Timberwolves ML",
+          "price_decimal": 1.96,
+          "price_american": "-104"
+        },
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New York Knicks ML",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Minnesota Timberwolves +1.5",
+          "price_decimal": 1.84,
+          "price_american": "-119"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "New York Knicks -1.5",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 216.5,
+          "label": "Over 216.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 216.5,
+          "label": "Under 216.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "66f9e83cf025d58acee12bce18661fb3",
+      "sport": "americanfootball_nfl",
+      "commence_time": "2026-11-20T01:15:00Z",
+      "home": "Houston Texans",
+      "away": "Indianapolis Colts",
+      "matchup": "Indianapolis Colts @ Houston Texans",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Indianapolis Colts ML",
+          "price_decimal": 6.25,
+          "price_american": "+525"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -12.5,
+          "label": "Houston Texans -12.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 12.5,
+          "label": "Indianapolis Colts +12.5",
+          "price_decimal": 1.9,
+          "price_american": "-111"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 43.5,
+          "label": "Over 43.5",
+          "price_decimal": 1.86,
+          "price_american": "-116"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 43.5,
+          "label": "Under 43.5",
+          "price_decimal": 1.97,
+          "price_american": "-103"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "608ce68eb20e7e5201fb1b804ad26141",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-20T00:30:00Z",
+      "home": "Temple Owls",
+      "away": "Rice Owls",
+      "matchup": "Rice Owls @ Temple Owls",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Rice Owls ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 2.5,
+          "label": "Rice Owls +2.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -2.5,
+          "label": "Temple Owls -2.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 51.5,
+          "label": "Over 51.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 51.5,
+          "label": "Under 51.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "6e1de7988dd0c9689abb85f6b8399336",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Washington Capitals",
+      "away": "Buffalo Sabres",
+      "matchup": "Buffalo Sabres @ Washington Capitals",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Buffalo Sabres ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G07-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Washington Capitals -1.5",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G07-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G07-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "3449054d3b59c2c7fc8cf914dbd45ea6",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Carolina Hurricanes",
+      "away": "Montr\u00e9al Canadiens",
+      "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Montr\u00e9al Canadiens ML",
+          "price_decimal": 3.35,
+          "price_american": "+235"
+        },
+        {
+          "id": "G08-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Carolina Hurricanes -1.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G08-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 1.5,
+          "label": "Montr\u00e9al Canadiens +1.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G08-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G08-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "7bca03cc186cb70bd12d060ededa8842",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Toronto Maple Leafs",
+      "away": "Los Angeles Kings",
+      "matchup": "Los Angeles Kings @ Toronto Maple Leafs",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Los Angeles Kings ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Toronto Maple Leafs ML",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G09-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Toronto Maple Leafs -1.5",
+          "price_decimal": 3.25,
+          "price_american": "+225"
+        },
+        {
+          "id": "G09-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G09-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "6675090a33dca8b7f340ea6375fb84e9",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Winnipeg Jets",
+      "away": "New York Islanders",
+      "matchup": "New York Islanders @ Winnipeg Jets",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "New York Islanders ML",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Winnipeg Jets ML",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G10-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Winnipeg Jets -1.5",
+          "price_decimal": 3.15,
+          "price_american": "+215"
+        },
+        {
+          "id": "G10-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        }
+      ]
+    },
+    {
+      "game_id": "G11",
+      "event_id": "84d6f3a55d9aac25cd001f3d94aab44b",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Ottawa Senators",
+      "away": "Philadelphia Flyers",
+      "matchup": "Philadelphia Flyers @ Ottawa Senators",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G11-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Philadelphia Flyers ML",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G11-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Ottawa Senators -1.5",
+          "price_decimal": 2.45,
+          "price_american": "+145"
+        },
+        {
+          "id": "G11-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G11-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        }
+      ]
+    },
+    {
+      "game_id": "G12",
+      "event_id": "8cd65f19317595a31a8e98aee88027a5",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:10:00Z",
+      "home": "Pittsburgh Penguins",
+      "away": "St Louis Blues",
+      "matchup": "St Louis Blues @ Pittsburgh Penguins",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G12-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Pittsburgh Penguins ML",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G12-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "St Louis Blues ML",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G12-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Pittsburgh Penguins -1.5",
+          "price_decimal": 3.3,
+          "price_american": "+230"
+        },
+        {
+          "id": "G12-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.02,
+          "price_american": "+102"
+        },
+        {
+          "id": "G12-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.82,
+          "price_american": "-122"
+        }
+      ]
+    },
+    {
+      "game_id": "G13",
+      "event_id": "147b0b6f883cce916d06b7aaa9b9594c",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T00:40:00Z",
+      "home": "Tampa Bay Lightning",
+      "away": "Edmonton Oilers",
+      "matchup": "Edmonton Oilers @ Tampa Bay Lightning",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G13-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Edmonton Oilers ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G13-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Tampa Bay Lightning -1.5",
+          "price_decimal": 2.7,
+          "price_american": "+170"
+        },
+        {
+          "id": "G13-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G13-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        }
+      ]
+    },
+    {
+      "game_id": "G14",
+      "event_id": "3e6894e350f62db024db622aedba4507",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "Calgary Flames",
+      "away": "Minnesota Wild",
+      "matchup": "Minnesota Wild @ Calgary Flames",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G14-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Calgary Flames ML",
+          "price_decimal": 2.85,
+          "price_american": "+185"
+        },
+        {
+          "id": "G14-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Minnesota Wild -1.5",
+          "price_decimal": 2.14,
+          "price_american": "+114"
+        },
+        {
+          "id": "G14-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        }
+      ]
+    },
+    {
+      "game_id": "G15",
+      "event_id": "7f30902099116c9c5824e85201be7d60",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "home": "Chicago Blackhawks",
+      "away": "Columbus Blue Jackets",
+      "matchup": "Columbus Blue Jackets @ Chicago Blackhawks",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G15-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Chicago Blackhawks ML",
+          "price_decimal": 2.36,
+          "price_american": "+136"
+        },
+        {
+          "id": "G15-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Columbus Blue Jackets -1.5",
+          "price_decimal": 2.64,
+          "price_american": "+164"
+        },
+        {
+          "id": "G15-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        }
+      ]
+    },
+    {
+      "game_id": "G16",
+      "event_id": "8689e63a36a8d62c4eba2fc402bb4f0c",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T02:10:00Z",
+      "home": "Colorado Avalanche",
+      "away": "Anaheim Ducks",
+      "matchup": "Anaheim Ducks @ Colorado Avalanche",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G16-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Anaheim Ducks ML",
+          "price_decimal": 2.1,
+          "price_american": "+110"
+        },
+        {
+          "id": "G16-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Colorado Avalanche -1.5",
+          "price_decimal": 2.8,
+          "price_american": "+180"
+        },
+        {
+          "id": "G16-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G16-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        }
+      ]
+    },
+    {
+      "game_id": "G17",
+      "event_id": "64955eccc864e1b34e23754d71319db4",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T02:50:00Z",
+      "home": "Seattle Kraken",
+      "away": "Vancouver Canucks",
+      "matchup": "Vancouver Canucks @ Seattle Kraken",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G17-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Vancouver Canucks ML",
+          "price_decimal": 2.42,
+          "price_american": "+142"
+        },
+        {
+          "id": "G17-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Seattle Kraken -1.5",
+          "price_decimal": 2.5,
+          "price_american": "+150"
+        },
+        {
+          "id": "G17-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G17-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G18",
+      "event_id": "6c4d4bc698a434e4b1d5492b9bff28cb",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-20T03:10:00Z",
+      "home": "Vegas Golden Knights",
+      "away": "Dallas Stars",
+      "matchup": "Dallas Stars @ Vegas Golden Knights",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G18-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Dallas Stars ML",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G18-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Vegas Golden Knights ML",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        },
+        {
+          "id": "G18-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -1.5,
+          "label": "Vegas Golden Knights -1.5",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G18-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 5.5,
+          "label": "Over 5.5",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G18-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 5.5,
+          "label": "Under 5.5",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        }
+      ]
+    }
+  ]
+}

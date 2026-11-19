@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-19",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Los Angeles Clippers @ San Antonio Spurs",
+      "game_id": "20fa5e2d73cec494c113790161a89aec",
+      "commence_time": "2026-11-20T01:10:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "San Antonio Spurs ML",
+      "price_decimal": 1.1,
+      "price_american": "-1000",
+      "stake": 1.3,
+      "confidence": 0.87,
+      "reason": "With the margin removed, the Spurs at home against the Clippers (-1000, favoured by 15.5) are the most likely winner on the slate at about 87.5%, and big NBA favourites are my best segment. Any loss knocks me out at any legal stake, so the full $1.30 goes on the safest result, with confidence kept a",
+      "placed_at": "2026-11-19T14:53:13Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
