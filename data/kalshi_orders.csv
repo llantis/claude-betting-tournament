@@ -175,3 +175,11 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-17,flat,opus-max,G10-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV17BUFPHI-7,no,0.56,1,0.56,01a1ea1c-1398-7af7-b419-621228d6ef0b,executed,1,loss,-0.56,,2026-11-17T15:24:24Z
 2026-11-17,flat,opus-max,G03-TOTAL-UNDER,Under 228.5,KXNBATOTAL-26NOV17PORMIN-229,no,1.0,,,,,,,,no usable ask (1.0),2026-11-17T15:24:24Z
 2026-11-17,double_elim,opus-high,G10-ML-AWAY,Buffalo Sabres ML,KXNHLGAME-26NOV17BUFPHI-BUF,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-17T15:24:24Z
+2026-11-20,flat,opus-low,G03-SPREAD-AWAY,Indiana Pacers +5.5,KXNBASPREAD-26NOV20INDCLE-CLE6,no,0.44,2,0.88,01a1f990-3cf0-7af5-8eaf-19ae0a082f2b,executed,2,,,,2026-11-20T15:25:41Z
+2026-11-20,flat,opus-low,G15-TOTAL-OVER,Over 37.5,KXNCAAFTOTAL-26NOV20UNMWYO-38,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-20T15:25:41Z
+2026-11-20,flat,opus-low,G05-SPREAD-AWAY,Washington Wizards +2.5,KXNBASPREAD-26NOV20WASCHI-CHI3,no,0.54,1,0.54,01a1f990-44c0-7df3-b5a8-60827f345992,executed,1,,,,2026-11-20T15:25:41Z
+2026-11-20,flat,opus-max,G12-SPREAD-HOME,Duke Blue Devils -12.5,,,,,,,,,,,no Kalshi spread at 12.5,2026-11-20T15:25:41Z
+2026-11-20,flat,opus-max,G15-TOTAL-UNDER,Under 37.5,KXNCAAFTOTAL-26NOV20UNMWYO-38,no,1.0,,,,,,,,no usable ask (1.0),2026-11-20T15:25:41Z
+2026-11-20,flat,opus-max,G08-SPREAD-AWAY,Houston Rockets +1.5,KXNBASPREAD-26NOV20HOUDEN-DEN2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-20T15:25:41Z
+2026-11-20,flat,opus-max,G14-TOTAL-UNDER,Under 44.5,KXNCAAFTOTAL-26NOV20OREMSU-45,no,1.0,,,,,,,,no usable ask (1.0),2026-11-20T15:25:41Z
+2026-11-20,double_elim,opus-high,G08-ML-HOME,Denver Nuggets ML,KXNBAGAME-26NOV20HOUDEN-DEN,yes,0.53,5,2.65,01a1f990-48a8-7565-9859-b8aa2b29e2dd,executed,5,,,,2026-11-20T15:25:41Z

@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-20",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Houston Rockets @ Denver Nuggets",
+      "game_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "commence_time": "2026-11-21T03:10:00Z",
+      "option_id": "G08-ML-HOME",
+      "pick": "Denver Nuggets ML",
+      "price_decimal": 1.83,
+      "price_american": "-120",
+      "stake": 2.92,
+      "confidence": 0.52,
+      "reason": "I can't show an edge, so on an all-in bet I'm taking the slate's most likely winner: Denver at home at -120 against Houston's +101 is about 52.3% with the margin removed, the highest on the board, though below the 54.6% break-even. NBA has been my best league.",
+      "placed_at": "2026-11-20T14:51:36Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G04-TOTAL-UNDER",
+      "one bet per day"
+    ],
+    [
+      "G10-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

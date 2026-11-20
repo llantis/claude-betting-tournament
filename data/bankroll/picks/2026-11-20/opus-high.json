@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-20",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "UTEP Miners @ Air Force Falcons",
+      "game_id": "9cf7e21a18746ad426fd1d901bdd0a88",
+      "commence_time": "2026-11-21T01:00:00Z",
+      "option_id": "G13-ML-HOME",
+      "pick": "Air Force Falcons ML",
+      "price_decimal": 1.05,
+      "price_american": "-2000",
+      "stake": 1.43,
+      "confidence": 0.92,
+      "reason": "With the margin removed, Air Force at home against UTEP (1.05, favoured by 21.5) is the most likely winner on the slate at about 92%, and college football plus 60%+ confidence bets are my best segments. Any loss knocks me out at any legal stake, so the full $1.43 goes on the safest result, with conf",
+      "placed_at": "2026-11-20T14:51:40Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
