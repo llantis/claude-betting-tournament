@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-21",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "New Orleans Pelicans @ San Antonio Spurs",
+      "game_id": "1139ffb82856378723c5465df4e13d96",
+      "commence_time": "2026-11-22T01:10:00Z",
+      "option_id": "G05-SPREAD-HOME",
+      "pick": "San Antonio Spurs -18.5",
+      "price_decimal": 1.94,
+      "price_american": "-106",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Spurs are a strong home side against a weak Pelicans team, and at 1.94 the bet only needs about 51.5% to break even.",
+      "placed_at": "2026-11-21T14:51:25Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-21",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Boston Celtics @ Sacramento Kings",
+      "game_id": "b754a1bf84af81d45d4a3a16398daa44",
+      "commence_time": "2026-11-22T03:10:00Z",
+      "option_id": "G06-SPREAD-HOME",
+      "pick": "Sacramento Kings +13.5",
+      "price_decimal": 1.88,
+      "price_american": "-114",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "Big road favourites tend to be overpriced and often fail to cover late, which gives the home underdog Kings a small edge on the spread.",
+      "placed_at": "2026-11-21T14:51:25Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

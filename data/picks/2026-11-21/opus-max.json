@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-21",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Arizona Wildcats @ Kansas State Wildcats",
+      "game_id": "9470f469f957e9eddae9392cb23b4623",
+      "commence_time": "2026-11-22T00:00:00Z",
+      "option_id": "G49-SPREAD-HOME",
+      "pick": "Kansas State Wildcats +9.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Stale DK number: every book opened KSU +10/+10.5 and sharp money (despite 65% of tickets on Arizona) moved the market to +7.5/+8.5, but DK sits at +9.5. Fair line is about Arizona -8 (Dimers model also Arizona by 8), so +9.5 adds the 8- and 9-point margins.",
+      "placed_at": "2026-11-21T15:08:02Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-21",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Indiana Hoosiers @ Washington Huskies",
+      "game_id": "6b40f07e146bab0dba574f0d3b07659e",
+      "commence_time": "2026-11-21T20:30:00Z",
+      "option_id": "G37-SPREAD-HOME",
+      "pick": "Washington Huskies +8.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "DK outlier: all seven other books are Washington +7.5 (FD/MGM/CZR moved down from 8/8.5, several still charging -115/-120 on Washington) while DK moved up to +8.5. The extra point adds an exact 8-point Indiana win (~3.5%) to a ~50.7% fair cover rate at +7.5.",
+      "placed_at": "2026-11-21T15:08:02Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-21",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "North Texas Mean Green @ Tulane Green Wave",
+      "game_id": "b40838a45d9aeb25fb42668402caae13",
+      "commence_time": "2026-11-21T17:00:00Z",
+      "option_id": "G16-SPREAD-AWAY",
+      "pick": "North Texas Mean Green -7.5",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "North Texas -7.5 is priced at even money, while its 1.34 moneyline implies a fair spread nearer -8. I estimate the cover chance at slightly above 50%.",
+      "placed_at": "2026-11-21T14:51:49Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-21",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Memphis Tigers @ Navy Midshipmen",
+      "game_id": "af2b2232df20a470d516dbe474a63132",
+      "commence_time": "2026-11-21T17:00:00Z",
+      "option_id": "G14-SPREAD-HOME",
+      "pick": "Navy Midshipmen +2.5",
+      "price_decimal": 1.95,
+      "price_american": "-105",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Navy is at home and its option offense keeps the margin tight. +2.5 at 1.95 only needs about 51.3% to break even, and I think the true cover chance is a touch higher.",
+      "placed_at": "2026-11-21T14:51:49Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

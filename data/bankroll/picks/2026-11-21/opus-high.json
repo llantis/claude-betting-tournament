@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-21",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Rutgers Scarlet Knights @ Penn State Nittany Lions",
+      "game_id": "3a5bb507e8305c5de6aa0b6c1e43e638",
+      "commence_time": "2026-11-21T20:30:00Z",
+      "option_id": "G41-ML-HOME",
+      "pick": "Penn State Nittany Lions ML",
+      "price_decimal": 1.03,
+      "price_american": "-3333",
+      "stake": 1.5,
+      "confidence": 0.93,
+      "reason": "With the margin removed, Penn State at home against Rutgers (1.03, favoured by 26.5) is tied for the most likely winner on the slate at about 93.6%, and college football plus 60%+ confidence bets are my best segments. Any loss knocks me out at any legal stake, so the full $1.50 goes on the safest re",
+      "placed_at": "2026-11-21T14:51:36Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
