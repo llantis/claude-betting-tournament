@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-22",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Las Vegas Raiders @ Denver Broncos",
+      "game_id": "1940706a79cbcbafacdcbf231069716b",
+      "commence_time": "2026-11-22T21:25:00Z",
+      "option_id": "G16-TOTAL-UNDER",
+      "pick": "Under 40.5",
+      "price_decimal": 1.96,
+      "price_american": "-104",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Broncos defense is elite and the Raiders offense is poor. Break-even at 1.96 is 51.0%, and I see a slight lean toward the under at 40.5.",
+      "placed_at": "2026-11-22T14:51:27Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-22",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_nfl",
+      "matchup": "Arizona Cardinals @ Kansas City Chiefs",
+      "game_id": "403a88701352da05b0710a9e883b803e",
+      "commence_time": "2026-11-22T18:00:00Z",
+      "option_id": "G08-TOTAL-UNDER",
+      "pick": "Under 40.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "A 15.5-point spread implies a one-sided game, with Arizona struggling to score and Kansas City likely to run the clock with a lead. Break-even at 1.89 is 52.9%, so the edge is marginal.",
+      "placed_at": "2026-11-22T14:51:27Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-22",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Dallas Mavericks @ Utah Jazz",
+      "game_id": "1e7b9477c6c55aea5efd9c1a47039f5c",
+      "commence_time": "2026-11-23T00:10:00Z",
+      "option_id": "G04-ML-HOME",
+      "pick": "Utah Jazz ML",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Utah at home at nearly even money (1.93, break-even 51.8%) against a Dallas team that may still be weakened; I give home court a small edge.",
+      "placed_at": "2026-11-22T14:51:10Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-22",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Baltimore Ravens @ Carolina Panthers",
+      "game_id": "4527f57f5bc32742d8194af1ccf7da7e",
+      "commence_time": "2026-11-22T18:00:00Z",
+      "option_id": "G09-SPREAD-HOME",
+      "pick": "Carolina Panthers -3",
+      "price_decimal": 2.0,
+      "price_american": "+100",
+      "stake": 1.0,
+      "confidence": 0.51,
+      "reason": "Carolina against the spread at 2.00 (break-even 50%) is the better-priced side, and the home team is already favored on the moneyline.",
+      "placed_at": "2026-11-22T14:51:10Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

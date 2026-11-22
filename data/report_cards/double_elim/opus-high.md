@@ -1,10 +1,10 @@
 # Report card: opus-high (double_elim)
 
-Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, ROI **5%**.
+Settled bets: **18** (11 won, 7 lost, 0 pushed). Staked $31.32, P/L **$+3.48**, ROI **11%**.
 
 ## Calibration
 - You said your bets would win **53%** of the time on average.
-- They actually won **59%**.
+- They actually won **61%**.
 - The prices you took implied **54%** (what the market expected).
 
 ### By stated confidence
@@ -12,7 +12,7 @@ Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 0-1-0 | 0% | 46% | $-1.00 | -100% |
-| 50-54% | 15 | 10-5-0 | 67% | 53% | $+3.74 | 14% |
+| 50-54% | 16 | 11-5-0 | 69% | 53% | $+5.88 | 20% |
 | 55-59% | 1 | 0-1-0 | 0% | 55% | $-1.40 | -100% |
 
 ### By league
@@ -21,7 +21,7 @@ Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, 
 |---|---|---|---|---|---|---|
 | NHL | 7 | 4-3-0 | 57% | 53% | $-3.67 | -30% |
 | NBA | 5 | 4-1-0 | 80% | 52% | $+6.41 | 59% |
-| NCAAF | 2 | 2-0-0 | 100% | 52% | $+2.00 | 88% |
+| NCAAF | 3 | 3-0-0 | 100% | 52% | $+4.14 | 84% |
 | NFL | 2 | 0-2-0 | 0% | 50% | $-2.40 | -100% |
 | MLB | 1 | 0-1-0 | 0% | 54% | $-1.00 | -100% |
 
@@ -29,7 +29,7 @@ Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, 
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Moneyline | 7 | 4-3-0 | 57% | 53% | $+0.62 | 4% |
+| Moneyline | 8 | 5-3-0 | 62% | 53% | $+2.76 | 17% |
 | Total | 6 | 3-3-0 | 50% | 54% | $-2.20 | -24% |
 | Spread | 4 | 3-1-0 | 75% | 50% | $+2.92 | 53% |
 
@@ -37,22 +37,25 @@ Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, 
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 15 | 10-5-0 | 67% | 53% | $+3.75 | 14% |
+| Favorite (under 2.00) | 16 | 11-5-0 | 69% | 53% | $+5.89 | 20% |
 | Underdog (2.00+) | 2 | 0-2-0 | 0% | 48% | $-2.41 | -100% |
 
 ## What stands out
 
-- You have been **underconfident by 6 percentage points**: your bets won more often than you said.
+- You have been **underconfident by 9 percentage points**: your bets won more often than you said.
 - **NBA** has worked for you: 4-1-0, ROI 59%.
 - **NHL** has been a leak: 4-3-0, ROI -30%.
 - **Total** has been a leak: 3-3-0, ROI -24%.
 - **Spread** has worked for you: 3-1-0, ROI 53%.
+- **Moneyline** has worked for you: 5-3-0, ROI 17%.
+- **Favorite (under 2.00)** has worked for you: 11-5-0, ROI 20%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
 ## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-21 | Kennesaw State Owls ML (NCAAF) | 1.80 | $2.67 | 53% | win | $+2.14 | I can't show an edge, so I'm taking the most likely winner on the slate: Kennesaw State at home at -125 against FIU is about 53.2% with the margin removed, tied for the highest. I picked it over the tied NHL options because NHL and totals have lost me money, but 53% is below the 55.6% break-even. |
 | 2026-11-20 | Denver Nuggets ML (NBA) | 1.83 | $2.92 | 52% | win | $+2.42 | I can't show an edge, so on an all-in bet I'm taking the slate's most likely winner: Denver at home at -120 against Houston's +101 is about 52.3% with the margin removed, the highest on the board, though below the 54.6% break-even. NBA has been my best league. |
 | 2026-11-19 | Over 6.5 (NHL) | 1.80 | $2.93 | 54% | loss | $-2.93 | I can't show an edge, so I'm taking one of the slate's most likely winners: Over 6.5 in Ducks @ Avalanche at -125 is about 53.2% with the margin removed, tied for the highest on the board. NHL is my best league and both teams are high-scoring, though 53% is below the 55.6% break-even. |
 | 2026-11-18 | Philadelphia 76ers ML (NBA) | 1.80 | $3.25 | 53% | win | $+2.60 | I can't show an edge, so I'm taking the slate's most likely winner: Philadelphia at -125 against Orlando's +105 is about 53.2% with the margin removed, the highest on the board, though below the 55.6% break-even. |
@@ -62,4 +65,3 @@ Settled bets: **17** (10 won, 7 lost, 0 pushed). Staked $28.65, P/L **$+1.34**, 
 | 2026-11-14 | Under 6.5 (NHL) | 1.80 | $1.17 | 53% | win | $+0.94 | I can't show an edge, so I'm taking the slate's most likely winner: the Under 6.5 in Sabres @ Stars at -125 is about 53.2% with the margin removed, the highest on the board, though below the 55.6% break-even. |
 | 2026-11-13 | Florida State Seminoles +3.5 (NCAAF) | 1.85 | $1.26 | 52% | win | $+1.07 | This is an all-in bet with no edge I can show, so I take the most likely winner: Florida State +3.5 is about 51.7% once the margin is removed, tied for the highest on the slate, and covers if Pitt wins by exactly 3. The price favoring Florida State suggests the market has already allowed for its inj |
 | 2026-11-12 | Los Angeles Kings ML (NHL) | 1.80 | $1.26 | 53% | loss | $-1.26 | I can't show an edge, so I'm taking the slate's most likely winner, as in my last two winning bets. LA at home at -125 against the Islanders' +105 is about 53% once the margin is removed, tied for the highest on the board, but below the 55.6% break-even. |
-| 2026-11-11 | Vegas Golden Knights ML (NHL) | 1.80 | $0.90 | 53% | win | $+0.72 | With no edge I can show and a record of overconfidence, I take the slate's most likely winner: Vegas at home at -125 is about 53% with the margin removed, the highest on the board, though below the 55.6% break-even. |
