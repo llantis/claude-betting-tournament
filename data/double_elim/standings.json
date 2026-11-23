@@ -1,11 +1,11 @@
 {
   "opus-high": {
-    "bankroll": 7.48,
+    "bankroll": 3.74,
     "riding": 3.74,
-    "last": "win",
+    "last": "loss",
     "next_stake": 3.74,
     "peak": 7.48,
-    "settled_bets": 13,
+    "settled_bets": 14,
     "out": false,
     "out_date": null
   },

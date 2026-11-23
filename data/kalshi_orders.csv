@@ -195,16 +195,24 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-21,flat,opus-max,G49-SPREAD-HOME,Kansas State Wildcats +9.5,KXNCAAFSPREAD-26NOV21ARIZKSU-ARIZ10,no,1.0,,,,,,,,no usable ask (1.0),2026-11-21T15:08:02Z
 2026-11-21,flat,opus-max,G37-SPREAD-HOME,Washington Huskies +8.5,,,,,,,,,,,no Kalshi spread at 8.5,2026-11-21T15:08:02Z
 2026-11-21,double_elim,opus-high,G32-ML-HOME,Kennesaw State Owls ML,KXNCAAFGAME-26NOV21FIUKENN-KENN,yes,0.56,4,2.24,01a1fea6-7bf0-7702-9ad0-e6b41cbbe283,executed,4,win,1.76,,2026-11-21T15:08:02Z
-2026-11-22,flat,opus-low,G04-ML-HOME,Utah Jazz ML,KXNBAGAME-26NOV22DALUTA-UTA,yes,0.46,2,0.92,01a203d6-0780-7f01-93d3-a7035794bafe,executed,2,,,,2026-11-22T15:18:07Z
+2026-11-22,flat,opus-low,G04-ML-HOME,Utah Jazz ML,KXNBAGAME-26NOV22DALUTA-UTA,yes,0.46,2,0.92,01a203d6-0780-7f01-93d3-a7035794bafe,executed,2,loss,-0.92,,2026-11-22T15:18:07Z
 2026-11-22,flat,opus-low,G09-SPREAD-HOME,Carolina Panthers -3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-22T15:18:07Z
 2026-11-22,flat,haiku-medium,G11-SPREAD-HOME,Chicago Bears -11.5,,,,,,,,,,,no Kalshi spread at 11.5,2026-11-22T15:18:07Z
-2026-11-22,flat,haiku-medium,G16-SPREAD-HOME,Denver Broncos -10.5,KXNFLSPREAD-26NOV22LVDEN-DEN11,yes,0.49,2,0.98,01a203d6-0f50-7ae6-ae66-e6c603d44180,executed,2,,,,2026-11-22T15:18:07Z
+2026-11-22,flat,haiku-medium,G16-SPREAD-HOME,Denver Broncos -10.5,KXNFLSPREAD-26NOV22LVDEN-DEN11,yes,0.49,2,0.98,01a203d6-0f50-7ae6-ae66-e6c603d44180,executed,2,win,1.02,,2026-11-22T15:18:07Z
 2026-11-22,flat,haiku-medium,G20-SPREAD-AWAY,Buffalo Sabres +1.5,KXNHLSPREAD-26NOV22BUFTB-TB2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-22T15:18:07Z
 2026-11-22,flat,haiku-medium,G21-SPREAD-AWAY,Pittsburgh Penguins +1.5,KXNHLSPREAD-26NOV22PITDAL-DAL2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-22T15:18:07Z
 2026-11-22,flat,haiku-medium,G03-SPREAD-AWAY,Denver Nuggets -8.5,KXNBASPREAD-26NOV22DENCHI-DEN9,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-22T15:18:07Z
-2026-11-22,flat,sonnet-high,G16-TOTAL-UNDER,Under 40.5,KXNFLTOTAL-26NOV22LVDEN-41,no,0.49,2,0.98,01a203d6-1338-7fc0-8e31-1884a85779b3,executed,2,,,,2026-11-22T15:18:07Z
-2026-11-22,flat,sonnet-high,G08-TOTAL-UNDER,Under 40.5,KXNFLTOTAL-26NOV22ARIKC-41,no,0.51,1,0.51,01a203d6-1b08-7aba-8b05-528a75e93128,executed,1,,,,2026-11-22T15:18:07Z
+2026-11-22,flat,sonnet-high,G16-TOTAL-UNDER,Under 40.5,KXNFLTOTAL-26NOV22LVDEN-41,no,0.49,2,0.98,01a203d6-1338-7fc0-8e31-1884a85779b3,executed,2,loss,-0.98,,2026-11-22T15:18:07Z
+2026-11-22,flat,sonnet-high,G08-TOTAL-UNDER,Under 40.5,KXNFLTOTAL-26NOV22ARIKC-41,no,0.51,1,0.51,01a203d6-1b08-7aba-8b05-528a75e93128,executed,1,loss,-0.51,,2026-11-22T15:18:07Z
 2026-11-22,flat,opus-max,G19-ML-HOME,New York Rangers ML,KXNHLGAME-26NOV22CARNYR-NYR,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-22T15:18:07Z
 2026-11-22,flat,opus-max,G15-SPREAD-AWAY,New York Jets +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-22T15:18:07Z
-2026-11-22,flat,opus-max,G11-TOTAL-UNDER,Under 48.5,KXNFLTOTAL-26NOV22NOCHI-49,no,0.53,1,0.53,01a203d6-1ef0-721f-9b45-63ef1d741b00,executed,1,,,,2026-11-22T15:18:07Z
+2026-11-22,flat,opus-max,G11-TOTAL-UNDER,Under 48.5,KXNFLTOTAL-26NOV22NOCHI-49,no,0.53,1,0.53,01a203d6-1ef0-721f-9b45-63ef1d741b00,executed,1,win,0.47,,2026-11-22T15:18:07Z
 2026-11-22,double_elim,opus-high,G19-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV22CARNYR-7,no,1.0,,,,,,,,no usable ask (1.0),2026-11-22T15:18:07Z
+2026-11-23,flat,opus-low,G04-SPREAD-HOME,Indiana Pacers +4.5,KXNBASPREAD-26NOV23OKCIND-OKC5,no,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z
+2026-11-23,flat,opus-low,G13-TOTAL-UNDER,Under 5.5,KXNHLTOTAL-26NOV23CGYOTT-6,no,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z
+2026-11-23,flat,sonnet-high,G18-SPREAD-HOME,San Jose Sharks +1.5,KXNHLSPREAD-26NOV23MINSJ-MIN2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z
+2026-11-23,flat,sonnet-high,G14-SPREAD-AWAY,Los Angeles Kings +1.5,,,,,,,,,,,no unique Kalshi event,2026-11-23T15:07:53Z
+2026-11-23,flat,opus-max,G09-TOTAL-OVER,Over 224.5,KXNBATOTAL-26NOV23UTALAL-225,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z
+2026-11-23,flat,opus-max,G02-TOTAL-UNDER,Under 232.5,,,,,,,,,,,no Kalshi total at 232.5,2026-11-23T15:07:53Z
+2026-11-23,flat,opus-max,G08-TOTAL-OVER,Over 223.5,,,,,,,,,,,no Kalshi total at 223.5,2026-11-23T15:07:53Z
+2026-11-23,double_elim,opus-high,G18-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV23MINSJ-7,no,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z

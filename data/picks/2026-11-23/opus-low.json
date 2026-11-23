@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-23",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Oklahoma City Thunder @ Indiana Pacers",
+      "game_id": "c9b6c9f77fd3628308dd34f50854a9c0",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "option_id": "G04-SPREAD-HOME",
+      "pick": "Indiana Pacers +4.5",
+      "price_decimal": 1.97,
+      "price_american": "-103",
+      "stake": 1.0,
+      "confidence": 0.525,
+      "reason": "Home underdog +4.5 at 1.97, a better price than the standard 1.91; home dogs of about 4-5 points cover close to half the time, so this is slightly positive EV.",
+      "placed_at": "2026-11-23T14:50:30Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-23",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Calgary Flames @ Ottawa Senators",
+      "game_id": "d127e1e72a1b9087aca692f3b5812532",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "option_id": "G13-TOTAL-UNDER",
+      "pick": "Under 5.5",
+      "price_decimal": 2.02,
+      "price_american": "+102",
+      "stake": 1.0,
+      "confidence": 0.51,
+      "reason": "The under at 5.5 pays 2.02, which looks slightly generous; the edge is small.",
+      "placed_at": "2026-11-23T14:50:30Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

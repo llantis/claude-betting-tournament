@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-23",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Minnesota Wild @ San Jose Sharks",
+      "game_id": "43376208ec2111794696249fe50f5e84",
+      "commence_time": "2026-11-24T03:10:00Z",
+      "option_id": "G18-SPREAD-HOME",
+      "pick": "San Jose Sharks +1.5",
+      "price_decimal": 1.68,
+      "price_american": "-147",
+      "stake": 1.0,
+      "confidence": 0.62,
+      "reason": "Sharks +1.5 at home: I estimate about a 35% chance they win outright, and about 27% that they lose by exactly one goal, counting empty-net and OT/SO finishes. That makes about 62% against the 59.5% the price implies. The edge is small.",
+      "placed_at": "2026-11-23T14:50:43Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-23",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Los Angeles Kings @ Montr\u00e9al Canadiens",
+      "game_id": "806787e1b3ac73d09e3ae05f6d595865",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "option_id": "G14-SPREAD-AWAY",
+      "pick": "Los Angeles Kings +1.5",
+      "price_decimal": 1.49,
+      "price_american": "-204",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Kings +1.5 at 1.49 (67% implied). Near-even matchup in which the Canadiens are only a modest favourite. I estimate about a 43% Kings win and about a 27% one-goal loss, which gives roughly 70% against 67% implied. Thin edge.",
+      "placed_at": "2026-11-23T14:50:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
