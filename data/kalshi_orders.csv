@@ -216,3 +216,11 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-23,flat,opus-max,G02-TOTAL-UNDER,Under 232.5,,,,,,,,,,,no Kalshi total at 232.5,2026-11-23T15:07:53Z
 2026-11-23,flat,opus-max,G08-TOTAL-OVER,Over 223.5,,,,,,,,,,,no Kalshi total at 223.5,2026-11-23T15:07:53Z
 2026-11-23,double_elim,opus-high,G18-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV23MINSJ-7,no,1.0,,,,,,,,no usable ask (1.0),2026-11-23T15:07:53Z
+2026-11-24,flat,opus-low,G14-ML-AWAY,RC Lens ML,KXUCLGAME-26NOV24RBLRCL-RCL,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-24T15:11:58Z
+2026-11-24,flat,opus-low,G07-ML-HOME,Galatasaray ML,KXUCLGAME-26NOV24GALAVL-GAL,yes,0.35,2,0.7,01a20e1d-1e18-7e2c-a385-d9f5821fe005,executed,2,,,,2026-11-24T15:11:58Z
+2026-11-24,flat,opus-low,G03-SPREAD-AWAY,Dallas Mavericks +7.5,KXNBASPREAD-26NOV24DALDEN-DEN8,no,0.52,1,0.52,01a20e1d-25e8-7e84-88f2-6df29dde36ea,executed,1,,,,2026-11-24T15:11:58Z
+2026-11-24,flat,sonnet-high,G06-SPREAD-HOME,Edmonton Oilers +1.5,KXNHLSPREAD-26NOV24VGKEDM-VGK2,no,0.75,1,0.75,01a20e1d-2db8-7a00-a557-3c3ed7994347,executed,1,,,,2026-11-24T15:11:58Z
+2026-11-24,flat,sonnet-high,G10-ML-HOME,Arsenal ML,KXUCLGAME-26NOV24ARSBVB-ARS,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-24T15:11:58Z
+2026-11-24,flat,sonnet-high,G05-TOTAL-UNDER,Under 45.5,KXNCAAFTOTAL-26NOV24MOHWMU-46,no,0.58,,,,,,,,ask 0.58 worse than slate 0.52+0.05,2026-11-24T15:11:58Z
+2026-11-24,flat,opus-max,G04-TOTAL-UNDER,Under 46.5,KXNCAAFTOTAL-26NOV24KENTEMU-47,no,0.57,,,,,,,,ask 0.57 worse than slate 0.52+0.05,2026-11-24T15:11:58Z
+2026-11-24,flat,opus-max,G02-TOTAL-UNDER,Under 217.5,,,,,,,,,,,no Kalshi total at 217.5,2026-11-24T15:11:58Z

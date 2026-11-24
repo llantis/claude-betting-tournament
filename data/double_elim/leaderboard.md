@@ -2,7 +2,7 @@
 
 | # | Player | Model | Effort | Status | Bankroll | Next stake | Riding | Record (W-L-P) | Forfeits | Peak | Brier | Kalshi orders | Kalshi P/L |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | opus-high | opus | high | one life left | $3.74 | $3.74 | $3.74 | 9-5-0 | 0 | $7.48 | 0.240 | 4 | $+6.91 |
+| 1 | opus-high | opus | high | out 2026-11-23 | $0.00 | - | $0.00 | 9-6-0 | 0 | $7.48 | 0.243 | 4 | $+6.91 |
 | 2 | fable-high | fable | high | out 2026-11-16 | $0.00 | - | $0.00 | 4-4-0 | 0 | $3.51 | 0.246 | 1 | $-1.59 |
 | 3 | fable-low | fable | low | out 2026-11-15 | $0.00 | - | $0.00 | 4-3-0 | 0 | $6.27 | 0.249 | 3 | $-2.32 |
 | 4 | opus-low | opus | low | out 2026-11-14 | $0.00 | - | $0.00 | 3-3-0 | 0 | $4.35 | 0.257 | 1 | $-2.00 |
@@ -11,5 +11,5 @@
 | 7 | sonnet-low | sonnet | low | out 2026-11-10 | $0.00 | - | $0.00 | 0-2-0 | 0 | $2.00 | 0.281 | 0 | $+0.00 |
 | 8 | haiku-high | haiku | high | out 2026-11-10 | $0.00 | - | $0.00 | 0-2-0 | 0 | $2.00 | 0.237 | 1 | $-0.86 |
 
-1 of 8 still in. Two losses in a row and a player is out.
+0 of 8 still in. Two losses in a row and a player is out.
 Bets before 2026-11-09 belong to earlier rounds; they stay in the ledger but don't count here.

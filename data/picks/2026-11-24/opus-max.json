@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-24",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+      "game_id": "4814277a6e26955eb1df064fed7a3bcb",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "option_id": "G04-TOTAL-UNDER",
+      "pick": "Under 46.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Kent State has the worst offense in FBS by EPA and scores 10 ppg on the road (0-6). Eastern Michigan is 3-8 to the over, may start its backup QB, and kickoff is near freezing. A conference-only model projects about 41, and DraftKings' 46.5 is the high number in the market (FanDuel and Kalshi are at ",
+      "placed_at": "2026-11-24T15:11:53Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-24",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "basketball_nba",
+      "matchup": "Boston Celtics @ Washington Wizards",
+      "game_id": "3167a4072c65c9314c71d0fe49be8e28",
+      "commence_time": "2026-11-25T01:10:00Z",
+      "option_id": "G02-TOTAL-UNDER",
+      "pick": "Under 217.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Boston plays at 29th pace (96.9 on the road), allows a league-best 102.1 ppg, and its road games average 204. A pace-and-efficiency model projects about 209-216 against 217.5, and both teams have gone heavily under (BOS 12-5, WAS 12-6).",
+      "placed_at": "2026-11-24T15:11:53Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

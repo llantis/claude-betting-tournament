@@ -1,0 +1,755 @@
+{
+  "date": "2026-11-24",
+  "snapshot_at": "2026-11-24T14:49:34Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "42f48a4769eab3d1472d76aac0fd0fa7",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-25T00:11:00Z",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "matchup": "Detroit Pistons @ Orlando Magic",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Detroit Pistons ML",
+          "price_decimal": 1.7,
+          "price_american": "-143"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Orlando Magic ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -2.5,
+          "label": "Detroit Pistons -2.5",
+          "price_decimal": 1.92,
+          "price_american": "-109"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 2.5,
+          "label": "Orlando Magic +2.5",
+          "price_decimal": 1.9,
+          "price_american": "-111"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 213.5,
+          "label": "Over 213.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 213.5,
+          "label": "Under 213.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "3167a4072c65c9314c71d0fe49be8e28",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-25T01:10:00Z",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "matchup": "Boston Celtics @ Washington Wizards",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Boston Celtics ML",
+          "price_decimal": 1.22,
+          "price_american": "-455"
+        },
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Washington Wizards ML",
+          "price_decimal": 4.51,
+          "price_american": "+351"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -10.5,
+          "label": "Boston Celtics -10.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 10.5,
+          "label": "Washington Wizards +10.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 217.5,
+          "label": "Over 217.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 217.5,
+          "label": "Under 217.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "6bfadbd22ed8a054cf82ec1b12b78243",
+      "sport": "basketball_nba",
+      "commence_time": "2026-11-25T03:10:00Z",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "matchup": "Dallas Mavericks @ Denver Nuggets",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Dallas Mavericks ML",
+          "price_decimal": 3.51,
+          "price_american": "+251"
+        },
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Denver Nuggets ML",
+          "price_decimal": 1.32,
+          "price_american": "-312"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 7.5,
+          "label": "Dallas Mavericks +7.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -7.5,
+          "label": "Denver Nuggets -7.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 233.5,
+          "label": "Over 233.5",
+          "price_decimal": 1.92,
+          "price_american": "-109"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 233.5,
+          "label": "Under 233.5",
+          "price_decimal": 1.9,
+          "price_american": "-111"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "4814277a6e26955eb1df064fed7a3bcb",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "home": "Eastern Michigan Eagles",
+      "away": "Kent State Golden Flashes",
+      "matchup": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Eastern Michigan Eagles ML",
+          "price_decimal": 1.44,
+          "price_american": "-227"
+        },
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Kent State Golden Flashes ML",
+          "price_decimal": 2.85,
+          "price_american": "+185"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -5.5,
+          "label": "Eastern Michigan Eagles -5.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 5.5,
+          "label": "Kent State Golden Flashes +5.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 46.5,
+          "label": "Over 46.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 46.5,
+          "label": "Under 46.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G05",
+      "event_id": "a82769fe54a0f8c714667b8720b67449",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "home": "Western Michigan Broncos",
+      "away": "Miami (OH) RedHawks",
+      "matchup": "Miami (OH) RedHawks @ Western Michigan Broncos",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G05-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Miami (OH) RedHawks ML",
+          "price_decimal": 3.2,
+          "price_american": "+220"
+        },
+        {
+          "id": "G05-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Western Michigan Broncos ML",
+          "price_decimal": 1.37,
+          "price_american": "-270"
+        },
+        {
+          "id": "G05-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 6.5,
+          "label": "Miami (OH) RedHawks +6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G05-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -6.5,
+          "label": "Western Michigan Broncos -6.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G05-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 45.5,
+          "label": "Over 45.5",
+          "price_decimal": 1.89,
+          "price_american": "-112"
+        },
+        {
+          "id": "G05-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 45.5,
+          "label": "Under 45.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G06",
+      "event_id": "155fbdda10b6474a41649023baadfdf3",
+      "sport": "icehockey_nhl",
+      "commence_time": "2026-11-25T01:10:00Z",
+      "home": "Edmonton Oilers",
+      "away": "Vegas Golden Knights",
+      "matchup": "Vegas Golden Knights @ Edmonton Oilers",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G06-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Edmonton Oilers ML",
+          "price_decimal": 1.98,
+          "price_american": "-102"
+        },
+        {
+          "id": "G06-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Vegas Golden Knights ML",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G06-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Edmonton Oilers +1.5",
+          "price_decimal": 1.39,
+          "price_american": "-256"
+        },
+        {
+          "id": "G06-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Vegas Golden Knights -1.5",
+          "price_decimal": 3.1,
+          "price_american": "+210"
+        },
+        {
+          "id": "G06-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 6.5,
+          "label": "Over 6.5",
+          "price_decimal": 2.05,
+          "price_american": "+105"
+        },
+        {
+          "id": "G06-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 6.5,
+          "label": "Under 6.5",
+          "price_decimal": 1.8,
+          "price_american": "-125"
+        }
+      ]
+    },
+    {
+      "game_id": "G07",
+      "event_id": "e422af92d1fc06c0a330838c1c2f2e08",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T17:45:00Z",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "matchup": "Aston Villa @ Galatasaray",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G07-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Aston Villa ML",
+          "price_decimal": 2.2,
+          "price_american": "+120"
+        },
+        {
+          "id": "G07-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Galatasaray ML",
+          "price_decimal": 3.0,
+          "price_american": "+200"
+        },
+        {
+          "id": "G07-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.8,
+          "price_american": "+280"
+        }
+      ]
+    },
+    {
+      "game_id": "G08",
+      "event_id": "50b80f3ebd38bf63663b11ae0afc575b",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T17:45:00Z",
+      "home": "Bod\u00f8/Glimt",
+      "away": "LASK",
+      "matchup": "LASK @ Bod\u00f8/Glimt",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G08-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Bod\u00f8/Glimt ML",
+          "price_decimal": 1.37,
+          "price_american": "-270"
+        },
+        {
+          "id": "G08-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "LASK ML",
+          "price_decimal": 7.0,
+          "price_american": "+600"
+        },
+        {
+          "id": "G08-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 5.75,
+          "price_american": "+475"
+        }
+      ]
+    },
+    {
+      "game_id": "G09",
+      "event_id": "ba719e378ac366262013bdb51a06aa6f",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "Como",
+      "away": "AEK Athens",
+      "matchup": "AEK Athens @ Como",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G09-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "AEK Athens ML",
+          "price_decimal": 10.0,
+          "price_american": "+900"
+        },
+        {
+          "id": "G09-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Como ML",
+          "price_decimal": 1.27,
+          "price_american": "-370"
+        },
+        {
+          "id": "G09-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 6.5,
+          "price_american": "+550"
+        }
+      ]
+    },
+    {
+      "game_id": "G10",
+      "event_id": "aee4e3c225603397ab52de3d066b566b",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "Arsenal",
+      "away": "Borussia Dortmund",
+      "matchup": "Borussia Dortmund @ Arsenal",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G10-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Arsenal ML",
+          "price_decimal": 1.45,
+          "price_american": "-222"
+        },
+        {
+          "id": "G10-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Borussia Dortmund ML",
+          "price_decimal": 7.0,
+          "price_american": "+600"
+        },
+        {
+          "id": "G10-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 4.7,
+          "price_american": "+370"
+        }
+      ]
+    },
+    {
+      "game_id": "G11",
+      "event_id": "9a2ebad454db4ab3d53b89e96c79847a",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "Feyenoord",
+      "away": "Porto",
+      "matchup": "Porto @ Feyenoord",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G11-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Feyenoord ML",
+          "price_decimal": 3.3,
+          "price_american": "+230"
+        },
+        {
+          "id": "G11-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Porto ML",
+          "price_decimal": 2.15,
+          "price_american": "+115"
+        },
+        {
+          "id": "G11-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 3.6,
+          "price_american": "+260"
+        }
+      ]
+    },
+    {
+      "game_id": "G12",
+      "event_id": "b9f00a4d399ec661e733857c9d5fb2dc",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "Manchester City",
+      "away": "Napoli",
+      "matchup": "Napoli @ Manchester City",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G12-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Manchester City ML",
+          "price_decimal": 1.28,
+          "price_american": "-357"
+        },
+        {
+          "id": "G12-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Napoli ML",
+          "price_decimal": 9.0,
+          "price_american": "+800"
+        },
+        {
+          "id": "G12-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 6.5,
+          "price_american": "+550"
+        }
+      ]
+    },
+    {
+      "game_id": "G13",
+      "event_id": "3fb5e4a792cf34a0459efcb79a11a785",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "Real Madrid",
+      "away": "PSV Eindhoven",
+      "matchup": "PSV Eindhoven @ Real Madrid",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G13-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "PSV Eindhoven ML",
+          "price_decimal": 15.0,
+          "price_american": "+1400"
+        },
+        {
+          "id": "G13-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Real Madrid ML",
+          "price_decimal": 1.13,
+          "price_american": "-769"
+        },
+        {
+          "id": "G13-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 10.0,
+          "price_american": "+900"
+        }
+      ]
+    },
+    {
+      "game_id": "G14",
+      "event_id": "aea973c122c91837c15e066c757c747f",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "RB Leipzig",
+      "away": "RC Lens",
+      "matchup": "RC Lens @ RB Leipzig",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G14-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "RB Leipzig ML",
+          "price_decimal": 1.34,
+          "price_american": "-294"
+        },
+        {
+          "id": "G14-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "RC Lens ML",
+          "price_decimal": 7.5,
+          "price_american": "+650"
+        },
+        {
+          "id": "G14-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 6.0,
+          "price_american": "+500"
+        }
+      ]
+    },
+    {
+      "game_id": "G15",
+      "event_id": "8e93849b4c1ccbf1c207836d5c470150",
+      "sport": "soccer_uefa_champs_league",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "home": "\u0160K Slovan Bratislava",
+      "away": "Real Betis",
+      "matchup": "Real Betis @ \u0160K Slovan Bratislava",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G15-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Real Betis ML",
+          "price_decimal": 1.28,
+          "price_american": "-357"
+        },
+        {
+          "id": "G15-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "\u0160K Slovan Bratislava ML",
+          "price_decimal": 9.5,
+          "price_american": "+850"
+        },
+        {
+          "id": "G15-ML-DRAW",
+          "market": "h2h",
+          "side": "draw",
+          "point": null,
+          "label": "Draw ML",
+          "price_decimal": 6.0,
+          "price_american": "+500"
+        }
+      ]
+    }
+  ]
+}
