@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Sacramento Kings @ Golden State Warriors",
+      "game_id": "e6df92326adb480e427bb7c10f445c60",
+      "commence_time": "2026-11-26T03:10:00Z",
+      "option_id": "G08-SPREAD-AWAY",
+      "pick": "Sacramento Kings +6.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "Plus-side spread price on a 6.5-point line; Warriors' depth has been unreliable when laying more than 6, so a slight lean to Sacramento covering.",
+      "placed_at": "2026-11-25T14:50:07Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-25",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Chicago Bulls @ Charlotte Hornets",
+      "game_id": "87ce247fb83685389ca8ffb21be6cd3e",
+      "commence_time": "2026-11-26T00:10:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Chicago Bulls +3.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "Chicago's fast pace keeps games close and Charlotte is an unreliable home favourite; +3.5 covers most one-possession outcomes.",
+      "placed_at": "2026-11-25T14:50:07Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

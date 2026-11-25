@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-25",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "AS Roma @ Paris Saint Germain",
+      "game_id": "14007bc0605bce3bd164b132254ba24c",
+      "commence_time": "2026-11-25T20:00:00Z",
+      "option_id": "G27-ML-HOME",
+      "pick": "Paris Saint Germain ML",
+      "price_decimal": 1.53,
+      "price_american": "-189",
+      "stake": 1.0,
+      "confidence": 0.69,
+      "reason": "PSG at home are strong favorites against Roma; the 1.53 price implies about 65%, and I see their true win chance nearer 69%, so the price looks slightly short. No research on injuries was done.",
+      "placed_at": "2026-11-25T14:50:12Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-25",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "soccer_uefa_champs_league",
+      "matchup": "Bayern Munich @ Lille",
+      "game_id": "0ee2cfddf20153779cd2cc3e1f1f879f",
+      "commence_time": "2026-11-25T20:00:00Z",
+      "option_id": "G29-ML-AWAY",
+      "pick": "Bayern Munich ML",
+      "price_decimal": 1.59,
+      "price_american": "-169",
+      "stake": 1.0,
+      "confidence": 0.66,
+      "reason": "Bayern are the stronger side away at Lille; the 1.59 price implies about 63%, and I estimate about 66%. Thin edge with no injury research behind it.",
+      "placed_at": "2026-11-25T14:50:12Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
