@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-26",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+      "game_id": "ffaa06af56a7137d4b078c5c46c0b730",
+      "commence_time": "2026-11-26T21:30:00Z",
+      "option_id": "G02-SPREAD-AWAY",
+      "pick": "Philadelphia Eagles +8.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "8.5 points is a lot to lay in a divisional rivalry against a strong Eagles team; I think the big underdog stays inside the number.",
+      "placed_at": "2026-11-26T14:50:49Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-26",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "TCU Horned Frogs @ Texas Tech Red Raiders",
+      "game_id": "b39108d2cfcd62d29954aee80bbf7b51",
+      "commence_time": "2026-11-27T01:00:00Z",
+      "option_id": "G04-SPREAD-AWAY",
+      "pick": "TCU Horned Frogs +15.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "A two-touchdown spread in a Big 12 rivalry with a modest 46.5 total leaves backdoor-cover value for TCU.",
+      "placed_at": "2026-11-26T14:50:49Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

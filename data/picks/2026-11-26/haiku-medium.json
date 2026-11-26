@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-26",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "TCU Horned Frogs @ Texas Tech Red Raiders",
+      "game_id": "b39108d2cfcd62d29954aee80bbf7b51",
+      "commence_time": "2026-11-27T01:00:00Z",
+      "option_id": "G04-TOTAL-OVER",
+      "pick": "Over 46.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Dimers projects about 48 total points against a 46.5 line, so Over 46.5 at 1.87 (break-even about 53.5%) looks slightly +EV. Low conviction: no verified 2026 injury data, and the edge depends on one model.",
+      "placed_at": "2026-11-26T14:51:26Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

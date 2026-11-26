@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-26",
+  "snapshot_at": "2026-11-26T14:50:06Z",
+  "stake": 1.0,
+  "max_picks": 8,
+  "games": [
+    {
+      "game_id": "G01",
+      "event_id": "9b825e6518156008da499be041975fdd",
+      "sport": "americanfootball_nfl",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "home": "Detroit Lions",
+      "away": "Chicago Bears",
+      "matchup": "Chicago Bears @ Detroit Lions",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G01-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Chicago Bears ML",
+          "price_decimal": 1.85,
+          "price_american": "-118"
+        },
+        {
+          "id": "G01-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Detroit Lions ML",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        },
+        {
+          "id": "G01-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": -1.5,
+          "label": "Chicago Bears -1.5",
+          "price_decimal": 1.96,
+          "price_american": "-104"
+        },
+        {
+          "id": "G01-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": 1.5,
+          "label": "Detroit Lions +1.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G01-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 56.5,
+          "label": "Over 56.5",
+          "price_decimal": 1.94,
+          "price_american": "-106"
+        },
+        {
+          "id": "G01-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 56.5,
+          "label": "Under 56.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        }
+      ]
+    },
+    {
+      "game_id": "G02",
+      "event_id": "ffaa06af56a7137d4b078c5c46c0b730",
+      "sport": "americanfootball_nfl",
+      "commence_time": "2026-11-26T21:30:00Z",
+      "home": "Dallas Cowboys",
+      "away": "Philadelphia Eagles",
+      "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G02-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Dallas Cowboys ML",
+          "price_decimal": 1.21,
+          "price_american": "-476"
+        },
+        {
+          "id": "G02-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Philadelphia Eagles ML",
+          "price_decimal": 4.66,
+          "price_american": "+366"
+        },
+        {
+          "id": "G02-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -8.5,
+          "label": "Dallas Cowboys -8.5",
+          "price_decimal": 1.9,
+          "price_american": "-111"
+        },
+        {
+          "id": "G02-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 8.5,
+          "label": "Philadelphia Eagles +8.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        },
+        {
+          "id": "G02-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 49.5,
+          "label": "Over 49.5",
+          "price_decimal": 1.92,
+          "price_american": "-109"
+        },
+        {
+          "id": "G02-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 49.5,
+          "label": "Under 49.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        }
+      ]
+    },
+    {
+      "game_id": "G03",
+      "event_id": "f36f518585aec40e8cb40e071c0844aa",
+      "sport": "americanfootball_nfl",
+      "commence_time": "2026-11-27T01:20:00Z",
+      "home": "Buffalo Bills",
+      "away": "Kansas City Chiefs",
+      "matchup": "Kansas City Chiefs @ Buffalo Bills",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G03-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Buffalo Bills ML",
+          "price_decimal": 1.65,
+          "price_american": "-154"
+        },
+        {
+          "id": "G03-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "Kansas City Chiefs ML",
+          "price_decimal": 2.29,
+          "price_american": "+129"
+        },
+        {
+          "id": "G03-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -3.0,
+          "label": "Buffalo Bills -3",
+          "price_decimal": 2.0,
+          "price_american": "+100"
+        },
+        {
+          "id": "G03-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 3.0,
+          "label": "Kansas City Chiefs +3",
+          "price_decimal": 1.83,
+          "price_american": "-120"
+        },
+        {
+          "id": "G03-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 45.5,
+          "label": "Over 45.5",
+          "price_decimal": 1.88,
+          "price_american": "-114"
+        },
+        {
+          "id": "G03-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 45.5,
+          "label": "Under 45.5",
+          "price_decimal": 1.93,
+          "price_american": "-108"
+        }
+      ]
+    },
+    {
+      "game_id": "G04",
+      "event_id": "b39108d2cfcd62d29954aee80bbf7b51",
+      "sport": "americanfootball_ncaaf",
+      "commence_time": "2026-11-27T01:00:00Z",
+      "home": "Texas Tech Red Raiders",
+      "away": "TCU Horned Frogs",
+      "matchup": "TCU Horned Frogs @ Texas Tech Red Raiders",
+      "bookmaker": "draftkings",
+      "options": [
+        {
+          "id": "G04-ML-AWAY",
+          "market": "h2h",
+          "side": "away",
+          "point": null,
+          "label": "TCU Horned Frogs ML",
+          "price_decimal": 6.0,
+          "price_american": "+500"
+        },
+        {
+          "id": "G04-ML-HOME",
+          "market": "h2h",
+          "side": "home",
+          "point": null,
+          "label": "Texas Tech Red Raiders ML",
+          "price_decimal": 1.14,
+          "price_american": "-714"
+        },
+        {
+          "id": "G04-SPREAD-AWAY",
+          "market": "spreads",
+          "side": "away",
+          "point": 15.5,
+          "label": "TCU Horned Frogs +15.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G04-SPREAD-HOME",
+          "market": "spreads",
+          "side": "home",
+          "point": -15.5,
+          "label": "Texas Tech Red Raiders -15.5",
+          "price_decimal": 1.91,
+          "price_american": "-110"
+        },
+        {
+          "id": "G04-TOTAL-OVER",
+          "market": "totals",
+          "side": "over",
+          "point": 46.5,
+          "label": "Over 46.5",
+          "price_decimal": 1.87,
+          "price_american": "-115"
+        },
+        {
+          "id": "G04-TOTAL-UNDER",
+          "market": "totals",
+          "side": "under",
+          "point": 46.5,
+          "label": "Under 46.5",
+          "price_decimal": 1.95,
+          "price_american": "-105"
+        }
+      ]
+    }
+  ]
+}

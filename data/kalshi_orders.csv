@@ -231,6 +231,11 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-25,flat,sonnet-high,G17-SPREAD-AWAY,St Louis Blues +1.5,KXNHLSPREAD-26NOV25STLNYI-NYI2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-25T15:25:29Z
 2026-11-25,flat,sonnet-high,G12-SPREAD-AWAY,New York Rangers +1.5,KXNHLSPREAD-26NOV25NYRBUF-BUF2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-25T15:25:29Z
 2026-11-25,flat,sonnet-high,G22-SPREAD-AWAY,Montréal Canadiens +1.5,,,,,,,,,,,no unique Kalshi event,2026-11-25T15:25:29Z
-2026-11-25,flat,opus-max,G04-SPREAD-AWAY,Minnesota Timberwolves +1.5,KXNBASPREAD-26NOV25MINOKC-OKC2,no,0.52,1,0.52,01a2134f-ddf8-78b8-8582-2c88027dc6e8,executed,1,,,,2026-11-25T15:25:29Z
+2026-11-25,flat,opus-max,G04-SPREAD-AWAY,Minnesota Timberwolves +1.5,KXNBASPREAD-26NOV25MINOKC-OKC2,no,0.52,1,0.52,01a2134f-ddf8-78b8-8582-2c88027dc6e8,executed,1,win,0.48,,2026-11-25T15:25:29Z
 2026-11-25,flat,opus-max,G08-TOTAL-UNDER,Under 217.5,,,,,,,,,,,no Kalshi total at 217.5,2026-11-25T15:25:29Z
 2026-11-25,flat,opus-max,G33-ML-HOME,Sporting Lisbon ML,,,,,,,,,,,no unique Kalshi event,2026-11-25T15:25:29Z
+2026-11-26,flat,opus-low,G02-SPREAD-AWAY,Philadelphia Eagles +8.5,KXNFLSPREAD-26NOV26PHIDAL-DAL9,no,0.5,2,1.0,01a21869-b6d8-73c9-beca-408e2c64c330,executed,2,,,,2026-11-26T15:11:50Z
+2026-11-26,flat,opus-low,G04-SPREAD-AWAY,TCU Horned Frogs +15.5,,,,,,,,,,,no Kalshi spread at 15.5,2026-11-26T15:11:50Z
+2026-11-26,flat,haiku-medium,G04-TOTAL-OVER,Over 46.5,KXNCAAFTOTAL-26NOV26TCUTTU-47,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-26T15:11:50Z
+2026-11-26,flat,opus-max,G01-TOTAL-UNDER,Under 56.5,KXNFLTOTAL-26NOV26CHIDET-57,no,0.52,1,0.52,01a21869-bea8-712e-bb9e-edc2071f1c47,executed,1,,,,2026-11-26T15:11:50Z
+2026-11-26,flat,opus-max,G02-TOTAL-UNDER,Under 49.5,KXNFLTOTAL-26NOV26PHIDAL-50,no,0.55,1,0.55,01a21869-c678-72d3-a1f3-e5042d532827,executed,1,,,,2026-11-26T15:11:50Z

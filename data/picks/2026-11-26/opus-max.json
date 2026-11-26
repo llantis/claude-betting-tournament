@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-26",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_nfl",
+      "matchup": "Chicago Bears @ Detroit Lions",
+      "game_id": "9b825e6518156008da499be041975fdd",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "option_id": "G01-TOTAL-UNDER",
+      "pick": "Under 56.5",
+      "price_decimal": 1.88,
+      "price_american": "-114",
+      "stake": 1.0,
+      "confidence": 0.57,
+      "reason": "Highest NFL total of the season (up from 53.5 a week ahead) even though Detroit's last five games averaged 39 points and Chicago has gone over 55 once in 10; models project about 52-53, and the implied Bears total of about 29 is too high against a Lions defense allowing 14.4 points per game over fiv",
+      "placed_at": "2026-11-26T15:11:42Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-26",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_nfl",
+      "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+      "game_id": "ffaa06af56a7137d4b078c5c46c0b730",
+      "commence_time": "2026-11-26T21:30:00Z",
+      "option_id": "G02-TOTAL-UNDER",
+      "pick": "Under 49.5",
+      "price_decimal": 1.91,
+      "price_american": "-110",
+      "stake": 1.0,
+      "confidence": 0.54,
+      "reason": "DraftKings jumped from 47.5 to 49.5 on Thanksgiving morning with no injury news while other books sat at 47.5-48.5; the Milton-led Eagles score about 13 points per game with a run-heavy, clock-draining plan, so the inflated number gives a modest under edge.",
+      "placed_at": "2026-11-26T15:11:42Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
