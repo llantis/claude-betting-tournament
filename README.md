@@ -70,6 +70,26 @@ with the reasons given). Only settled bets are used, so nothing about today's pi
 The **flat** competition gets none on purpose: it is the comparison group, so results before and after
 `report_cards.start` in the other two can be compared against it.
 
+## Lessons, rounds and past runs (memory across resets)
+When a bankroll or double-elimination round ends (every player busted or out), the round is archived and
+**each player writes its own post-mortem**, run as that same model and effort with `prompts/reflection.md`:
+where it went wrong, what worked, and concrete rules for future bets.
+- `scripts/archive_round.py <competition> --reset <date>` writes `data/past_runs/<competition>-round-<N>/`
+  (`summary.md`, `bets.csv`, end-of-round report cards, `meta.json`), rebuilds `data/past_runs/README.md`,
+  and starts round N+1 on `<date>` (bumps `round`/`round_start` in `config.json`). Standings count only the
+  current round; earlier rows stay in the ledger.
+- `scripts/save_lessons.py <competition> <player> <reply.txt>` stores the player's `<lessons>` block as
+  `data/lessons/<competition>/<player>.md` and keeps the full post-mortem in the archive's `postmortems/`.
+  Each new post-mortem reads the previous lessons first, so they are revised rather than lost.
+- `scripts/player_prompt.py <competition> <player>` builds each day's prompt, pasting in the report card
+  (all rounds) and the lessons. The daily run uses its output verbatim.
+- The daily run does all of this automatically (see `prompts/daily.md`, step 2, "Round end").
+- Flat players get no lessons either: they stay the comparison group.
+
+Round history: bankroll round 1 ran 2026-10-22 to 2026-11-21; double elimination round 1 2026-10-28 to
+2026-11-08 and round 2 2026-11-09 to 2026-11-23. All players went out in every round. Bankroll round 2 and
+double elimination round 3 start 2026-11-27, the first with written lessons.
+
 ## Files
 | Path | What |
 |---|---|
@@ -80,6 +100,9 @@ The **flat** competition gets none on purpose: it is the comparison group, so re
 | `data/leaderboard.md` | standings |
 | `data/bankroll/` | bankroll competition: `picks/`, `ledger.csv`, `leaderboard.md`, `standings.json` |
 | `data/double_elim/` | double elimination: same layout as `data/bankroll/` |
+| `data/report_cards/<competition>/<player>.md` | each learning player's report card, rebuilt daily |
+| `data/lessons/<competition>/<player>.md` | each learning player's own rules from its post-mortems |
+| `data/past_runs/` | finished rounds: standings, bets, report cards and post-mortems |
 
 ## Setup
 - Environment secret `ODDS_API_KEY` (free key from the-odds-api.com; ~7 sports × 1 call/day + scores fits the free tier).

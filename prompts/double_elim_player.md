@@ -11,6 +11,13 @@ You are also scored on calibration of your stated confidence.
 - Your last result: **{LAST}**
 - Today's bet will be for exactly **${STAKE}** ({STAKE_RULE})
 
+## Your lessons
+These are rules you wrote for yourself after studying your own past bets, when you went out of an
+earlier round. Follow them unless you have a specific reason today, and if you break one, say why in
+that bet's `reason`.
+
+{LESSONS}
+
 ## Your report card
 This is your own record so far: every settled bet you've made in this competition, how often your
 stated confidence came true, where you've won and lost money, and your recent bets with the reasons

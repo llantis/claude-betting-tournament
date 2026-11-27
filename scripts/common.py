@@ -22,6 +22,10 @@ BANKROLL_LEDGER = BANKROLL / "ledger.csv"
 DOUBLE_ELIM = DATA / "double_elim"
 DOUBLE_ELIM_PICKS = DOUBLE_ELIM / "picks"
 DOUBLE_ELIM_LEDGER = DOUBLE_ELIM / "ledger.csv"
+# Finished rounds of bankroll and double elimination, and each player's written lessons.
+PAST_RUNS = DATA / "past_runs"
+LESSONS = DATA / "lessons"
+LEDGERS = {"bankroll": BANKROLL_LEDGER, "double_elim": DOUBLE_ELIM_LEDGER}
 ODDS_API = "https://api.the-odds-api.com/v4"
 
 LEDGER_FIELDS = [
@@ -82,10 +86,20 @@ def write_ledger(rows, path=LEDGER):
         w.writerows(rows)
 
 
+def round_rows(cfg, competition, rows=None):
+    """Ledger rows for the competition's current round only. A reset starts a new round on
+    <competition>.round_start: everyone is back to the starting bankroll, and earlier rows stay in the
+    ledger as history (and in report cards) but no longer count toward standings."""
+    rows = read_ledger(LEDGERS[competition]) if rows is None else rows
+    start = cfg[competition].get("round_start")
+    return [r for r in rows if not start or r["date"] >= start]
+
+
 def bankroll_status(cfg, rows=None):
-    """Per bankroll player: settled bankroll, stakes still riding on open bets, and what's free to bet."""
+    """Per bankroll player: settled bankroll, stakes still riding on open bets, and what's free to bet.
+    Current round only (see round_rows)."""
     bcfg = cfg["bankroll"]
-    rows = read_ledger(BANKROLL_LEDGER) if rows is None else rows
+    rows = round_rows(cfg, "bankroll", rows)
     status = {}
     for p in bcfg["players"]:
         mine = [r for r in rows if r["player"] == p["name"]]
@@ -110,9 +124,7 @@ def double_elim_round_rows(cfg, rows=None):
     """Double-elimination ledger rows for the current round only. A reset starts a new round on
     double_elim.round_start: everyone is back to the starting bankroll, and earlier rows stay in the
     ledger as history but no longer count."""
-    rows = read_ledger(DOUBLE_ELIM_LEDGER) if rows is None else rows
-    start = cfg["double_elim"].get("round_start")
-    return [r for r in rows if not start or r["date"] >= start]
+    return round_rows(cfg, "double_elim", rows)
 
 
 def double_elim_status(cfg, rows=None):

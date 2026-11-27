@@ -1,0 +1,11 @@
+{
+  "competition": "bankroll",
+  "round": 1,
+  "folder": "bankroll-round-1",
+  "start": "2026-10-22",
+  "end": "2026-11-21",
+  "days": 31,
+  "bets": 172,
+  "top": "opus-high",
+  "best_final": 0.0
+}
