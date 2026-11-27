@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "soccer_epl",
+      "matchup": "Chelsea @ Nottingham Forest",
+      "game_id": "40d95e660c301c2d8a5a7a6317017b65",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "option_id": "G41-ML-AWAY",
+      "pick": "Chelsea ML",
+      "price_decimal": 3.05,
+      "price_american": "+205",
+      "stake": 1.0,
+      "confidence": 0.34,
+      "reason": "DK's 3.05 on Chelsea is a clear outlier: bet365 2.80, Betano/1xBet 2.85, Ladbrokes 2.60, FOX +176 and Kalshi ~34% put Chelsea at about 34% with the vig removed, against a 32.8% breakeven. No late adverse team news (Caicedo confirmed fit), so the drift looks like DK's own positioning toward Forest.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

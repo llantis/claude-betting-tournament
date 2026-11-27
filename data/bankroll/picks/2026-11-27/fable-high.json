@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Florida Gators @ Florida State Seminoles",
+      "game_id": "6a08fbc3f2fce16533f36dccc4dce347",
+      "commence_time": "2026-11-27T20:30:00Z",
+      "option_id": "G19-ML-AWAY",
+      "pick": "Florida Gators ML",
+      "price_decimal": 1.42,
+      "price_american": "-238",
+      "stake": 1.0,
+      "confidence": 0.68,
+      "reason": "Florida is 7-4 on a two-game win streak and rated #20 by TeamRankings versus #48 for 5-6 Florida State, whose defence ranks 117th in yards allowed; that matches the 6.5-point line. Minimum stake on a short favourite in my only profitable league; confidence is set at implied minus 2 points, so I clai",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

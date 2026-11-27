@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Temple Owls @ Memphis Tigers",
+      "game_id": "a750f21dccb9df459196adc8dcf5ffe4",
+      "commence_time": "2026-11-27T20:30:00Z",
+      "option_id": "G20-SPREAD-HOME",
+      "pick": "Memphis Tigers -18.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.56,
+      "reason": "Memphis moneyline at -1000 (about 90%) implies a large expected margin; covering -18.5 looks more likely than the 1.93 price (51.8% implied). No research was done, so this rests on the odds alone.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-27",
+      "player": "haiku-medium",
+      "model": "haiku",
+      "effort": "medium",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Mississippi State Bulldogs @ Ole Miss Rebels",
+      "game_id": "5b00e6b226dce4274d819d5d1818e703",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "option_id": "G14-SPREAD-HOME",
+      "pick": "Ole Miss Rebels -17.5",
+      "price_decimal": 1.89,
+      "price_american": "-112",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Ole Miss moneyline at -909 implies a large expected margin; -17.5 at 1.89 (52.9% implied) is a small edge. Rivalry games can be tighter, so confidence is modest. No research was done.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

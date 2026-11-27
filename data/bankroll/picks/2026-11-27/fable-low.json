@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "americanfootball_nfl",
+      "matchup": "Denver Broncos @ Pittsburgh Steelers",
+      "game_id": "44a3bcf5bd002583ddef2207a92dd977",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "option_id": "G12-SPREAD-HOME",
+      "pick": "Pittsburgh Steelers +4.5",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.48,
+      "reason": "No verified edge claimed: single minimum-stake bet per my rules, on the best-priced standard football spread on the slate (home dog +4.5 at 1.98, low-total game at 37.5). Confidence is the vig-free market probability.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

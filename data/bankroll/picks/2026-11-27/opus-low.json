@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "New York Rangers @ Chicago Blackhawks",
+      "game_id": "05bd16c51ce4454e77900af56cd8997c",
+      "commence_time": "2026-11-27T22:30:00Z",
+      "option_id": "G37-ML-AWAY",
+      "pick": "New York Rangers ML",
+      "price_decimal": 1.57,
+      "price_american": "-175",
+      "stake": 1.0,
+      "confidence": 0.64,
+      "reason": "The Rangers are the stronger team, playing away at a rebuilding Chicago. The price of 1.57 implies 63.7%. That is in my preferred 1.50-1.80 favorite range, and I have no concrete edge, so this is a minimum stake with confidence close to the implied figure.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

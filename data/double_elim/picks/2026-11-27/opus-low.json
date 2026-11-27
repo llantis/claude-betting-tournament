@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "icehockey_nhl",
+      "matchup": "Colorado Avalanche @ Minnesota Wild",
+      "game_id": "d86dc755fe06568141403800fce290fb",
+      "commence_time": "2026-11-27T21:00:00Z",
+      "option_id": "G35-ML-HOME",
+      "pick": "Minnesota Wild ML",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Not an all-in day ($1 stake). Wild ML 1.80 vs Avalanche 2.05: 55.6% implied, 53.2% with the margin removed, my estimate 53%. I have no named fact the price ignores, so per rule 3 I state the margin-removed figure and pick the shortest moneyline on the slate, which also sits in my 1.80-1.85 range.",
+      "placed_at": "2026-11-27T11:06:44Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G17-ML-AWAY",
+      "one bet per day"
+    ]
+  ]
+}

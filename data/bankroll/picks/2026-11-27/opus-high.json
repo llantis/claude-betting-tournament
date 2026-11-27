@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Brooklyn Nets @ Toronto Raptors",
+      "game_id": "709de4f76f95aebf383d180ac3c6f679",
+      "commence_time": "2026-11-28T00:40:00Z",
+      "option_id": "G02-ML-HOME",
+      "pick": "Toronto Raptors ML",
+      "price_decimal": 1.33,
+      "price_american": "-303",
+      "stake": 1.0,
+      "confidence": 0.72,
+      "reason": "Default $1 day under rules 1 and 7: Toronto at home against Brooklyn (1.33, favoured by 7.5) has the lowest bookmaker margin (about 4.0%) of any favourite priced 1.15-1.60 on the slate, and confidence is the no-vig market probability of about 72%, with nothing added because I found no specific injur",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

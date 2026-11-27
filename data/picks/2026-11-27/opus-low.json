@@ -1,0 +1,45 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Philadelphia 76ers @ Indiana Pacers",
+      "game_id": "5b64071f3e3bf67b0fdea8d1ac81d0ec",
+      "commence_time": "2026-11-28T00:40:00Z",
+      "option_id": "G04-ML-AWAY",
+      "pick": "Philadelphia 76ers ML",
+      "price_decimal": 1.65,
+      "price_american": "-154",
+      "stake": 1.0,
+      "confidence": 0.62,
+      "reason": "Indiana's roster is depleted and should be below average, so Philadelphia should be the better team; 1.65 implies about 60.6%.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    },
+    {
+      "date": "2026-11-27",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Atlanta Hawks @ Boston Celtics",
+      "game_id": "c5dc35b4116988de2c1425df17456478",
+      "commence_time": "2026-11-28T01:10:00Z",
+      "option_id": "G05-SPREAD-AWAY",
+      "pick": "Atlanta Hawks +8.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Boston at 1.26 looks a little inflated given its lost talent, and large NBA spreads slightly favour the underdog covering.",
+      "placed_at": "2026-11-27T11:06:43Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

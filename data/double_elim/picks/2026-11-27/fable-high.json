@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Vancouver Canucks @ Philadelphia Flyers",
+      "game_id": "a76ba8f9808ac21b09342afdd5df0b32",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "option_id": "G33-SPREAD-AWAY",
+      "pick": "Vancouver Canucks +1.5",
+      "price_decimal": 1.8,
+      "price_american": "-125",
+      "stake": 1.0,
+      "confidence": 0.535,
+      "reason": "Nothing on the slate is +EV against consensus; on day 1 I take the highest win probability at 1.80-1.85 on a moneyline or spread. Canucks +1.5 is about 53.5-54% (books about 53% no-vig, Kalshi 54%, Polymarket 54.5%) against a 55.6% break-even, and the Flyers price has been stable all week.",
+      "placed_at": "2026-11-27T11:06:44Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G35-ML-HOME",
+      "one bet per day"
+    ],
+    [
+      "G09-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

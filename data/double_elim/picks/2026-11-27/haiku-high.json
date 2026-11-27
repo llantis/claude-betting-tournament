@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-27",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "icehockey_nhl",
+      "matchup": "Winnipeg Jets @ New York Islanders",
+      "game_id": "26c93a0fb3baf8842c064fe3aad7082d",
+      "commence_time": "2026-11-28T00:30:00Z",
+      "option_id": "G38-ML-AWAY",
+      "pick": "Winnipeg Jets ML",
+      "price_decimal": 2.14,
+      "price_american": "+114",
+      "stake": 1.0,
+      "confidence": 0.48,
+      "reason": "Winnipeg at NY Islanders, moneyline at 2.14 (implied 46.7%). Verified fact: Jets D Dylan DeMelo, about 19 minutes a night, is out 4-6 weeks with a lower-body injury from Nov 13 (TSN, Nov 19). Gap is only about 1 point and the injury is probably priced in, so confidence stays near implied. Below my u",
+      "placed_at": "2026-11-27T11:06:44Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}
