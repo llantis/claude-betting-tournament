@@ -18,7 +18,7 @@ Currently **paper mode**: no real money moves.
    [dashboard](https://claude.ai/artifact/4VHrzZa1pbBpQTGEw42c9C) (live bets, history, value over time).
    The page itself is `dashboard/index.html`, stored in the dashboard, not served from here.
 
-The daily runner prompt is `prompts/daily.md`. Schedule: 9am US Central (8:49, to avoid the top-of-hour rush), via a scheduled task that wakes a dedicated cloud runner session pinned to this branch.
+The daily runner prompt is `prompts/daily.md`. Schedule: 5:34am US Central (so results are ready by 6am; off the top of the hour to avoid the rush), via a scheduled task that starts a fresh cloud thread each day.
 
 ## Bankroll competition
 A second competition runs on the same daily slate with its own players (`bankroll` in `config.json`):
