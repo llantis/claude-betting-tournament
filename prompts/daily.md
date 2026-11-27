@@ -10,27 +10,39 @@ match these exact command forms; don't `cd` into `scripts/`).
    `data/double_elim/standings.json` have today's bankrolls, then `python3 scripts/report_card.py`
    (writes each bankroll and double-elimination player's report card to
    `data/report_cards/<competition>/<player>.md` from its settled bets).
+   **Round end.** If, after grading, *every* bankroll player is `"busted": true`, or *every*
+   double-elimination player is `"out": true` with `riding` 0, that competition's round is over. For each
+   such competition (`<comp>` is `bankroll` or `double_elim`), before going on:
+   1. `python3 scripts/archive_round.py <comp> --reset <today's date>` archives the round to
+      `data/past_runs/<comp>-round-<N>/` and starts round N+1 today. Read that folder's `meta.json`.
+   2. For every player of that competition, start a subagent with that player's `model` and `effort`
+      (all in one message, in parallel) with `prompts/reflection.md`, filling `{PLAYER}`,
+      `{COMPETITION_NAME}` (`bankroll` or `double elimination`), `{ROUND}`, `{ROUND_START}` and
+      `{ROUND_END}` (from `meta.json`: `round`, `start`, `end`), and these files, as absolute paths:
+      `{RULES_FILE}` = `prompts/<comp>_player.md`, `{REPORT_CARD_FILE}` = `data/report_cards/<comp>/<player>.md`,
+      `{LEDGER_FILE}` = `data/<comp>/ledger.csv`, `{SUMMARY_FILE}` = `data/past_runs/<comp>-round-<N>/summary.md`,
+      `{LESSONS_FILE}` = `data/lessons/<comp>/<player>.md`. Add nothing of your own.
+   3. Save each player's whole final reply to `/tmp/reflect-<comp>-<player>.txt` and run
+      `python3 scripts/save_lessons.py <comp> <player> /tmp/reflect-<comp>-<player>.txt`. It writes the
+      player's lessons (used from today on) and keeps the full post-mortem in the archive. If a reply has no
+      `<lessons>` block, ask that player once more (SendMessage) for just the block; never write one yourself.
+   4. `python3 scripts/leaderboard.py` again, so the standings show everyone back at the start bankroll.
+   Then carry on: the new round's players bet today as usual.
 3. **Snapshot.** `python3 scripts/snapshot_odds.py` writes `data/slates/<date>.json`, plus
    `data/slates/double_elim/<date>.json` (only the options double-elimination players may bet).
    If it reports 0 games, skip to step 6.
-4. **Players.** Read `config.json`. There are three competitions on the same slate:
-   - **Flat** (`players`): prompt is `prompts/player.md` with `{DATE}` and `{MAX_PICKS}` filled in.
-   - **Bankroll** (`bankroll.players`): prompt is `prompts/bankroll_player.md` with `{DATE}`,
-     `{MAX_PICKS}` (= `bankroll.max_picks_per_player_per_day`), `{START}`, `{MIN_BET}`, `{MIN_DAILY}`
-     from `config.json` and `{BANKROLL}`, `{RIDING}`, `{AVAILABLE}` from that player's entry in
-     `data/bankroll/standings.json` (money as plain numbers with 2 decimals, e.g. `10.00`).
-     `{REPORT_CARD}` is the full text of `data/report_cards/bankroll/<player>.md`, pasted as is.
-     Skip a player whose entry says `"busted": true`.
-   - **Double elimination** (`double_elim.players`): prompt is `prompts/double_elim_player.md` with
-     `{DATE}`, `{START}` and `{MIN_PRICE}` (= `double_elim.min_price_decimal`) from `config.json`, and
-     from that player's entry in `data/double_elim/standings.json`: `{BANKROLL}` (`bankroll`),
-     `{STAKE}` (`next_stake`), `{LAST}` (`last`: write "none yet" for `start`, otherwise `win` or `loss`)
-     and `{STAKE_RULE}` ("all of your bankroll, because your last bet lost" when `last` is `loss`,
-     otherwise "half of your bankroll"). `{REPORT_CARD}` is the full text of
-     `data/report_cards/double_elim/<player>.md`, pasted as is. Skip a player whose entry says `"out": true` or whose
-     `riding` is above 0.
+4. **Players.** Read `config.json`. There are three competitions on the same slate: **flat** (`players`),
+   **bankroll** (`bankroll.players`) and **double elimination** (`double_elim.players`).
+   Skip a bankroll player whose entry in `data/bankroll/standings.json` says `"busted": true`, and a
+   double-elimination player whose entry in `data/double_elim/standings.json` says `"out": true` or whose
+   `riding` is above 0.
 
-   Flat players get no report card: they are the comparison group for whether report cards help.
+   Build each remaining player's prompt with
+   `python3 scripts/player_prompt.py <flat|bankroll|double_elim> <player>` and give the subagent its
+   output **verbatim** as the whole prompt. It fills every placeholder (date, bankroll, stake) and pastes in
+   the player's report card (`data/report_cards/`) and its own lessons from earlier rounds
+   (`data/lessons/`), which is how players remember and improve. Never shorten or summarize it.
+   Flat players get no report card and no lessons: they are the comparison group for whether learning helps.
 
    Start one subagent per player across **all three** competitions, **all in one message so they run in
    parallel**, with the Agent tool using that player's `model` and `effort`. Do not add hints or your
@@ -65,5 +77,5 @@ match these exact command forms; don't `cd` into `scripts/`).
       `git add data && git commit -m "Dashboard <date>"` and `git push -u origin main`.
    If any of this fails, note it in your summary and carry on; the ledger in git is the record.
 9. Reply with a short summary (include today's dashboard link): games on the slate, picks per player, Kalshi orders placed/skipped,
-   the flat leaderboard, the bankroll leaderboard (each player's bankroll and today's total stake), and
+   the flat leaderboard, the bankroll leaderboard (each player's bankroll and today's total stake), any round that ended and restarted today, and
    double elimination (who is still in, each survivor's bankroll and today's bet, anyone eliminated today).

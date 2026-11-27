@@ -1,82 +1,82 @@
 {
   "opus-high": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
-    "peak": 7.48,
-    "settled_bets": 15,
-    "out": true,
-    "out_date": "2026-11-23"
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "opus-low": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
-    "peak": 4.35,
-    "settled_bets": 6,
-    "out": true,
-    "out_date": "2026-11-14"
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "sonnet-high": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
+    "last": "start",
+    "next_stake": 1.0,
     "peak": 2.0,
-    "settled_bets": 2,
-    "out": true,
-    "out_date": "2026-11-10"
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "sonnet-low": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
+    "last": "start",
+    "next_stake": 1.0,
     "peak": 2.0,
-    "settled_bets": 2,
-    "out": true,
-    "out_date": "2026-11-10"
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "haiku-high": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
+    "last": "start",
+    "next_stake": 1.0,
     "peak": 2.0,
-    "settled_bets": 2,
-    "out": true,
-    "out_date": "2026-11-10"
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "haiku-low": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
-    "peak": 3.14,
-    "settled_bets": 5,
-    "out": true,
-    "out_date": "2026-11-13"
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "fable-high": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
-    "peak": 3.51,
-    "settled_bets": 8,
-    "out": true,
-    "out_date": "2026-11-16"
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   },
   "fable-low": {
-    "bankroll": 0.0,
+    "bankroll": 2.0,
     "riding": 0.0,
-    "last": "loss",
-    "next_stake": 0.0,
-    "peak": 6.27,
-    "settled_bets": 7,
-    "out": true,
-    "out_date": "2026-11-15"
+    "last": "start",
+    "next_stake": 1.0,
+    "peak": 2.0,
+    "settled_bets": 0,
+    "out": false,
+    "out_date": null
   }
 }

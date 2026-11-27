@@ -6,7 +6,7 @@ import json
 from collections import defaultdict
 
 from common import (BANKROLL, BANKROLL_LEDGER, DATA, DOUBLE_ELIM, DOUBLE_ELIM_LEDGER, bankroll_status,
-                    double_elim_round_rows, double_elim_status, load_config, read_ledger)
+                    double_elim_round_rows, double_elim_status, load_config, read_ledger, round_rows)
 from kalshi import read_orders
 
 
@@ -65,7 +65,7 @@ def main():
 
 def bankroll_board(cfg):
     bcfg = cfg["bankroll"]
-    rows = read_ledger(BANKROLL_LEDGER)
+    rows = round_rows(cfg, "bankroll", read_ledger(BANKROLL_LEDGER))
     status = bankroll_status(cfg, rows)
     stats = defaultdict(lambda: {"w": 0, "l": 0, "p": 0, "open": 0, "staked": 0.0, "pnl": 0.0,
                                  "forfeits": 0.0, "brier": []})
@@ -85,7 +85,9 @@ def bankroll_board(cfg):
     meta = {p["name"]: p for p in bcfg["players"]}
     order = sorted(meta, key=lambda n: (-status[n]["bankroll"], -stats[n]["w"]))
     lines = [
-        f"# Bankroll competition (start ${bcfg['start']:.2f}, min ${bcfg['min_daily_stake']:.2f}/day)",
+        f"# Bankroll competition{', round ' + str(bcfg['round']) if bcfg.get('round') else ''}"
+        f"{' from ' + bcfg['round_start'] if bcfg.get('round_start') else ''} "
+        f"(start ${bcfg['start']:.2f}, min ${bcfg['min_daily_stake']:.2f}/day)",
         "",
         "| # | Player | Model | Effort | Bankroll | Riding | Record (W-L-P) | Open | Bet P/L | ROI | Forfeits | Brier |",
         "|---|---|---|---|---|---|---|---|---|---|---|---|",
@@ -101,6 +103,9 @@ def bankroll_board(cfg):
             f"${s['forfeits']:.2f} | {brier} |"
         )
     lines += ["", "Ranked by bankroll (settled). Riding = stakes on bets not yet graded."]
+    if bcfg.get("round_start"):
+        lines.append(f"Bets before {bcfg['round_start']} belong to earlier rounds (see data/past_runs/); "
+                     "they stay in the ledger but don't count here.")
     BANKROLL.mkdir(parents=True, exist_ok=True)
     (BANKROLL / "leaderboard.md").write_text("\n".join(lines) + "\n")
     (BANKROLL / "standings.json").write_text(json.dumps(status, indent=2) + "\n")
