@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Louisville Cardinals @ Kentucky Wildcats",
+      "game_id": "735be3d0a18e8d57cc515971a6735c7d",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "option_id": "G10-SPREAD-AWAY",
+      "pick": "Louisville Cardinals -3",
+      "price_decimal": 1.98,
+      "price_american": "-102",
+      "stake": 1.0,
+      "confidence": 0.48,
+      "reason": "No verified edge claimed: single minimum-stake bet per my rules, on the best-priced standard football spread on the slate (Louisville -3 at 1.98 vs 1.85 on the other side). Confidence is the vig-free market probability.",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

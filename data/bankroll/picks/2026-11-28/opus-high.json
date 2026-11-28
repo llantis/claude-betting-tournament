@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "opus-high",
+      "model": "opus",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Auburn Tigers @ Alabama Crimson Tide",
+      "game_id": "5f74ef6944e660a91381ecf388633c69",
+      "commence_time": "2026-11-29T00:30:00Z",
+      "option_id": "G50-ML-HOME",
+      "pick": "Alabama Crimson Tide ML",
+      "price_decimal": 1.15,
+      "price_american": "-667",
+      "stake": 1.0,
+      "confidence": 0.84,
+      "reason": "Default $1 day under rules 1 and 7: Alabama at home against Auburn (1.15, favoured by 14.5) is tied with Ohio State for the lowest bookmaker margin (about 3.9%) among favourites priced 1.15-1.60. I chose it over Ohio State's 1.24 because the Michigan game's 37.5 total adds upset variance. Confidence",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

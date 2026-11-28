@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "fable-low",
+      "model": "fable",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Washington Wizards",
+      "game_id": "2f2c60fafdc3fd106d71517a9de4f2b1",
+      "commence_time": "2026-11-28T22:10:00Z",
+      "option_id": "G01-SPREAD-HOME",
+      "pick": "Washington Wizards +3.5",
+      "price_decimal": 1.92,
+      "price_american": "-109",
+      "stake": 1.0,
+      "confidence": 0.5,
+      "reason": "Wizards +3.5 at home at 1.92 vs Magic -3.5 at 1.90: no-vig 49.7%, lowest-vig market on the slate, confidence equals no-vig. Research: Orlando is without Isaac, Porter Jr. and Castleton with Black a game-time decision, Washington is missing only depth players, neither team is on a back-to-back, and W",
+      "placed_at": "2026-11-28T11:11:09Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G04-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

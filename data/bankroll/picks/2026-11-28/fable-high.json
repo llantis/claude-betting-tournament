@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "fable-high",
+      "model": "fable",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "South Carolina Gamecocks @ Clemson Tigers",
+      "game_id": "7da02c5fd7efe20c2f61f665def9cbef",
+      "commence_time": "2026-11-28T20:00:00Z",
+      "option_id": "G30-ML-AWAY",
+      "pick": "South Carolina Gamecocks ML",
+      "price_decimal": 1.4,
+      "price_american": "-250",
+      "stake": 1.0,
+      "confidence": 0.7,
+      "reason": "Shortest-priced favourite in my 1.40-1.80 range, in NCAAF. Verified: Clemson's top two QBs (Reynolds knee, Vizzina concussion) are out and former walk-on Trent Pearman starts; the line moved from SC -3.5 to -6.5. Minimum stake, confidence just under the 71.4% implied, so I claim no edge beyond the m",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

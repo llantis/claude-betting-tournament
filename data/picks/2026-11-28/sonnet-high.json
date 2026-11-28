@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "sonnet-high",
+      "model": "sonnet",
+      "effort": "high",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Michigan Wolverines @ Ohio State Buckeyes",
+      "game_id": "426658869d8f93e891cad97029725975",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "option_id": "G11-SPREAD-AWAY",
+      "pick": "Michigan Wolverines +10.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.55,
+      "reason": "Michigan +10.5 at Ohio State in a rivalry game with a 37.5 total. A 10.5-point spread is large for a low-scoring game, so the underdog probably covers slightly more than the 53.5% the price needs. This is a small edge.",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

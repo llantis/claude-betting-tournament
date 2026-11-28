@@ -239,9 +239,9 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-26,flat,haiku-medium,G04-TOTAL-OVER,Over 46.5,KXNCAAFTOTAL-26NOV26TCUTTU-47,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-26T15:11:50Z
 2026-11-26,flat,opus-max,G01-TOTAL-UNDER,Under 56.5,KXNFLTOTAL-26NOV26CHIDET-57,no,0.52,1,0.52,01a21869-bea8-712e-bb9e-edc2071f1c47,executed,1,loss,-0.52,,2026-11-26T15:11:50Z
 2026-11-26,flat,opus-max,G02-TOTAL-UNDER,Under 49.5,KXNFLTOTAL-26NOV26PHIDAL-50,no,0.55,1,0.55,01a21869-c678-72d3-a1f3-e5042d532827,executed,1,loss,-0.55,,2026-11-26T15:11:50Z
-2026-11-27,flat,opus-max,G41-ML-AWAY,Chelsea ML,KXEPLGAME-26NOV27NFOCFC-CFC,yes,0.33,3,0.99,01a21caf-d880-71ed-8e08-270367a7b852,executed,3,,,,2026-11-27T11:06:55Z
-2026-11-27,flat,opus-low,G04-ML-AWAY,Philadelphia 76ers ML,KXNBAGAME-26NOV27PHIIND-PHI,yes,0.6,1,0.6,01a21caf-dc68-76f7-97be-e4b3c9f1b4a3,executed,1,,,,2026-11-27T11:06:55Z
-2026-11-27,flat,opus-low,G05-SPREAD-AWAY,Atlanta Hawks +8.5,KXNBASPREAD-26NOV27ATLBOS-BOS9,no,0.47,2,0.94,01a21caf-e438-7628-9f3d-847a395669c2,executed,2,,,,2026-11-27T11:06:55Z
+2026-11-27,flat,opus-max,G41-ML-AWAY,Chelsea ML,KXEPLGAME-26NOV27NFOCFC-CFC,yes,0.33,3,0.99,01a21caf-d880-71ed-8e08-270367a7b852,executed,3,loss,-0.99,,2026-11-27T11:06:55Z
+2026-11-27,flat,opus-low,G04-ML-AWAY,Philadelphia 76ers ML,KXNBAGAME-26NOV27PHIIND-PHI,yes,0.6,1,0.6,01a21caf-dc68-76f7-97be-e4b3c9f1b4a3,executed,1,win,0.40,,2026-11-27T11:06:55Z
+2026-11-27,flat,opus-low,G05-SPREAD-AWAY,Atlanta Hawks +8.5,KXNBASPREAD-26NOV27ATLBOS-BOS9,no,0.47,2,0.94,01a21caf-e438-7628-9f3d-847a395669c2,executed,2,win,1.06,,2026-11-27T11:06:55Z
 2026-11-27,flat,sonnet-high,G31-SPREAD-HOME,Washington Capitals +1.5,KXNHLSPREAD-26NOV27FLAWSH-FLA2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
 2026-11-27,flat,sonnet-high,G35-SPREAD-AWAY,Colorado Avalanche +1.5,KXNHLSPREAD-26NOV27COLMIN-MIN2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
 2026-11-27,flat,sonnet-high,G34-SPREAD-HOME,Anaheim Ducks +1.5,KXNHLSPREAD-26NOV27LAANA-LA2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
@@ -251,9 +251,22 @@ date,competition,player,option_id,pick,ticker,side,price,count,cost,order_id,sta
 2026-11-27,flat,haiku-medium,G14-SPREAD-HOME,Ole Miss Rebels -17.5,KXNCAAFSPREAD-26NOV27MSSTMISS-MISS18,yes,0.0,,,,,,,,no usable ask (0.0),2026-11-27T11:06:55Z
 2026-11-27,double_elim,opus-high,G33-SPREAD-AWAY,Vancouver Canucks +1.5,KXNHLSPREAD-26NOV27VANPHI-PHI2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
 2026-11-27,double_elim,opus-low,G35-ML-HOME,Minnesota Wild ML,KXNHLGAME-26NOV27COLMIN-MIN,yes,0.0,,,,,,,,no usable ask (0.0),2026-11-27T11:06:55Z
-2026-11-27,double_elim,sonnet-high,G01-SPREAD-HOME,New York Knicks -3.5,KXNBASPREAD-26NOV27MIANYK-NYK4,yes,0.53,1,0.53,01a21caf-f3d8-73a3-8f11-169c9daeccd1,executed,1,,,,2026-11-27T11:06:55Z
-2026-11-27,double_elim,sonnet-low,G12-SPREAD-HOME,Pittsburgh Steelers +4.5,KXNFLSPREAD-26NOV27DENPIT-DEN5,no,0.5,2,1.0,01a21caf-fba8-73c1-b33c-ccfc41810fd9,executed,2,,,,2026-11-27T11:06:55Z
+2026-11-27,double_elim,sonnet-high,G01-SPREAD-HOME,New York Knicks -3.5,KXNBASPREAD-26NOV27MIANYK-NYK4,yes,0.53,1,0.53,01a21caf-f3d8-73a3-8f11-169c9daeccd1,executed,1,loss,-0.53,,2026-11-27T11:06:55Z
+2026-11-27,double_elim,sonnet-low,G12-SPREAD-HOME,Pittsburgh Steelers +4.5,KXNFLSPREAD-26NOV27DENPIT-DEN5,no,0.5,2,1.0,01a21caf-fba8-73c1-b33c-ccfc41810fd9,executed,2,win,1.00,,2026-11-27T11:06:55Z
 2026-11-27,double_elim,haiku-high,G38-ML-AWAY,Winnipeg Jets ML,KXNHLGAME-26NOV27WPGNYI-WPG,yes,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
 2026-11-27,double_elim,haiku-low,G35-ML-HOME,Minnesota Wild ML,KXNHLGAME-26NOV27COLMIN-MIN,yes,0.0,,,,,,,,no usable ask (0.0),2026-11-27T11:06:55Z
 2026-11-27,double_elim,fable-high,G33-SPREAD-AWAY,Vancouver Canucks +1.5,KXNHLSPREAD-26NOV27VANPHI-PHI2,no,1.0,,,,,,,,no usable ask (1.0),2026-11-27T11:06:55Z
 2026-11-27,double_elim,fable-low,G16-SPREAD-HOME,Ohio Bobcats +3,,,,,,,,,,,no Kalshi spread at 3.0,2026-11-27T11:06:55Z
+2026-11-28,flat,opus-max,G14-TOTAL-UNDER,Under 44.5,KXNCAAFTOTAL-26NOV28CONNWYO-45,no,1.0,,,,,,,,no usable ask (1.0),2026-11-28T11:11:17Z
+2026-11-28,flat,opus-low,G43-ML-AWAY,Michigan State Spartans ML,KXNCAAFGAME-26NOV28MSURUTG-MSU,yes,0.56,1,0.56,01a221da-33f0-7ce3-beea-1bed07e6f56d,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,flat,opus-low,G73-ML-DRAW,Draw ML,KXEPLGAME-26NOV28LEECOV-TIE,yes,0.23,4,0.92,01a221da-3bc0-7b18-9efd-b9934f1f67bf,executed,4,,,,2026-11-28T11:11:17Z
+2026-11-28,flat,opus-low,G66-TOTAL-UNDER,Under 6.5,KXNHLTOTAL-26NOV28WSHSTL-7,no,1.0,,,,,,,,no usable ask (1.0),2026-11-28T11:11:17Z
+2026-11-28,flat,sonnet-high,G11-SPREAD-AWAY,Michigan Wolverines +10.5,KXNCAAFSPREAD-26NOV28MICHOSU-OSU11,no,0.51,1,0.51,01a221da-3fa8-73f5-a0e6-0324ffa24caa,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,opus-high,G44-ML-HOME,Missouri Tigers ML,KXNCAAFGAME-26NOV28OKLAMIZZ-MIZZ,yes,0.53,1,0.53,01a221da-4778-71fa-9cf5-0b47aac78afe,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,opus-low,G09-ML-HOME,Georgia Southern Eagles ML,KXNCAAFGAME-26NOV28LTGASO-GASO,yes,0.53,1,0.53,01a221da-4b60-79d4-a8b2-08edbaa86e49,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,sonnet-high,G44-ML-HOME,Missouri Tigers ML,KXNCAAFGAME-26NOV28OKLAMIZZ-MIZZ,yes,0.53,1,0.53,01a221da-5330-70ca-860c-590cfc04d5ac,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,sonnet-low,G11-SPREAD-AWAY,Michigan Wolverines +10.5,KXNCAAFSPREAD-26NOV28MICHOSU-OSU11,no,0.51,2,1.02,01a221da-5718-7d76-b3ae-b7289969faf0,executed,2,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,haiku-high,G03-ML-AWAY,Indiana Pacers ML,KXNBAGAME-26NOV28INDCHI-IND,yes,0.45,3,1.35,01a221da-5ee8-78f4-b755-0cf6672cb33a,executed,3,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,haiku-low,G44-SPREAD-HOME,Missouri Tigers -1.5,KXNCAAFSPREAD-26NOV28OKLAMIZZ-MIZZ2,yes,0.5,2,1.0,01a221da-62d0-703c-91bb-24e3ac8b0636,executed,2,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,fable-high,G44-ML-HOME,Missouri Tigers ML,KXNCAAFGAME-26NOV28OKLAMIZZ-MIZZ,yes,0.53,1,0.53,01a221da-6aa0-7c4d-a6df-3629dee72b6d,executed,1,,,,2026-11-28T11:11:17Z
+2026-11-28,double_elim,fable-low,G01-SPREAD-HOME,Washington Wizards +3.5,KXNBASPREAD-26NOV28ORLWAS-ORL4,no,1.0,,,,,,,,no usable ask (1.0),2026-11-28T11:11:17Z

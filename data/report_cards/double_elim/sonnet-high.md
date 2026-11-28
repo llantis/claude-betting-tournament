@@ -1,10 +1,10 @@
 # Report card: sonnet-high (double_elim)
 
-Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $19.15, P/L **$-4.00**, ROI **-21%**.
+Settled bets: **9** (4 won, 5 lost, 0 pushed). Staked $20.15, P/L **$-5.00**, ROI **-25%**.
 
 ## Calibration
-- You said your bets would win **51%** of the time on average.
-- They actually won **50%**.
+- You said your bets would win **52%** of the time on average.
+- They actually won **44%**.
 - The prices you took implied **51%** (what the market expected).
 
 ### By stated confidence
@@ -12,13 +12,13 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $19.15, P/L **$-4.00**, RO
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 2 | 0-2-0 | 0% | 47% | $-9.39 | -100% |
-| 50-54% | 6 | 4-2-0 | 67% | 53% | $+5.39 | 55% |
+| 50-54% | 7 | 4-3-0 | 57% | 53% | $+4.39 | 41% |
 
 ### By league
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| NBA | 4 | 2-2-0 | 50% | 52% | $+0.96 | 19% |
+| NBA | 5 | 2-3-0 | 40% | 53% | $-0.04 | -1% |
 | NCAAF | 2 | 2-0-0 | 100% | 53% | $+4.43 | 96% |
 | NFL | 1 | 0-1-0 | 0% | 46% | $-4.70 | -100% |
 | EPL | 1 | 0-1-0 | 0% | 48% | $-4.69 | -100% |
@@ -27,27 +27,28 @@ Settled bets: **8** (4 won, 4 lost, 0 pushed). Staked $19.15, P/L **$-4.00**, RO
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Spread | 7 | 4-3-0 | 57% | 52% | $+0.69 | 5% |
+| Spread | 8 | 4-4-0 | 50% | 52% | $-0.31 | -2% |
 | Moneyline | 1 | 0-1-0 | 0% | 48% | $-4.69 | -100% |
 
 ### Favorites vs underdogs
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 6 | 4-2-0 | 67% | 53% | $+5.39 | 55% |
+| Favorite (under 2.00) | 7 | 4-3-0 | 57% | 53% | $+4.39 | 41% |
 | Underdog (2.00+) | 2 | 0-2-0 | 0% | 47% | $-9.39 | -100% |
 
 ## What stands out
 
+- You have been **overconfident by 7 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
-- **NBA** has worked for you: 2-2-0, ROI 19%.
-- **Favorite (under 2.00)** has worked for you: 4-2-0, ROI 55%.
+- **Favorite (under 2.00)** has worked for you: 4-3-0, ROI 41%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
-## Your last 8 settled bets (newest first)
+## Your last 9 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-27 | New York Knicks -3.5 (NBA) | 1.87 | $1.00 | 54% | loss | $-1.00 | No game-specific news found (searches returned only prior-year results), so I took the lowest-variance option: a home favorite on a short spread at 1.87, which needs 53.5% to break even. Confidence is kept just above break-even. |
 | 2026-11-10 | Milwaukee Bucks +15.5 (NBA) | 1.92 | $1.00 | 53% | loss | $-1.00 | Bucks +15.5 at 1.92 needs about 52.1% to break even. Large NBA spreads tend to be slightly inflated, and garbage-time backdoor covers help the underdog. The edge is thin and based on price only, with no research. |
 | 2026-11-09 | Washington Wizards +10.5 (NBA) | 1.93 | $1.00 | 53% | loss | $-1.00 | Wizards +10.5 at 1.93 needs about 51.8% to break even. Double-digit NBA spreads tend to be slightly inflated on the favorite, and backdoor covers in garbage time help the underdog. Edge is thin and based on price only, with no research. |
 | 2026-11-02 | Newcastle United ML (EPL) | 2.15 | $4.69 | 48% | loss | $-4.69 | Newcastle at home is the most likely single outcome in a three-way market (implied ~46.5% at 2.15); I give it a slight home-side edge, but I found no confirmed team news that moves the line. |

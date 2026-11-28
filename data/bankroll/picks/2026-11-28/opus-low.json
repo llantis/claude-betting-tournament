@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "basketball_nba",
+      "matchup": "Orlando Magic @ Washington Wizards",
+      "game_id": "2f2c60fafdc3fd106d71517a9de4f2b1",
+      "commence_time": "2026-11-28T22:10:00Z",
+      "option_id": "G01-ML-AWAY",
+      "pick": "Orlando Magic ML",
+      "price_decimal": 1.6,
+      "price_american": "-167",
+      "stake": 1.0,
+      "confidence": 0.625,
+      "reason": "Orlando is the stronger team against a weak Washington; 1.60 implies 62.5% and is in my preferred 1.50-2.00 range. I have no concrete edge, so confidence equals the implied figure and the stake is the minimum.",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

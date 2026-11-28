@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "haiku-low",
+      "model": "haiku",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Oklahoma Sooners @ Missouri Tigers",
+      "game_id": "f77049eaeb5b3c0945c4bc2790dda6e6",
+      "commence_time": "2026-11-28T21:15:00Z",
+      "option_id": "G44-SPREAD-HOME",
+      "pick": "Missouri Tigers -1.5",
+      "price_decimal": 1.87,
+      "price_american": "-115",
+      "stake": 1.0,
+      "confidence": 0.53,
+      "reason": "Missouri -1.5 is a home favorite at 1.87 (implied 53.5%); the only available spread favorite priced 1.80 to 2.00 outside the blocked NHL and moneyline segments. No verified injury or form fact was found (search returned only old or undated previews), so confidence is held at the implied price with n",
+      "placed_at": "2026-11-28T11:11:09Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G09-SPREAD-HOME",
+      "one bet per day"
+    ]
+  ]
+}

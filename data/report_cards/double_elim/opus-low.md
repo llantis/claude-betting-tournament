@@ -1,18 +1,18 @@
 # Report card: opus-low (double_elim)
 
-Settled bets: **11** (5 won, 6 lost, 0 pushed). Staked $17.01, P/L **$-4.00**, ROI **-24%**.
+Settled bets: **12** (5 won, 7 lost, 0 pushed). Staked $18.01, P/L **$-5.00**, ROI **-28%**.
 
 ## Calibration
 - You said your bets would win **51%** of the time on average.
-- They actually won **45%**.
-- The prices you took implied **51%** (what the market expected).
+- They actually won **42%**.
+- The prices you took implied **52%** (what the market expected).
 
 ### By stated confidence
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | under 50% | 1 | 1-0-0 | 100% | 48% | $+2.17 | 100% |
-| 50-54% | 10 | 4-6-0 | 40% | 52% | $-6.17 | -42% |
+| 50-54% | 11 | 4-7-0 | 36% | 52% | $-7.17 | -45% |
 
 ### By league
 
@@ -20,37 +20,38 @@ Settled bets: **11** (5 won, 6 lost, 0 pushed). Staked $17.01, P/L **$-4.00**, R
 |---|---|---|---|---|---|---|
 | NBA | 6 | 3-3-0 | 50% | 51% | $-3.25 | -33% |
 | NCAAF | 3 | 1-2-0 | 33% | 53% | $-1.50 | -44% |
+| NHL | 2 | 1-1-0 | 50% | 50% | $+1.17 | 37% |
 | NFL | 1 | 0-1-0 | 0% | 51% | $-1.42 | -100% |
-| NHL | 1 | 1-0-0 | 100% | 48% | $+2.17 | 100% |
 
 ### By bet type
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
 | Spread | 5 | 2-3-0 | 40% | 52% | $-2.75 | -42% |
-| Moneyline | 3 | 2-1-0 | 67% | 51% | $+1.73 | 38% |
+| Moneyline | 4 | 2-2-0 | 50% | 51% | $+0.73 | 13% |
 | Total | 3 | 1-2-0 | 33% | 50% | $-2.98 | -51% |
 
 ### Favorites vs underdogs
 
 | | Bets | W-L-P | Win rate | Your avg confidence | P/L | ROI |
 |---|---|---|---|---|---|---|
-| Favorite (under 2.00) | 9 | 4-5-0 | 44% | 52% | $-4.75 | -35% |
+| Favorite (under 2.00) | 10 | 4-6-0 | 40% | 52% | $-5.75 | -40% |
 | Underdog (2.00+) | 2 | 1-1-0 | 50% | 50% | $+0.75 | 21% |
 
 ## What stands out
 
-- You have been **overconfident by 6 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
+- You have been **overconfident by 10 percentage points**: your confidence has run ahead of your results, so demand a clearer reason before you claim an edge.
 - Your bets have won **less often than the prices implied**, so far your picks have done worse than simply trusting the market.
 - **NBA** has been a leak: 3-3-0, ROI -33%.
 - **Spread** has been a leak: 2-3-0, ROI -42%.
-- **Favorite (under 2.00)** has been a leak: 4-5-0, ROI -35%.
+- **Favorite (under 2.00)** has been a leak: 4-6-0, ROI -40%.
 - Small samples are noisy: treat a segment with fewer than about 20 bets as a hint, not proof.
 
 ## Your last 10 settled bets (newest first)
 
 | Date | Pick | Price | Stake | Confidence | Result | P/L | Your reason at the time |
 |---|---|---|---|---|---|---|---|
+| 2026-11-27 | Minnesota Wild ML (NHL) | 1.80 | $1.00 | 53% | loss | $-1.00 | Not an all-in day ($1 stake). Wild ML 1.80 vs Avalanche 2.05: 55.6% implied, 53.2% with the margin removed, my estimate 53%. I have no named fact the price ignores, so per rule 3 I state the margin-removed figure and pick the shortest moneyline on the slate, which also sits in my 1.80-1.85 range. |
 | 2026-11-14 | Under 231.5 (NBA) | 1.91 | $2.17 | 50% | loss | $-2.17 | Symmetric 1.91/1.91 NBA total, the lowest-margin type of market on the slate, in my best league and avoiding my leaky spread/favorite segments; no research edge, so confidence stays at the no-vig 50%. |
 | 2026-11-13 | Under 235.5 (NBA) | 1.91 | $2.17 | 50% | loss | $-2.17 | This 1.91/1.91 total ties for the lowest-margin market on the slate, and NBA is my best league. With no research edge it is near fair value, and I state 50% because my record shows slight overconfidence. |
 | 2026-11-12 | Ottawa Senators ML (NHL) | 2.00 | $2.17 | 48% | win | $+2.17 | Home team at even money (2.00) against Colorado at 1.83, one of the lowest-margin markets on the slate. With no research edge this is near fair value (about 47.8% with the margin removed), so confidence stays near the market. |
@@ -60,4 +61,3 @@ Settled bets: **11** (5 won, 6 lost, 0 pushed). Staked $17.01, P/L **$-4.00**, R
 | 2026-11-01 | Minnesota Vikings +3 (NFL) | 2.00 | $1.42 | 51% | loss | $-1.42 | Vikings +3 pays even money (2.0) while Lions -3 costs 1.83, so the price favours the Vikings side; a 3-point Lions win pushes, and at +3 the bet needs only a 50% chance. |
 | 2026-10-31 | UConn Huskies ML (NCAAF) | 1.89 | $1.43 | 54% | loss | $-1.43 | Near pick'em priced at 1.89 (52.9% break-even); UConn's stronger roster under Mora should edge a declining Air Force triple-option team, and the line gives too much weight to home field. |
 | 2026-10-30 | Detroit Pistons -8.5 (NBA) | 1.95 | $0.97 | 54% | win | $+0.92 | Detroit is the stronger, deeper team and Brooklyn is in full rebuild with a weak offense, so a win by more than 8.5 is slightly more likely than the 51.3% that the 1.95 price implies. |
-| 2026-10-29 | Florida Atlantic Owls +14 (NCAAF) | 1.93 | $1.00 | 52% | win | $+0.93 | A 14-point spread in a game expected to score 77.5 points gives a lot of backdoor-cover variance, and big road underdogs cover slightly more often than the market prices. I did no outside research, so this is a marginal edge. |

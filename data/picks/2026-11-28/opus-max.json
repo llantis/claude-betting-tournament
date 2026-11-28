@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "opus-max",
+      "model": "opus",
+      "effort": "max",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "UConn Huskies @ Wyoming Cowboys",
+      "game_id": "57d6254e2054bb1e269219b1ef8b6ab7",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "option_id": "G14-TOTAL-UNDER",
+      "pick": "Under 44.5",
+      "price_decimal": 1.93,
+      "price_american": "-108",
+      "stake": 1.0,
+      "confidence": 0.57,
+      "reason": "NWS forecast for Laramie at the 10am MT kickoff: 29-33 mph sustained winds, 44-50 mph gusts, a cold front with ~1 inch of snow and temps falling into the 20s. The total has only dropped 4 points (48.5 to 44.5), which underprices conditions this severe for UConn's pass-reliant offense and Wyoming's a",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

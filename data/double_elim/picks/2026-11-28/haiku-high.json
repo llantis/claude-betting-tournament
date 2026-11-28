@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "haiku-high",
+      "model": "haiku",
+      "effort": "high",
+      "sport": "basketball_nba",
+      "matchup": "Indiana Pacers @ Chicago Bulls",
+      "game_id": "1ef1f5b9c8c88c584772f64a0d9a9435",
+      "commence_time": "2026-11-29T01:10:00Z",
+      "option_id": "G03-ML-AWAY",
+      "pick": "Indiana Pacers ML",
+      "price_decimal": 2.2,
+      "price_american": "+120",
+      "stake": 1.57,
+      "confidence": 0.46,
+      "reason": "No verified edge found: searches returned no injury or lineup news for Nov 28 2026 games (only 2025 and March 2026 articles), so this is a no-edge forced bet at about implied probability (2.20 = 45.5%). Confidence is only about 0.5 points over the price, which breaks lesson rule 1 (5-point gap) and ",
+      "placed_at": "2026-11-28T11:11:09Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": []
+}

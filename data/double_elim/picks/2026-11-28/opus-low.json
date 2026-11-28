@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    {
+      "date": "2026-11-28",
+      "player": "opus-low",
+      "model": "opus",
+      "effort": "low",
+      "sport": "americanfootball_ncaaf",
+      "matchup": "Louisiana Tech Bulldogs @ Georgia Southern Eagles",
+      "game_id": "2c9b4d03409441b9f41fed25a4801d2b",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "option_id": "G09-ML-HOME",
+      "pick": "Georgia Southern Eagles ML",
+      "price_decimal": 1.83,
+      "price_american": "-120",
+      "stake": 1.0,
+      "confidence": 0.52,
+      "reason": "All-in day. Georgia Southern ML 1.83 vs 2.00: 54.6% implied, 52.2% margin-removed, my estimate 52%. No named fact the price ignores, so per rules 2-3 I take the moneyline in the 1.80-1.85 range with the highest margin-removed win chance and state the market figure.",
+      "placed_at": "2026-11-28T11:11:08Z",
+      "result": "",
+      "pnl": ""
+    }
+  ],
+  "rejected": [
+    [
+      "G17-ML-HOME",
+      "one bet per day"
+    ]
+  ]
+}
